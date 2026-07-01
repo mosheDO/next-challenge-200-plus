@@ -1,0 +1,267 @@
+In this lesson, you will be introduced to the concept of a brand and
+its significance in marketing your products. You will also learn about
+brand management and its most important aspect - advertising.
+
+In this tutorial, the following hot keys are available:
+
+[Esc]              - Quit the tutorial.
+[Back Space] - Go back one tutorial step.
+
+pos : 86, 394
+This is the factory that you set up in the "Manufacturing"
+lesson. It seems to be running well.
+
+pos : 395, 65, 418, 90
+mouse : left single
+A department store has been built in the city as a sales outlet for
+the factory's products. Click the department store to look at it.
+
+pos : 213, 391
+Sales have been weak and the department store has been losing
+money since its opening.
+
+pos : 335, 261, 388, 314
+mouse : right single
+The product detail report provides information to help you understand
+the reason for the poor sales results.
+
+Right-click on the product picture to display the report.
+
+pos : 428, 257
+Your competitor's brand rating is up to 28, and yours is zero.
+Since the prices are the same, customers are buying the products
+of the company with the higher brand rating. This is keeping your
+market share quite small in this area and leading to low profits.
+
+pos : 317, 366
+To compete, you must increase your brand rating. A brand rating is the
+sum of two factors, brand awareness, and brand loyalty. A brand rating
+cannot be changed directly, instead you must work on the underlying factors.
+
+pos : 317, 382
+The brand awareness rating measures how aware consumers are of this brand.
+People often buy a product simply because they are familiar with
+its brand. In Capitalism, we capture this effect in the brand awareness
+rating.
+
+pos : 317, 382
+A product can achieve a high brand awareness rating if the brand
+has been advertised extensively, the product has been on the
+market for a long time, or if the brand is widely distributed.
+
+pos : 317, 396
+A brand loyalty rating is a measure of the attachment that a
+customer has to a brand. If brand loyalty is high, customers may
+continue to purchase that brand even if competitors have
+superior quality and a lower price.
+
+pos : 317, 396
+Brand loyalty cannot exist without prior purchase and use
+experience. A brand must generate sufficient awareness before consumers
+will purchase and use the product. The higher the brand awareness, the
+more people will try the product, and brand loyalty can increase
+faster.
+
+pos : 317, 396
+The brand loyalty of a product is greatly affected by the product's quality.
+If customers are satisfied after using the product, brand loyalty
+begins to build up. Conversely, low quality and a poor experience with the
+product decreases brand loyalty. If customers are very dissatisfied
+with the quality of the product, a negative brand loyalty can result.
+This indicates that customers will actively avoid buying this brand in
+the future.
+
+pos : 317, 351
+In addition to these ratings, another important attribute of a brand is
+the brand strategy. There are three types of brand strategy,
+a corporate brand, a range brand, and a unique brand.
+
+pos : 269, 430, 286, 442
+mouse : left single
+You can set your corporation's brand strategy in the "Brand"
+section of the corporate detail report.
+
+Click here to close the product report.
+
+pos : 16, 256, 67, 306
+mouse : left single
+Click your corporate logo, a shortcut to the corporate detail report.
+
+pos : 452, 83, 525, 93
+mouse : left single
+Click here to see the brand report.
+
+pos : 145, 229
+This window shows that your corporation is currently pursuing the unique
+brand strategy. In this strategy, each product has an unique
+brand and each individual product needs separate advertising to
+establish and support its brand.
+
+pos : 146, 190
+Some corporations prefer the corporate brand strategy, which allows a
+corporation to use a single brand for all its products.
+When the corporation launches a new product, it is not
+starting from scratch to build up awareness of its brand
+identity. The investment required to launch a new product is therefore
+reduced.
+
+pos : 146, 190
+The drawback to this strategy is that the corporation is not perceived as a
+dedicated provider of a single category of product. The consumer
+may doubt the devotion of the corporation to the product, thus reducing
+their loyalty to the brand.
+
+pos : 146, 190
+In addition, when a corporation extends its product lines to
+many different markets, it may become difficult for the
+corporation to maintain consistent quality for all its products.
+Failure to do so results in damage to the brand as a
+whole. This risk increases with the number of branded products.
+
+pos : 141, 209
+Given the advantages and disadvantages of these two strategies, a
+corporation may choose a middle-of-the-road strategy, the range
+brand. In this strategy, products in the same product class
+are labeled with a single range brand. A range brand offers some
+benefits of the two other strategies but also suffers from some
+of their deficiencies.
+
+pos : 104, 208
+To change the brand strategy, click the one you want.  When the
+brand strategy is changed, all existing brand ratings are reset to
+zero. It is generally best to decide the brand strategy of your
+corporation at the beginning of the game.
+
+pos : 467, 202
+The brand strategy window also shows useful information about each
+corporation's brand. You can click any city or corporation to
+see how each brand is faring in each individual city.
+
+pos : 213, 433, 230, 446
+mouse : left single
+You should now have a basic understanding of how to manage your
+corporation's brands. Let's see how you can use advertising to
+increase the product awareness of a brand.
+
+Click here to close the report.
+
+pos   : 276, 285, 313, 308
+mouse : left single
+To carry out the advertising campaign, the first thing you need
+is an advertising unit.
+
+Click the "Layout" button now.
+
+pos : 504, 263, 559, 311
+mouse : left double
+checkunit : 3, 15
+Double-click here to create an advertising unit which is
+responsible for contacting media firms (television stations and
+newspaper publishers) and managing the advertising of the products.
+
+pos : 483, 283, 499, 290
+mouse : left double
+An advertising unit will manage the advertising of the product contained
+in each unit it is linked to.
+
+Click here to link it to the sales unit.
+
+The advertising unit is capable of handling more than one product at
+a time. Each unit the advertising unit is linked to will have its
+product advertised.
+
+pos : 172, 341, 251, 353
+mouse : left single
+Next, you must tell the advertising unit in which media firm (television
+station or newspaper publisher) you want your product advertised.
+
+Click the "Link Media Firm" button now.
+
+pos : 361, 32, 376, 58
+mouse : left single
+This television station seems to be a fairly good choice.
+
+Select it now by clicking it.
+
+pos : 440, 410
+action : next_day
+Here is how to read a media firm's statistics.
+
+pos : 424, 365
+This is the population of the city where the media firm is located.
+
+pos : 424, 380
+Coverage is a measure of the potential audience that might see an ad
+placed with this media firm.
+
+pos : 424, 405
+Reach is the number of people that actually received an
+advertising message at least once in the past month from this media firm.
+
+pos : 424, 420
+Rating Points is a percentage calculated by dividing reach by coverage.
+
+pos : 424, 445
+Cost Per Advertisement is the cost to place an advertisement with this
+media firm.
+
+pos : 424, 460
+Cost Per Thousand is the cost of exposing 1,000 people to an
+advertising message.
+
+pos : 550, 300
+The most important measure of the effectiveness of a media firm is its
+rating points. It summarizes the relative reach of the media firm.
+This should be your foremost concern when choosing a media firm to
+advertise your product. A graph is dedicated to showing the rating point
+history of this media firm over the past 12 months.
+
+pos : 402, 308
+Next to the rating point graph is a pie chart showing the share of the
+advertisers in the past month. The corporate color of each of this
+media firm's customers represents that corporation advertising share
+of this firm's revenue. The white portion represents the share held by
+local advertisers. This firm doesn't have any corporate advertisers yet.
+
+pos   : 277,257,312,279
+mouse : left single
+It's the time to tell your advertising unit to use this television
+station for its ad campaign.
+
+Click the "Link" button now.
+
+pos : 82, 408
+The television station's statistics are shown here. Some additional
+information is also provided.
+
+Reach/Population is the percentage of the population who receive the
+advertising message. It is calculated by dividing the reach by the
+population.
+
+pos : 132, 444
+Daily Frequency indicates the number of times an individual
+is exposed to an advertisement in a day.
+
+pos : 121, 458
+Monthly Frequency indicates the number of times an individual
+is exposed to an advertisement in a month.
+
+pos : 503, 289
+For quick reference the daily frequency and rating points are displayed
+in the ad unit's info-box, denoted by the letters "F" and "R," respectively.
+
+Advertising frequency is significant, as a higher ad frequency
+will improve product awareness faster than a lower frequency.
+To increase frequency you must increase advertising spending.
+
+pos : 50, 306
+To set the monthly advertising spending click this slider.
+
+IMPORTANT: This is the amount of money spent to advertise EACH
+product managed by the advertising unit.  Therefore an ad unit
+that manages the ad campaigns of four products will spend four
+times this amount each month on advertising.
+
+With this advertising scheme, your product is surely going to gain
+some popularity over time. Now you are ready to move on to the next
+lesson.

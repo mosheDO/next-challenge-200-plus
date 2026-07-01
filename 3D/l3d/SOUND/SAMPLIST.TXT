@@ -1,0 +1,153 @@
+
+	
+sound\voxfx\BLOCKER1.u8			; Blocker skill selected
+
+sound\voxfx\TURNER1.u8			; Turner skill selected
+
+sound\voxfx\BOMBER.u8			; Bomber skill selected
+
+sound\voxfx\BUILDER2.U8			; Builder skill selected         
+
+sound\voxfx\BASHER2.u8			; Basher skill selected
+
+sound\voxfx\MINER2.u8			; Miner skill selected
+
+sound\voxfx\DIGGER2.u8			; Digger skill selected
+
+sound\voxfx\CLIMBER2.u8			; Climber skill selected
+
+sound\voxfx\FLOATER1.u8
+
+sound\voxfx\PRACTISE.U8			; Practice selected
+sound\voxfx\FUN2.u8			; Fun selected
+
+sound\voxfx\DROWN1.u8			; Lemming drowing
+
+sound\voxfx\LETSGO1.u8			; Start of level 
+
+sound\voxfx\OHNO1.u8			; About to blow up
+
+sound\voxfx\OK2.u8			; lemming taken skill ok
+
+sound\voxfx\UH_UH1.u8			; lemming unable to take skill
+
+sound\spotfx\FANFARE.u8			; Enough lemmings exited
+
+sound\spotfx\THUD1.u8			; Stunned lemming
+
+sound\voxfx\SHRUG1.u8			; Builder finished
+
+sound\spotfx\LOGO2.u8			; Schwing at start of intro 
+
+sound\voxfx\WOUNDED1.u8			; lemming splatted
+
+sound\spotfx\EXPLOSN3.u8		; lemming blowing up
+
+sound\spotfx\BRICKS1.U8         
+
+sound\spotfx\GRAVEL3.u8			; Digging
+
+sound\spotfx\PICKAXE4.U8		; Mining         
+
+sound\spotfx\HAMMER1.u8			; Bashing
+
+sound\spotfx\ANVIL1.U8			; digger/miner/basher hit metal
+
+sound\voxfx\HUP3.U8			; Password screen letter         
+
+sound\voxfx\AAH2.U8
+
+sound\spotfx\SNAREL2B.U8		; Password screen background         
+
+sound\spotfx\POSITIVE.u8		; Password ok
+sound\spotfx\NEGATIVE.u8		; Password wrong
+
+sound\spotfx\SUCKER2.u8			; climber
+
+sound\spotfx\BOING1.u8			; bouncing off trampoline
+
+sound\spotfx\CTAPULT1.u8		; catapult firing
+
+sound\spotfx\SPLASH.u8			; he's fallen in the water
+
+sound\spotfx\SHOTGUN1.u8		; Shotgun firing
+
+sound\spotfx\RELOAD.u8			; Shotgun reloading
+
+sound\spotfx\SCALE.u8			; eye view/hilight beep
+
+sound\spotfx\TONE1.U8         
+
+sound\spotfx\BEEP3.U8			; various beeps
+sound\spotfx\BEEP4.U8			; various beeps
+
+sound\spotfx\LIGHTNG.u8			; Gone outside level lightning
+
+sound\spotfx\FLAMETHR.u8		; Flame thrower trap
+
+sound\spotfx\MANTRAP1.u8		; Man trap
+
+sound\spotfx\TELEPORT.u8		; Teleporter
+
+sound\voxfx\YIPPEE1.U8			; Lemming reached exit         
+
+sound\voxfx\FLYER1.u8			; lemming flying past camera
+
+sound\spotfx\BROLLY1.U8			; umbrella opening         
+
+sound\voxfx\CHEERS1.U8       		; End of level cheers  
+sound\voxfx\BOOS.U8         		; End of level boos
+
+sound\spotfx\TICK1.U8			; Running out of time         
+
+sound\voxfx\FALLER3.U8         
+
+sound\spotfx\CREAKY2.U8         
+
+sound\voxfx\BYEBYE1.U8			; leaving game
+
+sound\voxfx\GEDDON1.U8         		; clicked on armageddon
+
+*end*			; END OF 4MEG VERSION SAMPLES
+
+sound\spotfx\CRACKLE2.U8        	; laser trap  
+
+sound\voxfx\PLAY.U8			; clicked on play from title
+
+sound\voxfx\CODE.U8			; clicked on code from title
+
+sound\voxfx\OPTIONS.U8			; clicked on options from title
+
+sound\voxfx\EXIT.U8			; clicked on exit from title
+
+sound\voxfx\HILITE.U8			; Practice Hi-light lemming icon
+sound\voxfx\VIRTUAL1.U8			; Practice Virtual lemming icon
+
+sound\voxfx\DEFLECT.U8			; Practice Deflector block icon
+
+sound\voxfx\MUD1.U8			; Practice Mud block icon
+
+sound\voxfx\ONEWAY.U8			; Practice One-way icon
+
+sound\voxfx\SPLITTER.U8			; Practice Splitter icon
+
+sound\voxfx\SLIPPER1.U8			; Practice Slipper icon
+
+sound\voxfx\ROCKSL1.U8			; Practice Rope slide icon
+
+sound\voxfx\BLANK1.U8			; Practice Spring icon - Empty
+
+sound\voxfx\TRAMPOL1.U8			; Practice trampoline icon
+
+sound\voxfx\TELEPORT.U8			; Practice Teleport icon
+
+sound\voxfx\CAMRAONE.U8			; Status camera one
+sound\voxfx\CAMRATWO.U8			; Status camera two
+sound\voxfx\CAMRA3.U8			; Status camera three
+sound\voxfx\CAMRA4.U8			; Status camera four
+
+sound\voxfx\SPRING.U8			; Practice spring icon
+
+*end*			; END OF 8MEG VERSION SAMPLES	
+
+

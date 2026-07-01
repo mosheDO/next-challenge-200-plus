@@ -1,0 +1,214 @@
+ÿ       ---------------------------------------------------------------
+ÿ                   Exaggerated Software proudly presents:
+        
+ÿ                              Evasive Maneuvers
+        
+ÿ          Copyright 1994 Exaggerated Software.  All Rights Reserved.
+ÿ       ---------------------------------------------------------------
+ÿ       
+ÿÿ      Quick Description
+ÿ       -----------------
+            Lush  graphics,  realistic  digital  sound  effects,  and  a
+        wonderful sound track set  the  stage  for  a  thrilling  flying
+        experience.  Just collect  fuel!    This  is  no  game  of  pure
+        destruction, but it sure can be!
+        
+        
+ÿÿ      Instructions
+ÿ       ------------
+            Just collect fuel  by  destroying  it.    Avoid  or  destroy
+        everything else.  Watch out, though!  Destroying an  object  can
+        be more deadly than leaving the object alone.  In  other  words,
+        explosions can kill you.  Check the Hints  &  Tips  section  for
+        more helpful hints.
+        
+            However,  in  order  to  play  you'll  have  to  have    the
+        required hardware and run SETUP.EXE  to  select  the  optionally
+        supported hardware.
+        
+        
+ÿÿ      Required Hardware
+ÿ       -----------------
+            Evasive Maneuvers requires the following hardware:
+        
+            - At least a 386 processor.  A 486, or Pentium is fine.
+            - The minimum free conventional memory is 395K.
+              Sound will require an additional 125K
+              Music will also require an additional 20K.
+              Total memory requirements are 540K.
+            - A VGA card.  Super VGA and MCGA cards are fine.
+        
+        
+ÿÿ      Setting Up
+ÿ       ----------
+            Once you have configured the game, you  won't  have  to  run
+        the setup program again, unless you wish to change any  of  your
+        previous choices.
+        
+        
+ÿ           Sound FX
+ÿ           --------
+                 Evasive Maneuvers has outstanding digital sound effects
+            throughout the game.  The following choices  are  available,
+            Sound Blaster is recommended.
+        
+            No Sound:  Select this if  you  don't  wish  to  hear  sound
+            effects, just don't have enough memory, or  you  don't  have
+            the other devices.
+        
+            PC Speaker:   Yes,  it  can  also  play  the  digital  sound
+            effects, just not very well though as it wasn't designed for
+            digital samples.  The method is very processor intensive and
+            will require a very fast computer, at least a 386 running at
+            25mhz.  There are two quality modes.  "Okay" will sound  the
+            best.  If Evasive Maneuvers plays very badly, your  computer
+            probably can't keep up.  Try the "Poor" setting, if the game
+            is still unplayable, then select "No Sound."    This  method
+            will sound really bad if your computer does not use a normal
+            speaker (cone).  Notebooks and Laptops are examples of this.
+            Using this option under Windows is not recommended.
+        
+            Sound Blaster:  The sound card standard on the PC.   Capable
+            of wonderful sound effects in the background.  You'll need a
+            Sound Blaster or compatible card.  The  setup  program  will
+            require the address and IRQ channel, so have it handy.
+        
+        
+ÿ           Music
+ÿ           -----
+                 Evasive Maneuvers has  a  fantastic  sound  track  that
+            accompanies the game.  The following choices are  available,
+            General MIDI is recommended.
+        
+            No Music:  Select this if you  don't  wish  to  hear  music,
+            just don't have enough memory, or you don't have  the  other
+            devices.
+        
+            FM:  The music standard on the PC.   Requires  an  Adlib  or
+            compatible cards such as the Sound  Blaster  and  it's  many
+            clones.
+        
+            General MIDI:    General  MIDI  uses  recordings  of  actual
+            instruments and it sounds fantastic.    More  and  more  new
+            sound  cards  support  General  MIDI  through  software   or
+            hardware.  Pray your sound card does!
+        
+        
+ÿ           Input
+ÿ           -----
+                 You  have  to  play  the  game  with  something!    The
+            following choices are available.  We recommend the joystick.
+        
+            Keyboard:  You control the game with  the  cursor  keys  for
+            movement, CTRL is Button A, and ALT is Button B.    You  can
+            define your own keys if you select it.
+        
+            Joystick:  Most PC  joysticks  gradually  drift  and  become
+            uncalibrated the more you use them.  If you experience these
+            problems you might  want  to  use  the  keyboard.    Digital
+            joysticks like Gamepads don't suffer from drifting and  will
+            make the game more enjoyable to play.
+        
+        
+ÿÿ      Tips and Hints
+ÿ       --------------
+            Now would be a good time to play the  game.    This  section
+        probably won't make much sense until you've played the game.
+        
+            - Your ship is considered "off the screen" when there is not
+              a single pixel remaining to be seen.  A useful  tactic  to
+              get out of pressure situations is to let  your  ship  fall
+              off the screen halfway or more so  that  you  have  enough
+              room to maneuver around obstacles.  Just be sure  to  keep
+              the nose of the ship visible at all times.
+            - Never pass up a Fuel Tank that you can destroy.   You  may
+              find that it is the last tank  for  a  long  distance  and
+              could be the difference between life and death.
+            - Explosions will kill you.
+            - Don't hold the  buttons  down.    You're  increasing  your
+              chance of death if you're close to something  because  the
+              object's explosion is larger and more dangerous  then  the
+              object in it's original form.
+            - Stay as far right as you possibly can.  There  are  plenty
+              of traps and you'll need almost a full screen to  navigate
+              them.
+            - Avoid vertical rockets by staying high on the  screen  and
+              pulling back when the rocket launches.  You can also force
+              a launch by going high and coming back down.
+            - Destroy magnetic mines as  soon  as  they  appear  on  the
+              screen, try not to leave them hanging around.
+        
+        
+ÿÿ      Problem Solving
+ÿ       ---------------
+            Consult PROBLEMS.TXT for help in solving  any  problems  you
+        many have.
+        
+        
+ÿÿ      Shareware
+ÿ       ---------
+            Evasive Maneuvers is copyrighted software, however, you  are
+        encouraged to  copy  and freely distribute the Shareware version
+        as long as all files are included.  Shareware allows you to "try
+        it before you buy it".  So what are you waiting for?  Share it!
+        
+            Why  register?  Besides  getting  an  incredible  registered
+        version of Evasive Maneuvers, registration  will  ensure  future
+        games will be released and with the same high quality.  You  are
+        also supporting the entire  Shareware  concept,  without  which,
+        many excellent programs  would  not  be  available.    We  don't
+        receive a penny when you purchase a disk with Evasive  Maneuvers
+        on it from a Shareware Library, or download it from a commercial
+        information service, such as CompuServe, or from a BBS.
+        
+            Besides, you get 3 more scenarios that  are  not  shareware.
+        You'll    get    "Infrastructure",    "E.N.I.A.C.    9",     and
+        "Desert Valley".  More challenge than  the  Imperial  City  ever
+        offered.  Print out ORDERFRM.TXT or atleast look at  it  to  see
+        what information we need and write us by hand.
+        
+        
+ÿÿ      Copyright Notice
+ÿ       ----------------
+            Evasive Maneuvers is Copyright  1994  Exaggerated  Software.
+        All Rights Reserved.  This is a work of fiction,  any  character
+        similar to any person living or dead is purely coincidental.
+        
+        
+ÿÿ      Disclaimer
+ÿ       ----------
+            The makers of Evasive Maneuvers cannot be  held  responsible
+        for any damage the game may do you you,  your  system,  or  your
+        dog.  The makers are also not responsible for any damage you may
+        do  to  yourself  (especially  while  following  the    "Problem
+        Solving" techniques outlined in "PROBLEMS.DOC").
+        
+            Brand names and  product  names  listed  are  trademarks  or
+        registered trademarks of their respective holders.
+        
+        
+ÿÿ      About the Authors
+ÿ       -----------------
+            Colin Buckley     Programming, Sound Effects
+            Chris Blackwell   Graphics, Music
+            Deep Throat       Voice of Red Leader
+        
+            Man, are we bored.
+        
+        
+ÿÿ      Thanks
+ÿ       ------
+            We'd like to thank everyone who made this game possible:
+        
+            Conan  O'Brien,  Andy  Richter,  Max    Weinberg,    Quentin
+            Tarantino, Micheal  Moore,  George  Lucas,  Dave  Letterman,
+            Chris Elliot, Agent  Mulder,  Agent  Sculley,  Deep  Throat,
+            Homer Simpson, Arthur C. Clarke, Roger Ebert, Mr. White, Mr.
+            Pink, Sepultura, Helmet, Fudge Tunnel, Clutch, Fugazi,  Gush
+            Underdrive, Mundane, Otis, Sam Raimi, Clive Barker,  Carlito
+            Briganti, Tony Montana,  Roseanne  Connor,  Boba  Fett,  the
+            makers of UFO: Enemy Unknown, Steven Wright, Norm MacDonald,
+            Kevin Arnold, Gary Gygax, George  Castanza,  Penn  Jillette,
+            Teller, Brisco County Jr., Lord Bowler,  Tex  &  Edna  Boil,
+            John Candy, Angela  Chase,  John  Langley,  Malcom  Balbour,
+            Bongos, Bass, & Bob, Captain Howdy and Wendel Clark.

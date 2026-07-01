@@ -1,0 +1,57 @@
+Blackjack - by Graphics II
+
+Bjac was developed to evaluate blackjack systems for bet
+management at major casinos.
+It has, over a period of several years, become a graphics
+challenge to incorporate a reasonable set of card backs
+and face cards to at least give the player the sense it might be
+real.
+We thought others with a fascination with the game might enjoy
+our efforts.
+We have not made a lot of money at the casinos with our knowledge
+of the game, but perhaps, with a little luck...
+
+Please if you get any enjoyment, or gain any expertise at the
+real game, from our efforts .. We would appreciate
+the Shareware fee of $15.00 
+Mail to:
+Graphics II
+P.O.Box 8103
+Kirkland, Wa. 98034
+
+If You have any comments we may be reached by mail through
+compuserve - Fred J. Millet -71051,1670
+
+Program req.
+mouse
+super VGA
+CPU 286 or greater
+The program is mouse driven but keyboard input is accepted for
+most commands.
+The program card shuffle has been written to be as random as a
+physical manipulation of real cards would be.
+A review screen has been incorporated to allow the player to
+analyze the statistics of the game.
+
+The player can select the number of decks for the shoe - 1 to 6
+Bet advice is available at players choice.
+
+To begin the game just type "BJAC"
+Select the number of decks to be played
+Place bets using the calculator pad
+On the calculator pad are the following commands:
+"A" - If "A" is selected that hand will be played by the computer
+using accepted hit/stand/double/split
+     logic.
+"V"  If "V" is selected that table position will be left vacant
+(No Hand Played)
+"C"  If "C" is selected the entered bet amount will be cleared
+form the display.
+"Enter"   The standard broken arrow symbol represents the enter
+key - Select to Place bet on the table.
+
+Note: When a player response is required for a hit or stand you
+may use the enter key for "Hit" and the 
+spacebar for "Stand".
+
+Enjoy!!!

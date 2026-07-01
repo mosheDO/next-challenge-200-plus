@@ -1,0 +1,367 @@
+CyberBykes
+------------------------------------------------------------------------------
+     CyberBykes is a virtual reality experience allowing a full 6 degrees of
+freedom.  With the user-configured byke of your choice, you enter an arena
+where the only limits to your freedom are the physical laws governing the
+world.  Once inside, you will meet stiff opposition as you race to meet
+military objectives.
+
+Hardware requirements
+---------------------
+     CyberBykes requires a 486/33 or higher processor with 8mb of RAM.
+
+     A local bus video card, Pentium, and 12mb of RAM are highly recommended
+and will allow for the full experience possible.  A sound card is required in
+order to get three dimensional spacial sound effects and music.  High
+resolution modes require a VESA compatible video card.
+
+Installation and configuration
+------------------------------
+     To install the program, run the INSTALL program.
+
+     Note: This program is a 32-bit protected mode program and may not run
+properly under Microsoft Windows (particularly if a Midi sound device is
+selected during configuration).  The program has successfully been executed
+under Windows NT 3.5 and OS/2 Warp.
+
+     Run CYBER to configure the program for the first time (or CYBER SETUP if
+this is not the first time).  You will be presented with a configuration
+screen that will allow you to pick the resolution that you wish to run the
+game in, as well as information about your sound card.
+
+     Use the up/down arrow keys to highlight an item; use the left/right
+arrow keys to change an item.  When asked to enter a new Base Address, enter
+'0' to have it use the default location for the selected sound card.  Note:
+Base address values are specified in hexadecimal.
+
+     The screen resolution picked will have a dramatic effect on performance. 
+Unless you are using a Pentium, either VGA 320x200 or X-MODE 360x240 is
+recommended.  The extremely high resolution modes are primarily useful during
+board construction where fast frame rates are not as critical.
+
+     If you have a network that properly supports file sharing (you may need
+to load SHARE.EXE from DOS), you can play head-to-head against other players. 
+To do this, you should specifify a path where the shared files are to be kept. 
+All people playing the game should configure their installations to point to
+the same path.  WARNING: SMARTDRV should not be caching the specified drive or
+the program may not operate properly.
+
+     If you have a high speed (9600 baud or higher) modem or a direct serial
+connection (null modem), you will be able to play head-to-head against one
+other player.  To enable this option, you must specify a communications port
+for your modem.
+
+     When you have completed setting up the resolution and sound card
+information, press 'Escape'.  You will be returned to the DOS prompt.  Running
+CYBER again will take you into the game.  To return to the setup screen at a
+later time run CYBER SETUP from the DOS prompt.
+
+Optimizing performance (OPTIONS)
+--------------------------------
+     There are many options that allow you to optimize the performance of the
+game for your particular hardware setup.  As mentioned in the installation,
+the screen resolution that the game runs at will make the biggest difference
+in performance.  From the main menu, picking OPTIONS will allow you to
+configure other aspects of the game.  The default values chosen should work
+well on most machines.  If you have a fast machine (local bus 486/66 or
+higher), you may wish to adjust some of these options to further enhance game
+play.
+
+     As a general rule, the sound settings have very little effect on
+performance.  Stereo/6 channel is recommended for most machines.  The voices
+options is more of a preference/memory-requirement option than it is a
+performance option; likewise for Midi music.  In low detail mode, all objects
+are made up of flat shades of color.  In high detail mode, the objects are
+smoothly shaded based on light sources by using dithering.  High detail mode
+requires more than 8mb of RAM to play some cities.
+
+     During game play, the program will automatically try to maximize the
+distance that you can see while still keeping the frame rate up.  The View
+Distance setting allows you to configure the game to favor a further view
+distance at the possible expense of frame rate.
+
+     Turning the background bitmap (not in all levels) off will allow for a
+significantly faster frame rate (and thus a further view distance).
+
+     The mouse is the preferred input device (trust me).  You must have DOS
+mouse drivers loaded.  IMPORTANT!:  The mouse should be configured to be in
+un-accelerated mode in order for the byke to drive properly.
+
+     Until you are an experienced player, the difficulty level should be left
+at normal or low.
+
+Beginning a mission
+-------------------
+     Select  Begin Mission' from the main menu to begin the game.  You will
+then be asked to identify yourself.  The game keeps track of the user profile
+for each person seperately.  You will then be greeted with a short memo. 
+After accepting your mission call, you will be briefed on your first mission.
+
+     You will then be presented with a globe of the world, and allowed to
+pick the location you wish to go to (use the Tab key).  Each city will list
+how many objects it contains that you need to retrieve or destroy.  It will
+also list how many of them you have already gotten or destroyed.  At the top
+of the screen, it will list how many you have to get from all the cities to
+complete the first mission.
+
+     Pressing  Enter' will take you to the currently selected city.  Before
+leaving for the city, you will be asked to configure your CyberByke.  At
+first, your options will be limited, but over time you will get a whole range
+of weapons and bykes to choose from.
+
+     After you have completed all objectives for a particular mission, you
+will be advanced to the next mission.  If you are killed while trying to
+complete a city, you will have to re-do all the objectives for the city over
+again (for the current mission).  If you abort a mission, it will remember the
+objectives that you have completed so far.
+
+The Drop Zone
+-------------
+     After you have configured your CyberByke, you will be picked up by a
+drop ship which will fly you to the city.  The next scene you see will be the
+drop ship carrying your CyberByke around the city.  You can enter the city at
+any location that the drop ship goes, by pressing the space bar.
+
+Playing the game (mouse)
+------------------------
+     Pressing the left mouse button accelerates the byke.  Pressing the right
+mouse button brakes the byke.  Pressing both mouse buttons at the same time
+allows you turn your head relative to the byke (even if the byke is moving). 
+Moving the mouse left and right turn the byke left and right.  Moving the
+mouse backwards and forwards does nothing unless you are in look-around-mode
+(both buttons).  In look-around-mode, moving the mouse backwards and forwards
+looks up and down.
+
+     The following keystrokes also work during game play:
+
+     Space Bar -      Fire current weapon (in direction looking)
+     Tab -            View/zoom map of entire city (blinking red dot is you)
+     F1,O -           Overview mode (first person, low, medium, high)
+     Z,T -            Thrusters (small upward boost)
+     Shift,R -        Quick rear view (learn to use this one)
+     Alt -                Extent view to maximum (while held down)
+      Ctrl -           Look around (same as both mouse buttons)
+     PgUp/PgDn -      Scale screen for better performance
+
+     Other miscellaneous keystrokes can be found in the CYBER.TXT file.
+
+Weapons
+-------
+     At the highest mission, there are many weapons to choose from.  Each
+weapon has it's own characteristics as follows:
+
+     Scatter guns (3) -  Slow firing, shoots a spread of 5 to 15 shots,
+                         minor damage.
+     Chain guns (3) -         Very rapid firing, 1 to 3 shots, minor damage.
+     Laser guns (3) -         Medium firing, fast moving, minor to heavy
+                              damage.
+     Missiles (3) -      Slow firing, straight, heavy area damage.
+                         Slow firing, guided, heavy area damage.
+                         Fast multi-firing, guided, heavy area damage.
+     Grenades (3) -      Ballistic (look upward to 'lob' them).  Very
+                         heavy area damage depending of type of grenade.
+
+Heads up display (HUD)
+----------------------
+     The critical gauges on the byke are overlayed on the screen in a HUD.
+The speedometer is on the left side of the screen and is in kilometers/hour. 
+The compass is along the top edge of the screen.  The right side of the screen
+contains an armor guage and a fuel guage.  In the bottom-center of the screen
+is the amount of time remaining before they figure out that you are there and
+begin a massive assault (I recommend aborting the mission before this
+happens).  The right side of the screen contains damage lights that will light
+up as damage occurs to the byke.
+
+     The entire screen is overlayed with a radar system.  The radar gives you
+a top view of various objects in the game, and is relative to your current
+point of view.  Imagine yourself being located in the center of the radar
+looking toward the top of the screen.  To move toward an object on the radar,
+position the objects radar dot between the center mark on the screen and the
+top of the screen and drive forward.  If the dot is directly below the center
+mark on the screen, and you cannot find it, it may be because it is straight
+above your head on a floating platform.  There are several items that appear
+on the radar -- each has a different color dot.
+
+     Turrets -- gray dot (do not appear in difficult mode).
+     Enemy Vehicles -- red dot.
+     Missiles (launched) -- white dot.
+     Objectives -- green dot.
+     Network players -- red/yellow dot.
+
+     The radar has a range of about 1/6 of the world size.
+
+Prizes
+------
+     There are many prizes available to do things such as replenish
+fuel/ammo, repair broken systems, make you invisible to enemy radar (and
+network player radar), and various other things.  You collect a prize simply
+by running over it with your byke.
+
+Network Play
+------------
+     In order to play against others on the network, you must first run CYBER
+SETUP and configure the network path.  All users who wish to play on the
+network should configure this to point to a common path on the server (or
+possibly on a peers hard drive).  After this has been completed, the player
+turns on network play by pressing F12 at the city selection screen.
+
+     Other players who are in the selected city will be listed in the left
+hand window.  Up to 8 players per city are currently allowed.  Once you pick a
+city to play, you will be presented with the multi-player setup screen.  If
+nobody has entered the game yet, you will have the option of configuring how
+the game will be played.  If others have already entered the game, all options
+will be locked out and if you wish to join, you simply press 'Enter', to abort
+press 'Escape'.
+
+     If nobody has entered the game yet, as you change the options on your
+screen they will also change on the screen of others who are waiting to enter
+the game.  This can be used as sort of a negotiation.  When somebody presses
+'Enter' to begin the game, the setup screen is frozen for all other players.
+
+     You should configure your CyberByke as you see fit before entering the
+game.  For network play, you will be able to pick any chassis and weapon that
+you wish.  Note: The weight of the byke effects the performance of the byke.
+
+     Network game play is different from regular game play.  In network game
+play there is only one flag that is randomly placed in the world.  Players
+race to get the most flags.  When a flag is captured, there will be a brief
+delay and then it will randomly appear some place else.  Players will also be
+rewarded in some way for capturing the flag.
+
+At any time, a player can pause the game by pressing escape.  They will then
+have the usual choices (quit/volume) plus the ability to view the statistics
+of who is playing the game.  While the player is paused, he will appear to
+other players as frozen and will appear white to signify that shooting him is
+a waste of time.
+
+     Pressing  Enter' during gameplay allows the player to type in a message
+to send to other players in the game.
+
+     When a player is killed he will be shown the current statistics and then
+allowed to re-drop into the city.  Players may also enter and leave the game
+as much as the want.  When a player leaves the game, all of his statistics are
+erased.
+
+     On the HUD radar, opponent players appear as red dots and the flag
+appears as a green dot.  Additionally, the flag appears as a flashing cross on
+the map.  On the compass across the top of the screen, the direction that the
+flag is in will appear as a green tick mark to aid you in finding the flag.
+
+     If you are racing another player to get a flag, shooting them will slow
+them down (or kill them).
+
+Modem Play
+----------
+     In order to play across a modem (or null modem), you must first run
+CYBER SETUP and configure the modem communications port.
+
+     Playing CyberBykes against another modem player is very similar to
+Network Play (see above).  If you already have a connection established (or a
+null modem connection), you can immediately begin.  When at the city selection
+screen, hit F11 to enter modem play mode.  You will have to wait for the other
+player to do the same.  Once the machines are syncronized, one of the machines
+will randomly be designated as the slave and the other the master.  The master
+will be allowed to pick the city, and configure the game play.  The slave will
+display "Waiting for Master" until this is completed.  Both players will then
+be allowed to configure their bykes and enter the game.
+
+     If you do not have a connection, you can pick the Modem command from the
+main menu to establish one.  The dialer requires a Hayes compatible modem. 
+The default modem initialization and dial strings should work for most modems. 
+If you need to change the modem init string, you can do so by setting the
+MODEMINIT environment variable to the correct modem initialization command. 
+The MODEMDIAL environment variable defaults to "ATDT" and can be changed as
+well.
+
+Construction
+------------
+     Note: The demonstration release of the program does not contain the
+construction option.
+
+     All of the cities shown were constructed by picking the CONSTRUCTION
+menu option.  Users can construct their own levels, or modify the existing
+levels.  Cutting and pasting between levels is also possible.  To create a new
+level, hit the 'Insert' key while at the world map.  A new city will appear
+and you will be asked for it's name.  Use the arrow keys to position the city
+correctly on the globe.  Press  R' to rotate the globe to a new position. 
+Press 'Enter' to edit the currently labeled city.  Note: If you do not copy
+the levels from the CD-ROM to the hard drive, you will not be able to edit
+them.
+
+     The editor is a WYSIWYG editor.  Nevertheless, there are many things
+that the editor can control (even gravity) and a fair amount of practice will
+be needed to get good at it.
+
+     A mouse is required for editing.  Pressing the left button allows you to
+look around.  Pressing the right mouse button allows you to move up and down. 
+Pressing both mouse buttons causes you to fly around the level like an
+airplane.  You can skip to any part of the level by hitting F9 (map) and using
+the arrow keys to move the red blinking dot (you) around.
+
+     There is a red-wire-frame cube floating around, you can think of this as
+your cursor.  Pressing the space bar will create a block at the cursor in the
+current color.  Pressing R will start a ramp (you then move the selector with
+the arrow keys), and pressing R again will end the ramp.
+
+     The very bottom level of the world is reserved for floor blocks (ramps
+and polygon objects should not be placed down there).  You can quickly try out
+anything you place in the world by pressing F10 (escape returns you to
+editing).
+
+     There are dozens of other keystrokes that can be used in editing.  These
+keystrokes are outlined in the CYBER.TXT file.
+
+Information
+-----------
+This GameTek software program is distributed/sold "as is," without express or
+implied warranty of any kind, and GameTek is not liable for any losses or
+damages of any kind resulting from use of this program.
+
+ This warranty is in lieu of all other warranties and no other representations
+or claims of any nature shall be binding on or obligate GameTek. Any implied
+warranties applicable to this GameTek software product, including warranties
+of merchantability and fitness for a particular purpose, are limited to the
+ninety (90) day period described above. In no event will GameTek be liable for
+any special, incidental or consequential damages resulting from possession,
+use, or malfunction of the GameTek software product.
+
+Some states do not allow limitations on the duration of an implied warranty or
+exclusions of limitations of incidental or consequential damages, so the above
+limitations and/or exclusions of liability may not apply to you. This warranty
+gives you specific rights, and you may also have other rights which vary from
+state to state.
+
+
+GameTek Customer Relations
+Phone:  1-800-439-3995 
+9 AM to 5:30 PM, Eastern time
+
+Fax:  1-305-935-9164
+24 hours a day, 7 days a week
+
+Game Hint and Tip Line
+1-900-903-GAME (4263)
+$.80 per minute charge
+Touch tone phone required
+Minors must have parental permission before calling
+Available 24 hours
+
+To order other GameTek products:
+Call toll-free 1-800-GAMETEK, (1-800-426-3835).  24 hours a day, 7 days a
+week.  Visa and Mastercard accepted.
+
+Sound drivers (c)1995 John Ratcliff.
+Midi OPL patches provided by The Fat Man.
+
+Developed by:
+     Jeff Petersen
+     Greg Coleman
+     Lance Petersen
+
+Produced by:
+     Vince Zampella
+
+CyberBykes Shadow Racer VR is a trademark of GameTek (FL), Inc. 2999 Northeast
+191st Street, Suite 500, Aventura, Florida  33180 U.S.A.
+
+(C)1995 Artificial Software, L.L.C.  All rights reserved.

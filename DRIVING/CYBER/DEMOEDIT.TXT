@@ -1,0 +1,20 @@
+
+							DEMONSTRATION RELEASE
+
+'Construction' is not available in this version.  In the commercial release
+a complete level constructor is included.  This level constructor is the same
+one we used to create all of our levels.  It's features include:
+
+	-   WYSIWYG 3D editor.
+	-   Ability to get on a CyberByke and try new things right inside the
+		editor.
+	-   Ability to cut and paste between different levels.
+	-   Easy trading of newly created levels with others. (Simply trade .LVL
+		files and they automatically appear on the world map where you
+		placed them.)
+	-   Customize colors, background bitmaps, music, gravity level, lighting,
+		and much more.
+	-   Easy to learn and use.
+
+The CD-ROM version of the game also includes high resolution artwork and
+animations.  The CD-ROM disc is not required in the drive for gameplay.

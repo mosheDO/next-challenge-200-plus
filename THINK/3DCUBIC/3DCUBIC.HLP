@@ -1,0 +1,111 @@
+                              3D-CUBIC GAME HELP
+                              -------------------
+
+    3D Cubic Game is based on cubic game. Just like cubic game
+you are supposed to make each side of cubic in the game of same color,
+there are six color in the game, those are WHITE, RED, BROWN, BLUE,
+GREEN, YELLOW.
+
+    You see that each side consist of sixteen boxes, like
+
+                 ษอออออหอออออหอออออหอออออป
+                 บ  1  บ  2  บ  3  บ  4  บ
+                 ฬอออออฮอออออฮอออออฮอออออน
+                 บ  5  บ  6  บ  7  บ  8  บ
+                 ฬอออออฮอออออฮอออออฮอออออน
+                 บ  9  บ  10 บ  11 บ  12 บ
+                 ฬอออออฮอออออฮอออออฮอออออน
+                 บ  13 บ  14 บ  15 บ  16 บ
+                 ศอออออสอออออสอออออสอออออผ
+
+    In this game I call combination of boxes 1,5,9,13 a column. So there
+are four columns in each side, other column may be 3,7,11,15.
+And I call combination of boxes 1,2,3,4 a row. Likewise, there are
+four rows. Columns are numbered from 1 to 4 from left to right, and
+rows are numbered from 1 to 4 from top to bottom. Just like regular
+cubic game you can rotate one or more columns and rows.
+
+The menu sytem of this game corresponds to following keys:
+
+1. ARROW KEYS:
+    You can see other sides by pressing arrow keys, those arrow keys are
+relevant to the front side, for example if you want to bring upper side
+with relevant to front side downward you will press down key, if you want
+to bring right side with relevant to the front side leftward you will
+press left key, etc.
+
+2. F10:
+    F10 invokes the pull down menu, the yellow items indicates that
+those are already selected, and you can select those by just pressing
+ENTER or you can select other choices by pressing letter in black or
+using arrow keys and pressing ENTER.
+
+3. ALT+G (Pressing G, while holding ALT key):
+    This key brings the GAME MENU, that has four choices:
+    New Game:
+        New game starts new game and current game will be gone.
+        When you will press ALT+G key, this choice is in yellow
+        that indicates that this is already selected. You can
+        select this by pressing ENTER key or N.
+    Open Game:
+        Open game lets you load previously saved game, this choice
+        can be selected by pressing O or pressing downward key and
+        ENTER.
+        This choice will ask you the name of file in which you saved
+        previous game. You only need to provide 8 character file name
+        without extention. The 3DCUBIC game puts the extention .GAM
+        automatically.
+        You can also open game by pressing F3 key directly instead of
+        menu.
+    Save Game:
+        This choice lets you save current game, you need to type
+        file name in which you want to save the game without giving
+        extention name.
+        You can also press F2 key directly, instead of going to menu.
+    Exit:
+        This choice lets you quit game. Other equivalent F7 key
+        also lets you quit the game.
+
+4. F2:
+    This key lets you save the current game. It will ask for the 
+	name of game. You just need to provide name without extention.
+
+5. F3:
+    This key lets you load the previous game. Like saving game, you
+	just need to provide name of the file without extention. 
+	If game is saved in some other drive or directory, you will
+	have to provide full path and name of file.
+
+6. ALT+S:
+    This lets you rotate the cubic left, right, up, or down
+with relevant to front side. You can also rotate the cubic
+by pressing arrows keys.
+
+7. ALT+R:
+    This lets you rotate one or more rows (upto 3) to the left or right.
+For example, if you want to move 1st row (boxes 1,2,3,4) and 4th
+(13,14,15,16) row to the left, you will do it by invoking main menu
+by pressing F10 and pressing right arrow twice or just by pressing ALT+R.
+Then menu will show you item "rotate left" in yellow. This means that
+this item is already selected, you can just press ENTER or L.
+After pressing L or ENTER key, menu will ask you row number and you
+will type 1 and 4 and will press ENTER. This will move 1st and 4th
+row to the left.
+
+8. ALT+C:
+    This key lets you move one or more columns (upto 3) to upward
+    or downward. For example if you want to move 2nd (2,6,10,14)
+    and 3rd (3,7,11,15) column downward with relevant to front side,
+    you will press C holding ALT key, and menu will show you that
+    rotate upward is in yellow that means that this is selected.
+    But you can select "rotate downward" by pressing D key or downward
+    key and ENTER. Then menu will ask you column numbers you will type
+    2 and 3 and will press ENTER again. This will move the columns
+    2 and 3 downward.
+
+9.  B:
+    To toggle beep sound at the display of cube. Press 'B' to turn
+    beep sound off or on.
+
+Enjoy the game! :-)
+

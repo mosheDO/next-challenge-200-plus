@@ -1,0 +1,113 @@
+PYROTECHNICA
+Copyright (C) 1995 Psygnosis
+All Rights Reserved
+LEVEL X PREVIEW
+LEVEL XX PREVIEW
+Top Down View
+East West View
+START
+FINISH
+Force Field
+Power Source
+Captured Wingman
+Fire Rate X5
+Shields X5|+ Repair Damage
+Points X5
+Map
+Weapon View
+Internal View
+External View
+X SECONDS TO ESCAPE
+EMERGENCY
+WINGMAN RELEASED
+FORCE FIELD DEACTIVATED
+Incoming RH and IR
+Incoming RH
+Incoming IR
+Craft Destroyed
+GAME OVER
+ESCAPE POD
+Shields Low
+Engine Damaged
+Weapons Failure
+Shield Failure
+ENGINE REPAIRED
+WEAPONS REPAIRED
+No Mouse
+No Joystick
+No Games|Saved Yet
+HIGH SCORES
+Fire
+Points
+Shields
+ROUND X
+STANDBY
+PLAYER ONE
+PLAYER TWO
+Player One
+Player Two
+TIME UP
+2 Player Save|Not Supported
+FINAL ROUND
+GAME DRAWN
+PLAYER ONE WINS!
+PLAYER TWO WINS!
+Saved OK
+Save Failed
+~~~~~~Level Difficulty Lives Wingmen Score
+EASY
+MEDIUM
+HARD
+EXPERT
+MAIN MENU
+Begin One Player Game
+Begin Two Player Game
+Options
+Quit to DOS
+ONE PLAYER GAME
+TWO PLAYER GAME
+Easy
+Medium
+Hard
+Load Game
+LOAD GAME
+Cancel
+PLAY INTERRUPTED
+Save Game
+Recalibrate Joystick
+Abandon Game
+Continue Game
+OPTIONS
+Controls
+Detail Level
+Music Volume
+SFX Volume
+Return
+CONTROLS
+Menu Control
+Keyboard
+Mouse
+Joystick
+Craft Control
+Keyboard + Joystick
+Calibrate Joystick
+Return to Options
+JOYSTICK CALIBRATION
+Move the joystick
+to the extreme
+bottom left,
+then press 
+button 1.
+Move the joystick
+to the extreme
+top right,
+then press 
+button 2.
+Place the joystick
+in neutral, adjust
+the trimmers 
+so that the
+crosshairs are
+aligned, then
+press button 1.
+^

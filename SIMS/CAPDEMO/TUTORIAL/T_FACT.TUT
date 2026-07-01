@@ -1,0 +1,279 @@
+In this tutorial, you will learn how to set up a
+factory, design production lines, and advertise your
+products.
+
+In this tutorial, the following hot keys are available:
+
+[Esc]              - Quit the tutorial.
+[Back Space] - Go back one tutorial step.
+
+pos      : 534, 41
+openmenu : 6, 1
+Before making any business decisions, consult the Manufacturer's
+Guide. You can start it from the "Help" menu, or by pressing the
+F1 key.
+
+runmenu : 6, 1
+
+The Manufacturer's Guide contains essential information you need
+to manufacture a new product. The game contains over 30 different
+products, so it may be awhile before you memorize how to
+manufacture them all.
+
+pos        : 477, 434, 517, 444
+mouse      : left single
+Suppose you plan to set up a factory to produce beer.
+You can obtain information about beer production by clicking on
+the "OUTPUT" button and selecting "beer". Do this now.
+
+checkpoint : 31, 1
+
+Here is the manufacturing diagram for beer. It shows that the
+production of beer requires barley and aluminum. It also tells that
+you need...
+
+pos : 187, 204
+5 pounds of barley...
+
+pos : 191, 302
+and 1 pound of aluminum...
+
+pos : 500, 267
+to produce 17 cans of beer.
+
+pos : 198, 218
+The quality of the final product is influenced directly by the quality
+of the ingredients. "Q:40%" means that in this case the
+quality of the barley contributes 40% to the quality of the final
+product, beer.
+
+pos : 192, 317
+Not all inputs affect the output quality equally. "Q:5%"
+tells you that the quality of the aluminum contributes only 5% to the
+quality of the final product. So we see that the beer cans affect
+the quality of the beer much less than the quality of the barley used
+to brew the beer.
+
+If 40% of the quality of beer is determined by the barley and 5%
+determined by the aluminum, what accounts for the other 55%?
+
+pos : 326, 274
+The Manufacturer's Guide has the answer. The quality of beer
+is 55% determined by the production technology of the manufacturer.
+We will discuss production technology later. Now that you know
+which ingredients you'll need, it's time to set up a factory to
+produce beer.
+
+pos   : 395, 434, 408, 444
+mouse : left single
+Click the "Ok" button to close the guide.
+
+Factories can be built in urban, suburban, or rural areas. The choice is
+up to you. However, you will find most factories located in suburban areas.
+These areas provide a good mix of land cost, labor availability, and
+transportation.
+
+wait       : 20, 400
+checkpoint : 32
+You need to select a location for your new factory. Find a promising
+piece of suburban land, then click the "Continue Tutorial" button.
+
+pos   : 276, 312, 313, 334
+mouse : left single
+Now click the Build button.
+
+pos   : 52, 268, 80, 279
+mouse : left single
+Select "Factory".
+
+pos   : 571, 417, 619, 453
+mouse : left single
+Press the "Build" button and your factory will be built in the
+currently selected map square.
+
+pos   : 276, 285, 313, 308
+mouse : left single
+Click the "Layout" button to see the layout plan for your factory.
+
+pos       : 334, 259, 397, 314
+mouse     : left double
+checkunit : 1, 10
+From the manufacturing guide you'll recall that you need barley
+and aluminum to produce beer. First, you need to set up a pair of
+purchasing units to buy barley and aluminum from external
+suppliers.
+
+Double-click this slot to set up the first one.
+
+pos   : 172,340,238,354
+mouse : left single
+Click the "Link Supplier" button.
+
+As you can see, there are lots of firms scattered on the
+map. To find one that supplies the needed raw materials, you
+need to use the product filter.
+
+pos        : 282, 219, 308, 232
+mouse      : right single
+checkpoint : 33
+Right-click the product filter button and select barley
+from the list. You can enter the first character of the product
+name for quick searching.
+
+pos   : 280,113,308,126
+mouse : left single
+Now, only firms that supply barley are shown. If the terrain map
+is too busy you can display the profit map for a less cluttered
+display.
+
+wait       : 20,400
+checkpoint : 34
+Now it's easy to find the barley suppliers. Double-click a dot
+representing a barley supplier in the map to select that supplier
+and click the picture of barley on the list of goods provided
+by this supplier. The barley will then be ready to "link" to your
+purchasing unit.
+
+When you are done, click the "Continue Tutorial" button.
+
+pos   : 277,257,312,279
+mouse : left single
+Click the "Link" button to connect the supplier to your
+purchasing unit.
+
+pos       : 418, 259, 480, 313
+mouse     : left double
+checkunit : 2, 10
+That takes care of the barley. Now you need to do the same thing to
+purchase aluminum.
+
+Double-click here to set up the second purchasing unit.
+
+pos   : 172,340,238,354
+mouse : left single
+Click the "Link Supplier" button.
+
+pos        : 282, 219, 308, 232
+mouse      : right single
+checkpoint : 35
+Right-click the product filter button and select "Aluminum".
+
+wait       : 20,400
+checkpoint : 36
+Double-click a dot representing a supplier of aluminum in the map
+and click the picture of aluminum in the supplier.
+
+Again when you are done, click the "Continue Tutorial" button.
+
+pos    : 277,257,312,279
+mouse  : left single
+action : enable_next_day
+Click the "Link" button to connect the supplier to your purchase
+unit.
+
+pos       : 340, 339, 390, 382
+mouse     : left double
+checkunit : 4, 7
+All needed raw materials are now ready.
+
+To set up a manufacturing unit, double-click here.
+
+pos    : 364, 318, 370, 330
+mouse  : left double
+Once the two purchasing units are linked to the manufacturing
+unit, production can start. Link the manufacturing unit
+to the first purchasing unit.
+
+pos    : 400, 317, 414, 329
+mouse  : left double
+Link the manufacturing unit to the second purchasing unit, too.
+
+pos : 148, 367
+The factory can now begin production.
+pos : 342, 363
+Notice the little blue boxes inside the manufacturing and purchasing
+units change as aluminum and barley are turned into beer.
+
+pos : 220, 268
+The message "Product Quality : 38/100" means that the
+quality rating of your beer is 38 and the maximum quality possible is 100.
+
+The Manufacturer's Guide states that the quality of beer is
+40% determined by the quality of barley. In this case, the barley
+has a quality rating of 50. It therefore contributes 50 X 40% = 20
+rating points to the beer's overall quality.
+
+The quality of beer is 5% determined by the quality of the aluminum.
+The aluminum you are using has a quality rating of 47, so it
+contributes 47 X 5% = 2 rating points to the beer's overall quality.
+
+pos : 230, 290
+The message "Raw Materials Quality : 22/45" describes the rating
+points contributed to quality from all raw materials. The first
+number, 22, is the amount contributed by the raw materials. In
+this case that is 20 points from the barley and 2 points from the
+aluminum. The second number (45) would be the quality contributed
+by perfect ingredients.
+
+pos : 230, 305
+The message "Production Quality : 16/55" describes the rating points
+contributed to quality by the production technology. The first
+number, 16, is the current contribution to overall product
+quality from these production facilities. The second number, 55,
+would be the quality contributed by the best possible production
+facilities.
+
+pos : 210, 319
+Your factory's technology rating for beer production is 30. Thus the
+contribution to quality of the beer production process is
+30 X 55% = 16 rating points. To increase the beer production
+quality you will need research and development, but that
+is discussed in another tutorial.
+
+pos       : 344, 415, 388, 453
+mouse     : left double
+checkunit : 7, 12
+To sell beer you need a sales unit just like in a department store.
+
+Double-click here to create a sales unit.
+
+pos   : 363, 392, 370, 403
+mouse : left double
+Double-click here to link the manufacturing unit to the sales unit.
+
+As you build more and more factories you may want to increase
+the capacity of a factory. This is accomplished by upgrading the
+equipment and training the factory's employees.
+
+pos : 598, 294, 607, 309
+mouse : left single
+Spending for Training and Equipment is set using this slider. The
+maximum amount you can spend is twice the amount of the
+factory's salary expenses. Training and Equipment spending is
+automatically distributed evenly over all the units in the factory.
+
+Now click here to set the spending.
+
+pos : 197, 419
+If a novice worker is provided with training, the worker will
+eventually become an experienced worker. You can distinguish
+between a novice and an experienced worker by looking at the
+colors of their uniform. Novice workers wear blue while
+experienced workers wear red. When all workers in a unit become
+experienced, the unit upgrades its unit level, and all workers
+are then novices at the new production level.
+
+pos : 384, 265
+In Capitalism, the efficiency and productivity of each unit
+increases when its unit level is upgraded. All units start at
+unit level 1 and can increase the level to a maximum of 9.
+
+A unit's level decreases if the unit changes the product it is
+handling. For example, if the current manufacturing unit changed
+its production lines to manufacture cola, its unit level would
+decrease.
+
+Now that you understand the basics of how to run a factory, you are ready
+to move on to the more advanced topics of brand management, advertising, and
+research and development, which will be introduced in later tutorials.
+

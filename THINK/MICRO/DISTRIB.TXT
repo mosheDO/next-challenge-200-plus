@@ -1,0 +1,162 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+		       Micro! Deluxe, version 1.0
+			   DISTRIBUTION INFO
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+FEATURES:
+ * Beautiful 3-D, animated graphics which fully exploit the VGA's
+   256-color pallette.
+ * Large 4-way scrolling playfield.
+ * 20 levels of play in the shareware version, 60 more upon registration
+
+REQUIRES:
+ * fast 286 (or higher) CPU, 386 or faster strongly recommended
+ * VGA card
+ * Hard disk with 1.5 MB of disk space free
+
+SUPPORTS:
+ * Sound Blaster (or compatible) digitized sound effects
+ * Roland LAPC-I / MT-32 (or compatible) sound effects and music
+ * Adlib (or compatible) sound effects and music
+ * PC speaker sound
+	
+OBJECTIVE:
+	The object of this game is to eliminate all the spheres in the
+playfield by redirecting a single laser beam.  You control Micro -- a cute,
+purple ball.  By rotating and moving mirrors, pushing obstacles, and throwing
+switches, you'll help Micro advance through many levels of unique puzzles that
+range in difficulty level from intuitively obvious to nearly impossible.
+	Each level has a required number of spheres you must destroy in order 
+to proceed to the next level.  Often, there are more spheres on the screen
+than required.  Destroying all the spheres can be a very challenging task
+even for a quick, perceptive player (like yourself).
+	Users who have purchased the registered version of this game receive
+an additional 60 levels of brain-teasers and a level designer which allows
+them to create and play their own puzzle sets.
+
+-----------------------------------------------------------------------------
+
+REQUIRED FILES FOR DISTRIBUTION (PLEASE READ!):
+
+If you distribute the shareware version of this game, please be sure to
+include the following four (4) files in unaltered form:
+
+    FILE_ID.DIZ     --  Short description file
+    MDLXSHAR.CQZ    --  Micro! Deluxe compressed game data
+    MINSTALL.EXE    --  Installation program
+    READTHIS.TXT    --  Information file
+
+Do NOT include other game files!  The file "MDLXSHAR.CQZ" contains everything
+required for this game.  The program "MINSTALL.EXE" will decompress this
+archive to a drive and directory of the user's choice.
+
+NOTE: the above files may be "split" (e.g. to fit on two low-density 5.25"
+      disks), as long as the files can be reassembled into their original
+      form.
+
+Thank you for distributing this program!
+
+-----------------------------------------------------------------------------
+
+BBS/ONLINE SERVICE/INTERNET DISTRIBUTION:
+
+Bulletin board system, online service, and internet distribution is strongly
+encouraged!  When archiving, be sure to comply with the REQUIRED FILES FOR
+DISTRIBUTION section.  Please name the archive $MDLX1.xxx, where "xxx" is the 
+compression program's default extension.  If a distribution fee is charged,
+you must also: 
+  
+  * credit Acumen Software as the creator of this game
+  * identify the software as shareware
+  * explain the shareware concept elsewhere online
+
+BBS SYSOPS: CONTACT US! If you own and operate a large BBS with many users,
+we'd like to add you to our BBS distribution list.  Please sends us your
+name, your BBS's name, some information about your BBS (# of lines, disk
+space, # of users, future plans, etc.), and your street address so we can:
+
+  * send you the latest version of this shareware program
+  * add you to our BBS distribution list so that you'll receive
+    our newest programs and updates as they become available
+
+-----------------------------------------------------------------------------
+
+DISK DISTRIBUTION:
+
+Shareware vendors must:
+
+  * comply with the REQUIRED FILES FOR DISTRIBUTION section
+  * credit Acumen Software as the creator of this game in all catalog
+    descriptions and other descriptions
+  * identify the software as shareware
+  * adequately explain the shareware concept (i.e. the price paid by users
+    is only a distribution charge)
+  * only sell the most current version of this software
+  *** All rules apply unless explicity stated in writing by Acumen Software
+
+Note: You may include custom installation and other informational files on
+      your distribution disk.
+
+SHAREWARE VENDORS: CONTACT US! If you send us a sample catalog you've
+published in the past, we will:
+  
+  * send you the latest version of this shareware program
+  * send you images (GIFs) taken from the game for your advertisements
+  * add you to our shareware vendor distribution list so that you'll receive
+    our newest programs and updates as they become available
+
+-----------------------------------------------------------------------------
+
+DISTRIBUTION IN A RETAIL ENVIRONMENT:
+
+You must:
+
+  * comply with the REQUIRED FILES FOR DISTRIBUTION section
+  * credit Acumen Software as the creator of this game in all catalog
+    descriptions and other descriptions
+  * identify the software as shareware
+  * adequately explain the shareware concept (i.e. the price paid by users
+    is only a distribution charge)
+  * print the word "shareware" on the front-cover packaging
+  * include the name "Acumen Software" on the front-cover packaging as
+    creator of this program
+  *** All rules apply unless explicity stated in writing by Acumen Software
+
+-----------------------------------------------------------------------------
+
+BUNDLING WITH HARDWARE:
+
+You may bundle this game with new hardware as long as you comply with the
+REQUIRED FILES FOR DISTRIBUTION section. (Notifying us would be nice too.)
+
+-----------------------------------------------------------------------------
+
+OTHER DISTRIBUTION METHODS:
+
+Please contact us if you would like to distribute Acumen Software products
+in a new way to help reach more customers.
+
+-----------------------------------------------------------------------------
+
+VIOLATIONS:
+
+If you violate any of the required terms described above without express
+written authorization by Acumen Software, you are liable to Acumen Software
+for $1 per copy distributed.
+
+-----------------------------------------------------------------------------
+
+== HOW TO CONTACT ACUMEN SOFTWARE ==
+
+U.S. Mail:
+  Acumen Software
+  404 Stone Church Road
+  Tiverton, RI 02878-2813
+
+Internet E-mail:
+  adrian@mit.edu
+
+World-Wide-Web:
+  http://www.mit.edu:8001/afs/athena.mit.edu/user/a/d/adrian/www/acumen.html
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

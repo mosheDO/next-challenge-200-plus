@@ -1,0 +1,38 @@
+The most common problems you are likely to encounter are:
+
+1. Autodetect of your sound card may not work.  Please do the following:
+Look at your autoexec.bat, look for your SET BLASTER setting (assuming
+you are using a Sound Blaster compatible card).  Use the Port address, 
+DMA, and IRQ values for your sound settings.
+
+2. If you have an 8 meg system, we recommend you turn off smart drive or 
+run it with a 512k buffer.  Remove any TSR's or other programs that 
+utilize low and extended memory.
+
+3. If your system keeps hanging up, reboot your computer with the shift 
+key held down to bypass your normal startup files or F5 for MS DOS 6.0+.
+Some systems do not work well with HIMEM and EMM386.  
+
+4. For slower systems, it may be necessary to set the sound quality lower
+and to reduce the number of channels to 4 or below.  Reducing the screen
+size also speeds the game up considerably.  Turn off mouse and joystick
+support if you aren't using them.
+
+5. It may be necessary to increase the sound cache value up to 4 if you 
+are using a Gravis Ultrasound soundcard.  The card has internal memory
+and decreasing the sound cache too far may slow playback substantially
+on this device.
+
+6. At the time this version was released modem play was not fully supported.
+You will experience problems if your modem is using the older UART 8250 
+(this comprises the better part of the people that use modems... 
+we're workin on it.)
+
+7. If you need further help:
+   a. Check the Softdisk Home Page at: http://www.softdisk.com for 
+   up-to-the-minute information.
+   b. Send email with your complete system configuration and list of error 
+   messages received to: greed@softdisk.com. 
+   c. Call the Softdisk Tech Support Hotline at 1-318-221-8311.
+
+

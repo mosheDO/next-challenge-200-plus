@@ -1,0 +1,298 @@
+Most people agree that stock is an indispensable part of
+capitalism. In the game, the stock market lets you do most things
+that are allowed in a real stock market. Apart from common stock
+buying and selling, you can tender offers, issue new shares,
+pay dividends, and set up takeovers and mergers.
+
+In this tutorial, the following hot keys are available:
+
+[Esc]              - Quit the tutorial.
+[Back Space] - Go back one tutorial step.
+
+pos : 249, 103
+openmenu : 3, 5
+First, you need a basic understanding of stock. Let's begin with
+the corporate detail report.
+
+runmenu : 3, 5
+
+pos : 299, 109, 372, 119
+mouse : left single
+The corporate detail report has more than a dozen sections, each
+with a different topic. Click here to open the "Stock"
+section.
+
+pos : 226, 196
+The stock report has two sections. The first section lists the
+shareholders of the corporation and shows their shares in a
+pie chart.
+
+pos : 234, 337
+The second section of the stock report displays the stocks that
+the current corporation owns. Note that a corporation can own the
+stocks of other corporations.
+
+pos : 300, 44, 362, 55
+mouse : left single
+While this report is useful, it doesn't show the most basic
+information about a stock, such as the stock price. This
+information is shown in the "Overview" section. Click here.
+
+pos : 353, 253
+The stock overview section contains information about the
+corporation's stock. The terms are explained one by one.
+
+pos : 321, 278
+This is the current stock price of the corporation, which is
+determined by the market.
+
+pos : 321, 291
+The equity per share is calculated by dividing the amount of the
+shareholders' equity in the corporation by the total number of
+outstanding shares of the corporation.
+
+pos : 321, 305
+The earnings per share is determined by dividing the amount of
+the corporation's annual operating profit by the total number of
+outstanding shares of the corporation.
+
+pos : 451, 276
+The Price/Earning ratio is calculated by dividing the stock
+price by the earnings per share.
+
+pos : 451, 292
+The dividend yield is a percentage calculated by dividing the
+dividend by the stock price. Dividends are the distribution of a
+company's earnings to stockholders.
+
+pos : 451, 307
+The total return to shareholders is a percentage calculated by
+dividing the total amount of return on one share over the past
+365 days by the stock price. The return includes the dividend
+received and profit gained from the rise of the stock price.
+
+pos : 540, 292
+This graph shows the stock price of a corporation over the past
+30 months.
+
+pos : 354, 435, 419, 445
+mouse : left single
+As its name "report" implies, it only shows information. To
+invest in stocks, go to the "Stock Market" either by selecting
+"Stock Market" in the "Action" column of the game menu or, more
+conveniently, by clicking here.
+
+pos : 48, 356, 264, 368
+mouse : left single
+In the game, you can buy stocks in person or via a corporation
+that is under your control. Now click here to enable your
+corporation to invest in stocks.
+
+pos : 198, 126
+Move your focus to the upper left section of the window,
+which has a stock browser showing all stocks available in the
+market.
+
+pos : 258, 65
+You can see the percentage of stock that your corporation owns by
+looking at the "Owned%" column.
+
+pos : 320, 65
+The "Stock Value" column lists the total value of stock owned by
+your corporation.
+
+pos : 120, 90, 171, 103
+mouse : left single
+Click here to highlight a stock.
+
+pos : 198, 241
+Once a stock is selected, the shareholders of the stock are
+listed here.
+
+pos : 493, 110
+In addition, you find the details about the highlighted stock in
+this area. The terms used here were introduced in the corporate
+detail report.
+
+pos : 486, 226
+Below the area is a graph showing the stock price over a specific
+period which can be past 30 days, past 30 months, or past 30
+years. Select the period by clicking any of the three buttons
+below the graph.
+
+pos : 446, 328
+Now it's time to buy some stocks. This formula shows the amount
+of cash your corporation need to pay for the stock, which is
+calculated by multiplying the total no. of outstanding by the
+percentage of stock to buy and finally multiplying the result by
+the stock price.
+
+pos : 372, 330, 378, 340
+You can set the percentage of stock you want to buy. When a stock
+is highlighted, this percentage is automatically set to the
+maximum percentage you can buy. Note that the maximum percentage
+of stock you can buy from or sell to the public shareholders each
+time is 5%, a limit that the public shareholders can accept each
+time.
+
+pos : 557, 335, 581, 349
+mouse : left single
+Click here to buy the stock from the public shareholders.
+
+pos : 265, 103
+Once the transaction is complete, the data here is updated,
+showing the percentage of stock your corporation owns now.
+
+pos : 200, 240
+Your corporation is also included as one of the shareholders in
+the shareholder list.
+
+Besides buying stocks of other corporation, your corporation can
+also buy back its own stock. The shares bought are taken out of
+circulation, therefore shrinking the number of outstanding
+shares. This can have a positive effect on earnings per share,
+which in turn can have a positive effect on the stock price.
+
+pos : 172, 58, 217, 71
+mouse : left single
+To have your corporation buy back its own stock, first click here
+to select your corporation's stock.
+
+pos : 557, 335, 581, 349
+mouse : left single
+Now, click here to buy back 5% of the stock.
+
+pos : 471, 68
+Note that the total number of outstanding shares of your
+corporation is reduced.
+
+pos : 235, 235
+Due to reduction of the total number of shares, the onwership
+percentage of the non-public shareholders increases. This action
+can strengthen the ownership of existing shareholders in the
+corporation and reduce the risk of a hostile takeover.
+
+Note that when you buy or sell stocks, the transactions are
+always made with the public shareholders. If all shares of the
+stock that you want are in the hands of non-public shareholders,
+you may have to make a tender offer to the shareholders.
+
+pos : 561, 327
+A tender offer is an offer to buy shares of a corporation, usually
+at a price in excess of market. You may find a button labeled
+"Offer" here if a tender offer is necessary.
+
+Besides tender offers, takeovers and mergers are also possible in
+Capitalism. You can take over a corporation if you own more
+than 50% of its stock. A merger is allowed if you own more
+than 75% of a corporation's stock. However, we are not going to
+describe these actions in details here as we don't want to
+overwhelm you with too many details. Read the manual if you want
+to know more about them.
+
+pos : 228, 429, 245, 442
+mouse : left single
+Next, we'll introduce you to some other common stock actions.
+Click the "Ok" button to close the window.
+
+pos : 341, 58
+openmenu : 4, 2
+Call up the financial action window in the game menu.
+
+runmenu : 4, 2
+
+pos : 181, 78, 267, 87
+mouse : left single
+One of the actions you can take here is issuing new shares of
+your corporation. Click here.
+
+A corporation can raise fund by issuing new shares. When new
+shares are issued, they are offered to public shareholders
+and the cash received from the buyers contributes to the
+operating capital of the corporation.
+
+pos : 379, 148
+When your corporation issues new shares, you must make two
+decisions. First, you must decide the issuing price, which cannot
+be higher than the current stock price. Nobody will be interested
+in the new shares if they're priced higher than the market price.
+
+pos : 352, 133
+Secondly, decide the number of new shares to be issued.
+
+pos : 336, 174
+There is a limit on the number of new shares you can issue. You
+can expect a higher limit if your corporation showed promising
+results in the past year. You can often have a higher limit if
+you decrease the issuing price to make it more attractive to
+buyers. Another factor which affects the limit is the frequency
+that new shares are issued. You cannot issue new shares too
+frequently, otherwise the market won't have enough time to digest
+the new shares.
+
+pos : 371, 217
+After you decide the number of new shares and the issuing price,
+the expected amount of money your corporation will receive after
+issuing new shares is shown here.
+
+pos : 154, 235, 224, 246
+mouse : left single
+If you are satisfied with the gross receipts, click the "Issue
+Now" button.
+
+pos : 254, 16
+That's right. The receipt have been added to your
+corporation's cash account.
+
+When an investor buys shares of a corporation, the investor
+probably expects a reasonable return in the future. That
+return usually includes the dividend paid by corporation and the
+profit gained from the rise of the stock price.
+
+pos : 144, 90, 273, 100
+mouse : left single
+Because of this, you must consider the dividend-paying policy
+of your corporation seriously. Click here to go to the dividend
+menu.
+
+Some corporation try to pay a reasonable dividend each year
+to please the shareholders. However, it is not uncommon to
+find corporations that pay only modest dividends or even none to
+maintain an upward trend on its stock price. These corporations
+actually reinvest their earnings back into the business, which
+promises better returns in the future.
+
+pos : 369, 133
+In the game, you can set a dividend payout ratio and let your
+corporation pay dividends based on this ratio each year
+automatically. Under this policy, the dividend per share is
+calculated by multiplying the earnings per share by the dividend
+payout ratio.
+
+pos : 231, 228
+If you want to pay dividends this way, you must press this
+button, which authorizes dividends to be paid each year without
+your approval.
+
+pos : 368, 146
+If you want to change the dividend payout ratio, you should first
+set the new ratio here.
+
+pos : 210, 173
+Then click this button to confirm the change.
+
+pos : 391, 230
+If you want to approve the dividend, you can select the "Ask
+Dividend Payout" option. After that, at the end of each year, you
+see a window which lets you decide the exact amount of dividend
+to be paid for the year.
+
+pos : 304, 397, 319, 410
+mouse : left single
+Now it's time to leave here, click on the "Ok" button to close
+the window.
+
+This lesson has told what it should tell and you have learned
+what you should learn. If there is still anything that you lack,
+it is your own experience. Good luck!
+

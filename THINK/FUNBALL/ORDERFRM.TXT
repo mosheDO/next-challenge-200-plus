@@ -1,0 +1,55 @@
+ I M P U L S E   G A M E S   I N C.                        SOFTWARE ORDER FORM
+______________________________________________________________________________
+Take a few minutes to fill out our easy order form and you'll be  on your way
+  to more exciting and addictive gaming in no time!  You can also print this
+        order form by typing "PRINT ORDERFRM.TXT" at the DOS prompt.
+
+NAME:_________________________________ COMPANY:_______________________________
+
+ADDRESS:______________________________ CITY/ST/ZIP:___________________________
+
+PHONE:________________________________
+
+PAYMENT:  [ ] Check*      [ ] Money Order*    *(Payable to IMPULSE GAMES. Must
+          [ ] Visa        [ ] Mastercard        be drawn against a U.S. Bank) 
+
+CARD NUM: ______________________ EXP:_____ SIGNATURE:_________________________
+
+  Please fill out this system information to assist in processing your order.
+
+PROCESSOR:   [ ] Pentium   [ ] 486       [ ] 386       [ ] 286      [ ] XT    
+VIDEO CARD:  [ ] SVGA         [ ] VGA          [ ] EGA          [ ] CGA       
+DISK DRIVES: [ ] 3.5" 1.44M   [ ] 3.5" 720K    [ ] 5.25" 1.2M   [ ] 5.25" 360K
+______________________________________________________________________________
+     |                                                              |         
+ QTY |  PRODUCT TITLE                                               |  PRICE  
+_____|______________________________________________________________|_________
+     |                                                              |         
+_____|______________________________________________________________|_________
+     |                                                              |         
+_____|______________________________________________________________|_________
+     |                                                              |         
+_____|______________________________________________________________|_________
+     |                                                              |         
+_____|______________________________________________________________|_________
+     |                                                              |         
+_____|______________________________________________________________|_________
+     |                                                              |         
+_____|______________________________________________________________|_________
+     |                                                              |         
+_____|______________________________________________________________|_________
+                                                                    |         
+TOLL-FREE ORDER LINE:     |   SHIPPING CHARGES   |          SUBTOTAL|         
+1-800-6-IMPULSE           |______________________|                  |=========
+                          |                      |                  |         
+FOREIGN ORDERS:           |USA:               $3 | IN Residents ONLY|         
+1-317-271-4409            |All others:        $5 |  add 5% sales tax|_________
+                          |Fed-Ex next day:   $15|                  |         
+24 HOUR FAX LINE:         |  (US only)           |          SHIPPING|         
+1-317-247-1009            |Please allow 1-2 weeks|                  |_________
+                          |for delivery if using |                  |         
+OR MAIL TO:               |regular shipping.     |       ORDER TOTAL|         
+Impulse Games             |______________________|                  |=========
+P.O. Box 31199
+Indianapolis, IN  46231                              THANK YOU FOR YOUR ORDER!
+______________________________________________________________________________

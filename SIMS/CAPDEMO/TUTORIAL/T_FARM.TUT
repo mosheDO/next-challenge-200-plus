@@ -1,0 +1,254 @@
+In this tutorial, you will learn how to run a farm.
+
+The following hot keys are available:
+
+[Esc]              - Quit the tutorial.
+[Back Space] - Go back one tutorial step.
+
+The Farmer's Guide is an essential manual for all would-be farmers.
+Let's take a look at it.
+
+pos : 538, 56
+openmenu : 6, 2
+To open the Guide, move the mouse cursor to the top of the game
+screen to activate the game menu. Under the "Help" menu, you find
+the "Farmer's Guide".
+
+runmenu : 6, 2
+
+pos   : 86, 168, 128, 178
+mouse : left single
+Suppose your plan is to set up a farm to grow cotton.
+Click "Cotton" to read about the best conditions for cotton farming.
+
+pos : 190, 309
+The information for cotton is now shown.  The best temperature and
+rainfall for growing cotton and the months in which cotton is sown
+and harvested are shown here.
+
+pos   : 330, 155, 381, 164
+mouse : left single
+Beside crops, the Farmer's Guide also contains information about livestock.
+Select this livestock to see how the livestock portion of the Guide works.
+
+pos : 215, 343
+Each type of livestock can be used to produce raw materials for
+your factories, or finished goods for your department stores. Of
+course, you can also sell goods directly to other corporations.
+Here are the products that can be made from the selected
+livestock.
+
+pos : 316, 434, 330, 444
+mouse : left single
+Now you have a basic understanding of the Farmer's Guide,
+it's time to set up your first farm.
+
+Click the "Ok" button to close the Guide.
+
+pos : 281, 63, 308, 76
+mouse : left single
+As stated in the guide, you should grow cotton in an area with
+warm climate and plentiful rainfall. To find a such an area on the
+map, press the "Climate Map" button.
+
+pos : 128, 115
+Each color in the climate map represents a different climate.
+To grow cotton, you should select a location in the orange region
+where the climate is warm.
+
+pos   : 33, 108, 47, 122
+mouse : left single
+Click this area of the climate map.
+
+pos   : 366, 61, 545, 190
+mouse : left single
+Next click a location in the detailed map.
+
+pos : 430, 272
+The climate, rainfall, and soil fertility of the highlighted location is
+shown in this area. This location isn't bad but the rainfall
+isn't enough to grow cotton.
+
+pos   : 281, 63, 308, 76
+mouse : left single
+To find a location with plentiful rainfall for cotton, click
+the climate button again to display the rainfall map.
+
+pos : 75, 110
+Areas in deeper blue color have more rainfall. As plentiful
+rainfall is required for growing cotton, your farm should be
+in a deep blue region.
+
+pos : 281, 63, 308, 76
+mouse : left single
+Click the climate map button one more time.
+
+pos : 125, 125
+This is the soil fertility map. All farmers know that crops grown in a
+location with better soil fertility are better quality. When
+selecting a location for your farm, choose one with the highest
+soil fertility possible.
+
+When selecting a location for your farm, you should try to
+find a grassland location with WARM climate, PLENTIFUL rainfall
+and high soil fertility. Though it is possible to build your farm
+in any grassland, growing crops in a less favorable location
+will result in poor crop quality.
+
+wait       : 20,400
+checkpoint : 21
+Now choose a location for your farm and click "Continue Tutorial"
+when you are ready to continue.
+
+pos   : 276, 312, 313, 334
+mouse : left single
+Now click on the "Build" button...
+
+pos : 13, 294, 44, 304
+mouse : left single
+and select "Farm".
+
+pos   : 571, 417, 619, 453
+mouse : left single
+Click the "Build" button to build the farm.
+
+pos   : 276, 285, 313, 308
+mouse : left single
+Click the "Layout" button to see the layout plan.
+
+pos       : 334, 259, 397, 314
+mouse     : left double
+checkunit : 1, 1
+Now double-click this box to set up a Crop Growing Unit in
+your farm.
+
+pos   : 198, 340, 233, 350
+mouse : left single
+checkpoint : 22
+Click the "Grow Crop" button and select "Cotton".
+
+Now the crop growing unit receives your order and will sow
+cotton when the sowing month arrives.  The crop growing unit
+will take care of sowing, growing, harvesting, and even storing
+your cotton. A crop growing unit is very versatile.
+
+pos       : 418, 259, 480, 313
+mouse     : left double
+checkunit : 2, 12
+To set up a sales unit to sell the cotton once it has been
+harvested, double-click here.
+
+pos   : 399, 282, 415, 292
+mouse : left double
+Link these two units together by double-clicking the link line
+between them.
+
+That's it. You have just set up a farm to grow cotton. Next let's see
+how to set up some other units to raise livestock.
+
+pos       : 340, 338, 391, 383
+mouse     : left double
+checkunit : 4, 2
+Create a livestock raising unit in this slot.
+
+pos   : 179, 345, 229, 355
+mouse : left single
+Click the "Raise Livestock" button to display a menu where you
+select the type of livestock to raise in the unit. Select any
+type of livestock you want.
+
+pos       : 425, 339, 472, 381
+mouse     : left double
+checkunit : 5, 3
+Now set up a livestock processing unit next to the livestock
+raising unit.
+
+pos    : 401, 357, 414, 364
+mouse  : left double
+action : enable_next_day
+Link the two units together by double-clicking the link
+line between them.
+
+pos : 425, 339, 472, 381
+Once the units are linked, you can tell the livestock
+processing unit to process the animals it receives from the livestock
+raising unit.
+
+pos   : 179, 340, 229, 350
+mouse : left single
+Click the "Process Livestock" button to select the type of
+product this unit should process.
+
+pos : 441, 377
+action : disable_next_day
+You may have noticed this red line and wondered what it meant.
+Each type of unit has different information shown in its unit info-box.
+The lines summarize the operational status of the unit.
+
+pos : 536, 65, 594, 77
+openmenu : 6, 3
+To determine the meaning of these indicators, look at the
+Manager's Guide. It gives detailed information about the data
+shown in each type of unit.
+
+runmenu : 6,3
+
+Here is the Manager's Guide. It can be started from the "Help"
+menu, or with the F10 shortcut key. You can call it up anytime in
+the game for a quick check on the meaning of the info displayed
+in any unit.
+
+pos : 332, 438, 350, 452
+mouse : left single
+Now click on the "Ok" button to close the Guide and continue the tutorial.
+
+pos       : 506, 338, 557, 382
+mouse     : left double
+checkunit : 6, 12
+We still need a sales unit to sell the livestock products.
+
+Double-click on this slot to set one up.
+
+pos    : 484, 357, 498, 363
+mouse  : left double
+action : enable_next_day
+Next, double-click on this line to link the livestock processing
+unit and the sales unit.
+
+pos    : 281, 260, 309, 275
+mouse  : left single
+Now click on the Information button to show the information about
+your farm.
+
+pos : 368, 290
+The livestock product is ready for sale and available to all
+interested buyers, who are mostly retailers. Buyers are willing
+to purchase any product that is attractive in terms of price,
+quality, and brand.
+
+pos : 281, 138, 309, 151
+mouse : left single
+If you want to know who is buying your products, press
+the "Linkage" button to put the map into firm linkage mode.
+
+pos : 36, 113, 45, 118
+In this mode, any firms that have business relations with the
+highlighted firm are shown with lines joining them to the
+highlighted firm. At this point, you shouldn't expect too many
+buyers, as the product has just been launched onto the market.
+
+pos : 365, 408, 388, 416
+Though not common, it is absolutely okay not to sell your
+products to external buyers. If you press the "Internal Sale"
+button, the product will be sold only to firms owned by your
+corporation. Other corporations will not be allowed to buy this
+product.
+
+However, those buyers who have been buying the products are not
+affected, because you are not allowed to suddenly cut the supply
+of a product. You could raise its price, though. To cancel an
+internal sale, click on the button again.
+
+You now have the basic knowledge necessary to set up and manage a
+farm and are ready to move on to the next lesson.
+

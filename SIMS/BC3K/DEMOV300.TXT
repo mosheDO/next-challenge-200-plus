@@ -1,0 +1,2867 @@
+
+
+            MANUAL FOR BATTLECRUISER:3000AD DEMO V3.00  REV 02/22/93
+           ---------------------------------------------------------
+
+*******************************************************************************
+ 
+   I don't have a DOS ASCII spell checker so this file may have typos.
+   If you do, please send me a copy, or better yet, spell check the file and
+   send me the modified copy. Beware of the technical terms included here!!
+   I spent an hour spellchecking it under Amipro/Windows only to find out
+   in the end that after I saved it, the format was all screwed-up. Luckily
+   I had made a backup. This is it.
+
+*******************************************************************************
+
+Due to the numerous features in this release, demo v2.01 was scrapped.
+This manual is specifically for use with Battlecruiser:3000AD demo v3.0.
+It may seem lengthy and complex but compare it to the final game manual which is
+currently 152 pages!!  I could have created a much more simpler manual but then
+I would have to leave out some critical systems descriptions and that would
+leave you completely in the dark.  Where necessary, I have indicated which of
+these systems actually work in this demo, elsewhere, I have indicated systems
+that work differently for the purposes of this demo.  These include the COMMS,
+TACTICAL and NAVIGATION stations of the Battlecruiser.  If a system does not
+work in the demo, it means I forgot to mention that it is not active.  The
+purpose of this demo is to ensure that GALCOM operatives remain confident that 
+this program will be worth the wait. A whole bunch of features have been
+disabled such as trading, docking, personnel deployment etc. The 3D planetary
+terrain is not shaded and does not contain the actual 3D objects. Crude cubes
+have been used as target objects for the purpose of this demo. 
+
+A lot of you will be very disoriented with the flight models created in this
+demo.  They have been simplified for the purpose of this demo and are much more
+realistic in the final release.  In Battlecruiser:3000AD, there are four flight
+models, a space and atmospheric model for the Battlecruiser and Interceptors.
+Even though you will lose control of the Battlecruiser if you enter a planet's
+atmosphere, it does have an atmospheric flight model since there is a way around
+it. The GALCOM Supreme Commander's Guide (a special publication) will outline 
+hints on overcoming this, it will also contain a host of other hints in playing
+the game, trading & communicating with aliens, personnel resource management,
+combat tactics etc.
+
+Remember, these ships are not like anything you are likely to fly anytime soon.
+The Interceptor created in this program will outperform and outmaneuver any
+modern day aircraft.  It is my intention to create a Mission Disk which sends
+the player back through time, here you will get a chance to pit your Interceptor
+against modern day fighters such as the F15E Strike Eagle, F16 Falcon, F14
+Tomcat, Mig 29 Fulcrum etc. I'm still thinking about it.
+
+Since there are no air currents to help a craft maneuver in space, movement is
+very different.  You must rely on your engine thrusters to propel the ship in
+one direction and by modifying the thrust vector, you can change directions
+quickly.  If you moved in one direction and shutdown your engines, the ship will
+continue to move in that direction based on its velocity even if you are facing
+a different direction.  Mastering these maneuvers in heated combat will mean the
+difference between living and dying.  Since your ship can be facing one 
+direction and moving in another, you will have some difficulty intercepting
+other targets.  In order to simplify the user interface and not ruin the
+simulation with actual space flight dynamics, your onboard computers will be
+responsible for actually modifying your input in order to simply the flight
+dynamics.  These computers are directly linked to your ship's flight control
+system and can't be overridden.  These computer tasks include compensating for
+and calculating your thrust vector in slowing the ship down, directional changes
+which are slaved to the NAVITRON computer's currently selected waypoint etc
+As an example, if you are flying (in space) and you hit the <0> key to come to a
+complete stop, the ship will not stop immediately even though your reactor
+thrust vector is at zero.  The flight computer will gradually slow down the
+ship.  During this transition, you may change directions if you so desire and
+the ship will continue moving until it stops.
+
+The ships also have two thrust vectors that you have control over, these are the
+conventional FTOL (Forward Take-Off & Landing) and VTOL (Vertical Take-Off &
+Landing) that are active in space and atmospheric flight. Used effectively, you 
+will soon be able to master space and atmospheric flight. I suggest you run the
+demo in free flight mode and practice.
+
+Another difficult thing to do is dock an Interceptor in the Battlecruiser bay.
+This feature has been disabled in this demo. Instead, an animation sequence is
+used (if you have those animation files).  You can practice those maneuvers in
+readiness for the final product by launching an Interceptor and using your
+FTOL/VTOL controls, to 'skim' over the top of the Battlecruiser between it's
+extended solar panels and flying down the length of the ship.  You will have to 
+master this if you intend to play the final program in 'realistic' mode.  Any 
+mistakes in docking will destroy the Interceptor and damage the Battlecruiser.  
+Since repairs are time critical, you will be in serious trouble if you damage 
+your ship in hostile territory.
+
+All programs have bugs, if you remember, demo v2.00 was 99.9% bug-free and I 
+have tried to maintain that in this release. Please report any bugs via open 
+forum message so that other GALCOM Operatives can pitch in.  I shall not reply 
+to any bug reports via e-mail.
+
+I welcome your input, if you have any ideas that would make the finished product
+more user-friendly or enhance it's playability, please send me your comments via
+e-mail.
+
+*******************************************************************************
+
+This program is released as freeware and 3000AD disclaims any responsibility for
+damage caused to your system as a result of it's use.  If you would like the
+entire demo v3.0 on diskettes, please send $20 and a self-addressed envelop to:
+
+GALCOM Supreme Commander
+3000AD
+8306 Mills Drive, Suite 329
+Miami, Fl 33183
+
+Tel 305-273-9875
+Fax 305-273-9876
+Email - Compuserve  71334,2207
+        Genie       D.SMART5
+        Delphi      DMENTOR
+        Prodigy     PFWB30A
+        AOL         DSMART
+        BIX         DSMART
+        Internet    dmentor@delphi.com
+        
+*******************************************************************************
+
+                                  REQUIREMENTS
+                                  ------------
+
+This demo, requires a minimum 1 MB of EMS & 585K of base memory and a 386/486. 
+This means that your system MUST have a minimum of 2MB RAM installed. 
+The program DOES NOT require XMS memory. This demo will not run if these
+minimum memory requirements aren't met.	You will also need a mouse for the
+LOGISTIX computer interface	though it also supports the keyboard.
+
+After installing all your drivers, you MUST have a minimum of 585K ram free.
+DOS 5.0 is required. This demo is compatible with QEMM, 386MAX &
+the DOS memory managers provided with DOS 5.0. However, it is suggested that
+you create a boot diskette that loads only your memory manager & mouse since
+some memory manager switches are very troublesome. 
+
+585K of free conventional ram = (585x1024)  - 599040 bytes
+1MB of free EMS ram           = (1024x1024) - 1,048,576 bytes
+
+Run chkdsk to check your available free memory. Your memory manager should
+have a utility that allows you to view the available free EMS.
+
+A VGA monitor + VGA graphics card (minimum 256K RAM) is required.
+
+A joystick is optional but not required. 
+
+On 386 or 486SX systems a math-co will be automatically used if detected. On
+486DX systems it will automatically be used.
+
+After you have verified these requirements, run SETUP.
+
+                                CONFIGURING SETUP
+                                -----------------
+
+The SETUP screen contains several options that determine various game options.
+It also displays the amount of free EMS, conventional memory & the processor.
+Use the keyboard/mouse and select the option that you wish to change. Press 
+<ENTER> on the option to see the various settings. On completion go to
+the EXIT button and press <ENTER>, your options will be saved. Mouse is active.
+
+AN '*' indicates that this option is not available and therefore defaults to
+a value that you cannot change. This demo only contains the VGA 
+animation sequences. You will require the BCSVGA.ZIP file which contains the
+SVGA animations. SVGA animations requires a superVGA monitor and a graphics
+card with minimum 512K graphics RAM.
+
+The old Adlib card was not developed for the playback of digitized sounds
+therefore, digitized sound will be of very poor quality if using this card.
+It also does not support simultaneous playback of digitized sound and MIDI
+music as cards that use DMA, such as SoundBlaster, SBPRO etc.  During the demo,
+when switching from MIDI to digitized sound and vice versa, there may be a
+degradation in quality of the sounds played, also since it can only play one
+sound at a time, the current sound will be terminated if a new sound is
+introduced for playback.
+
+The AdlibGOLD card is totally different from the original, however,
+there may be an audible 'click' in between digitized sound/FX, we hope to
+resolve this issue by the final release.
+This program does not utilize the stereo features of the SoundBlaster PRO card.
+If you have a Gravis UltraSound card, select SoundBlaster. Don't forget to load 
+the SBOS driver that came with the UltraSound board!!  You may have to
+experiment with the various settings for this driver.
+
+While at the SETUP menu, if you have changed the I/O, IRQ & DMA settings for
+your card (SoundBlaster, SBPRO etc), you MUST use 's' to set them up.  If you
+don't, the program will use the factory defaults (220,7,1).  If these settings
+are incorrect, you will not be able to hear the digitized sound/FX.
+
+PCspeaker support was included as a cruel joke for those of you who still don't
+have a soundcard. When you hear this, you WILL go out and buy one. Trust me.
+
+- Sound/FX      - /None/SBlaster/SBPro/ProAudio/Adlib/ATI/AdlibGOLD/PCSpeaker
+
+- Music/FX      - /None/SBlaster/SBPro/ProAudio/Adlib/ATI/AdlibGOLD/ROLAND
+
+                   The ROLAND system is not supported in this demo
+                   
+- Control       - /None/Joystick/Thrustmaster/Flightstick
+
+                  The Thrustmaster & Flightstick controls are not supported
+                  in this demo. You can only use them for directional control
+                  like a normal joystick (if my auto-detect works <g>).
+                   
+- Detail Level  - Low/Medium/High ( high detail results in slower running code )
+
+- Enemy Intel   - Rookie/Veteran/Ace ( the higher, the more difficult )
+
+                  An Ace enemy level means that radar systems will detect, 
+                  acquire and fire at you faster. Enemy pilots will be harder
+                  to defeat in a dogfight and they also activate high level
+                  AI combat procedures. This demo DOES NOT contain the
+                  nightmarish level of enemy AI since most of the systems
+                  required to play at that level are disabled. Nonetheless, 
+                  you'll have fun.
+
+- Demo Mode     - FREEFLIGHT ( Enemy uses dud ammo and you cannot be killed )
+                  MISSION    ( Enemy use live ammo )
+                  ANIMATIONS ( Disabled )
+                  
+- Animations    - ENABLE/DISABLE ( configures animation sequences )
+
+                  Select DISABLE if you do not wish to play animation sequences
+                  during the game or if you do not have the animation files.
+                  In the absence of the animation files, animation sequences
+                  will not be played during gameplay.
+                  
+- Monitor       - SVGA/VGA ( select SVGA if you have the SVGA animation files )
+
+- VREC*         - YES/NO ( select YES if you have the Voice Recognition module )
+
+- SCI-LINK*     - YES/NO ( select YES if you have the SCI-LINK module )
+
+- MISSION*      - YES/NO
+
+                  select YES if you have an optional mission disk, at the
+                  Mission Directives menu in the game a list of the mission
+                  disks will be displayed for your selection.
+
+- Transcript   -  /NONE/LPT1/LPT2/COM1/COM2
+  Device*
+                  If you have a printer, select the appropriate port. All
+                  incoming messages will be forwarded to it. If the printer
+                  runs out of paper or an error occurs during gameplay, a
+                  text file 3000AD.LOG will be generated. This text file is
+                  also created if you select NONE.
+
+- EXIT          - Select the 'tick mark' to save your setup configuration
+
+- ABORT         - Select the 'cross mark' to abort your setup configuration
+
+                                MISSION OVERVIEW
+                                ----------------
+
+If you selected FREEFLIGHT or MISSION option at SETUP, a mission called
+'The Gammulan Contact' is generated. This contains 2 phases, 1 & 2.
+Since this demo starts with you at the controls of the Battlecruiser
+somewhere in space, you will be notified of these missions by GALCOM HQ
+as the game progresses.	The game starts with you outside GALCOM HQ (check your
+radar system). GALCOM HQ is positioned in high orbit outside Earth.
+
+Phase #1
+--------
+
+A Gammulan Class B StormCarrier ( it also deployed a probe outside Venus) 
+has been detected outside Mars. You are required to intercept and destroy it 
+using any means possible and also thwart the attack on the Mars colony of 
+FirstLight.
+
+This ship contains 50 combat personnel, a bridge crew of 5, 2 TN-31 Corsairs &
+2 Starfighters. The StormCarrier launched 2 Corsairs to Mars to destroy the
+FirstLight colony.
+The GALCOM team on FirstLight only have firepower to last an hour's
+skirmish. See the specifications for the ships and weapons platforms used in
+this demo. If the Corsairs succeed in destroying FirstLight, they will return
+to the StormCarrier which will then head for Earth to destroy GALCOM HQ.
+
+If the FirstLight colony is destroyed, you have failed this phase. If you allow
+the StormCarrier to escape, it will join the other ship in phase #2 making the
+mission more difficult to complete.
+
+You are also required to destroy an unidentified alien probe outside
+Venus in the Solar system.
+
+If you cannot locate and destroy the probe, the enemy ships in phase #2
+continue to receive tactical combat data from the probe and make the enemy
+ships more difficult to defeat.
+
+Phase #2
+--------
+
+While you are intercepting the Gammulan strike team around Mars, a Gammulan
+Venom class StarCarrier is fast approaching GALCOM HQ. You are required to
+intercept and destroy it otherwise it will destroy GALCOM HQ.
+
+This ship has a mission to destroy GALCOM HQ, if you failed phase #1
+of this mission, the probe will constantly feed data between both ships and
+the Gammulan StormCarrier will join the StarCarrier in order to destroy GALCOM
+HQ. Your Battlecruiser is no match for these two ships and all their firepower
+and support ships.
+
+GALCOM HQ has also launched 2 combat LightStar fighters to defend the HQ. These
+will engage the enemy ships. Be careful who you shoot at!!
+
+If GALCOM HQ is destroyed, you have failed completely.
+
+                                OTHER IMPORTANT INFO
+                                --------------------
+
+This demo has minimum functionality therefore most functions will probably
+not operate as they should if other key related functions have not been
+implemented. That's what a demo is about.
+
+If you are killed whilst in command of an Interceptor, you will be returned
+to the bridge of the Battlecruiser.
+
+If you run out of power whilst in command of an Interceptor, simply switch to
+the Battlecruiser controls. You will still be able to make future switches to
+the disabled Interceptor but you will not be able to control it since it will be
+drifting in space. You have sufficient power to complete both phases of this
+mission.
+
+                  CONDITIONS FOR END GAME	IF IN 'MISSION' MODE
+                  --------------------------------------------
+  
+  . Battlecruiser is destroyed
+    If Interceptors were previously deployed, the player will automatically
+    be switched to one of them and can assume control until power runs out.
+  . Battlecruiser + both Interceptors are destroyed
+  . Battlecruiser nuclear reactor is severely damaged and shuts down. The
+    nuclear reactor will shut down when it is sustains 95% damage. Your total
+    power source comes from both the nuclear and solar reactors. If one shuts
+    down or it's power is totally depleted your remaining power will be
+    determined by the amount left in the other's reserves.
+  . The player will lose control of the Battlecruiser if the life support
+    fails. Everyone will die. The same applies for the Interceptor.
+  
+  Any system that fails cannot be repaired. The ship will drift uselessly
+  you may exit and restart the game. 
+
+                                   NAVIGATION
+                                   ----------
+
+                               NAVITRON computer
+                               -----------------
+
+In this demo, the ships navigation computer is non-interactive. All mission
+waypoints will be automatically uploaded to the NAVITRON computer when a
+mission is generated. ie when you receive communications from the GALCOM
+Supreme Commander. The NAVITRON computer in the finished product allows you to
+set any point in space or on a planet as a waypoint. It also allows you to set
+waypoints for remotely launched Interceptors. To see a screen capture of the
+planetary mode of this computer, press <ALT+M>.
+
+The Battlecruiser and Interceptor employ a very simple method of navigation
+which is simpler than the version in the finished product.
+
+On startup the waypoints available are for Mars, Earth, Venus and an unknown
+target detected by your Navigation Officer. Use the <W> key to cycle
+through all the available waypoints and activate the Flight Path Designator,
+FPD, this displays the name in the top middle of Battlecruiser bridgeviewer or
+Interceptor HUD. The 'unknown' waypoint is the Gammulan probe outside Venus.
+
+The FPD is a series of 3D rectangles superimposed on the ship's forward
+display. They 'point' to the general direction of the currently selected
+waypoint. When you are far away from the waypoint, the FPD is red, when you are
+VERY close it is yellow. The size of the FPD also changes according to
+a) your distance from the waypoint and b) your speed. If all of a sudden the FPD
+ranging rectangles seem large, this means that you are close to waypoint and
+traveling fast. To head in the direction of the waypoint, orient the ship
+until the FPD is in front of you and simply fly straight to it. If you lose
+track of the FPD, refer to the section on TACSCAN to use mode #3 to track the
+FPD.
+
+To compress time and reach your destination quicker use <SHIFT+W> repeatedly.
+You must keep your finger depressed on the <SHIFT> button and press the <W> key
+until you reach the waypoint. THIS WAS ORIGINALLY FOR OUR OWN PURPOSES. IF
+USED CONTINOUSLY, THIS WILL RESULT IN YOUR OVERSHOOTING THE WAYPOINT. ALSO, SINCE
+ALL MISSIONS ARE TIME CRITICAL, YOU MAY MISS SOME IMPORTANT MESSAGES WHICH
+YOU CAN GO BACK AND REVIEW USING THE <R> KEY AT THE COMMS STATION SINCE THEY
+WOULD NOW BE OLD MESSAGES!!! I SUGGEST YOU TRAVEL AT THE SHIP'S FASTEST SPEED
+INSTEAD OF USING THIS OPTION. BE FOREWARNED.
+
+                               LOGISTIX computer
+                               -----------------
+
+This mode of the LOGISTIX computer was included in order to give you an idea
+of it's functionality. This computer forms the heart of all the ship's
+operations. In the event that key personnel stations are not manned, most of
+those functions can be performed at this computer.
+
+In this demo, you can only view your Battlecruiser's damaged systems. Select
+the [SYS] button, when the other button bar appears, select [STATUS], another
+button bar will appear which indicates the different decks. Select which deck's
+systems you wish to view [DECK1] [DECK2] [DECK3] [SUB-DECK]. A 2D schematic of
+the Battlecruiser and the systems will appear. A system that is fully functional
+is displayed in green, yellow means it has suffered damage and red means that
+it is completely destroyed and inoperable. The lines around the ship's
+schematics are the ship's outer hull armor. This is also color coded as the
+ship's systems.
+
+Press <ESC> to exit from the LOGISTIX computer.
+
+                                PERSONNEL
+                                ---------
+
+In this demo, you have no control over your personnel resources. You ship's
+crew is still onboard carrying out there various tasks. In the finished product
+you be able to reassign, recruit & fire personnel and they will frequently
+communicate with you and sometimes ignore your orders. Also, they will take
+combat damage when hurt during ship combat or in the case of marines when on a
+combat mission onboard a ship or on a planet surface.
+
+In this demo, you can only view your ship's personnel by using the <P> key at
+the COMMS station of the Battlecruiser. See the section below on the various
+ship stations.
+
+                                FIRST FLIGHT
+                                ------------
+
+ - Battlecruiser : BRIDGE station
+
+When the game starts, you will be at the bridge of the Battlecruiser. The
+game time will be 04:00:00 and your speed will be set at CruiseSpeed 5, CS5.
+For this demo, your maximum speed is LightSpeed 3, LS3. You cannot exceed
+this since hyperspace travel is not permitted in this demo. You will not
+be able to leave the Solar system since you don't have enough power anyway.
+
+- Shields are on with 100% protection level
+- Nuclear reactor has 100 units power
+- Solar reactor has 60 units of reserve power
+- Laser's have 100% charge
+- Hull armor is at 100%
+- Weapon systems are armed
+      Weapons available:
+
+      Battlecruiser : 10 x STS-Starflash
+                      10 x STS-Firestar
+                      10 x STS-Perseus
+                       2 x OTS-Skyflash
+
+      Interceptor#1  : 4 x STS-Starflash     Interceptor#2  : 4 x STS-Starflash
+                       4 x ATA-Magellan                       4 x STS-Perseus
+                       4 x ATS-Hyperdyne                      4 x ATA-Magellan
+
+- NIM is at mode #1
+- CVD is configured for SSD mode
+- Radar systems are on and the TACSCAN is at mode #1
+- The SSI icons will be lit depending on which systems are active
+- Other bridgeviewer data is also displayed
+
+You will receive a video message from GALCOM HQ on channel #1 of the COMMLINK.
+
+ - Battlecruiser : COMMUNICATIONS station
+
+Press F4 to switch to the Communications station. Don't worry
+about control, your Flight Officer and First Officer will maintain your
+current course heading and speed. The image of the GALCOM Supreme Commander
+will appear and the computer will display the message. Later you can replay old
+messages by using the <R> key. Old messages are displayed in gray.
+In this demo, there is no interactive communications. In the finished product
+you will be able to communicate with your crew, launched Interceptor pilots,
+GALCOM HQ, deployed combat marines, other aliens etc.  Use the <P> to cycle
+through your current personnel resource. Whilst flying the Interceptor, if you
+get the 'Urgent Message Received' message from your COMMS officer, you have to
+switch to the Battlecruiser and access the COMMS station to read the message.
+
+ - Battlecruiser : NAVIGATION station
+
+Now that you've viewed your orders, press <F2> to switch to the Navigation
+station and look around. This station is inactive in this demo and only
+displays you location and that of the two Interceptors in 3D space. Press
+<CTRL+M> to active the NAVITRON computer directly. This will show a dummy
+image of the computer.
+
+OK, exit NAVITRON with <ESC> and press <F3> to switch to the Tactical station.
+
+ - Battlecruiser : TACTICAL station
+
+This station is one of the most important and complex areas of the ship. The
+section that deals with the various ship's systems will explain in detail what
+it does. For the purpose of this demo, only four options have been activated.
+These are
+                     1) current weapons loadout
+                     2) personnel resource
+                     3) power allocation
+                     4) power distribution.
+
+When you've finished, press <ALT-L> to access the LOGISTIX computer to view
+the ship's systems damage status. See the LOGISTIX section.
+
+On exit from LOGISTIX, press <F1> to return to the bridge.
+
+- Battlecruiser : Flight Training
+
+*note*
+
+The controls and systems are identical in both the Battlecruiser and
+Interceptor, except that you cannot access the NAVITRON and LOGISTIX computers
+from the Interceptor since they are installed on the Battlecruiser.
+
+	  - Bridgeviewer
+	  
+This version of the bridgeviewer is a scaled down version than that of the final
+version.  All the systems are active with minimal functionality.  The
+bridgeviewer display shows 1) The waypoint heading/range, 2) current time, 
+3) current position in 3D space, 4) current starsystem, 5) engine thrust vector
+and 6) cloak status.
+
+All the icons on the Battlecruiser are also active.
+
+      - Navigation
+      
+Back at the bridge, press the <W> key to select Mars as the current waypoint.
+You will not see the Flight Path Designator, FPD since Mars is at a different
+bearing.  Use the <M> key until mode #3 of the TACSCAN is active.  This mode
+tracks the FPD orientation.  See the section on the TACSCAN unit.  Use your
+controller to 'yaw' the ship to the right until the FPD is visible in the
+bridgeviewer. 
+
+Power up the ship to LightSpeed 1 by pressing <SHIFT+1>.  The ship's reactors
+will start.  When the reactors are powered the engines will start and you will
+hear a low rumble.  As you proceed toward Mars, the FPD will display the range
+to Mars, this range is also displayed in the TACSCAN computer. 
+
+You can power to a faster speed if you want. Try <SHIFT+9>.
+
+When you are about 100000 units from Mars (it should be visible from your
+bridgeviewer) press 0 to cut the reactors and bring the ship to a stop.  The
+computer will automatically compute the space-time differential and apply the
+required reverse thrusters to bring the ship to a complete.  Don't be surprised
+if the ship does not stop immediately.
+
+	  - Interceptor launch
+
+Press <ALT+F1> to launch Interceptor #1.  'Mother' the ship's computer will run
+a systems status check and initiate the launch sequence.  'Mother' will not
+relinquish control of the ship until it has completely launched and dropped
+clear of the Battlecruiser.  When the message 'Interceptor launched' is received
+from 'Mother', you now have control.
+
+You should be facing Mars so there is no need to select a waypoint.  Press
+<SHIFT+1> to power up to cruise speed 1 and you will begin to move toward Mars.
+When you enter the planet's atmosphere, the flight dynamics of the ship will
+change radically.  On entering the planet's atmosphere, new waypoints will be
+added to the ships navigation computer.  These include some ground
+installations, the city of FirstLight and the two enemy Corsair fighters.
+
+Select one of the 'ground installation' waypoints and head toward it.  Press
+<Backspace> to select a missile.  In this demo a missile will destroy any
+target.  In the final program all weapons have specific characteristics and you
+will have to chose the perfect weapon to destroy a target.
+
+Maneuver the ship to bring the FPD into view (in the Interceptor it is a series
+of circles). Change the range of the TACSCAN to long range using the </> key.
+As the target comes into view, press <T> to lock it into the ships weapons
+system, then press <S> to switch the TACSCAN to 'single target tracking' mode.
+The image of the target should now appear in the CVD display.  When the 'missile
+tracking designator', a cross, moves into the 'designator box' launch a missile
+to destroy the target. You can also use lasers if you wish.
+
+If you feel lucky, you can try to engage one of the enemy ships.  I suggest you
+continue with the tutorial and restart the game to play the mission properly
+when you know what you're doing.
+
+Now that we've destroyed a target, let's return to the ship.  Press <V> to
+switch your ship's engine thrust vector from FTOL to VTOL.  The ship will start
+to ascend.  After awhile you will leave the planet, enter orbit and eventually
+leave orbit.  You can also switch to the Battlecruiser by using <CTRL+ESC>
+at anytime. Your alter ego and his sidekick will assume command of the 
+Interceptor.
+
+	 - Docking
+	 
+In this demo you cannot dock at GALCOM HQ. In the final program you need to 
+request docking clearance before the docking bay door is opened.  If you fly
+into a closed bay, your ship will take damage and possibly be destroyed. 
+
+You cannot initiate manual docking in this demo.  To auto dock the Interceptor,
+switch to the Battlecruiser and use <CTRL+F1>.  Depending on the far the ship is
+from Battlecruiser, the docking animation sequence (if you have the animation
+files and selected this option at setup) will be played and the Interceptor will
+dock. You cannot dock an Interceptor that is within a planet's atmosphere.
+
+You can collide with everything in this demo, the results are very unpleasant
+if you have selected MISSION mode. In FREEFLIGHT your craft is invincible.
+     
+     - Combat
+                           
+You can assume control of any Interceptor that is currently active. If the
+Interceptor is currently docked, you will be sitting at the controls looking
+into the internal Battlecruiser docking bay. Wait until the clearance message
+is played then press <ALT+L> to drop launch. Since you cannot remote launch
+Interceptors in this demo, you can use <CTRL+ESC> to return to the Battlecruiser
+bridge if you change your mind, the Interceptor will not launch. When you
+switch from ship to ship, the ship you switched from will maintain it's
+current heading. The AI in this demo will only handle minimal auto flight.
+If you are attacked or in the middle of a dogfight, you may lose the fight
+if you do not assume control of the ship. This feature was done so that you
+don't play the entire game by relying on the program AI!! In the final program
+since a lot of things will be happening, this feature is fully implemented.
+
+You cannot issue commands to your wingmen in this demo. In the final game you
+can issue commands to other Interceptor wingmen from the controls of the 
+Battlecruiser or Interceptor and they can also communicate with you.
+
+If the interceptor is already launched you will be placed in the cockpit.
+You cannot switch to any ship that is destroyed. If you are in the Battlecruiser
+you will get a COMMLINK message advising you of any destroyed Interceptor.
+
+In this demo, you only have 2 Interceptors.
+
+If you complete both phases of the mission, you will receive a final
+message from GALCOM HQ and the demo will be over. If you still have power
+left, you can still fly around until you run out, at which point the demo
+will end and the logo screen will return.
+
+                                 THINGS TO TRY
+                                 -------------
+
+1.  External views <F5> of Battlecruiser and Interceptor while facing a planet
+2.  Activate the cloak <ALT+C> in the Battlecruiser and immediately switch to
+    the external view <F5> and watch the ship cloak. After the timer expires,
+    it will de-cloak.
+3.  Launch an Interceptor and try to fly over the top of the Battlecruiser
+    through the vertical solar panels. FTOL/VTOL switches will help with the
+    orientation.
+4.  Park an Interceptor in front of the Battlecruiser and switch to the
+    Battlecruiser bridge to look at it. Also, track it in the TACSCAN and shoot
+    it <g>.
+5.  Blowup all the ground targets on Mars for practice.
+6.  Fly around GALCOM HQ (in orbit around Earth).
+7.  Land on a planet surface. ( use VTOL mode )
+8.  Attack the LightStar fighters launched by GALCOM HQ in phase #2.
+9.  Attack GALCOM HQ.
+10. Run SETUP21 and select MISSION. Start the game and go pick a fight. When
+    the Battlecruiser takes damage (use <C> to check in CVD), access the
+    LOGISTIX computer with <ALT+L> and check out the damaged systems.
+11. Slow the Battlecruiser to CruiseSpeed 20, (<1> and the <-/+> to fine tune),
+    then launch an Interceptor. After you get control of the Interceptor, the
+    Battlecruiser which will still be moving and will fly past you, power up the
+    Interceptor to CruiseSpeed 20 (slower than the BC equivalent) and try to
+    follow the Battlecruiser. You should try flying over it, under it, around
+    it, whatever turns you on. If the Battlecruiser is moving too fast, the
+    Interceptor may not be able to catch up. Make sure you try this in
+    FREEFLIGHT mode otherwise you will damage both crafts if you collide. Not
+    to mention the fact that you will be attacked by hostile forces.  If you
+    really want to go overboard, after matching the speed of the Interceptor to
+    that of the Battlecruiser, launch another Interceptor and do the same thing,
+    this time flying around both crafts.
+
+*******************************************************************************
+                     
+                                BATTLECRUISER CONTROLS
+
+*******************************************************************************
+
+The following files must be printed/viewed with an image viewer to get a
+description of the systems described here.
+
+BRIDGE.PCX - Battlecruiser forward bridge
+TACT.PCX   - Battlecruiser Tactical station
+COMMS.PCX  - Battlecruiser Communications station
+NAV.PCX    - Battlecruiser Navigations station
+                             
+You need to print the files BCSCHEM?.PCX & INTSCHEM.PCX file for these sections
+while reading this printout. This is merely a demo, therefore the operation of
+these systems and their functions will not be discussed in depth. A brief
+explanation will suffice.
+
+
+BRIDGE STATION : Forward view
+PERSONNEL      : Commander
+                 Flight Officer ( autopilot)
+                 First Officer  (personnel requests, advise etc)
+
+In this demo you have all your bridge staff who will get hurt in combat.
+You cannot heal them and you cannot perform any repairs.
+ 
+ 1.     Tactical Status Indicator, TSI
+                 
+                 - surface target detect
+                 - surface target track
+                 - surface-to-air launch
+                 - air/space target detect
+                 - air/space target track
+                 - air-air/space-space launch
+        
+        These indicators always flash red when active with the exception of the
+        'surface-to-air launch' & 'air-air/space-space' indicators which change 
+        to yellow momentarily if the missile lock is jammed and finally to the 
+        default green state. You will hear an audible warning beep.
+        
+ 2.     Tactical Scanner display, TACSCAN
+ 
+        The TACSCAN has 5 different operating modes. The <M> key is used to
+        switch between modes, except Mode #2 which is automatically activated
+        when you switch to Single Target Tracking mode.
+        
+        Scanning Ranges :
+        -----------------
+        
+        Long Range,   LR = 2.0 pc = 6.4 ly = 640 gu
+        Medium Range, MR = 1.0 pc = 3.2 ly = 320 gu
+        Short Range,  SR = 0.5 pc = 1.6 ly = 160 gu
+        
+        pc = parsec / ly = light year / gu = galactic units
+        
+        MODE #1 - Multiple Target Track (planet/space craft targets)
+        
+        The ship's position is located at the center of the display where the
+        crosshairs meet. Any target that comes within these ranges will be
+        tracked on the TACSCAN.
+        
+        Even though this system accurately simulates a 360 deg sweep around the
+        ship, 0 deg position is at the top, 45 deg is directly right, 180 deg
+        at the bottom and 270 deg is directly left. In space there is no 'up'
+        or 'down' nor 'left' or 'right'. These calculations for the ship use
+        a GALCOM probe at the center of the game universe, as a point of
+        reference when calculating this angles.  Your ship's navigation relay
+        system accurately triangulates the probe's position, your current
+        position and your desired waypoint to provide accurate navigations data.
+        If this probe is destroyed or malfunctions, all navigations will have to
+        be done manually using the charts in the NAVITRON computer.
+      
+        Target types :
+        
+        Blue dot                - GALCOM/friendly ship
+        Blue line               - disabled GALCOM/friendly ship
+        Red dot                 - Gammulan/alien ship
+        Red line                - disabled Gammulan/alien/unidentified ship
+        Flashing                - selected target
+        Gray dot                - deployed interceptor
+        Gray line               - disabled interceptor
+                 
+        The </> key is used to increase the radar range from LR (default) to
+        MR and SR. When you switch to MR, the entire display is scanned at
+        that range and likewise at SR. At all ranges, any targets not within
+        that scanning range will not be displayed. At MR & SR, the ranging
+        squares disappear and only the cross-hair remains. The display is
+        identical to that used in the Single Target Tracking Mode but the
+        targets are still only dots or lines. The text MR or SR is displayed 
+        in the display.
+
+        The <T> key is used to select a target in the TACSCAN for tracking.
+        When a target is selected in the TACSCAN, a square which is the
+        weapon system's 'Target Tracking Reticle' is superimposed on the 
+        bridgeviewer or cockpit in the general direction of the target IF the 
+        target location falls within the ship's viewing range.  You can orient
+        the ship to bring the TTR into view.
+
+        The <L> key locks this tracked target to the ship's firing system, if
+        it comes into range, the ship's Passive Target Acquisition, PTA, system
+        will automatically fire at it with no interference from the player. To
+        remove a target from PTA, use the <T> key to select it, then use the 
+        <L> key to cancel the PTA command. It will stop flashing. If a PTA
+        target is destroyed, moves out of range or breaks tracking lock, it
+        will disappear from the display and the PTA system will remove it
+        from memory.  A PTA target is a flashing 'x' based on the previous color
+        of the target.
+                
+        *** The PTA feature is inactive in this demo. ***
+        
+        <C> sends a message to this target indicating that you wish to
+        communicate with it. If the target ship's commander decides to enter 
+        dialogue, the message 'comms request acknowledged' is displayed in the 
+        COMMLINK and the target's icon in the TACSCAN will change to flashing 
+        white otherwise it will display 'comms request ignored'.
+        You must now switch to the COMMS station or deselect the
+        target from communications using the <C> key. If the target has also
+        designated your ship for communications dialogue, 'incoming comms
+        request' is displayed in the COMMLINK. You can ignore it by using the
+        <I> key, the target's icon will stop flashing.
+        
+        You cannot select a target for PTA if it is currently selected for 
+        communications and vice versa.  There is no interactive comms dialogue
+        in the Interceptor. All comms messages are brief and displayed in the
+        COMMLINK.
+
+        *** Interactive communications is inactive in this demo. ***
+        
+        The position of all tracked targets is constantly updated. Targets in
+        hyperspace cannot be tracked. When in hyperspace, the TACSCAN only
+        tracks targets that are in hyperspace with you, ie a ship in pursuit.
+        Weapons cannot be launched in hyperspace.
+         
+        If a ship has it's radar systems activated, it can also be detected
+        by other ships on their radar even if 'cloaking' is activated.  Cloaking
+        simply makes your ship invisible to the naked eye, it is still visible
+        by radar.
+                
+        A ship currently captured in the tractor beam will not show up on
+        the TACSCAN radar.  The message 'Tractor' is displayed on the
+        Battlecruiser bridgeviewer if a ship is currently in tow.  You cannot
+        activate the tractor beam if the ship is cloaked or the shields raised.
+        
+     	MODE #2  - Single Target Tracking  (planet/space craft targets)
+        
+        In order to fire a missile at a target tracked in the TACSCAN MTT mode,
+        you must first switch to Single Tracking Mode, STT mode #2 by pressing
+        the <S> key.
+        
+        If a weapon is selected and weapon systems armed (Battlecruiser only, 
+        selecting a weapon in the Interceptor arms the weapon systems also), 
+        the 'Target Tracking Crosshair' will appear & start to move into the TTR 
+        When the target falls within range of the weapon, it will begin to
+        flash rapidly indicating a positive lock.  The targeting reticle 
+        remains WHITE, IF the target is too close in proximity and launching a 
+        weapon will either miss or damage your ship in the blast, the reticle 
+        will start to flash RED and the message 'Warning : proximity breach' 
+        will be displayed in the COMMLINK and the audible 'warning' message 
+        played by the ship's computer. If the launch parameter is ok, you can 
+        fire a missile, if the target was hit, it will be destroyed, at this 
+        point the TACSCAN will revert to MODE #1 since the target lock is no 
+        longer valid.  Also, if the target moves out of range or jams the
+        signal, the TACSCAN will lose it's tracking lock.  When you achieve a
+        positive lock, you can launch a missile at the target.
+
+		When mode #2 is activated, the following data is displayed in the
+        TACSCAN. 
+
+        1           2
+       ÚÄÄÄÄÄÄÄÄÄÄÄÄÄ¿		1 = 'P' if target locked to PTA system or 
+       ³             ³   	    'M' if on manual tracking               
+       ³             ³   	2 = TACSCAN range                         
+       ³             ³   	3 = Target speed                          
+       ³             ³		4 = Target bearing                        
+       ³             ³      
+       ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÙ      
+        3           4       
+                            
+        While in STT mode, a 3D image of the currently tracked target is
+        displayed in The Computer Video Display, CVD.  Pressing the <I> key will
+        display additional data for the target on the Battlecruiser bridgeviewer
+        This data is in the form :
+        
+        1. Height (relative to yours)
+        2. Range
+        3. Speed
+        4. Bearing in degrees
+        5. Heading in degrees
+        6. Closure rate
+        7. Weapon status   - Armed/Standby
+        8. Shield status   - Raised/Lowered
+        9. Ship type       - T  = Terran
+                             G  = Gammulan
+                             S  = Syrion
+                             E  = Empirian
+                             D  = Droidan
+                             M  = Mandorian
+                             K  = Kandorian
+                             V  = Vesperon
+                             VA = Valkeri
+                             F  = Falkeri
+                             Z  = Zelon
+                             C  = Credian
+                             U  = Unknown
+        
+        If the target goes out of range or jams the TACSCAN radar signal, the 
+        tracking info or the 3D image in the CVD will be cleared. 
+
+        *** The target tracking data is not displayed in this demo ***
+        
+        MODE #3 - Flight Path Designator Track
+                        
+        This mode is used to assist in the tracking of the Flight Path 
+        Designator when tracking a selected waypoint.
+        
+        The 'Orientation Indicator' splits the display into two parts. The OI
+        changes as the ship banks from left to right. The lines at the end
+        of this indicator show which way is 'up'. The longer end is 'down'
+        and the shorter is 'up.'  
+
+        The green line indicates the heading the ship must turn to in
+        order to be headed directly to the currently selected waypoint tracked
+        by the FPD.  If it changes to red, this means that you must orient the
+        ship in the opposite coordinate. 
+        
+        As with the other modes, this data is displayed.
+        
+         1           2
+        ÚÄÄÄÄÄÄÄÄÄÄÄÄÄ¿    1. current heading
+        ³             ³    2. bearing to current waypoint
+        ³             ³    3. waypoint number ( change with <W> )
+        ³             ³    4. Distance to waypoint
+        ³             ³
+        ³             ³
+        ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+         3           4
+
+
+        MODE  #4 - Multiple Target Track (planet ground/space targets)
+        
+        This mode displays any targets that are tracking the ship. They can
+        be planetary ground or space based radar tracking stations. This system
+        works like MODE #1 but the 'dot's are replaced by icons. 
+        The green diamonds are stationary radar sources and the rectangles
+        are other ships. Missile tracking info is also displayed here. 
+        There are also numbers displayed within the green icons. Again, their 
+        orientation in the display indicates their bearing.
+        
+        This list indicates what the numbers in the rectangles mean :
+        
+        1. An ASL radar system is tracking the ship
+        2. An SASL radar system is tracking the ship
+        3. A VSL radar system is tracking the ship
+        4. An ITL radar system is tracking the ship
+        5. A LITAS radar system is tracking the ship
+        6. A VITS radar system is tracking the ship
+        
+        This list indicates what the numbers in the triangles mean :
+        
+        1. Launched weapon with CTL tracking source
+        2. Launched weapon with ATL tracking source
+        
+        If a radar site shuts down or is destroyed it's icon is removed from the
+        display.  A Missile whose energy is depleted or has lost it's tracking
+        data is also removed. 
+        
+        Ranges :
+        
+        IN SPACE
+
+        Long Range      - 1.0 ly                          0.4 ly
+        Medium Range    - 0.4                             0.2
+        Short Range     - 0.2 (exclusion zone)            0.1
+
+        ON A PLANET :
+
+        Long Range       - 100 nautical miles             030 nm
+        Medium Range     - 075                            020
+        Short Range      - 050 (exclusion zone)           010
+        
+        When the TACSCAN is in this mode, target acquisition using the <T> key
+        is used to cycle and track ground based targets directly from the ships
+        point of view. Target acquisition is not activated from the TACSCAN.
+        
+        After selecting a target, you can also switch to single STT mode and
+        identify the target using the <S> key.
+        
+        MODE #5 - Deployed Craft Tracking System
+        
+        This mode is used for tactical purposes only and helps located all your
+        deployed craft.
+        
+        From the Battlecruiser this display tracks all deployed Interceptors
+        within a range of 1 ly.  From an Interceptor, it tracks other
+        Interceptors and the Battlecruiser.  Each Interceptor is represented by
+        a gray icon while the Battlecruiser is a blue icon.
+        
+        MODE #6  - Weapons Video Targeting System
+        
+        This mode is used to launch ATL/V & RITL/V weapons and is automatically
+        activated when any such weapon is activated.
+        
+        It displays and infra-red camera view of the terrain or space ahead as 
+        processed by the camera in the currently armed weapon.  If a valid
+        target falls within this view arc (directly in your flight path), it
+        will be displayed here.  The TTR will be superimposed on the
+        bridgeviewer/cockpit in the general heading to the target. The W/VTS 
+        system will pick up the image even if you are out of visibility range. 
+        This gives some standoff capability. If the weapon is launched it will 
+        fly directly to this target.  After the target is destroyed, the image
+        is cleared until another target is locked by the pilot using the <T> 
+		key.  If the target is no longer within the camera's viewing arc, the
+		image is also cleared.
+		
+        Weapons that use the VTS system are those that use ATL/V & RITL/V 
+        targeting logic such as ATS-Hyperdyne, OTS-Skyflash etc. 
+
+		          ****** This mode inactive in this demo ******
+
+ 3.     Main reactor power level
+ 
+        This is a graduated display of the ship's nuclear reactor output level.
+        Each notch is 5% power. The level is indicator by green notches, if the
+        output level reaches or falls below 15%, the notch changes to red. The
+        nuclear reactor is powered by Radine crystals and provides power to all
+        the ship's systems. This display indicates the amount of power that the
+        reactor currently has, based on the amount of Radine available. If the
+        nuclear reactor shuts down and there is sufficient power available in
+        the solar reactor, it will automatically activate and supply power to
+        the ship's primary systems, otherwise all systems will shutdown until
+        power is restored to either reactor.
+        
+        *** You cannot re-fuel in this demo. You have enough power to complete
+        the missions. You cannot initiate any systems power management either
+        ***
+        
+ 4.     System Status Indicator, SSI
+        
+        These icons are green when lit. If the particular system is not
+        operational or is turned off they revert to the default color.
+        
+        Starting from column #1 (down), column #2...
+                 
+        . - Weapon systems
+            Weapon systems armed. 
+             
+        . - Electromagnetic Disruptor
+            Jamming device activated.
+        
+        . - Shields
+            Shields raised.
+        
+        . - Main Reactor
+            Main nuclear reactor on.
+          
+        . - Communications
+            COMMLINK on.
+        
+        . - IFF homing device
+            You are sending a GALCOM IFF signal to the GALCOM ships in the 
+            vicinity. You would normally do this when in a combat area to avoid 
+            being fired upon by friendlies.
+        
+            *** This feature inactive in this demo ***
+        
+        . - Passive Target Acquisition, PTA
+            PTA system activated.
+        
+            *** This feature inactive in this demo ***
+             
+        . - Cloaking device
+            Cloaking device activated.
+        
+        . - Tractor beam
+            Tractor beam activated.
+        
+            *** This feature inactive in this demo ***
+             
+        . - Ship security breach (intruder detected on board)
+        	Intruder on board ship.
+
+            *** This feature inactive in this demo ***
+       
+        . - Docked
+            The ship is currently docked at a starbase/starstation.
+       
+			*** This feature inactive in this demo ***
+			
+        . - Planetfall
+            Ship has entered a planet's atmosphere.
+          
+        . - IFF beam detected
+            A GALCOM/friendly ship is broadcasting an IFF signal. This
+            indicator comes on also if you target a friendly ship in the 
+            TACSCAN radar system or if you are in a combat area with other
+            GALCOM/friendly ships in the vicinity. 
+        
+            *** This feature inactive in this demo ***
+       
+        . - Distress transmission detected
+            A ship, can be a enemy or friendly, is broadcasting a distress
+            signal. You can tell which ship it is by looking at the TACSCAN
+            Mode #1.
+        
+            *** This feature inactive in this demo ***
+                    
+        . - Computing orbital profile
+            The ship's computer has assumed control of the ship on orbital
+            approach. This indicator will turn off when the ship is in orbit
+            and you again have control.
+       
+            *** This feature inactive in this demo ***
+
+        . - Orbit established
+            The computer has completed orbital approach and you are now in
+            high orbit around the planet.
+        
+        . - Tactical Scope, TACSCOPE
+            The TACSCOPE is currently activated.
+        
+            *** This feature inactive in this demo ***
+       
+        . - AudioVisual communications, VISCOM
+            A message with video is waiting in the Communications station.
+            Also indicates that a ship's commander wishes to commence
+            interactive dialogue.
+        
+        . - Message waiting (if incorrect channel is selected in COMMLINK)
+            A regular message was received in the COMMLINK and now resides
+            in the log file. If the message was sent to printer, this
+            indicator will remain on until printing is complete.
+       
+        . - Hyperspace flight mode
+            You have breached LightSpeed, LS 4 and are now in hyperspace.                
+        
+            *** You cannot breach hyperspace in this demo ***
+ 
+ 5.     Solar reactor power level
+        
+        Operation is identical to that of the ship's nuclear reactor. The
+        solar reactor is only on if you activate it or if the nuclear reactor's
+        output reaches or falls below 5%. The solar reactor draws power from a
+        solar source and stores it in power cels. It will continuously recharge
+        as long as the source is within range. When the ship moves out of range
+        it will stop recharging and if it's power cels are drained, it will
+        shut down. Since available power is a combination of the nuclear &
+        solar reactors, a solar reactor shutdown will not affect any systems
+        directly, unless there is insufficient or no power being supplied by
+        the nuclear reactor to maintain the current allocation. If this happens
+        the computer will start to shutdown systems starting from the least
+        important.
+        
+        *** Solar reactor has 100% power but does not recharge in this demo ***
+ 
+ 6.     Navigational Interface Map, NIM
+        
+        The NIM has three modes of operation and has three ranges. 
+        Use <SHFT+F1> to switch ranges. 
+        
+        MODE #1 :
+        
+        In this mode the NIM displays a scrolling map view of the universe  
+        as the ship travels through it. This map contains icons such as
+        planets, starsystems, galaxies, asteroid belts, blackholes, wormholes 
+        etc. It also shows the waypoint icons. If you fly into a starsystem,
+        the map will automatically revert to the map for that system, likewise
+        for galaxies. The red cross indicates the position of the ship. The map
+        range is 1LY (100 gu), and if the cross reaches the edge of the map, it
+        will scroll up for another 1LY range. If the red cross is superimposed
+        over a planet icon, it means that you are in orbit and the NIM will
+        automatically switch to mode #2. You can switch back to Mode #1 even if
+        you're in orbit and vice versa.
+        
+        *** This demo is restricted to the Solar system and it's nine
+            planetary systems. You don't have enough power to go roaming
+            around this system or even to leave it. If you venture outside
+            the demo scenario area, you won't find anything. Only Mars has
+            any inhabitants in this demo. The other three planets are not
+            populated.
+        ***
+        
+        MODE #2 :
+        
+        This mode displays a view of the orbital planet's surface. This scale
+        shows the entire planet's surface as viewed from your position in
+        orbit. The cross now indicates your orbital position over the planet.
+        Icons on this map indicate targets on the planet's surface. Red targets
+        are hostile and green are GALCOM, friendly or neutral. If the planet
+        has an orbital weapon, it's location will be indicated by a flashing
+        icon, anyway if it is hostile, your TACSCAN would've pick it up.
+        Flying targets within the planet's atmosphere are not tracked.
+        
+        MODE #3 :
+        
+        This mode is a 'wireframe' view of either mode #1 or mode #2 based on
+        your current location. It also displays hostile targets such as other
+        spacecraft, spacestations, starstations etc. The scaling is dependent
+        upon your current location. It automatically tracks and updates the
+        locations of all moving targets including launched missiles. Spacecraft 
+        icons are identical to those used in the TACSCAN. If you're in orbit,
+        it does not track the movement of targets within the planet
+        atmosphere.
+
+		*** This feature inactive in this demo ***
+ 
+ 7.     Shields power level
+        
+        Operation is identical to that of the reactors. If the protection level
+        falls below 5%, it will be red. If the power level falls to 0, you
+        will not be able to raise the shields. The shields draw their primary
+        systems power from either reactor to keep activated. It uses Plutonium 
+        to provide protection to the ship. This display shows the amount of
+        protection available based on the amount of Plutonium onboard. The
+        shields can shutdown as a result of Plutonium depletion or if there is
+        insufficient reactor power to keep them activated. The shields require
+        a certain amount of Plutonium to provide optimum protection. Whenever
+        the ship takes a direct hit, the current protection level determines
+        the amount of damage that the ship's armor or hull takes.
+        
+        *** In this demo, the ship has enough Plutonium to allow the shields to
+            recharge up to 100% for up to four game hours only. The greater
+            the force of the weapon on the shield, the greater the breach.
+            The greater the breach, the longer it takes to recharge
+        ***
+
+ 8.     Armor power level
+        
+        Operation is identical to that of the shields, however, this display
+        only shows the amount of protection that the armor provides for the
+        ship's hull. Unlike other systems, the armor does not regenerate,
+        the strength of the current armor fitted on the ship determines how
+        many hits it will take before it is totally breached. As the level
+        in the display reduces, this shows how much protection is now provides.
+        If it falls to 0, this means that it is completely destroyed and must
+        either be repaired or replaced. Repairing/replacing a ship's armor 
+        requires you to dock at a starbase/starstation.
+        
+        *** You cannot repair your ship's hull armor in this demo ***
+ 
+ 9.    Computer Video Display/Systems Status Display/Target Tracking Display, 
+        CVD/SSD/TTD
+       
+        The Computer Video Display also hosts the Systems Status Display as
+        well as the Target Tracking Display. The <C> key is used to switch
+        modes. Modes 1, CVD & 3, TTD are automatically displayed if activated
+        from the TACSCAN but can be changed using the <C> key.
+        
+        The SSD, displays the status of the ship's critical systems. If a 
+        system is operational it's indicator is green, if yellow it is damaged 
+        and if red it is destroyed. Blue indicates that it is currently under
+        repair/replacement.
+         
+         - SHD : Shields                    - CLK : Cloaking device   
+         - WEA : Weapon systems             - EMD : Electromagnetic disruptor
+         - NIM : Navigational Interface Map - COM : COMMLINK
+         - TAC : TACSCAN                    - TSC : TACSCOPE
+         - CMP : Main computer              - PHA : lasers
+         - CVD : Computer Video Display     - ILD : Inbound Launch Display
+         - HID : Hud Integrity Display      - BRG : BridgeViewer
+         - VIS : AudioVisual communications - PTA : Passive Target Acquisition
+         - ENG : Engine                     - LOG : LOGISTIX computer
+         - NAV : NAVITRON computer          - LIF : Bridge life support
+         - REA : Main reactor               - SOL : Solar reactor
+         - PER : Personnel                  - OSD : Other system damage.
+                                                    Damage occurred elsewhere.
+                                                    You must use LOGISTIX
+                                                    computer to access the
+                                                    damage report.  
+
+        *** You cannot perform repairs in this demo ***
+        
+ 10.    Laser power level
+        
+        Operation is identical to that of the other graduated systems. As long
+        as the reactors continue to power the lasers, it will recharge itself
+        automatically after each use. If power is not being supplied to it
+        from the reactor, it will not recharge when power is depleted.
+        The lasers draw power directly from the nuclear reactor. Be careful.
+ 
+ 11.    Hull Integrity Display, HID
+ 
+        The ship' outer hull has four layers of protection. The ship is in the
+        middle of the inner square. Each of the brackets around the ship
+        represent the other three layers of protection which are all initially 
+        green. If the shields did not withstand a hit and are breached, this may
+        also breach the integrity of the armor protection. If that is the case
+        then the layer will be red. If all four layers are breached and the
+        ship's hull takes a direct hit, inside the square will be red. This 
+        indicates that the ship's hull has suffered direct damage. The ship's 
+        hull can only be repaired at a starbase/starstation. After repairs, it
+        will again change to green. Also, if the armor is repaired/replaced all 
+        protection levels will change to green. These protection values are also
+        reflected in the armor level display, each protection level in the HID
+        represents 25% protection in the armor level display.
+        
+        *** If your ship's hull armor is breached, the hull itself will start
+            to take damage if your shields are not operational. Your shields
+            protect the armor from damage which in turn protect the ship's
+            hull. If the integrity of the ship's hull is breached and you
+            suffer significant damage, the ship will explode.
+        ***    
+            
+ 12.    BridgeViewer display
+        
+        The ship's BridgViewer displays valuable realtime data. These are :
+        
+        Lower left corner :
+        
+        Line 1 - currently armed weapon name and amount available
+             2 - current engine thrust vector, FTOL/VTOL
+             3 - autopilot status, displayed if autopilot on
+             4 - PTA status, displayed if PTA on
+ 
+ 13.    Bridgeviewer display
+ 
+        Top left corner :
+        
+        Line 1 - altitude above planet surface if within atmosphere or
+                 altitude above planet if in orbit
+             2 - collision warning, COLLISION displayed if imminent
+             3 - cloaking device timer displayed if cloak is activated
+ 
+ 14.    Bridgeviewer display
+ 
+        Top center :
+        
+        Ship's current navigational heading
+ 
+ 15.    Bridgeviewer display
+ 
+        Top right :
+        
+        Currently selected waypoint #, heading and range
+ 
+ 16.    Bridgeviewer display
+ 
+        Lower right :
+        
+        Line 1 - current time, hr:min:sec
+             2 - current location, universe zone, galaxy sector, system sector
+             3 - current galaxy name if at galaxy level or starsystem name
+                 if at starsystem level or planet name if in orbit
+ 
+ 17.    Bridgeviewer display
+ 
+        Lower center :
+        
+        Line 1 - current speed. HYPER will be displayed if in hyperspace 
+                 otherwise readout is numerical. 
+        Line 2 - hyperspace travel timer if in hyperspace
+        Line 3 - Shields status on/off
+        Line 4 - Channel of last COMMLINK message, ie CH1
+ 
+ 18.    COMMLINK
+ 
+        The communications link has five channels. These are :
+        
+        1. GALCOM HQ 
+        2. Special
+        3. Internal
+        4. Tactical
+        5. Roam
+        
+        Channel #1 monitors all messages sent to you directly from GALCOM HQ
+        Channel #2 monitors all message that require interactive dialogue
+        Channel #3 monitors internal messages from the ship's crew
+        Channel #4 monitors all messages sent to you directly from deployed
+                   interceptor pilots.
+        Channel #5 Simply roams the frequencies and displays all tactical
+                   messages. These include messages from interceptor pilots,
+                   other GALCOM ships, other alien ships etc.
+        
+        When messages are received, they are displayed here and also sent to
+        a printer if one was selected at installation. If you did not select
+        a printer, then all messages are sent to a log file which can be
+        viewed from the Tactical station. Channel #4 & #5 messages are
+        updated automatically but when a message is received in #1, #2 & #3,
+        it is displayed there until you acknowledge receipt with <ALT-A>.
+        If the message is for interactive dialogue, you should acknowledge it
+        and then change to the communications station. Channel 1/2/3/4 are 
+        always accompanied by a video image of the person sending the message.
+        Video images are only displayed if you are in the comms station.
+        
+        *** There is no interactive dialogue in this demo, therefore only
+            channels #1/#3 & #4 are monitored
+        ***
+            
+ 19.    ILD, Inbound Launch Display
+         
+        This display monitors all launched weapons. These include your weapons
+        as well as those of other ships. This is an all around view with your
+        ship in the center of the display.
+        
+        Red dot  - missile with active lock on your ship
+        Yellow   - missile with passive lock (jammed)
+        White    - deployed mine
+ 
+TACTICAL STATION :  Left view
+PERSONNEL        :  Tactical Officer ( Right )
+ 
+ 1 .    Deck Status Display, DSD
+ 
+        This system has three modes of operation, mode #1 is always selected
+        when this station is first accessed. In the absence of a First Officer
+        this station will be inoperable. Most of the functions can be accessed
+        from the main LOGISTIX computer.
+        
+        MODE #1 :
+                
+                - Weapons loadout & status of the weapon systems
+                  
+                  All weapons loaded in both weapon bays are listed with the
+                  amount of each available. Any weapons that were purchased
+                  are also listed. A weapon that requires special clearance
+                  from GALCOM before use, ie planetary disruptor missiles,
+                  are listed in red. If a weapon bay is damaged, the weapons
+                  are inaccessible until the bay is repaired. All weapons that
+                  are in a damaged weapons bay are listed in gray.
+                       
+        MODE #2 :
+                
+                - Deck systems status
+               
+                  This function allows you to quickly view the ship's systems
+                  status without activating the LOGISTIX computer. You can
+                  quickly see which systems are operational, damaged, destroyed
+                  or under repairs. 
+                  
+                  *** This feature is inactive in this demo ***
+                                   
+        MODE #3 :
+               
+                - Deck security status
+                
+                  This function will display the name of the deck on which the 
+                  intruder was most recently detected. The <HOME> key lists the
+                  systems which have been damaged by the intruder. The name of
+                  the deck is first displayed and the systems that were
+                  sabotaged are then listed, if any, otherwise 'None' is
+                  displayed under the deck name. The system names are color 
+                  coded. A system name displayed in yellow means that the
+                  system is damaged and red means it was completely destroyed.
+                  If the system name is flashing and color coded as above,
+                  it means that the system is under repairs as a result of the
+                  sabotage. The ship's chief combat officer is responsible for
+                  allocating the manpower to seek out the intruder. You have no
+                  control over this function. If you don't have any marines 
+                  onboard you won't be able to locate the intruder
+                  unless you dock at a starbase or starstation. As long as
+                  there is an intruder on board the ship, the combat personnel
+                  will attempt to locate him/her and advise you if he/she has
+                  been caught. If you don't catch the intruder, he/she will
+                  systematically move from deck to deck sabotaging the systems.
+                  The length of time it takes to locate an intruder depends on 
+                  the intelligence level of the alien race he/she belongs to.
+                  You can use the <END> key to list the number of prisoners in 
+                  your ship's detention hold if any. If any have escaped, the 
+                  system will display how many were originally being held and 
+                  how many have escaped.
+                  
+                  *** This feature is inactive in this demo ***
+
+ 2 .    Operation Selector Switch, DSD & SSD
+ 
+        <ALT-F1> - <ALT-F5> or mouse click to switch operating modes
+        
+        Notch 1 - DSD, Mode 1 [Weapons Loadout]
+              2 - DSD, Mode 3 [Deck Security Status]
+              3 - SSD, Mode 1 [Systems Status Check]
+              4 - SSD, Mode 2 [Systems Power Allocation]
+              5 - SSD, Mode 3 [Personnel Resource Management]
+           
+        The function that is currently selected is displayed in the first line
+        of the DSD response display. This is indicated in the brackets above.
+        
+        *** This feature is inactive in this demo *** 
+ 
+ 3 .    Deck Selector Switch
+ 
+        <ALT-F6> - <ALT-F10> or mouse click to change operational decks 
+        
+        This automatically activates mode #2 of the DSD.
+        
+        *** This feature is inactive in this demo ***
+        
+ 4 .    DSD response display 
+ 
+        All error messages or informative text are displayed here.
+ 
+ 5 .    Systems Status Display, SSD
+        
+        This system monitors critical ship functions including ship systems
+        status and personnel resources. This display always lists the
+        following. There are three operating modes which can be selected
+        via the Operation Selector Switch.
+        
+        MODE #1 :
+        
+                 - 1) Systems status
+                      
+                      This lists the ships critical operational status.
+                       
+                       . Main reactor power level/available Radine crystals
+                       . Solar reactor power level
+                       . Global power units available (m.reactor + s.reactor)
+                       . Current power usage
+                       . Available power units
+                       . Shield power level/available Plutonium/hours of use
+                       . Armor integrity level
+                       . Hull integrity level
+                       . Laser power level
+                       . Cloak power level/Maximum operation time available
+                       . Cargo capacity/Available cargo space
+                       . Available shuttle craft
+                       . Available probes
+                       . Available mines
+                       . Available Interceptors
+                       
+                  *** Options not available in this demo will remain blank ***
+
+       MODE #2 :
+       
+                 - 2) Systems power 
+                      
+                      It lists the system name, the minimum amount of power that
+                      this system requires to operate, the amount it requires
+                      to operate at peak and it's current power allocation.
+                      You can use the <A> key to change the power allocations 
+                      for these systems. The current power setting column will
+                      be highlighted, use the <+> & <-> keys to change the
+                      current settings. You can shut the system down by
+                      allocating 0 power to it. If you allocate less than the
+                      minimum power requirement to a system, the computer will
+                      automatically reset it to 0. Use the <UpArrow> & 
+                      <DownArrow> keys to move through the systems. 
+                 
+                       . Engines    #:#:#
+                       . Systems
+                       . Lasers
+                       . Weapons
+                       . Shields
+                       . Trans.                            <- Transporters
+                       . T.Beam                            <- Tractor Beam
+                       . N.Reactor                         <- Nuclear Reactor
+                       . S.Reactor                         <- Solar Reactor
+                       . L.Control                         <- Launch Control
+                       . S.Systems                         <- Stealth Systems
+                       . A.Systems                         <- Auxiliary Systems
+                       . L.Support                         <- Life Support
+                       
+                       *** You can't make any modifications in this demo ***
+       
+       MODE #3 :
+       
+                 - 3) Personnel resource
+                      
+                     This lists the status of your personnel resource. The
+                     first number is how many you can have onboard, the second
+                     is how many you can have onstation at any time, the third
+                     is how many are on station, the fourth is how many are
+                     in reserves, the fifth is the number currently in medibay
+                     and the sixth is the current life status level of the
+                     person currently at that station (if any). Since
+                     you can have more than one engineer, marine or combat
+                     pilot on station at any time, the status level for them
+                     is the average of the total number on station.
+                      
+                     Personnel resource management is very important
+                     to most of the ship's systems. The absence of a resource
+                     onstation will render that person's station inoperable.
+                     When a stationed personnel's life status level reaches
+                     or falls below 15% he/she will immediately be removed from
+                     active duty and sent to medibay where he/she will
+                     remain until the life status level reaches 100%. The
+                     person will then be put back on active duty if the station
+                     is currently unmannned, otherwise, he/she will be
+                     transferred to your reserve pool. You personnel will heal
+                     slower on station than if sent to medibay.
+                     You can send a person back to duty if the level rises
+                     above 15%. When personnel are removed from active duty,
+                     they will be replaced if you have any reservists that you
+                     recruited at a starbase or starstation. Reservists have
+                     a status level of 75%. You can have your original personnel
+                     resurrected at some starbases/starstations for a fee.
+                     To see an image of your personnel, highlight the station
+                     and press <ENTER>, the image will be displayed in the SSD.
+                     press <ENTER> again to remove it and display the personnel
+                     resource list. To send someone to active duty from medibay
+                     or reserves, highlight the station, position the cursor on
+                     the medibay column and press <->. If the station is
+                     manned, they will switch places. If the original person is
+                     at their peak he/she will be sent to the reserve area,
+                     otherwise to medibay and later to reserves when the level
+                     reaches peak. The life status level will change to reflect
+                     the new person's status level.
+                      
+                     You cannot manipulate your marines or engineers. These
+                     figures only indicate how many you have onstation or in
+                     medibay. They are automatically swapped in an out of
+                     active duty and reserves depending on their status level.
+                      
+                     These figures are for this demo only :
+                       
+                       . First Officer          1 :  1  : -  :  -  :  -  : - 
+                       . Flight Officer         1    1
+                       . Tactical Officer       1    1
+                       . Navigations Officer    1    1
+                       . Comms. Officer         1    1
+                       . Medical Officer        1    1
+                       . Combat Officer         1    1
+                       . Chief Engineer         1    1
+                       . Research Engineer      1    1
+                       . Combat pilots          4    4
+                       . Engineers              0    0
+                       . Marines               20   20
+        
+        *** In this demo, personnel do not die and this feature is inactive ***
+ 
+ 6 .    Tactical Status Indicator, TSI
+ 
+        This system is identical to the one on the forward bridge view
+  
+ 7 .    Inbound Launch Display, ILD
+ 
+        This system is identical to the one on the forward bridge view
+        
+ 8 .    TSAD Operation Switch
+        
+        <LSHIFT-F1> - <LSHIFT-F5> or mouse click to switch operating modes
+        
+        Notch 1 - TSAD, Mode 1 [Tractor Beam Control]
+              2 - TSAD, Mode 2 [Combat Personnel Deployment]
+              3 - TSAD, Mode 3 [TACSCAN Radar]
+              4 - TSAD, Mode 4 [TACSCOPE Radar]
+              5 - TSAD, Mode 5 [Interceptor Tactical Video Relay]
+        
+        The function that is currently selected is displayed in the first line
+        of the TSAD response display. This is indicated in the brackets above.
+                
+ 		*** This feature inactive in this demo ***
+ 
+ 9 .    Tactical Situation Awareness Display, TSAD
+                
+        The TASD computer is the most sophisticated of all the computers at
+        this station. It also has five operating modes. In the absence of a 
+        Tactical Officer, the TSAD computer will be inoperable. Most of the 
+        functions can be accessed from the main LOGISTIX computer. 
+                
+        MODE #1:
+                
+                - Tractor beam control
+                
+        The tractor beam receives power from the reactors, if there is no
+        power being sent to it, it will not activate. Use the TSAD Operation
+        Switch to switch modes. The default mode when first switched on is
+        mode 1. This activates the Strategic Ranging Computer and the
+        TACSCAN (in LR mode) below it. These are both displayed in the SSD.
+        
+        The tractor beam can capture another ship or object up to 0.5 miles
+        distance. If the target is another ship, it must either be a) disabled
+        and motionless or b) moving at profile speed 4 or less. It cannot
+        capture ships that have an anti-beam locking system, such as
+        some large ships and starstations. When the tractor beam locks onto a
+        target, it will keep the target in tow behind the ship as long as it
+        has sufficient power to maintain the lock. The tractor beam will
+        disengage if a) the target ship achieves thrust in excess of profile
+        speed, 4 b) it is shutdown manually or as a result of insufficient
+        power, c) if the shields are activated, d) if the target is
+        destroyed and e) if your ship establishes orbit or enters a planet's
+        atmosphere. When you activate the tractor beam, you will be warned that
+        this would lower the shields and you will be given an opportunity to
+        cancel the operation. You can dock at a starstation with a ship in
+        tow but you cannot leave the starstation with it. If there is any crew
+        onboard the towed ship, the will be transferred to the starstation. To
+        bring onboard crew from a towed ship, you can transport them over or
+        use the shuttle craft. If you try to tow a ship with an anti-beam
+        locking system (and they activate it), you will receive the message -
+        "Cannot lock onto target". An 'Invalid target' message is displayed if
+        the target does not meet the tractor beams locking criteria detailed
+        above.  
+
+        The SRC display is divided into grids. Each grid is 0.5 miles square
+        with the Battlecruiser in the center. Hostile targets on this grid are
+        red dots and GALCOM/friendlies are blue. The list of targets within the 
+        beam's range are listed in the TSAD on the right and numbered. To select 
+        a target simply enter its number which ranges from 1 - 10. Targets in 
+        excess of 10 are not displayed. When the target's number is displayed, 
+        a green square will be drawn around the grid in which it is located. 
+        Press <ENTER> to activate the beam. If the operation is successful, 
+        you will get the 'Target locked' in the TSAD response display. The 
+        locked target will now begin to flash indicating that it is now in
+        tow. If you previously had a target in tow, you need not deactivate the
+        tractor beam first to select a new target, simply selecting a new target
+        will release the current one. To deactivate the tractor beam and release
+        the target, use the <CTRL-D> key.
+        
+        The TACSCAN at the bottom of the display is identical to the one in the
+        forward bridge view but you cannot operate it. It is only there to
+        provide tactical info on ships in your surrounding while you are at this
+        station. If the TACSCAN at the forward bridge view is inoperable,
+        this one will still work.      
+        
+        *** This feature is inactive in this demo ***
+                
+        MODE #2 :        
+                
+                - Ship boarding
+                
+        Ship boarding is made possible through the use of the transporter and
+        shuttle crafts. The transporter uses 1 unit of power each time
+        it is used and only transports 5 personnel at a time. The shuttle
+        crafts require no power at all and can carry up to 10 personnel. There
+        are advantages and disadvantages in using either method of troop
+        transportation, these are covered elsewhere in this manual.
+        
+        The SRC is also used in selecting a target for boarding. Operation is
+        identical to that for tractor beam operation but the target can be
+        up to a maximum range of 1 mile. The displayed list will also include
+        all targets in range including any target that is currently under
+        tractor beam control. After you have selected the target for this
+        operation, you will be asked to select how they will be transferred
+        and how. The dialogue displayed is such :
+        
+          Transporter   : #/#
+          Shuttle craft : #/#
+          Marines       : #
+          
+        The first value indicates the amount of power available to the
+        system for use in this operation, in the case of the shuttle craft
+        this value is how may crafts are available. The second value is the 
+        amount of personnel that you want transferred. Use the <+/-> keys to 
+        increase/decrease the number of personnel to transport. The 'marines'
+        value is number available, as you change this value, this value is
+        updated. If you try to allocate personnel in excess of the capacity
+        of the total number of shuttle craft available or the amount of power
+        available to the transporter, the computer will beep and default to
+        the maximum amount allowed given the current configuration. You may
+        change this amount. When you have finished, press the <ENTER> key
+        to activate the order, there will be a brief animation (if you have
+        'animations on' in the setup) as the shuttle craft speeds away to
+        the target or of the transporter room as the team is transported.
+        When the team reaches their target (if they are using shuttle craft
+        there is a possibility that it will be destroyed if the alien ship's
+        weapon systems are still functional. If this happens, you will get
+        the message "Shuttle craft destroyed". If the alien ship's computers
+        are still active, they may also jam the transporter's locking signal.
+        If this happens, you will get the message "Signal jammed". Either way
+        you won't be able to board the ship until you resolve the above
+        conditions.
+        
+        If the boarding is successful, the screen will change to display a
+        2D cross section of the target ship. The alien icons are red and the
+        GALCOM marines are green. Combat will commence immediately. As
+        personnel are killed, the amount available to each side is updated.
+        To retrieve your team use the [EVACUATE] option and the survivors will 
+        attempt to return to the ship. There is no guarantee that they will all
+        make it back. If you select [SURRENDER], the combat sequence will end
+        and your team will become prisoners onboard the alien ship. You can also
+        select [DIRECT 412] which will cause the team to detonate a neutron
+        device that will destroy the ship and everything onboard. You will lose
+        your team and the ship will be destroyed. If your team is successful in
+        overcoming the aliens and taking over the ship, they will take
+        everything that they can find, this includes weapons, cargo, fuel etc.
+        Prisoners are also transferred to your ship and kept the detention
+        hold util delivered to a GALCOM facility. The display will indicate
+        what they found and the quantity, they will then return to the ship.
+        This returns you to the tactical station once again.
+        
+        *** This feature inactive in this demo ***
+
+        MODE #3 :
+                
+                - TACSCAN
+                
+        This is a backup of the forward bridge TACSCAN radar only this time
+        it is the system displayed in the SSD. Targeting info for <T>, <I>
+        & <D> commands are displayed in the TSAD computer.
+        
+        *** This feature is inactive in this demo ***
+        
+        MODE #4 :
+                
+                - TACSCOPE 
+        
+        This system is used to track and acquire targets on a planet's
+        surface. You must be in orbit in order to use it. On activation,
+        the image of the planet's surface is displayed in the SSD. A list
+        of OTS weapons is listed in the TSAD display. Use the <arrow
+        keys> to locate the crosshair over the target icon, and press <ENTER> 
+        this lock the target in the firing system and will switch control over 
+        to the TSAD display area. Use the <CURSOR> keys to select the weapon
+        and press <SPACEBAR> to launch it. A timer will be displayed on the
+        map display. This indicates when the weapon will reach it's target.
+        If the weapon is jammed, the message 'Weapon jammed' will be
+        displayed and you'll have to launch another. If the weapon succeeds
+        in reaching the target, the icon will disappear and the message
+        'Target destroyed' is displayed.
+        
+        *** This feature is inactive in this demo ***
+        
+        MODE #5 :
+                
+                - Interceptor Tactical Video Relay, ITVR 
+        
+        This mode displays a numbered list of deployed Interceptors. Select
+        the Interceptor you wish to view and a video image will be displayed
+        in the SSD. This view is an external camera located behind and
+        slightly above the Interceptor. Use the <ARROW> keys to rotate/pan
+        the camera around. Use <ESC> to quit this view and select another
+        Interceptor. If the Interceptor is destroyed whilst you are at this
+        view, it will be cleared. If you select this mode with no Interceptors
+        launched the message 'No Interceptors launched' will be displayed.
+        
+        *** This feature is inactive in this demo ***
+                  
+ 10.    TSAD response display.
+ 
+        All error messages or informative text are displayed here.
+ 
+ 11.    COMMLINK
+        
+        Operation is identical to that of the forward bridge COMMLINK.
+        
+ 12.    LOGISTIX computer access
+ 
+        Activates the LOGISTIX computer.
+        
+        *** In this demo, the LOGISTIX computer only displays your ship's
+        damage status.
+        ***
+ 
+ 13.    Exit station
+
+COMMS STATION    :  Right view
+PERSONNEL        :  Comms Officer
+
+        In the absence of a Comms Officer this station will be inoperable. 
+        Most of the functions can be accessed from the main LOGISTIX computer.
+        
+ 1 .    Communications Video System, CVS
+                
+        If you receive a message while you are at this station, the image
+        of the other party is displayed at this display and the message is
+        displayed in the Inbound Message Display, IMD area. If you are
+        required to respond, a valid list is displayed in the Outbound
+        Message Display area. use the cursor keys to highlight the desired
+        selection and press <ENTER>. This will be sent to the other party.
+        If there is an incoming response, it will be displayed otherwise
+        the message 'Acknowledged', 'No response' or 'Link terminated' is
+        displayed. If the other party has finished the dialogue, the image
+        will disappear. You can also terminate a communications link
+        using the <ALT-T> key. You can use the <L> key to activate your
+        message log. This will display a list of saved messages sent to
+        you including the date, time and originator. Use the cursor keys
+        to highlight the saved message that you wish to review and press
+        <ENTER>. The message will be played back in the IMD, if a video
+        image is attached, it will be displayed in the CVS otherwise the
+        CVS will remain blank. After the message is played, press the
+        <SPACEBAR> to continue and the log list will be re-displayed. The
+        channel indicators will illuminate to indicate which channel is
+        currently being used and also which channel was used by the 
+        currently playing saved message. This logfile resides on your
+        harddisk in a text file. It will grow to a maximum of IMB before
+        it starts being 'flushed' by new data. If you selected a printer
+        at setup (you can also activate it from the <ESC> menu), all
+        messages are automatically sent to it also.
+        
+        *** In this demo, there is no interactive comms dialogue ***
+                               
+ 2 .    Logfile switch on/off
+                
+                - displays the logfile of saved messages.
+                 
+        *** This feature is inactive in this demo ***
+ 
+ 3 .    COMMLINK channel selector
+ 
+        Indicates which COMMLINK channel is currently in use.
+        
+ 4 .    CVSD message display readout. 
+ 
+        All error messages or informative text are displayed here.
+
+ 5 .    TDSI, Target Ship Status Indicator (toggle)
+        
+        This option allows you to view the target ship's critical systems.
+        In order to communicate with another ship, they must have either a)
+        responded to your hailing signal or b) hailed you themselves.
+        If you are hailed and return to this station, the image of the
+        ship's commander will be displayed in the CVS, the OMD will give
+        you the option to respond or reject the dialogue. At anytime during
+        the dialogue, you can use the <ALT-V> key to view the other ship's
+        critical systems. A color-coded list will be displayed. Press the
+        <ALT-V> key again to return to the video image. <ALT-L> activates
+        the LOGISTIX computer.
+        
+           Red = Destroyed; Yellow = Damaged; Green = functional
+                
+                1. Ship type
+                2. Alien species
+                3. Shields
+                4. Communications
+                5. Weapon Systems
+                6. Lasers
+                7. Reactors
+                8. Engines
+                9. Hull integrity
+               10. Life support
+               11. Personnel
+               12. Power Status       ( 0= ship is disabled ) 
+        
+        *** This feature is inactive in this demo ***
+
+ 6 .    IMD, Inbound message display
+ 
+        This displays the message sent in from the other party. When the display
+        is full it is cleared.
+        
+        *** This feature works differently in this demo, see above ***
+             
+ 7 .    OMD, Outbound message display
+ 
+        This displays the valid list of messages that you can send to the other
+        party. If the list exceeds the display,use the <ARROW> keys to scroll
+        through. Use the <ENTER> to send the desired message.
+        
+        *** This feature works differently in this demo, see above ***
+
+ 8 .    LOGISTIX computer access
+ 
+        Activates the LOGISTIX computer
+ 
+ 9 .    Exit station
+
+NAV STATION      :  Extreme right view
+PERSONNEL        :  Navigations Officer
+
+ In the absence of a Navigations Officer this station will be inoperable. 
+ Most of the functions can be accessed from the main LOGISTIX computer.
+ 
+ 1 .    NAVITRON computer
+        
+        It is at this computer that you get to set waypoints, launch
+        Interceptors, probes etc. When this system is first accessed, a list of 
+        Interceptors, probes & personnel is displayed and their location. 
+                       
+        This data includes :
+        
+        1. Battlecruiser  (power level/location)
+        2. Interceptor 1  (power level/location)
+        3. Interceptor 2  ( " )
+        4. Interceptor 3  ( " )
+        5. Interceptor 4  ( " )
+        6. Team 1         (supply level/location)
+        7. Team 2         ( " )
+        8. Team 3         ( " )
+        9. Team 4         ( " )
+       10. Team 5         ( " )
+        
+        Power level  - The ships current power level
+        Location     - This can be actual x,y,z location in space or on a
+                       planet including planet name. For the Interceptor
+                       other valid values are :
+                      
+                       Docked      - Ready and in Battlecruiser docking bay
+                       Readying    - Being prepared for deployment
+                       Destroyed   - The ship has been destroyed
+                       Engineering - The ship is being repaired
+        Supply level - How many days this team will survive before being
+                       evacuated from the current location.             
+        
+        To activate the NAVITRON computer and set waypoints for an item
+        on the list, enter the number of the item and this station will
+        be replaced by the full screen NAVITRON computer. See the section
+        on using this computer for more details.
+        
+        The Battlecruiser only carries ten probes. To launch probes, use 
+        <P>, this will display the list of all the probes and their
+        current destination. If the probe is still in transit, the word
+        'In transit' will be displayed next to it's destination. Use the 
+        <ARROW> keys to select an available probe then press <ENTER>, this
+        will bring up a list of starsystems. Again, select the probe's 
+        destination and press <ENTER>. This will immediately launch the
+        probe to that destination. The probe's actual stop location is
+        unknown until is reaches it's destination. You cannot select a
+        probe that is in transit. If a probe has reached it's destination
+        and is currently online, the word 'Online' will be next to it's
+        destination. You can send this probe somewhere else. If a probe
+        is damaged/destroyed, the word 'Offline' is displayed next to it's
+        destination and you cannot select it. If you do manage to locate it,
+        you can retrieve it using the tractor beam and the engineers will
+        automatically repair it. <ALT-L> activates the LOGISTIX computer.
+       
+        *** 
+        In this demo, you cannot set any waypoints and the above data
+        is not displayed. The NAVITRON computer is inactive. 
+        ***
+        
+ 2 .    COMMLINK
+ 
+        Operation is identical to that of the forward bridge COMMLINK.
+        
+ 3 .    LOGISTIX computer access
+ 
+        Activates the LOGISTIX computer
+ 
+ 4 .    Exit station
+
+*******************************************************************************
+
+                              INTERCEPTOR CONTROLS
+
+*******************************************************************************
+
+The following files must be printed/viewed with an image viewer to get a
+description of the systems described here.
+
+COCKPIT1.PCX
+COCKPIT2.PCX
+
+Note : Except where indicated, all systems operations are identical to those
+       found on the Battlecruiser. In this demo when you dock with the 
+       Battlecruiser, the Interceptor will not be repaired or rearmed.
+
+FORWARD VIEW:
+
+1.      Reactor power level
+
+2.      Critical reactor level warning
+         
+        This indicator changes to red when reactor power level reaches or
+        falls below 20% 
+
+3.      System Status Indicator, SSI #1
+
+        This region is split up into three sections :
+
+           - Planetfall ( is green when ship enters a planet )
+           - Docked     ( is green when ship is currently docked )
+           - IFF beam detected
+
+4.      Autopilot
+           
+        Green when ship's autopilot system is activated and red if it is
+        damaged or inoperable.
+        
+        *** This feature is inactive in this demo ***
+
+5.      Critical armor protection level warning
+
+        This indictor changes to red when armor protection level reaches or
+        falls below 20% 
+
+6.      Armor protection level
+
+7.      Collision warning
+
+        Flashes red rapidly if collision is imminent
+        
+8.      Engine thrust vector, FTOL/VTOL
+
+        While in FTOL, the inner exhaust vents are red, while in VTOL mode
+        they are black
+        
+9.      System damage warning
+
+        Red when a system damage has occured
+        
+10.     Weapons stores depleted warning
+
+        Red when all missiles are depleted. 
+        
+11.     System Schematics Display, SSD
+
+        This schematic displays the status of the ship's critical systems.
+        When the indicators are green, the system in functional, yellow is
+        damaged and red is destroyed.
+        The bars on either side of the 2D ship image represent the ship's
+        shield status, SHD. The other 'dots' represent systems status as
+        displayed in the CVD damage screen.
+        
+        From top to bottom row, reading left to right...
+        
+                             PHA 
+                             TAC 
+                         NIM     WEA
+                             HID
+                         CMP CVD EMD
+                         ILD HID HUD
+                             LIF
+                             REA
+                             ENG
+        
+        See the CVD sections for systems damage legend
+        
+12.     Laser power level
+
+13.     TACSCAN radar
+
+        In the Interceptor, the TACSCAN ranges are :
+        
+               LR - 1.6 ly = 160 gu
+               MR - 0.8 ly =  80 gu
+               SR - 0.4 ly =  40 gu
+               
+        The <C> communications option in mode #1 is inactive.
+        The <L> PTA option in mode #1 is inactive
+        The Interceptor Tracking System in mode #5 also tracks the 
+        Battlecruiser's location.
+
+14.     Communications Link/Location Information Display, CommLink/LID
+
+        The COMMLINK toggles to display the ship's current location
+        
+15.     System Status Indicator, SSI #2
+              
+                - Weapons systems
+                - ElectroMagneticDisruptor, EMD
+                - Shields
+                - Reactor
+                - Communications
+                - IFF homing device
+                
+16.     Navigation Interface Map/Tactical Interface Map display, NIM/TIM
+
+17.     Tracked target's range
+
+18.     Target Acquisition Display, TAD
+
+19.     Tracked target's bearing
+
+20.     Current navigational heading
+
+21.     Tactical Status Indicator, TSI
+              
+                - surface target detect
+                - surface target track
+                - surface-to-air launch
+                - air/space target detect
+                - air/space radar track
+                - air-air/space-space launch
+                
+22.     Computer Video Display/Systems Status Display, CVD/SSD
+
+        - SHD = Shields                     - CVD = Computer Video Display
+        - ILD = Inbound Launch Display      - PHA = Lasers
+        - WEA = Weapon systems              - HID = Hull Integrity Display
+        - EMD = ElectroMagneticDisruptor    - HUD = Heads Up Display
+        - NIM = Navigational Interface Map  - COM = CommLink
+        - TAC = TACSCAN                     - REA = Reactor
+        - CMP = Main computer               - ENG = Engines thrust vector
+        - LIF = Life support
+
+23.     Shield level
+
+24.     Enemy inbound ASL/SASL weapon has lock
+
+        Flashes red when an inbound weapon with ASL or SASL tracking is locked 
+        onto the ship
+
+25.     Enemy inbound VSL/ITL/LITAS weapon has lock
+
+        Flashes red when an inbound weapon with VSL, ITL or LITAS tracking is 
+        locked onto the ship
+
+26.     Inbound Launch Display, ILD
+
+27.     Hull Integrity Display, HID
+
+28.     1. Currently selected weapon and amount available
+        2. Current engine thrust vector FTOL/VTOL
+
+29.     1. Altitude above surface if within planet's atmosphere or altitude
+           above planet if in orbit.
+        2. Battlecruiser cloaking device timer
+
+30.     Waypoint #, heading and range
+
+LEFT VIEW :
+
+This view only contains non-functional systems and an external view.
+
+RIGHT VIEW :
+
+This view only contains non-functional systems and an external view.
+
+CO-PILOT CONSOLE :
+
+This station is the GALCOM Redundant Systems Array, RSA console
+
+  Systems Monitor Control, SMC  ( located below NIM )
+  This system is not available to the pilot. It toggles as follows :
+        
+  - PTS, Personnel Tracking System
+    
+    Displays an infrared display of the planet's surface and tracks personnel 
+    deployed from Battlecruiser anywhere on the surface. If at least one member 
+    of the team is alive. It cannot track personnel onboard other ships.
+    The personnel on the planet are idicated by a red 'x'.
+    
+    *** This feature is inactive in this demo ***
+    
+  - CRMS, Combat Radius Monitor System
+    
+    Displays a 3D grid system that tracks the Battlecruiser, this interceptor 
+    and others that have been launched and are in range. If this craft wanders 
+    outside the effective range, ie the Battlecruiser moves off the grid an 
+    alarm will sound warning the pilots.
+  
+  - WSD, Weapons Status Display
+  
+    Displays a 2D image of the craft and shows the weapons loaded
+  
+  - SSI, Systems Status Indicator
+    Displays numerical values for these systems :
+          
+       Reactor power level
+       Laser power level
+       Armor strength
+       Distance to Battlecruiser
+       Estimated time to reach Battlecruiser location
+       Distance to currently selected waypoint
+       Time of arrival at currently selected waypoint
+       Total systems integrity %
+       Mission targets, status (completed/programmed)
+       Current craft profile (orbit/planetary/i-space)
+
+     *** This feature is inactive in this demo ***
+
+All other systems found at this station are identical to those found at the
+pilot's station.
+
+*******************************************************************************
+
+                     WEAPONS PLATFORMS USED IN THIS DEMO
+                     
+*******************************************************************************
+
+In this demo, the weapons characteristics have been simplified drastically
+and all utilize a generic tracking and acquisition model. 
+
+  GALCOM - :
+  ------
+  
+  Battlecruiser - Phalanx Multiple-Burst-Mode Laser
+                  10 x STS-Starflash
+                  10 x STS-Firestar
+                  10 x STS-Perseus
+                   2 x OTS-Skyflash
+  
+  Interceptor#1 - Phalanx Single-Burst-Mode Laser
+                  04 x STS-Starflash
+                  04 x ATA-Magellan
+                  04 x ATS-Hyperdyne
+  
+  Interceptor#2 - Phalanx Single-Burst-Mode Laser
+                  04 x STS-Starflash
+                  04 x ATA-Perseus
+                  04 x ATS-Magellan
+  
+  Lightstar     - 05 x STS-Starflash
+                  05 x STS-Questor
+  
+  GALCOM HQ     - Multiple-Point-Defense Laser
+                  10 x STS-Questor
+                  10 x STS-Perseus
+                  10 x STS-Starseeker
+  
+  GALCOM Martian defense units on FirstLight
+  
+                - 02 x AX-10 Fireball SAM
+                - 02 x AX-21 Firestorm SAM
+                - 04 x ASAL2 SAL
+  
+  Gammulans - :
+  ---------
+  
+  Stormcarrier  - SS-N MK1 Laser
+                  10 x STS-Tangent
+                  10 x STS-Ralix
+                  10 x STS-Starsearch
+                  02 x OTS-Anagram
+                    
+  TN-31 Corsair - SS-N MK2 Laser
+                  04 x STS-Tangent
+                  04 x ATS-Gainer
+                  04 x ATA-Adder
+  
+  Starfighter   - SS-N MK2 Laser
+                  04 x STS-Tangent
+                  04 x STS-Ralix
+  
+  Starcarrier   - SS-T Laser
+                  10 x STS-Tangent
+                  10 x STS-Starsearch
+                  02 x OTS-Anagram
+                   
+  Gammulan 'Away Team' on Mars
+  
+                - 02 x XPF SAL
+                - 04 x GDN-4 Worm SAM
+  
+TARGET DESIGNATOR CODES
+-----------------------
+
+CFT  - Flying craft (space/planetary)
+PLA  - Planets, huge asteroids etc
+SML  - SAM/SAL sites. Missile locks onto radar signal from target
+LGT  - Light armored vehicles,light targets,personnel, light structures etc
+HVY  - Heavy armor vehicles, heavy targets, heavy structures etc
+MUL  - Weapon can be used on any target. It's success varies with target
+PLT  - Planetary targets. Missile destroys single targets on planet surface
+ORB  - Targets in planet's orbit
+
+WEAPONS PLATFORM CODES
+----------------------
+
+STS - Space-To-Space
+OTS - Orbit-To-Surface
+ATA - Air-To-Air
+ATS - Air-To-Surface
+SAM - Surface-Air-Missile
+SAL - Surface-Air-Laser
+MIN - Mine
+
+Guidance Logic codes & characteristics for space/planetary missiles :
+---------------------------------------------------------------------
+
+CTL,   Continuous Tracking Logic
+       The craft must maintain the lock on the target until the missile hits
+     
+ATL,   Automatic Tracking System
+       The missile has it's own tracking system. This allows the craft to
+       'fire and forget' the missile.
+
+ATL/V  Automatic Tracking System with Video
+       The missile has a camera in it's nose cone. When armed, the missile
+       camera can be used to acquire a target using 'fire and forget'
+       techniques.
+
+RITL/V Redundant Independent Tracking System with Video 
+       This is found only in OTS weapon systems. A camera in the missile's
+       nose cone is used to locate the target on the planet surface.
+       After launch, the weapon continues to receive tracking info from the 
+       craft. The missile will lose tracking info if the craft leaves orbit 
+       or if jammed from the ground.
+
+VITS   Visual Independent Tracking System
+       Used only on craft mounted laser systems. After a target is identified
+       the pilot must compensate for it's orientation and fire when it comes
+       into range. In some systems, the laser mounts are fixed and only fire
+       straight ahead. On more advanced and larger ships, the laser mounts
+       can be independently oriented to track the target's location without
+       changing the craft's orientation.
+
+Weapons characteristics key - missiles 
+--------------------------------------
+     
+ Type/Name         - Weapon type and name
+ Max. range        - Max. range, in km, at which missile is fired
+ Max. speed        - Maximum speed, in kt, of the missile in flight
+ Guidance Logic    - Determines how the missile locates it target
+ Platform          - AN 'X' in this field indicates that only large
+                     craft carry this missile.
+ Target types      - Targets this weapon is designed to destroy   
+
+* The recharge timelapse for laser systems is the amount of time it takes for
+  the system to recharge if it depletes it's energy cels in a single burst.
+
+* All missiles have generic characteristics in this demo, they will destroy
+  any kind of target.
+
+* If you fire a missile without a positive lock, the missile will fly straight
+  ahead and ignore the 'target designator' box.
+
+ 
+  GALCOM WEAPON SYSTEMS  - MISSILES
+  ---------------------------------
+ 
+ TYPE/NAME        MAX     MAX       GUIDANCE   PLATFORM     TARGET
+                 RANGE   SPEED       LOGIC                   TYPE
+ ------------------------------------------------------------------
+ 
+ ATA-Cluster        20      1500      ATL                   CFT
+ ATA-Magellan       30      1500      ATL                   CFT
+ ATA-Mariner        50      2000      ATL                   CFT
+ ATA-Warrior        25      2500      ATL                   CFT
+ ATA-Pilgrim        25      2500      ATL                   CFT
+ ATA-Seeker         50      1500      ATL                   CFT
+
+ STS-Vagrant        50       750      ATL/V                 CFT
+ STS-Perseus        15       500      ATL                   CFT
+ STS-Questor        15      2000      ATL                   CFT
+ STS-Starflash      25      2000      CTL                   MUL
+ STS-Starseeker     25      1000      CTL        X          MUL
+ STS-Firestar       50      2000      ATL                   LGT
+ STS-Starchild      30      2000      ATL        X          LGT
+ STS-Ralix          30      2500      ATL                   HVY
+ STS-Analog         25      2000      CTL                   HVY
+
+ ATS-Spyder         75       750      ATL                   HVY
+ ATS-Lynx           50       750      ATL                   HVY
+ ATS-Maverick       50      1000      ATL/V                 LHT
+ ATS-Harpoon       100      1200      ATL/V                 LHT
+ ATS-Gainer         75       800      ATL/V                 SML
+ ATS-Hyperdyne      50       750      ATL/V                 SML
+
+ OTS-Stallion       -        -        RITL/V     X          PLA
+ OTS-Tanix          -        -        RITL/V     X          PLA
+ OTS-Bugnor          -        -       RITL/V     X          PLA
+ OTS-Skyflash        -        -       RITL/V     X          PLT
+ OTS-Sunbeam         -        -       RITL/V     X          PLT
+ 
+ MIN-Crab            -        -       RITL       X          MUL
+ MIN-Leech           -        -       RITL       X          MUL
+ MIN-Clinger         -        -       RITL       X          MUL
+ MIN-Louse           -        -       RITL       X          MUL
+ 
+  GAMMULAN WEAPON SYSTEMS  - MISSILES
+  ---------------------------------
+
+ ATA-Adder          25      2500      ATL                   CFT
+ ATA-Gammid         30      2500      ATL                   CFT
+ ATA-Rolan/1        30      2000      ATL                   CFT
+ ATA-Rolan/2        50      3000      CTL                   CFT
+
+ STS-Minx           50      1500      ATL                   CFT
+ STS-Tangent        20      2500      CTL                   CFT
+ STS-Devil          75      1500      ATL                   CFT
+ STS-Starsearch     50      2000      ATL        X          MUL
+ STS-Moonstar       35      2000      ATL        X          MUL
+ 
+ ATS-Krenon         25      1000      ATL                   SML
+ ATS-Eyestar        50       750      ATL                   HVY
+ ATS-Storm         100       750      CTL                   HVY
+ 
+ OTS-Anagram        -        -        RITL/V     X          PL
+ OTS-Sunstar        -        -        RITL/V     X          PL
+ OTS-Gladiator      -        -        RITL/V     X          PLT
+
+ MIN-Stint          -        -        RITL       X          MUL
+ MIN-Felix          -        -        RITL       X          MUL
+
+Guidance Logic codes & characteristics for SAM/SAL systems :
+----------------------------------------------------------
+
+ASL,  Advanced Seeker Logic
+      The missile uses an advanced seeker guidance mechanism with the receiver
+      in the missile. This missile, can 'burn through' jamming at close range
+      and can conduct multiple attacks. Seriously bad news.
+    
+SASL, Semi-Active Seeker Logic
+      The missile uses a variation of ASL, but the tracking station transmits
+      data in 'burst' mode that are several cycles apart. The receiver is in 
+      the missile and it may 'burn through' jamming at close range. Changing
+      the craft's orientation between 'bursts' can also jam the missile.
+
+VSL,  Visual Seeker Logic
+      The missile is guided by a ground controller who must monitor and 
+      compensate for the target's maneuvering. This missile can be fooled 
+      by evasive flying or jamming. 
+
+ITL,  Independent Tracking Logic
+      The missile is guided by a ground radar station with the receiver at the
+      station. This missile cannot 'burn through' jamming at close range.
+
+LITAS, Laser Inference Target Acquisition System
+      This is used only in SAL tracking systems. The radar station first
+      searches for the target, next it acquires it and fires a laser designator
+      beam at it. The firing system then fires a continuous wave of laser
+      bursts along the beam. This firing system can only be fooled by flying at
+      a safe altitude out of the laser designator range. At low altitude, it
+      may be jammed. The designator lock can also be jammed by flying really
+      fast.
+
+Weapons characteristics key - SAM/SAL:
+--------------------------------------
+ 
+ Type/name        - Weapon type, SAM/SAL
+ Max. range       - Max. range at which missile is fired
+ Max. speed       - Maximum speed, in mach, of the missile in flight
+ Search range     - Maximum range, in km, of the missile's search radar
+ Max. alt         - Maximum altitude, in ft, the missile can reach
+ Guidance Logic   - Determines how the missile locates it target
+ Target types     - Targets this weapon is designed to destroy   
+ Mounting         - How the SAM system looks when seen
+                    Mobile     - Mounted on a vehicle with radar
+                    Fixed      - Missile launcher located near radar station
+
+  GALCOM WEAPON SYSTEMS  - SAM/SAL
+  --------------------------------
+
+ 
+ TYPE/NAME        MAX     MAX   SEARCH  MAX   GUIDANCE  TARGET  MOUNTING
+                 RANGE   SPEED  RANGE   ALT.   LOGIC    TYPE
+ -----------------------------------------------------------------------
+ 
+ AX-10 Fireball   125    2.5    125     25,000  SASL     CFT     Fixed
+ AX-21 Firestorm  125      2+   150     35,000  SASL     CFT     Mobile
+ MFX1-SAL         25       -     25     20,000   ASL     CFT     Fixed
+ MFX2-SAL         50       -     50     20,000   ASL     CFT     Mobile
+ MK1-Pulse        50       -    100       -     SASL     CFT     Mobile
+ MK2-Pulse        75       -    150       -     SASL     ORB     Fixed
+ MK3-Pulse       100       -    100       -      ASL     ORB     Fixed
+ TSX1-Limpet      100      3+   100     25,000  SASL     CFT     Mobile
+ TSX2-Limpet      125      3+   150     25,000  SASL     CFT     Mobile
+
+  GAMMULAN & ALLIES WEAPON SYSTEMS  - SAM/SAL
+  -------------------------------------------
+ 
+ XPF-SAL           10      -     20     10,000   ASL     CFT     Fixed
+ XPT-SAL           15      -     25     15,000   ASL     CFT     Fixed
+ ACM-Rogan         50      2+    75     25,000  SASL     CFT     Mobile
+ ADV-Hawkeye       75      2+    75     35,000  SASL     CFT     Mobile
+ GDN-4 Worm       150      2+   150     40,000  SASL     CFT     Mobile
+ GDN-6 Worm       200      2+   300     30,000  SASL     CFT     Mobile
+ GDN-7 Worm       300      2+   500     35,000  SASL     CFT     Fixed
+ MK1-Defender     150      -    150       -      ASL     ORB     Fixed
+ MK2-Defender     200      -    200       -      ASL     ORB     Fixed
+ SSN-Catcher       -       7+    -        -      ASL     ORB     Fixed
+ SSN-Starfly       -       7+    -        -      ASL     ORB     Fixed
+
+*******************************************************************************
+
+                               SHIP CHARACTERISTICS
+
+*******************************************************************************
+
+KEY :
+---
+
+The entire game universe is 64x64x64 ly/6400x6400x6400 gu. These missions are
+generated within the Solar system, which for this demo is 05x05x05 ly.
+
+LY  - Lightyear
+      Distance traversed in one year by electromagnetic waves in free space
+  
+  1 parsec, pc    = 3.2 lightyears, ly
+  1 lightyear,ly  = 9.5 x 10[15] metres, m = 100 Galactic Units, gu
+  
+  HyperSpeed, hs         = 400+ gu/min
+  LightSpeed, ls         = 100
+  CruiseSpeed, cs        = 10    
+  ProfileSpeed, ps       = 1 
+
+  ProfileSpeed 0-9  = 00-09 gu/min
+  CruiseSpeed  0-9  = 10-99 
+  LightSpeed   01   = 100   
+  LightSpeed   02   = 200   
+  LightSpeed   03   = 300   
+  LightSpeed   04   = 400   
+  HyperSpeed        = 400+  [must exceed LS4 to breach hyperspace]
+  
+  CruiseSpeed 1 is equivalent to Mach 1
+
+  The safest length of time a ship & it's crew can remain in hyperspace before
+  breaching the space-time continuum and disappearing into nothingness is 
+  5 mins. Most ship engine/reactor combinations can only maintain HyperSpeed
+  for 3 mins. There is a workaround where the pilot can initiate reverse
+  thrusters when the timer goes past 3 mins and the warning klaxxon starts to
+  sound. The ship will gradually start to slow down, a few seconds later just
+  before the ship returns to LightSpeed 4, he can re-apply the thrusters to
+  exceed LS4 and enter hyperspace again. The decelleration of the ship sort
+  of prevents the ship from reaching the space-time continuum threshold
+  momentarily, by again achieving HyperSpeed, the pilot has extended the ship's
+  transition into hyperspace for another 3 mins. There are some issues to
+  consider; a) this takes a tremendous of power reserves b) the reactor/engine
+  configuration must be able to attain HyperSpeed for the full 3 mins c) it
+  is very dangerous and sometimes may not work. If there is insufficient power
+  reserves, the ship will abruptly 'drop out' of hyperspace and create a
+  tremendous stress on the hull, serious enough to cause considerable damage.
+  Also, if this manoever is attempted repeatedly in one sequence, the reactor
+  may reach 'Fusion Displacement Threshold' and shutdown or possibly explode.
+  
+  The ship's emergency systems will automaitcally jettison the reactor as soon 
+  as it reaches FDT. Time to call that GALCOM tow truck. Of course if there is
+  a functional backup solar reactor, the ship can make it back to the nearest
+  starstation. These are some of the hints that will form the basis of the 
+  Novella.
+
+  eg.
+  
+  ProfileSpeed 4, PS4  = 4 gu/m
+  CruiseSpeed  6, CS6  = 60 gu/min
+  
+  Ships are identified by their owners and then the class. If the Tactical
+  Officer IDs a ship, the response could be : [alien,class,ship_type,B,R]
+  
+  eg.
+  
+  "Gammulan Class A Stormcarrier detected bearing x range x"
+  
+  Certain ships are only operated by certain aliens. The Gammulans are the
+  only aliens with Stormcarriers, Corsairs, Starfighters, Starcarriers &
+  Stardrones.
+  The finished game contains 42 ship types of varying class & characteristics.
+  GALCOM and it's allies operate 22 types.
+  The 'unknown' factor in the Gammulan ship characteristics is there because
+  none of them have been captured by GALCOM so that information is not
+  available. If you succeed in actually capturing one and delivering
+  it to the GALCOM HQ, then sometime during the game the information will be
+  available in the LOGISTIX computer database.
+          
+  GALCOM - :
+  ------
+
+Battlecruiser
+ Class                  - Constellation
+ Role                   - Multi-role
+ Range                  - 20 ly
+ Weight                 - 185,000 tons
+ Reactor                - Megatron
+ Shields                - Linear s11
+ Armor                  - Titanium/11
+ Laser                  - 2 x Phalanx MBM
+ Max. Speed             - HS
+ Weapon Bays            - 4
+ Crew                   - 150/200
+ Support craft          - 4 x Interceptors
+
+Interceptor
+ Class                  - None
+ Role                   - Multi-role
+ Range                  - 1 ly
+ Weight                 - 15 tons
+ Reactor                - Lattex/NB
+ Shields                - Spectrum/A
+ Armor                  - None
+ Laser                  - 1 x Phalanx SBM
+ Max. Speed             - CS3
+ Weapon Bays            - 2
+ Crew                   - 2
+ Support craft          - None
+
+LightStar
+ Class                  - None
+ Role                   - Defense
+ Range                  - 0.5 ly
+ Weight                 - 12 tons
+ Reactor                - Lattis/NB
+ Shields                - Spectrum/A
+ Armor                  - None
+ Laser                  - 1 x Phalanx SBM
+ Max. Speed             - CS2
+ Weapon Bays            - 2
+ Crew                   - 1
+ Support craft          - None
+
+Gammulan -:
+--------
+
+StormCarrier
+ Class                  - Class A
+ Role                   - Multi-role
+ Range                  - 30 ly
+ Weight                 - 165,000 tons
+ Reactor                - Unknown
+ Shields                - Unknown
+ Armor                  - Unknown
+ Laser                  - Unknown
+ Max. Speed             - HS
+ Weapon Bays            - 4
+ Crew                   - Unknown
+ Support craft          - 2 x TN-31 Corsair
+                          2 x Starfighter
+                          2 x Stardrone
+
+StarCarrier
+ Class                  - Venom
+ Role                   - Defense/Attack
+ Range                  - 15 ly
+ Weight                 - 140,000 tons
+ Reactor                - Unknown
+ Shields                - Unknown
+ Armor                  - Unknown
+ Laser                 - Unknown
+ Max. Speed             - HS
+ Weapon Bays            - 2
+ Crew                   - Unknown
+ Support craft          - 2 x Starfighters
+
+TN-31 Corsair
+ Class                  - None
+ Role                   - Attack/Intercept
+ Range                  - 1 ly
+ Weight                 - Unknown
+ Reactor                - Unknown
+ Shields                - Unknown
+ Armor                  - Unknown
+ Laser                  - Unknown
+ Max. Speed             - CS3
+ Weapon Bays            - Unknown
+ Crew                   - Unknown
+ Support craft          - None
+
+ Starfighter
+ Class                  - None
+ Role                   - Attack/Intercept
+ Range                  - 1.5 ly
+ Weight                 - Unknown
+ Reactor                - Unknown
+ Shields                - Unknown
+ Armor                  - Unknown
+ Laser                  - Unknown
+ Max. Speed             - CS4
+ Weapon Bays            - Unknown
+ Crew                   - Unknown
+ Support craft          - None
+
+*******************************************************************************
+
+                                KEYBOARD TEMPLATE
+                                
+*******************************************************************************
+
+The final program has over 300 keyboard commands.  For simplicity only those
+used in this demo are listed here:
+
+Where a '*' is indicated, this feature is only active whilst you are in control
+of the Battlecruiser; '!' is for the Interceptor only.
+
+UP  - Down Arrow keys   Pitch                ( JStick UpDown )
+LFT - RHT  Arrow keys   Yaw                  ( JStick LeftRight )
+[  ]                    Roll                 ( JStick left/right + button #2 )
+ENTER                   Fire laser           ( JStick button #1 )
+BackSpace               Cycle missiles/laser
+SpaceBar                Fire missile
+ALT+F1               *  Launch Interceptor #1. Will switch if already launched
+ALT+F2               *  Launch Interceptor #2. Will switch if already launched
+CTRL+F1              *  Retrieve Interceptor #1 (if previously launched/active)
+CTRL+F2              *  Retrieve Interceptor #2 (if previously launched/active)
+CTRL+ESC             !  Switch to the Battlecruiser
+ALT+C                *  Battlecruiser cloaking device on/off
+F                       Flight Path Designator toggle on/off
+F1-F4                   Switch views/stations
+F5                      External camera view (use arrow keys to rotate view)
+V                       Engine thrust vector toggle FTOL/VTOL
+                        FTOL = Engine Forward thrust vector
+                        VTOL = Engine Vertical thrust vector
+SHFT+1 - SHFT+9      *  Set engine power
+SHFT+1 - SHFT+4      !  Set engine power
++ / -                   Fine tune engine power
+0                       Shutdown engines ( computer handles deceleration )
+ALT+L                *  Switch to LOGISTIX computer
+SHIFT+F1                Change Navigation Interface Map, NIM range, L/M/S
+SHIFT+W              *  Time compression !!WARNING - THIS IS A BETA!!
+ALT+M                *  View dummy planetary map in Navigation station
+W                       Cycle mission waypoints	( if generated )
+ALT+ESC                 Abandon ship ( if Battlecruiser, game ends )
+P                    *  Cycle through ship's personnel in Communications station
+R                    *  Replay old messages in Communications station
+M                       Switch TACSCAN mode ( except mode # 2 )
+                         Mode #1 -       Multiple Target Track - Space
+                                         flying targets only L/M/S
+                         Mode #2 -       Single Target Track
+                         Mode #3 -       Flight Path Designator Track
+                         Mode #4 -       Multiple Target Track - Planet
+                                         Planetary ground targets
+                         Mode #5 -       Deployed Craft Tracking System.
+                                         Tracks BC & Interc
+                         Mode #6 -       Video Targetting System ( disabled )
+                                         (for special weapons)
+X                        Break target lock in TACSCAN mode #2
+S                        Activate TACSCAN mode #2 - Single Target Track
+T                        Cycle targets in TACSCAN mode #1 & #4 
+/                        Switch TACSCAN range, Long/Medium/Short
+C                        Switch Computer Video Display, CVD modes
+                         ( damage / Video Target Display )
+Scroll-Lock              Pause demo
+ALT+Q                    Quit demo and exit to DOS
+
+*******************************************************************************
+
+                     FILE DISTRIBUTION LIST FOR DEMO V3.00
+
+*******************************************************************************
+
+These are the list of files needed to run this demo. Some are optional.
+
+                       Battlecruiser:3000AD PRESS RELEASE
+                       ----------------------------------
+
+FROM   : GALCOM Supreme Commander, Smart
+TO     : All GALCOM Operatives
+SUBJ   : Battlecruiser:3000AD demo
+DATE   : 02/22/93
+
+Ok,
+
+- The good news
+
+it's finally here. For the past year, since releasing demo v2.00, we have been
+working very hard to release the proposed demo v2.01. Due to the complexity of
+the demo (being a sub-set of the final program) numerous bugs had to be
+terminated in order to produce a 99.9% bug-free demo v2.01 as demo v2.00 was.
+
+Well, during the course of the development, we added so many features that if
+one didn't know that the code was a demo, it would pass for a complete product.
+So, I decided to rename the next release BC:3000AD demo v3.0. This indicates
+how major an upgrade it is.
+
+- Now the bad news
+
+The files are really huge. I have split-up the entire program into two
+segments and file subsets. You can download 1) the main files needed to play
+the demo, 2) the animation files used in sequences such as your ship exploding,
+docking, evacuation etc, 3) the program intro animation and 4) the sound/FX
+files. The files are :
+
+ BC3K30.ZIP - Main files needed to run demo. See enclosed DEMOV300.TXT manual
+ 
+ BC3KSB.ZIP - Soundblaster + compatibles digitized/MIDI sound/FX files
+ 
+ BC3KAD.ZIP - Adlib digitized/MIDI sound/FX files
+ 
+ BC3KA1.ZIP - Animation sequences   1. Interceptor destroyed
+                                    2. Battlecruiser destroyed
+                                    3. Interceptor docking
+ 
+ BC3KA2.ZIP - Animation sequences   1. Interceptor evacuation   (planet/space)
+                                    2. Battlecruiser evacuation (planet/space)
+ 
+ BC3KA3.ZIP - Program intro animation sequences (simply breathtaking!!)
+
+ By downloading BC3K30.ZIP, you have the interactive demo v3.00 which contains
+ two missions and lots of fun. You can also download one of the sound/FX files
+ if you wish. Without sound/FX, you WILL NOT enjoy this program. The manual is
+ about 90 pages, if you don't read it, you're in serious trouble.
+
+ You can decide which of the animation files to download, either BC3KA1.ZIP or
+ BC3KA2.ZIP, or both. Simply unzip them to the sub-directory containing the
+ master program files and they will be used. You must then run SETUP21 again and
+ ENABLE animations.
+
+ BC3KA3.ZIP is a non-interactive demo of the actual program intro animation.
+ It is not needed to run the interactive demo at all. I just wanted to give
+ you guys a taste of things to come. It can also utilize the sound/FX files if
+ you have a soundcard.
+
+ Your best bet is to download these files at 9600 bps or find a BBS that has
+ a 14.4 modem (if you have one). As with demo v2.00, by the end of February,
+ every major BBS system will carry demo v3.00.
+
+ If you do not want to download the demo. Send $20 to
+
+             GALCOM Supreme Commander
+             3000AD
+             8306 Mills Drive
+             Suite 329
+             Miami, FL 33183
+
+  for a set of 4/5 HD disks containing the demo files. I shall only be sending
+  out 3.5" 1.44 diskettes.
+
+
+- It's a bug, it's a bug - gee, it's a feature <g>
+
+This demo even though it has been rigorously tested, may contain bugs. These
+bugs have the lowest priority in my life right now. I have to finish this
+product in time for a Summer release and I have no time to fix demo bugs. If
+it will not take more than 30 min of my time AND it is a bug, I shall fix it
+and post the fix here. Please do not call or send e-mail to me for tech
+support. You can communicate with other GALCOM Operatives who may be able to
+help. I may pitch in once in a while to clarify some points, give hints etc.
+
+If you have anything less than a 386/25, this demo will be very slow, your
+best bet is to get ahold of a Cray computer. I hear they're going cheap
+nowadays. Next week I shall do a special version for RISC based computers and
+the upcoming P5 processor - NOT!!
+
+- Other stuff that you really don't give a &^%#$(!)*!!@%# about
+
+Battlecruiser:3000AD made a debut appearance at Winter CES in January with very
+good responses from the bored attendees. Computer Game Review is currently the
+first mag to do a post CES preview. See page 80, Feb. edition. Other mags will
+follow suit in the upcoming weeks no doubt.
+
+Lloyd Pique is out of college for the time being. Thank God, now we can finish
+the 3D terrain and get rid of the bugs.
+
+Jim Marinis moved to a new job in New York.
+
+John Ratcliffe had a baby (no you dummy, his WIFE had the baby).
+
+Danny Mercurio is about to become famous for his raytraced artwork created for
+Battlecruiser:3000AD and used in my animation sequences. If he raises his fee
+for Battlestorm:The Aftermath (my next game), I'll show his kids how to format
+a hard disk as their first computer lesson.
+
+My next door neighbor has forgotten what I look like.
+
+My girlfriend is still waiting for me to 'snap out of it'.
+
+I made (and left) new 'friends' at Three-Sixty Pacific.
+
+I hear I cannot use the word 'phasers' to describe my ship's weapon systems
+because it's copyright property. Oh great, I've just thought of a thousand
+words that I intend to copyright and make sure no one uses them.
+
+As for me, well that's a whole different story....
+
+- On the serious side
+
+After a lot of faxes, telephone calls, swearing, personality conflicts,
+frustrating conversations and promises, promises, promises, 3000AD and
+Three-Sixty parted company on Jan 15th 1993 with a mutual contract termination.
+It was an unfortunate decision but 'a man's gotta do what a man's gotta do'.
+I still have my product, I'm still developing it, it's still in demand and I
+CAN sleep at night. 3000AD & Three-Sixty share a mutual professional
+relationship and maybe in the future we'll make things happen the way they
+were meant to be in October '92.
+
+- Thanks
+
+Thanks a lot for the undying support that you guys have given and I look
+

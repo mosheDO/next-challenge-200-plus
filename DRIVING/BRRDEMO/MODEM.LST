@@ -1,0 +1,362 @@
+;лллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллл
+;лл                                                                        лл
+;лл  Big Red Modem Interface                                               лл
+;лл                                                                        лл
+;лл    .I ............................ Init string                         лл
+;лл    .H ............................ Hang up the phone string            лл
+;лл    .B ............................ Baud rate                           лл
+;лл    .L ............................ Line speed (speed of SIO)           лл
+;лл    .D ............................ Dial string                         лл
+;лл                                                                        лл
+;лллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллл
+
+[Acubit 14.4 fax v32]
+.I AT &F &C1 &D2 %C0 \N1
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[AT&T Data Port 14.4 FaxM.]
+.I AT &F &C1 &D2 S41=3 \N0 %C0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Boca 14.4 fax]
+.I AT &F &C1 &D2 S46=0 N0 &D2 &K0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Boca 14.4 v32 fax]
+.I AT &F &C1 &D2 \N0 \G0 &K0 %C0 N0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Cardinal 14.4 v32]
+.I AT &F &C1 &D2 N0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Cardinal 9600fax]
+.I AT &F &C1 &D2 &Q6 &K0 %C0 \N0 N0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Digicom Scout Plus 14.4 Fax]
+.I AT &F &C1 &D2 *M0 *E0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Gateway Telepath 14.4 fax]
+.I AT &F &C1 &D2 B0 N0 \N0 %C0 &K0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Gateway Telepath 550]
+.I AT &F &C1 &D2 S27=32 S15=16 S13=64 &B0 &H2 &I1 &K0 &M0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[GENERIC 14.4 MODEM]
+.I AT &F &C1 &D2 &Q5 &K0 S46=0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[GVC 14.4 fax]
+.I AT &F &C1 &D2 S46=0 N0 &K0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[GVC 14.4 MNP2-5 v42]
+.I AT &F &C1 &D2 %C0 \N0 B8
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Hayes Optima 14.4]
+.I AT &F &C1 &D2 \N0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Hayes Optima 14.4]
+.I AT &F &C1 &D2 S46=0 N0 &K0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Hayes Optima 28.8]
+.I AT &F &C1 &D2 &K0 &M0 &Q5 S46=136
+.H AT Z H0
+.B 38400
+.L 19200
+.D ATDT
+
+[Hayes Ultra 14.4]
+.I AT &F &C1 &D2 &Q5 &K0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Identity Internal]
+.I AT &F &C1 &D2 B8 %C0 \Q0 \N1
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Infotel 14.4]
+.I AT &F &C1 &D2 &Q6 %C0 N0 &K0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Intel 14.4]
+.I AT &F &C1 &D2 \N0 \Q0 \J1 \V0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Intel 14.4 ext]
+.I AT &F &C1 &D2 \N0 /Q0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Intel 14.4 fax]
+.I AT &F N0 &D2 &C1 &Q6 &K0 S0=1
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Intel 14.4i]
+.I AT &F &C1 &D2 B8 %C0 "H0 \N0 \Q0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Intel 14.4i fax]
+.I AT &F &C1 &D2 \N0 \Q0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[MegaHertz C596FM]
+.I AT &F &C1 &D2 \N1 \J0 %C0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[No Name (Rockwell) 14.4]
+.I AT &F &C1 &D2 N0 S46=0 &K0 %C0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Practical Perip 14.4FX v32]
+.I AT &F &C1 &D2 &K0 &Q5 S46=0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Pace Linnet 32 Plus vfx]
+.I AT &C0 F8 \N0
+.H AT Z H
+.B 9600
+.L 19200
+.D ATDT
+
+[Redicard v.32 bis 14.4]
+.I AT &F &C1 &D2 %C \N
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Smart One 1442F]
+.I AT &F &C1 &D2 %C0 &K0 S95=44 S46=0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[SupraFax 14.4]
+.I AT &F &C1 &D2 &Q6 &K %C0 \N1 S37=6 S0=1
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[SupraFax 14.4 v32]
+.I AT &F &C1 &D2 S46=136 %C0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[SupraFax 14.4 v32-]
+.I AT &F &C1 &D2 S46=136 M1 Q0 D2
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Telebit Worldblazer 14.4]
+.I AT &F &C1 &D2 S51=4 S180=0 S183=8 S190=0 L1
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Telepath 550]
+.I AT &F &C1 &D2 &M0 &K0 S0=1
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[USR Sportster 14.4 v32 fax]
+.I AT &F &A0 &B1 &C1 &D2 &M0 &H0 &I0 &K0 S27=48
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATX3DT
+
+[USRobotics 14.4 fax]
+.I AT &F &A0 &B1 &C1 &D2 &M0 &H0 &I0 &K0 S27=48
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[USRobotics 14.4 v32 fax]
+.I AT &F &A0 &B1 &C1 &D2 &M0 &H0 &I0 &K0 S27=48
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[USRobotics Sportster 14.4]
+.I AT &F &A0 &B1 &C1 &D2 &M0 &H0 &I0 &K0 S27=48
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Viva 14.4]
+.I AT &F &C1 &D2 \N0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Viva 14.4i fax]
+.I AT &F &C1 &D2 \N0 \Q0 \J1 \VI
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[VivaFax 14.4]
+.I AT &F &C1 &D2 N0 \N1 %C0 &K0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[VivaFax 14.4]
+.I AT &F &C1 &D2 \Q0 &M0 %C0 B8 \N1
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[ZOOM 14.4]
+.I AT &F &C1 &D2 &K0 &Q6 %C0 \G0 \N0 S46=136
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[ZOOM 14.4 v32 v42 fax]
+.I AT &F &C1 &D2 &K0 &Q6 %C0 \G0 \N0 S46=136
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[ZOOM VFP 14.4]
+.I AT &F &C1 &D2 &K0 &Q6 %C0 \G0 \N0 S46=136
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[ZOOM VFX v32]
+.I AT &F &C1 &D2 &K0 &Q6 %C0 \G0 \N0 S46=136
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[ZOOM VXP 14.4 v42]
+.I AT &F &C1 &D2 &K0 &Q6 %C0 \G0 \N0 S46=136
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[Zoomfax VFP v32]
+.I AT &F &C1 &D2 &K0 &Q6 %C0 \G0 \N0 S46=136
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[ZyXel 14.4]
+.I AT &F &C1 &D2 \N0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+
+[ZyXEL U-1496 14.4]
+.I AT &F &C1 &D2 S46=0 &K0
+.H AT Z H0
+.B 14400
+.L 19200
+.D ATDT
+

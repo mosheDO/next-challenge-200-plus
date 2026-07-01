@@ -1,0 +1,216 @@
+
+#              BOLO ADVENTURES I  v3.0
+
+
+ Welcome to Bolo Adventures.  The game tests your problem
+ solving abilities.  There are 20 floors (puzzles) which you
+ must solve.
+
+ On each floor, you have a man (BOLO), who tries to finds
+ his way to the stairs, which will take him to the next level.
+ The stairs are always protected by either monsters, lasers,
+ snakes, blocks, balls, electric grills, water...etc...  Each
+ floor has at least one solution to free Bolo from the confines
+ of the room.  Some floors have many solutions, others only one.
+ How many can you find?
+
+ There are many different objects you'll see as you play.
+ Some will help you, some won't, the only way to discover what
+ they do is to test them out.  You can attempt the same room as
+ many times as you want.  If you're stumped, then go to another
+ room and come back later.
+
+#                            **NOTE**
+
+  When first playing the game, run the Demo program to get a feel
+  for how the game is played.  Press <D> from the Main Menu.
+
+
+#                       Some of the Objects
+                        --------------------
+
+
+  Boxes:     You can push these around the room to stop lasers,
+             monsters, make paths through water...?
+
+  Balls:     You can roll these around to the room to stop lasers,
+             monsters, float in water...?
+
+  Invisible
+    Grills:  Makes your man invisible. (but not from the hazards)
+
+  Electric
+    Grills:  These fry you on contact!
+
+    Lasers:  What do you think?
+
+  Monsters:  These will electrocute you!
+  & Snakes..
+
+    Others:  There are many other objects which will assist you
+             in reaching the stairs.  You will learn the game
+             in a matter of minutes, but some floors will take
+             you hours.  The best way to learn is just to play.
+             Mr. Bolo is waiting!!!
+
+
+#                      Key Definitions
+                      -----------------
+
+            <Arrow Keys>  :    Move Mr. Bolo
+
+            <K>eys        :    This shows the key definitions
+
+            <D>emo        : Runs Demo program
+            (main menu)
+
+            <?>           : Game Directions
+
+            <P>ause       : Pauses game
+
+            <H>igh Scores : Shows number of attempts and High Scores
+
+            <S>elect/Play : Choose floors to play
+            (main menu)
+
+            <S>ound       : Toggles Sound on/off
+            (within puzzle)
+
+            <G>ive up     : Try another attempt
+                            used when your trapped or when
+                            situation is hopeless
+
+            <Q>uit        : Main Menu  (quits program)
+
+            <Esc>         : Will bring up menus for selection
+                            Quit/Give up/Main menu...
+
+
+#                          Scoring
+                           -------
+
+ You will notice at the bottom of the screen a score total
+ running as you play the game.  When you have completed a
+ puzzle, this score will be put in your personal scoreboard.
+ This means that even after you've completed a puzzle (floor),
+ you can try to better your point total.
+
+ The score is computed by the number of balls and blocks left
+ on the floor when you reach the stairs.  Also by the amount
+ of moves with Mr. Bolo.  There are a few other variables which
+ finally will compute your final score.  These variables include
+ things like the number of times (snakes..if present on floor)
+ burn up in the hot grills)  Needless to say, the more balls &
+ blocks left on the floor and the least number of moves will
+ count for a higher score.  Each player is asked to enter their
+ own initials for the computer to create a personal score card
+ when the game begins.  Once you've entered your initials, the
+ game will have a record of all your high scores and attempts
+ at each floor every time you play the game.
+
+
+#                    * Difficulty Level *
+
+#                      * Important  *
+
+ The floors are not ranked in order of difficulty.  In Bolo
+ Adventures I, room number (4) seems to give people the most
+ trouble.  Don't feel you have to solve the rooms in sequence!
+
+ 
+#                  *  NOTE WINDOWS USERS  *
+
+ Running Bolo Adventures from Windows may cause unexpected 
+ results. The game should be played by loading it directly from 
+ the DOS prompt.
+
+ 
+
+
+#*  SOLEAU SOFTWARE MEMBERSHIP / REGISTRATION (20 New Floors!) *
+
+ Bolo Adventures I is distributed as Shareware. A registration
+ fee of $12.00 is requested if you find this game is a worthy
+ addition to your game collection. The registration will greatly
+ speed up the loading and exiting of the game ,plus give you 20 new
+ mind-bending puzzle rooms !  Registering this game will instantly
+ make you a Soleau Software Member.  All Members receive our picture
+ catalogue with information and discounts on our other Shareware
+ games through Special Member Bonus Package Offers.
+
+ Please take the time to read the BOLO_REG.DOC file which describes
+ how you can get information on our many other games and how to
+ become a Soleau Software Member.
+
+ We at Soleau Software thank you for your support and hope you will
+ continue to enjoy this as well as our other Shareware products.
+
+ P.S. Look for Bolo Adventures II & III on your local BBS !
+
+#                           Sincerely,
+
+#                         William Soleau
+                           President
+
+#                          Soleau Software
+                         163 Amsterdam Ave
+                            Suite 213
+                       New York,  NY  10023
+
+                    Compuserve #:  70407,1730
+                    
+
+   ***********************************************************
+
+   Since you've read down this far, I'll give you some hints
+   for Bolo Adventures I:
+
+   If you don't want any, go right to the game NOW, or else
+   read on......
+
+
+#                           * Hints *
+
+
+   While I won't give away any secrets, these are things you
+   should be aware of!
+
+    1.  Watch which way the currents are running in the water.
+    2.  Sometimes the hardest looking puzzles actually have a
+        very simple solution. Look at everything!
+    3.  Avoid pushing blocks and balls against the edges of the
+        room where you can't use them.
+    4.  Mostly use the balls to stop lasers instead of blocks.
+        Blocks are more versatile as you'll discover.
+    5.  Nah....  that's enough........
+
+
+#                      ENJOY......................
+
+
+
+#       Since you read down this far, I'll give you some
+#       hints for Bolo Adventures:
+
+
+   If you don't want any, go right to the game NOW, or else read
+   on......
+
+
+#                             Hints
+
+
+   While I won't give away any secrets, these are things you
+   should be aware of.
+
+   1.  Watch which way the currents are running in the water.
+   2.  Sometimes the hardest looking puzzles actually have a
+       very simple solution. Look at everything!
+   3.  Avoid pushing blocks and balls against the edges of the
+       room where you can't use them.
+   4.  Mostly use the balls to stop lasers instead of blocks.
+       Blocks are more versatile as you'll discover.
+   5.  Nah....  that's enough........
+
+
+

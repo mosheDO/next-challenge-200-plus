@@ -1,0 +1,51 @@
+BM SETUP UTILITY Inline Documentation - English
+
+Note : Excuse me for my Poor French 2 English Translation
+
+
+BASIC PRINCIPLES
+
+  To choose a command, move the highlighted Rectangular zone with the
+  Up & Down Direction Keys then validate with ENTER or RETURN
+  if you modify a setting, you will see the modification in the window
+  Informations.
+
+COMMANDS
+
+  I- Select a Sound Card for the digitized sounds (SOUND SETUP)
+
+    Choose NONE if you don't have a Sound Blaster compatible Card,
+    else Choose SOUND BLASTER
+
+    Next, you have to indicate the Sound Card Base Address
+    (from 210h to 280h). The default option is 220h (please refer to
+    your sound card documentation)
+
+    Then choose the DMA Channel used for sound reproduction : 1,2,3 or 4
+    (default = 1)
+
+    Then choose the IRQ number : 2,3,5 or 7 (default = 7, sound blaster
+    default = 5)
+
+
+  II- Select a Sound Card for the Musics (MUSIC SETUP)
+
+    Choose NONE if you don't have a Sound Blaster or Adlib compatible
+    Sound Card.
+    Else Choose ADLIB.
+
+  III- Choose the Mouse Speed (MOUSE SPEED)
+
+    Slow Speed   : LOW
+    Medium Speed : MEDIUM (default)
+    Fast Speed   : HIGH
+
+  IV- Save your settings & quit the program
+
+      select the SAVE & EXIT command
+
+  V- Quit the program with no change
+
+      Select the EXIT Command
+
+

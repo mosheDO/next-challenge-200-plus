@@ -1,0 +1,233 @@
+STARFIRE.DOC - Instructions for playing Starfire.
+
+
+This version of STARFIRE is distributed as Shareware. You may use
+this program, to evaluate it, for as long as you like. However if
+you enjoy playing this game, it would be in your own best interests
+to register. Registration details can be found at the end of this
+file.
+
+Registered users will receive an up to date copy of the game (which also
+contains a few more levels), along with documentation, explaining more 
+about playing the game.
+
+Furthermore, those who register are fine, upstanding citizens, who
+are supporting the Shareware concept ... good software at a
+reasonable price... and Silver Lightning Software. Ultimately, registering
+means that better games can be produced in the future...without having to
+increase the price. Shareware is a good alternative to the high prices of
+commercial vendors, but your support is required.
+
+
+FILE LIST
+---------
+Essential Files: STARFIRE.EXE
+                 FIGHT1  .SHX
+                 ENEM1   .SHX
+                 SP_MISC .SHX
+                 SHIP    .SHX
+                 MOTHER  .SHX
+                 LETTERS .SHX
+                 STARFIRE.PLT
+                 LEVELS  .DAT
+                 ST00    .VOC
+                 ST01    .VOC
+                 ST02    .VOC
+                 ST03    .VOC
+                 ST04    .VOC
+
+If any of these files are missing, you will not be able to play the
+game. So get another copy. Also, there are...
+
+Others :         STARFIRE.DOC   ( don't worry, you've got that one)
+                 ORDER.FRM
+
+
+HARDWARE REQUIREMENTS
+---------------------
+
+286,386 or 486 PC ( 12 MHz+  recommended )
+VGA Card and Monitor
+
+Also supported ( but not required )
+Joystick ( recommended )
+Mouse
+Adlib/SoundBlaster Card 
+
+COMPATIBILITY
+-------------
+
+SoundBlaster Users
+------------------
+
+If you are using a SoundBlaster card, you will be able to hear digitized 
+speech when you collect a token. A driver called CT-VOICE.DRV is used
+to play back the samples. This driver is provided with your SoundBlaster
+when you buy it. CT-VOICE.DRV should be located in a sub-directory from your
+SoundBlaster software, called /DRV. If you do not have this driver installed,
+you will need to copy it into the directory in which Starfire is located.
+
+Unfortunately, only genuine SoundBlaster cards seem to work with speech. 
+If you have a SoundBlaster compatible sound card, such as a Media Vision 
+ThunderCard, you may have to use Adlib sound mode.
+
+If you have an earlier version Soundblaster (version 1), you may not get
+speech if your card is not set to default values (base port, interupt,
+DMA channel). If your card setting are not the default, you will need
+to add the BLASTER environment variable to your AUTOEXEC.BAT file. Check
+your manual, or contact your dealer for details on how to do this.
+
+Video Cards
+-----------
+
+Starfire requires a 100% compatible STANDARD VGA card and monitor. Most
+SUPER VGA cards work fine, but in a small number of cases, problems have
+occurred. This is because in SuperVGA mode, standard VGA compatiblity is
+sometimes partially lost. Most programs work fine, but Starfire does
+some reasonably tricky things with the hardware to produce the smooth
+scrolling. If you encounter problems, as unlikely as that is, check your
+VGA card manual to see if a driver program exists to switch modes, or 
+maybe you have to change a switch on the card itself.
+
+
+THE STORY SO FAR...
+-------------------
+As in just about every arcade style game that's ever been written,
+the Earth is under threat. An evil, cowardly race of beings, called
+the Sloboids, are sending huge 'mother destructor craft' towards
+Earth. Carrying weapons capable of destroying entire planets, all
+of mankind is under threat.
+                
+General Instructions
+--------------------
+Type STARFIRE to play the game. You get 4 lives, and one or two
+players can play, but they take it in turns.
+
+You can use a joystick, mouse (the mouse driver should be
+previously installed), or keyboard. Joystick is strongly
+recommended, but feel free to try all. When the program loads, it
+will auto-detect which of these devices are present. If a device is
+'NOT FOUND' check your connections before trying again. 
+
+At the title screen, press F1 to change player one's control
+device.
+Press F3 to change between 1 and 2 player game, and F2 changes
+player two's input device (if there is a player two). Simple. In
+the bottom corners of the screen you will see which devices each
+player will use. Also, if you press F10, you can exit to DOS.
+
+If you use the keyboard, use the keys on the numeric keypad to move
+in the required direction. The ship you control moves at two
+speeds, so press the same key twice to go at high speed. The '5'
+key in the middle stops you. <Space Bar> fires. <RETURN> drops
+bombs.
+
+If you are using a joystick, button 1 fires the main weapon, and
+button 2 drops bombs. Push the joystick in the direction you wish
+to go, and centre it to stop moving.
+
+If you are using a mouse, the left button will fire your main guns,
+and the right button drops bombs. Push the mouse in the direction
+you wish to travel, and move to the original position to stop.
+
+Press <ESC> to pause the game, and any key to start again
+
+Press 'S' to toggle sound on and off. If you have a SoundBlaster, and
+speech is enabled, you can press 'T' to stop speech.
+
+Also, if you need to re-calibrate the joystick during play, (this
+is only necessary if your processor speed changes, or if you stuff
+it up the first time) press 'J', and follow the instructions on
+screen.
+
+During player, pressing F10 ends the game.
+
+Your mission, should you choose to accept it..
+----------------------------------------------
+
+The objective of the game is to destroyed the alien motherships
+which are currently headed toward earth. Along the way you will
+encounter .. heat-seeking missile launchers, gun turrets, & enemy
+fighters. Some fighters fire back , so beware !!
+
+Also you should avoid the various structures & pipes that protrude
+up from the deck. Colliding with one is instantly fatal. Dead guns
+are also a hazard.
+
+Use your main weapon to shoot enemy craft, gun turrets, heat-
+seeking missiles, etc. Your bombs can be dropped on missile
+launchers & guns.
+
+In the bottom left corner of the screen is your score. In the
+bottom right, from left to right, is the number of bombs you are
+carrying, a measure of your shields & the number of lives you have
+remaining. Shields are damaged by missile & bullets, and, obviously,
+if they reach zero, your craft will explode.
+
+Also along the way you can collect various tokens, if you shoot
+enough bad guys, and/or survive long enough. A flashing 'W' gives
+you a better weapon, an 'S' replenishes shields to full, an 'I'
+makes you temporarily invincible, the space ship is a bonus life,
+and the bomb token gives you bombs.
+
+This version contains six levels.
+
+REGISTRATION
+------------
+
+To register, simply send AUD$20.00 (Australia Dollars) to :
+            
+SILVER LIGHTNING SOFTWARE
+P.O. Box 445
+Willetton W.A. 6155
+AUSTRALIA.
+
+If you live outside of Australia, please add AUD$5.00 to cover
+postage and handling. You may also have to wait around 4
+weeks for delivery, depending on where you live, but please don't
+let that put you off. Please ensure that cheques are drawn on an
+Australian or International bank. Thanks.
+
+U.S. Residents :
+If you cannot get a check made out in Australian dollars, you may (as a
+desperate last resort) send cash. Send US$20.00 (cash only - no US checks
+or money orders) to the above postal address.  Please ensure that the 
+envelope is secure. A registered version of the game cannot be sent back
+if the money doesn't see the trip through..  if you get my meaning.
+          
+This (unregistered) version may be distributed freely. If you have
+friends, give them a copy. If you have access to a BBS or two, feel free
+to upload it. But I would ask that you don't change this program
+in ANY way, because that's naughty.
+
+There should be a file called ORDER.FRM with this package. You can
+use any word processor, or text editor, to load it. Then print it,
+and place your order.
+
+If you do not have this file, just send your name, address, and
+what size disk you want.
+
+
+Enjoy..
+
+
+LEGAL STUFF                                
+
+       The author of this software will not be responsible for any
+       loss, damage, and/or injury caused by using this software.
+       The user of this program bears all risk as to the quality and
+       performance of the software.
+
+  Starfire is Copyright (c) 1992 by Paul Turbett.  All rights reserved.
+  Silver Lightning Software.
+
+SHAREWARE DEALERS
+
+I am always interested in new vendors for my software. If you would 
+like to add Starfire to your catalog, please contact Silver Lightning 
+Software at the postal address above, and let me know which version you have, 
+so that I can send you an updated version if necessary. Also a copy of
+your catalog would be appreciated. By contacting SLS, future games can be
+mailed to you direct, as soon as they are finished.
+
+

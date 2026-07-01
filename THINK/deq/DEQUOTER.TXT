@@ -1,0 +1,24 @@
+
+DeQuoter 1.0 from Shadoware, JUN 1993.
+
+Installation Procedure
+
+	To install Dequoter, open the file manager, create a new directory,
+     and move all of Dequoters' files into the directory. These should 
+     include:
+     			DEQUOTER.EXE
+			DEQUOTER.HLP
+			QUOTE1.MID
+			FILE_ID.DIZ
+			DEQUOTER.TXT
+
+	Resize the file manager so that you can see the Program Manager on 
+     the screen as well. Grab DEQUOTER.EXE and drag-and-drop it onto the
+     Program Manager group of your choice (i.e GAMES). DeQuoter is now 
+     installed. To begin playing, simply double click on the icon.
+
+
+	IMPORTANT NOTE!!!
+	IF THE ZIP FILE YOU RECEIVED CONTAINS A FILE CALLED DEQUOTER.SDW,
+ 	YOU MAY DELETE THIS FILE. IT CONTAINS THE HIGH SCORE INFORMATION
+	AND THE CURRENT QUOTE OF THE LAST GAME.

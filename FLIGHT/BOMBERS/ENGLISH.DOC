@@ -1,0 +1,167 @@
+
+
+
+
+
+
+
+   ---ÄÄÄÄŞÛÛÛÛÛÛÛ   ŞÛÛÛÛÛÛÛÛ  ŞÛÛÛ  ŞÛÛÛ    ŞÛÛÛÛÛÛÛ   ŞÛÛÛÛÛÛÛ  ŞÛÛÛÛÛÛ
+          ÛÛ     ÛÛ  ÛÛ    ŞÛİ  ÛÛŞÛ  ÛÛŞÛ    ÛÛ     ÛÛ  ÛÛ        ÛÛ    ÛÛ
+  ---ÄÄÄÄŞÛİ    ŞÛİ ŞÛİ    ÛÛ  ŞÛİŞÛ ŞÛİŞÛ   ŞÛİ    ŞÛİ ŞÛİ       ŞÛİ   ŞÛİ
+         ÛÛÛÛÛÛÛÛİ  ÛÛ    ŞÛİ  ÛÛ ŞÛ ÛÛ ŞÛ   ÛÛÛÛÛÛÛÛİ  ÛÛÛÛÛÛ    ÛÛÛÛÛÛÛİ
+ ---ÄÄÄÄŞÛİ     ÛÛ ŞÛİ    ÛÛ  ŞÛİ ŞÛŞÛİ ŞÛ  ŞÛİ     ÛÛ ŞÛİ       ŞÛİ    ÛÛ
+        ÛÛ     ŞÛİ ÛÛ    ŞÛİ  ÛÛ  ŞÛÛÛ  ŞÛ  ÛÛ     ŞÛİ ÛÛ        ÛÛ    ŞÛİ
+---ÄÄÄÄŞÛÛÛÛÛÛÛÛİ ŞÛÛÛÛÛÛÛÛ  ŞÛİ  ŞÛÛİ  ŞÛ ŞÛÛÛÛÛÛÛÛİ ŞÛÛÛÛÛÛÛÛ ŞÛİ    ÛÛ v2.2
+
+                             The REAL arcade game!
+
+
+
+
+
+           (C) Copyright 1993-95 by Patrick Pich‚, all rights reserved
+
+
+
+                All products mentionned in this documentation 
+                 are trademarks of their respective authors.
+
+
+
+
+
+
+ÚÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³     ³  TABLE OF CONTENTS                                                  ³
+ÀÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+                              
+  1. Introduction..........................................................2
+  2. System requirements...................................................2
+  3. The game..............................................................3
+  4. Questions and answers.................................................4
+  5. Credits...............................................................4
+  6. Registering bomber....................................................5
+
+
+ Bomber 2.2 - The REAL arcade game!                                   Page 2
+ÚÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³  I  ³  INTRODUCTION                                                       ³
+ÀÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+                           
+        Your mission is to destroy many ennemy bases on the path of your
+bomber, a B-29. The first B-29s were created back in 1943 and have been
+used a lot by the american army. The B-29 is equipped with one 20mm cannon,
+a double .50mm machine gun and 22,000 lbs of bombs. It has been modified
+a little for this game!
+        
+        Many obstacles are on your path such as tanks, helicopters,
+warships and more! Will you be able to keep up?
+
+        Bomber is a game which has many features that makes it a superior
+quality game, such as:
+        
+ş Stunning 256 color VGA graphics
+ş Musical theme and digitized sound effets on a Sound Blaster or compatible
+ş Many unique levels
+        
+        I hope that you'll enjoy bomber. Many hours of work have been put in
+this game, therefore I ask you to consider registering Bomber if you like it.
+        
+The author, Patrick Pich‚
+        
+ 
+ÚÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ II  ³  SYSTEM REQUIREMENTS                                                ³
+ÀÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+                              
+        Bomber should work on any 386 or more with at least 400K of free
+conventional memory, but if you want the game to take full advantage of all
+its features and be fast enough, a 33Mhz or more processor is recommended.
+This game uses special 386 instructions, and thus will NOT work a 286
+machines, sorry. The game supports the Sound Blaster for the playback
+of music and digitized sound effects.
+
+        The first time you run BOMBER, you'll be asked to configure the
+game to fit your needs. You have to choose between english or french,
+sound or no sound, and in which special playing mode you want to play.
+If you want to change the configuration after that, you can run
+SETUP.BAT or simply BOMBER with any argument.
+
+
+ Bomber 2.2 - The REAL arcade game!                                   Page 3
+ÚÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ III ³  THE GAME                                                           ³
+ÀÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        Bomber is very easy to start from DOS, you only have to type 
+BOMBER.EXE and it will automatically detect the type of sound card installed
+in your system. The keys used in the game are the following:
+        
+        Direction of your bomber: Cursor keys
+        Fire bullets            : CTRL
+        Fire bombs              : ALT
+        Quit the game           : ESC
+        Pause                   : Space bar
+
+        That's it! Now, try to destroy the 3 bases of the game! You'll start
+in a forest and the ennemy base will be at the end at about 200Km (120 
+miles). After that, other scenarios will be presented to you, it's up to you 
+to discover them! Note that the red cross is your aim and it's at its 
+position on the ground that your bombs will blow up.
+
+        You can eliminate gound ennemies with your bombs and helicopters with
+your machine guns. There's no ammo limit, this game has been created for you
+to let go your frustrations and not to frustrate you more!!! Let go your
+destructive instinct and enjoy! You'll start with three lives and you gain one
+more for every 10,000 points scored.
+
+
+ Bomber 2.2 - The REAL arcade game!                                   Page 4
+ÚÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ IV  ³  QUESTIONS AND ANSWERS                                              ³
+ÀÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+        
+Q: What's new in v2.2?
+R: The sound engine as been modified to mix samples. Several bug fixes.
+	 MUCH faster graphic engine. New, very special playing modes.
+
+Q: Can I have the source code for this game?
+R: No!
+
+Q: What do I do if I like BOMBER?
+R: Simple: you register it!
+
+
+ÚÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³  V  ³  CREDITS                                                            ³
+ÀÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+        
+        I would like to give special thanks to the following who gave their
+time and advice to help me create Bomber. I thank Eric Gagnon for his "Game
+Over" and Olivier Mass‚ for his music and the documentation.
+
+
+ Bomber 2.2 - The REAL arcade game!                                   Page 5
+ÚÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ VI  ³  REGISTERING BOMBER                                                 ³
+ÀÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        Bomber is the result of many hours of work, so it is offered to you
+in its Shareware version. To register Bomber, send 15$ US or 20$ CDN at
+the address below and you'll receive the latest, complete version of Bomber
+with a special code to start at the level of your choice, an invincible bomber
+option and a special 'weird' mode to play bomber on the spin all time(real
+challenge!). Your contribution is important for the making of other projects.
+If you like Bomber, you are morally obligated to register it!
+        
+        Send your name, address and payment plus 3$ for shipping and
+handling to the following address:
+
+                             Patrick Pich‚
+                           56, 106th avenue 
+                        Lafontaine, PQ, Canada
+                               J7Y 1G5
+    
+    
+        If you have comments about this game or have a bug to report, don't
+hesitate to send me an EMail at: pichep@jsp.umontreal.ca

@@ -1,0 +1,144 @@
+*******************************************************************************
+
+                     FILE DISTRIBUTION LIST FOR DEMO V3.00
+
+*******************************************************************************
+
+These are the list of files needed to run this demo. Some are optional.
+
+                       BATTLECRUISER:3000AD PRESS RELEASE
+                       ----------------------------------
+
+FROM   : GALCOM Supreme Commander, Smart
+TO     : All GALCOM Operatives
+SUBJ   : Battlecruiser:3000AD demo
+DATE   : 02/22/93
+
+Ok,
+
+- The good news
+
+it's finally here. For the past year, since releasing demo v2.00, we have been
+working very hard to release the proposed demo v2.01. Due to the complexity of
+the demo (being a sub-set of the final program) numerous bugs had to be
+terminated in order to produce a 99.9% bug-free demo v2.01 as demo v2.00 was.
+
+Well, during the course of the development, we added so many features that if
+one didn't know that the code was a demo, it would pass for a complete product.
+So, I decided to rename the next release BC:3000AD demo v3.0. This indicates
+how major an upgrade it is.
+
+- Now the bad news
+
+The files are really huge. I have split-up the entire program into two
+segments and file subsets. You can download 1) the main files needed to play
+the demo, 2) the animation files used in sequences such as your ship exploding,
+docking, evacuation etc, 3) the program intro animation and 4) the sound/FX
+files. The files are :
+
+ BC3K30.ZIP - Main files needed to run demo. See enclosed DEMOV300.TXT manual
+ 
+ BC3KSB.ZIP - Soundblaster + compatibles digitized/MIDI sound/FX files
+ 
+ BC3KAD.ZIP - Adlib digitized/MIDI sound/FX files
+ 
+ BC3KA1.ZIP - Animation sequences   1. Interceptor destroyed
+                                    2. Battlecruiser destroyed
+                                    3. Interceptor docking
+ 
+ BC3KA2.ZIP - Animation sequences   1. Interceptor evacuation   (planet/space)
+                                    2. Battlecruiser evacuation (planet/space)
+ 
+ BC3KA3.ZIP - Program intro animation sequences (simply breathtaking!!)
+
+ By downloading BC3K30.ZIP, you have the interactive demo v3.00 which contains
+ two missions and lots of fun. You can also download one of the sound/FX files
+ if you wish. Without sound/FX, you WILL NOT enjoy this program. The manual is
+ about 90 pages, if you don't read it, you're in serious trouble.
+
+ You can decide which of the animation files to download, either BC3KA1.ZIP or
+ BC3KA2.ZIP, or both. Simply unzip them to the sub-directory containing the
+ master program files and they will be used. You must then run SETUP21 again and
+ ENABLE animations.
+
+ BC3KA3.ZIP is a non-interactive demo of the actual program intro animation.
+ It is not needed to run the interactive demo at all. I just wanted to give
+ you guys a taste of things to come. It can also utilize the sound/FX files if
+ you have a soundcard.
+
+ Your best bet is to download these files at 9600 bps or find a BBS that has
+ a 14.4 modem (if you have one). As with demo v2.00, by the end of February,
+ every major BBS system will carry demo v3.00.
+
+ If you do not want to download the demo. Send $20 to
+
+             GALCOM Supreme Commander
+             3000AD
+             8306 Mills Drive
+             Suite 329
+             Miami, FL 33183
+
+  for a set of 4/5 HD disks containing the demo files. I shall only be sending
+  out 3.5" 1.44 diskettes.
+
+
+- It's a bug, it's a bug - gee, it's a feature <g>
+
+This demo even though it has been rigorously tested, may contain bugs. These
+bugs have the lowest priority in my life right now. I have to finish this
+product in time for a Summer release and I have no time to fix demo bugs. If
+it will not take more than 30 min of my time AND it is a bug, I shall fix it
+and post the fix here. Please do not call or send e-mail to me for tech
+support. You can communicate with other GALCOM Operatives who may be able to
+help. I may pitch in once in a while to clarify some points, give hints etc.
+
+If you have anything less than a 386/25, this demo will be very slow, your
+best bet is to get ahold of a Cray computer. I hear they're going cheap
+nowadays. Next week I shall do a special version for RISC based computers and
+the upcoming P5 processor - NOT!!
+
+- Other stuff that you really don't give a &^%#$(!)*!!@%# about
+
+Battlecruiser:3000AD made a debut appearance at Winter CES in January with very
+good responses from the bored attendees. Computer Game Review is currently the
+first mag to do a post CES preview. See page 80, Feb. edition. Other mags will
+follow suit in the upcoming weeks no doubt.
+
+Lloyd Pique is out of college for the time being. Thank God, now we can finish
+the 3D terrain and get rid of the bugs.
+
+Jim Marinis moved to a new job in New York.
+
+John Ratcliffe had a baby (no you dummy, his WIFE had the baby).
+
+Danny Mercurio is about to become famous for his raytraced artwork created for
+Battlecruiser:3000AD and used in my animation sequences. If he raises his fee
+for Battlestorm:The Aftermath (my next game), I'll show his kids how to format
+a hard disk as their first computer lesson.
+
+My next door neighbor has forgotten what I look like.
+
+My girlfriend is still waiting for me to 'snap out of it'.
+
+I made (and left) new 'friends' at Three-Sixty Pacific.
+
+I hear I cannot use the word 'phasers' to describe my ship's weapon systems
+because it's copyright property. Oh great, I've just thought of a thousand
+words that I intend to copyright and make sure no one uses them.
+
+As for me, well that's a whole different story....
+
+- On the serious side
+
+After a lot of faxes, telephone calls, swearing, personality conflicts,
+frustrating conversations and promises, promises, promises, 3000AD and
+Three-Sixty parted company on Jan 15th 1993 with a mutual contract termination.
+It was an unfortunate decision but 'a man's gotta do what a man's gotta do'.
+I still have my product, I'm still developing it, it's still in demand and I
+CAN sleep at night. 3000AD & Three-Sixty share a mutual professional
+relationship and maybe in the future we'll make things happen the way they
+were meant to be in October '92.
+
+- Thanks
+
+Thanks a lot for the undying support that you guys have given and I look

@@ -1,0 +1,136 @@
+For Demo Downloaders:
+---------------------
+
+Once you've unzipped to the directory of your choice,
+run SETSOUND to configure your sound setup, and then run
+ASCEND to run Ascendancy. If Ascendancy tells you it can't find a
+VESA driver, type "uvconfig -gen" to configure the UNIVBE driver.
+That's all!
+
+
+Ascendancy Demo README File
+---------------------------
+
+
+This file contains:
+
+1.  A list of what game features are absent from this demo.
+2.  A list of special keyboard commands that can be used during the demo.
+3.  A list of files installed to your hard drive.
+4.  Machine Requirements & Technical Tips
+5.  Ways to contact The Logic Factory for more information.
+
+Enjoy!
+
+
+1. Features NOT included in this demo      
+-------------------------------------
+
+* Cinematic introduction
+* Full tutorial system, explaining all aspects of the game
+* 21 unique alien species (only 7 included in this demo)
+* Larger galaxy sizes - up to 100 stars
+* More opponents per game
+* Most of the digital soundtrack, including a theme for each species
+* Full access to research tree (demo limits research)
+* No limit on # of game days (obviously!)
+* A variety of other features and details
+
+
+2. Special Keyboard Commands
+----------------------------
+
+<->         decrease rotate speeds
+<+>         increase rotate speeds
+<M>         toggle research and planet self-management
+<alt-S>     save game
+<alt-L>     load game
+<alt-M>     toggle music
+<alt-N>     toggle sound effects
+<alt-X>     exit game
+
+
+3. Demo Files Installed
+-----------------------
+
+20 files occupying approximately 11 megabytes are installed to your hard 
+drive in the directory you specified during installation.  To uninstall
+the demo, delete these files from your hard drive (or use the DELTREE
+command on the directory you installed to):
+
+DOS4GW   EXE       265,420 09-01-94  10:00a
+ASCEND   EXE       582,147 08-23-95   3:39p
+SETSOUND EXE       167,953 01-31-95   6:00a
+UVCONFIG EXE       260,250 05-01-95  10:35p
+ASCEND00 COB       249,748 08-23-95  11:13a
+ASCEND01 COB     9,518,815 08-23-95  10:39a
+ADRV688  DIG        11,278 01-18-95   6:00a
+JAMMER   DIG         3,219 01-18-95   6:00a
+PROAUDIO DIG         2,127 01-18-95   6:00a
+RAP10    DIG         2,849 01-18-95   6:00a
+SB16     DIG         2,812 01-18-95   6:00a
+SBLASTER DIG         2,984 01-18-95   6:00a
+SBPRO    DIG         2,763 01-18-95   6:00a
+SNDSCAPE DIG         4,171 01-18-95   6:00a
+ULTRA    DIG         9,478 01-18-95   6:00a
+AILDRVR  LST        16,073 01-31-95   6:00a
+README                 360 08-23-95   4:09p
+COB      CFG            57 08-23-95   4:56p
+DIG      INI           207 08-23-95   4:57p
+ASCEND   CFG            12 08-23-95   4:58p
+
+ 
+4. Machine Requirements & Tips
+------------------------------
+
+Ascendancy requires a 486-33 or better CPU with at least 8 megabytes of 
+RAM.  Approximately 12 megabytes of harddrive space are required for the
+demonstration version (about 15 for the full game).  Your video card must
+support SVGA 640x480 with 256 colors, and must be VESA compatible.  Your
+CDROM drive should be at least double-speed.
+
+*Note: Ascendancy has been successfully tested on slower systems, including
+slower 386 systems, but users may experience problems with digital music
+and graphics speed on these slower machines..  
+
+If you need to free more memory to run Ascendancy, ensure that SMARTDRV.EXE
+is not using more than 2 megs of memory, or disable it entirely (at your
+discretion).  
+
+
+5. For More Information
+-----------------------
+
+For more information on Ascendancy, you can contact The Logic Factory
+in several ways:
+
+1.  Contact our internet WEB site:
+
+         http://www.logicfactory.com
+ 
+2.  Send email to:
+
+         support@logicfactory.com   (for technical problems)
+         ascend@logicfactory.com    (for general comments)
+
+3.  Call our 24 hour BBS, 8bits, 1stop, no parity, 28.8k and lower:
+
+         (512) 328-6945
+
+4.  If none of the above electronic means is available to you then you can
+
+   a) write to us at
+
+         The Logic Factory
+         3267 Bee Caves Rd. Suite 107-505
+         Austin, TX 78746
+
+      or
+
+   b) call our support service at (512) 328-1821
+
+
+
+
+
+

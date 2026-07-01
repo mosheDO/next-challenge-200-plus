@@ -1,0 +1,121 @@
+                          MAZE MASTER
+                         (Version 1.01) 
+
+                      Copyright © 1992 by 
+
+                      The Flatirons Group
+                        1550 Kalmia Ave. 
+                    Boulder, CO  80304-1817
+
+      Member, Association of Shareware Professionals (ASP)
+
+---------------------------------------------------------------------
+
+This  file  contains  information  for  anyone  who  wishes  to  distribute 
+Maze Master.  Shareware versions of Maze Master may be freely distributed sub-
+ject to the following restrictions:
+
+    * Maze Master must be distributed without modification, in its entirety.
+      No files, as detailed in the packing list, may be omitted.  These files
+      must not be modified in any manner whatsoever.
+
+    * Maze Master may not be listed in advertisements, catalogues, or in any 
+      other manner which describes it as "FREE SOFTWARE".  
+
+    * Maze Master  is  not to be  used as an  enticement to purchase another 
+      product without the explicit consent of the Publisher, nor is it to be 
+      packaged with any other utility or software without such consent.
+
+    * Maze Master is not to be "rented" or leased.
+
+    * A limited license to use this version of Maze Master may only be issued 
+      by The Flatirons Group.
+
+    * Disk vendors who charge a distribution fee may do so provided the fee
+      does not exceed $12.00.  Vendors must not claim, or imply, that this
+      fee covers the cost of the program or license.  
+
+These distribution restrictions apply to anyone who wishes to distribute
+Maze Master, whether they be commercial vendors, user groups, BBS operators,
+or individuals.
+
+---------------------------------------------------------------------
+
+Program Specifications:
+
+Name:          Maze Master for Windows
+Version:       1.01
+Category:      Utility
+Registration:  $15(US) (Includes shipping) for US and Canadian users
+               $20(US) (Includes shipping) for other countries
+               Users receive:
+                 Diskette with latest version
+                 500 KB of sound effects (usable with Windows 3.1)
+                 Support for 1 year via CompuServe or mail
+                 Notification of updates (with reduced fees) for 1 year
+Requirements:  Hard Drive, Windows 3.0 or 3.1, VGA or better, 286 or better
+Author:        Fred George, The Flatirons Group
+Address:       The Flatirons Group
+               1550 Kalmia Ave.
+               Boulder, CO  80304-1817
+Telephone:     (303) 444-4004 (Voice and Fax)
+CompuServe:    70053,3600
+
+
+---------------------------------------------------------------------
+
+Program Description:
+
+Please post Maze Master using the following keywords:
+
+  WINDOWS 3.0 3.1 MAZE GAME WINMAZE SHAREWARE ASP FLATIRONS
+ 
+Suggested one line description:
+ 
+  Maze generation and solving program, including levels and printing.
+
+Suggested short description:
+
+  Computer generated mazes with hidden walls options, smart mouse 
+  tracking, high score saving, batch printing, full on-line help, 
+  sound support, computer solutions, and many more nice options.
+
+Suggested medium length description:
+
+  You are the mouse, peeking over the maze to study it, getting down on
+  all four legs to run through it some, then peeking again!  Start with 
+  the easy mazes, then move all the way to the very tough Monster mazes!  
+  Then raise the walls so you can't peek!
+
+  You get points for solving the maze, and bonus points if you solve it 
+  quickly.  Score enough and you can make the list of the top 5 all-time 
+  players!  Too tough?  Let the computer solve it!
+
+  Traveling and not near your computer?  Print out a book of mazes to 
+  entertain the kids (and yourself)!
+
+  BONUS FOR REGISTERED USERS:  There are great SOUND EFFECTS for 
+  registered users running Windows 3.1, sent to you upon registration.
+
+---------------------------------------------------------------------
+
+Packing List:
+ 
+	WinMaze.exe	The Maze Master Game
+	WinMaze.hlp	The help file for Maze Master (with hints!)
+	WinMaze.frm	Simple ASCII registration form with fees
+	ReadMe.txt	Instructions for installing and registering,
+                        lists of the modules, and warranty information.
+        Vendor.doc      This file!
+
+	BWCC.dll	DLL for the great Borland buttons (V 1.02).
+                        If you already have BWCC.dll, keep the latest!
+			(Optional for distribution if readily available
+                        otherwise.)
+
+---------------------------------------------------------------------
+
+Copyright:
+
+(C) 1992 The Flatirons Group
+ALL RIGHTS RESERVED

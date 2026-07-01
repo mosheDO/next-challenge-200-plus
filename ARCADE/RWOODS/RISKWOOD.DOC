@@ -1,0 +1,30 @@
+
+                         -= R I S K Y    W O O D S =-
+
+                      Coming Summer 93 for your IBM PC
+                           From Electronics Arts
+
+
+ Controls:
+
+ Up Arrow      | Jump
+ Down Arrow    | Crouch/Pick Up Object
+ Left Arrow    | Walk Left
+ Right Arrow   | Walk Right
+ Space Bar     | Press to fire
+               | Hold to use eye key
+ Options:
+
+ ESC           |Quit To Title Screen
+ Control/Q     |Quit to DOS
+ Control/B     |Toggle Paralax Scrolling (speeds up game on slow systems)
+ Control/M     |Toggle Music
+ Control/S     |Toggle Sound
+ P             |Pause
+
+ Command Line Options:
+
+ /c            |Configure Risky Woods for your system.
+ /h or /?      |Show help screen
+
+

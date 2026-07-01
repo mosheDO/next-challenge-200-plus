@@ -1,0 +1,124 @@
+-----------------------------------------------------------------------
+CAPITALISM 1.0 Demo Version Version Read Me Document
+-----------------------------------------------------------------------
+
+Published by: Interactive Magic
+Developed by: Enlight Software
+
+
+-----------------------------------------------------------------------
+Contact Information
+-----------------------------------------------------------------------
+ORDER DIRECT:                   1-800-789-1534
+
+CUSTOMER SUPPORT NUMBER:        (919) 461-0948  9:30AM - 5:00PM EST
+
+On-line Support:                CompuServe:     75162,1202
+                                AOL:            SSIMAGIC
+                                PRODIGY:        IMAGIC
+                                GEnie:          I-MAGIC
+
+
+-----------------------------------------------------------------------
+System Requirements
+-----------------------------------------------------------------------
+- IBM or 100% compatible computer, 386DX CPU or above
+- 4MB RAM minimum
+- 10MB hard disk space
+- SVGA graphics card and monitor
+- Mouse
+
+
+-----------------------------------------------------------------------
+Trouble-shooting
+-----------------------------------------------------------------------
+If you have any problems running Capitalism, please read the
+following sections:
+
+- The FILES parameter in CONFIG.SYS
+- Graphics Cards
+- Memory Requirement
+- Creating a Boot Diskette
+
+
+The FILES parameter in CONFIG.SYS
+-----------------------------------------------------------------------
+Capitalism needs to open a number of files simultaneously during
+its running. There is a parameter named "FILES" in the CONFIG.SYS
+file which controls the number of files can be opened at the same
+time. It should be set to at least 30 in order to run the game.
+To edit the CONFIG.SYS file, you can use EDIT, the standard DOS
+editing utility.
+
+
+Graphics Cards
+-----------------------------------------------------------------------
+Capitalism requires a graphics card and monitor that are capable
+of running in 640 x 480 x 256 colors Super VGA mode. If
+Capitalism fails to run because it cannot recognize the SVGA
+feature of your graphics card but you are sure that it supports
+SVGA graphics, you can try to load a VESA driver.
+
+VESA is a standard for programming SVGA graphics cards. Loading a
+VESA driver allows the SVGA feature of your graphics cards to be
+recognized by most programs. Since each different SVGA card
+requires a custom VESA driver, you must find the VESA driver of
+your card first.
+
+Unless your card is very old, you can probably find the VESA
+driver in the diskette which came with your SVGA card. Copy the
+driver from the diskette to your hard disk and run the driver
+before running Capitalism. As a convenience, you could add the
+VESA command to your "autoexec.bat" so that it would be
+automatically loaded each time your system starts.
+
+If the VESA driver did not come with your graphics card, contact
+your card's manufacturer.
+
+
+Memory Requirement
+-----------------------------------------------------------------------
+Basically, Capitalism requires at least 4MB RAM to run. Though,
+in the event that the memory available is less than the amount desired,
+Capitalism is capable of using the harddisk space as the virtual memory.
+However, you may notice a considerable reduction in the game
+speed as a result of using virtual memory.
+
+The game will refuse to run if there is not enough memory available
+for the game to start up properly. If this occurs you should either
+free up more memory or create a boot diskette.
+
+In the early stages of a game, there is not much game data to store
+in memory. However, as the game continues, more memory will be used
+to store game information. At some points if there is not enough
+physical memory, virtual memory will begin to be used. As a result,
+the speed of the game may be slowed down.
+
+Thus, to have the game run at the best possible performance, you
+should provide more memory for the game. Generally 5MB-6MB of free
+memory allows the game to run smoothly in most cases. If you have
+8MB of physical memory, you can allocate 2MB memory to the Smart
+Drive, for improving disk access performance, and leaving the
+rest for the game.
+
+
+Creating a Boot Diskette
+-----------------------------------------------------------------------
+To create a boot diskette, you should first format the diskette
+with the "FORMAT A: /S" command.
+
+Next, create an AUTOEXEC.BAT and a CONFIG.SYS file on the boot
+diskette by using EDIT, the standard DOS editing utility. The
+content of the files should be as follows:
+
+AUTOEXEC.BAT
+------------
+PROMPT $P$G
+C:\MOUSE\MOUSE       (type the path of your mouse driver here)
+C:\DOS\SMARTDRV 2048 (only add this if you have 8MB of memory)
+
+CONFIG.SYS
+----------
+FILES=30
+BUFFERS=20
+

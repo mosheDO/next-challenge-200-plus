@@ -1,0 +1,156 @@
+            THIS PROGRAM IS SO CALLED FREEWARE, SO SPREAD THIS!
+       NOBODY MAY SELL THIS GAME OR TAKE FEE FROM IT'S DISTRIBUTION!
+
+
+    ÜÛÛÛÛÛÛÛÛÛÛÛÛÜ  ÜÛÛÛÛÛÛÛÜ  ÜÛÛÛÛÛÛÛÛÜ  ÜÛÛÜ         ÜÛÜ  ÜÛÛÜ   ÜÛÛÜ
+    ßßßßßßßßÛÛÛÛÛß ÛÛÛÛßßßÛÛÛÛ ÛÛÛß   ßÛÛÛ ÛÛÛÛ        ÛÛÛÛÛ ÛÛÛÛÛÜÛÛÛÛÛ
+          ÜÛÛÛÛß   ÛÛÛ     ÛÛÛ ÛÛÛÜ   ÜÛÛÛ ÛÛÛÛ        ÛÛÛÛÛ ÛÛÛÛÛÛÛÛÛÛÛ
+        ÜÛÛÛÛß     ÛÛÛ     ÛÛÛ ÛÛÛÛÛÛÛÛÛß  ÛÛÛÛ        ÛÛÛÛÛ ÛÛÛÛ ß ÛÛÛÛ
+      ÜÛÛÛÛß       ÛÛÛÛÜÜÜÛÛÛÛ ÛÛÛÛ ßÛÛÛÛÜ ÛÛÛÛÜÜÜÜÜÜÜ ÛÛÛÛÛ ÛÛÛÛ   ÛÛÛÛ
+    ÜÛÛÛÛß          ßÛÛÛÛÛÛÛß  ßÛÛß   ßÛÛß  ßÛÛÛÛÛÛÛÛß  ßÛß  ßÛÛß   ßÛÛß
+   ÛÛÛÛÛÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+    ßÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛß
+
+                                  PROULDY
+                                  PRESENTS
+
+    ÚÂÄÄ¿ Ú¿ ÚÄÄÂ¿ ÚÄÄÂ¿ ÚÂÄÄ¿  Ú¿ ¿ ¿ ÚÂÄÄ¿ ÚÂÄÄ¿ ÚÂÄÂÄ¿  ÄÄÄÂ¿    ÄÂ¿
+    ÃÅÄÄÙ Ã´ ÚÂÄÁÙ ÚÂÄÁÙ ÃÅÄÄ´  Ã´ ³ ³ Ã´  ³ ÃÅÄÂÙ Ã´ ³ ³  ÚÂÄÁÙ     Ã´
+    ÀÙ    ÀÙ ÀÁÄÄÙ ÀÁÄÄÙ ÀÙ  Ù  ÀÁÄÁÄÙ ÀÁÄÄÙ ÀÙ À  ÀÙ Ù Ù  ÀÁÄÄÄ  o ÄÁÁÄ
+ÿ
+       Remember to look for my next product Arcade Volley Ball 2000!
+@
+  You are controling the worm by using cursor keys and your mission is to   1/9
+  try to eat as many pizzas as possible. (Player two keys are Z and C)
+
+  Write PWORM ? to find out the game options / parameters.
+
+  If the game halts on your machine, first disable sound system using parameter
+  /N (I dont know how well does the Midas sound system work)
+
+@
+  By the way, I have done a LOT OF WORK to create this game. I hate         2/9
+  shareware and cripple ware stuff, so I made this game as FREEWARE. But if
+  you like the game, feel free to send (e-mail / postcard / money) to me.
+
+  If you have any idea what would you do to (add / fix) this game just drop me
+  e-mail.
+
+  Phone: +358-0-7545330 (English/Finnish)       Snail-mail:
+  E-mail: Zorlim@freenet.hut.fi (fwrd site)     Sami Lehtinen (Zorlim)
+  fidonet: Sami Lehtinen 2:220/660              Alkutie 18 B 16
+  WWW: http://clinet.fi/~zorlim/                00660 Hki
+                                                FINLAND
+
+@
+  And before version information..                                          3/9
+
+  And thanks goes to following persons:
+  - AOK (Antti Kangas), thanks for pictures!
+  - Izzard (Nuutti Harmo), uh thanks for musics for this game.
+  - My Sister (Sini Lehtinen), thanks for voice samples!
+  - Clover (Mika H„m„l„inen), Thanks for that BLECH sample, it really kicks!
+  - TimppaK (Timo Kauppinen), I still love Slicks and hope
+    that you'll keep developing it! Maybe I should register
+    it.. But I hate crippled / SW software.. So I wont! (Sad thing)
+
+  And special THANKS go to creators of MIDAS Sound System
+  Petteri Kangaslampi, Jarno Paananen
+@
+version 2.1                                                                 4/9
+
+   + Two worms could cross in beta, now fixed.
+   + 386 instructions removed (now game runs on 286 without music.)
+   + New patterns in music module.
+   + New better startup piccy
+   + New charters added to font, and now u can use them at highscore list
+     too!
+   + Cursor added in highscore screen. (I didnt see any reason to add this,
+     but some one requested.)
+
+@
+version 2.0 public beta                                                     5/9
+
+   + Two player mode added!
+   + SIN and COS values in table -> less cpu load.
+   + Possibility to clear two-player mode wins.
+   + Module musics (Old beeper/SB/AdLib routines removed)
+   + Joystick support (Does it really work?)
+   + New PRESS ENTER FOR NEWGAME OR ESC TO EXIT procedure..
+   + Once again improved graphics.
+   + Few samples fixed. (Now burp really sounds great!)
+   + Cheat keys changed. (Now you can have fun again while searching them!)
+   + Now uses 386+ instructions for Music mixing and Screen restores.
+   + Pizza cant be laid on worm two anymore.
+
+@
+version 1.2                                                                 6/9
+
+   + Program doesn't halt anymore if YOU don't have SB.
+   + New parameter system.
+   + New (better?) worm start point.
+   + Better Pizzas (More meat)
+   + Improved / faster font unit by me...
+   + Internal DOC viewer added.
+   + Adlib instrument #0 is now fully reseted by game. (Before it, game sounded
+     different after other games... Nice..)
+   + Assembler part to reserve memory. (Old one was slow 16 bytes reserver,
+     It might take up to 5 seconds to reserve memory. Now it happends with
+     12 assembler commands. And uses about 0.0001 seconds time...)
+   + Some of the samples are better (Made by Sini)
+   + Greetings screen bars variable speed.
+   + Ok Ok, cheats still included, but better hidden.
+@
+version 1.11 Final Beta                                                     7/9
+
+   + NOW ULTRA MEGA GIGA C00L SB SOUNDS!!!
+   + Memory pageing problem fixed, now all samples should fully work.
+   + Bigger things, you can figure this one out by yourself!
+   + Once again, now about 25% faster than in 1.11beta. (uh, thinking about
+     pizza formulas is HARD work, I used about 20 hours to get this ultra
+     fast pizza method.)
+   + Those new graphic pictures that I didn't get in time to be used with
+     1.11beta
+   + In beta version, there was bug with pizza wiping and placing
+     routine.
+   + Now loads all gfx to memory. (Makes playing from disk faster)
+@
+Version 1.11beta                                                            8/9
+
+   + New MUCH faster pizza routine. Over 13 times (1300%) faster!
+   + Most of graphic functions direcly written in code. 45% faster fonts
+     and worm drawing.
+   + WORKING Adlib Sound System!
+   + New pictures by friend. (Not included yet!)
+   + Training mode
+   + Clear highscores 4-10 with R parameter!
+   + And many little things, that I have just noticed while browsing code.
+   + Now you can't die in highscore screen. (That happened some times in old
+     version)
+@
+Version 1.1                                                                 9/9
+   + Adlib Sound System! Yeah, it's included but forced off (GREAT EH?)
+     In next version (1.2) there will be DIGITAL SOUND!
+   + Worm becomes longer instantly after eating a pizza.
+   + New start picture.
+   + Different highscores screen!
+   + New game backround !
+   + N0T C00L dudeZ rem0ved from greet1ng5 list!
+   + CHEATS REMOVED!  (NO FAIR)
+@
+
+  I'll hope that you enjoy this product and remember that I made lotsa of
+  work for this. So once again!
+
+  By the way, I have done a LOT OF WORK to create this game. I hate
+  shareware and cripple ware stuff, so I made this game as FREEWARE. But if
+  you like the game, feel free to send (e-mail / postcard / money) to me.
+
+  If you have any idea what would you do to (add / fix) this game just drop me
+  e-mail.
+
+  Phone: +358-0-7545330 (English/Finnish)       Snail-mail:
+  E-mail: Zorlim@freenet.hut.fi (fwrd site)     Sami Lehtinen (Zorlim)
+  fidonet: Sami Lehtinen 2:220/660              Alkutie 18 B 16
+  WWW: http://clinet.fi/~zorlim/                00660 Hki
+                                                FINLAND

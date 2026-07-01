@@ -1,0 +1,23 @@
+Dies ist die allerneueste Version vom ultimativen Breakout-Clone:
+
+    AQUANOID v1.35 !!!
+
+Erscheinungsdatum:  31. Januar 1992
+                    ~~~~~~~~~~~~~~~
+Einige kleine Fehler wurden behoben, die Geschwindigkeit optimiert und es
+gibt jetzt die Mîglichkeit, durch Druck auf ENTER in die DOS-Shell zu
+gelangen. Mit "EXIT" kann man AQUANOID weiterspielen.
+
+Mit Strg+[Y] kann man einen schweren Level Åberspringen. Dabei verliert man 
+jedoch die HÑlfte seiner Leben !!! (hÑhÑ)
+
+ACHTUNG : Schlechte Tonnen geben die meisten Punkte (wie gemein!). 
+ 
+Ab sofort stirbt mit <ESC> nur der AKTUELLE Spieler ! Mit Shift+ESC kann man 
+nun endgÅltig ins Titelbild kommen.
+
+Viel Spa· weiterhin wÅnschen euch:
+
+  Stefan Heineke & Karsten Finger
+
+P.S.  Die Vollversion ist auch weiterhin zu haben !

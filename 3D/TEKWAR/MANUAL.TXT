@@ -1,0 +1,56 @@
+TEKWAR:  README FILE    8/23/95  
+
+Welcome to the Tek War Demo. Before you 
+get started there are a few things you need to know. 
+
+First, the graphics in TEKWAR are stunning. Unless you have a fast 
+Pentium with a good video card, we recommend playing in 
+320 x 200 or 360 x 360 mode.  Please be aware we are optimizing 
+Tek War: The Game for speed.  By it's release date, the optimization
+will be complete.  There was no way to have the optimization in place
+for the demo. 
+
+Second, you can play Tek War without the gore.  Simply add 'nogore' to 
+command that begins the game. i.e. 'tekwar nogore'.
+
+Third,  please review the keyboard map in order to learn which keys
+do what.  You can map the keyboard almost any way you like.  The keyboard
+configuration appears when you run the game for the first time (after typing
+'tekwar'.)  To see the configuration at a later time type 'setup'. 
+
+Fourth, the mouse has added functionality with which you may not be familiar.
+By letting off the RMB while moving the mouse in the direction opposite 
+the direction you were previously moving in, you will switch the direction 
+in which you move the next time you hold the button down.  i.e. you 
+start with it set to walk forward when the RMB is pushed, if you then let go of the mouse button and pull 
+the mouse back, you will now go in reverse the next time you hold down 
+the right mouse button.  Now you can get out of trouble as easily as you got
+into it and retreat while still being able to fire.  
+The default sensitivity of how far the mouse needs to be moved  to change 
+the default direction is set to 100.  After playing for a while if you would
+like to customize it to accommodate your personal style, press  [F10] and move
+the mouse forward or back to increase or decrease the setting, 
+The lower the number the less you have to move the mouse, the larger, the 
+further you must move the mouse to switch direction.  When you have set the sensitivity to the level you desire, hit [F10] again to 
+save and exit the adjustment utility.
+
+Fifth, the AI in TEKWAR is very sophisticated.  The Tekgoons 
+don’t just walk stupidly toward you shooting, while ignoring your shots.  
+They may guard a location, chase you, or even stalk you.  In 
+combat, don’t be surprised if they dodge, duck and take advantage 
+of cover.  If you notice a door you closed is now open, 
+watch out. A goon may be stalking you!  On the hard setting, it only takes 
+a few hits to dust you.  The motto, therefore: save often.  
+
+Sixth, You start out with two weapons. Others are to be found.
+The first is the Kralov CEG 15 Stunner. The second is the C & W 
+Model 2040.  The third weapon is the Shrike DBK.  The Shrike is 
+a very powerful energy weapon. Without the Accutrak, though, it's
+not easy to aim.  Good luck finding the Accutrak.
+
+To skip the intro/briefing screens press [Esc].  The F1 
+key brings up the help menu.
+
+Have Fun!!!
+
+

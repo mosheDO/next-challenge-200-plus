@@ -1,0 +1,115 @@
+
+ PacMan Version 0.40
+ ____________________________________________________________________________
+
+ Copyright (c) Eclipse 1996
+
+
+ Shareware___________________________________________________________________
+
+    To obtain the complete version (60 levels) including a level editor :
+
+     þ Print or copy on a paper the file REGISTER.FRM.
+
+     þ Send it back with $25 US to this address :
+
+       Marc RADERMACHER
+       Les Rosetieres - Bat C
+       3 route de champagne
+       69130 ECULLY
+       FRANCE
+
+
+ Minimal hardware configuration required_____________________________________
+
+     þ MS-DOS version 3.1 or upper.
+     þ Personnal Computer with at least a 486 processor.
+     þ A SVGA card VESA compatible.
+     þ A sound card like Gravis UltraSound or SoundBlaster.
+
+
+ Memory requirements_________________________________________________________
+
+    This game can run under this configurations :
+
+     þ Mode RAW without Himem.
+     þ Mode XMS with Himem.
+     þ Mode VCPI with EMS (Emm386 highscan).
+     þ Mode VCPI without EMS (Emm386 noems).
+
+
+ Information about the music_________________________________________________
+
+    The soundcard is automaticaly detected by the program.
+    but you should declare correctly all these variables.
+
+     þ For the SoundBlaster :
+
+             SET BLASTER = A220 I7 D1 T1
+                             I   I  I ----> 1 = Sound Blaster
+                             I   I  I       2 = Sound Blaster Pro
+                             I   I  I       3 = Sound Blaster 2.0
+                             I   I  I       4 = Sound Blaster 16
+                             I   I  ------> DMA
+                             I   ---------> Irq
+                             -------------> Port
+
+     þ For the Gravis UltraSound :
+
+             SET ULTRASND = 220,1,1,7,7
+                             I  I   ------> Irq
+                             I  ----------> DMA
+                             -------------> Port
+
+
+ The Keyboard________________________________________________________________
+
+
+ During game
+
+     þ Space                    : Use joker.
+     þ Ctrl                     : Use booster.
+     þ                      : Control the hero.
+     þ P                        : Pause.
+     þ ESC                      : Exit.
+
+ Level editor
+
+     þ F1                       : Build a wall.
+     þ F2                       : Erase a wall.
+     þ F3                       : Pacman start.
+     þ F4                       : Ghosts start.
+     þ F5                       : Options location.
+     þ F6                       : SuperPacGums location.
+     þ F7                       : Telepods location.
+     þ F8                       : No PacGum on the floor.
+     þ F9                       : Clear Level.
+     þ F10                      : Total erasement (no PacGums).
+     þ F11                      : Next Level.
+     þ F12                      : Previous Level.
+     þ S                        : Save Level.
+     þ L                        : Load Level.
+     þ CTRL + F11               : Next Level.(fast).
+     þ CTRL + F12               : Previous Level (fast).
+     þ ESC                      : Play the level
+     þ E                        : Enter editor.
+     þ ESC/ESC                  : Exit level editor.
+
+
+ Joined files________________________________________________________________
+
+
+     þ Shareware version :
+
+       Pacman.exe       The executable file.
+       Pacman.doc       French documention.
+       Pacman.us        This documentation.
+       Register.Frm     French registering form.
+       Register.Us      English registering form.
+       Eclipse.nfo      Eclipse informations.
+
+
+ Updates_____________________________________________________________________
+
+
+     þ Apr 26 1996    Version 0.40     First release at the Saturne Party 3.

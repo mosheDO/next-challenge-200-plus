@@ -1,0 +1,642 @@
+============================================================================
+
+
+				3D Lemmings 
+
+				    from
+
+			      CLOCKWORK GAMES
+
+		                 Published 
+				     
+				     by 
+
+			       PSYGNOSIS Ltd.	
+
+
+			       Copyright 1995
+
+
+============================================================================
+
+
+Whats New in this Version
+=========================
+
+CD Demo V1.05
+-------------
+
+	- Name changed from Lemmings 3D to 3D Lemmings !
+	- Automatic Savegame. Keeps track of all completed levels and
+	  your best time and best number of lemmings rescued.
+	- Improved graphics.
+	- Bug fix to Soundblaster code.
+ 	- Various minor bugs.
+	
+
+
+============================================================================
+
+  			    SYSTEM REQUIREMENTS
+
+PROCESSOR
+---------
+
+The game has been written using 386+ assembler, so it WON'T run on a 286
+or below.
+
+The MINIMUM playable system is an IBM PC compatible 486 DX33 although you 
+MAY be able to play it on a lesser system if you turn the detail level 
+to minimum and shrink the screen.
+
+RECOMMENDED system for maximum detail is a IBM PC compatible 486 DX2/66.
+
+GRAPHICS
+--------
+
+A VGA graphics card is required, with 256Kb of RAM. If you have a VESA
+compatible SVGA card this will be used for High resolution inter level
+screens. 
+
+MEMORY
+------
+
+The game requires between 430KB and 560KB of CONVENTIONAL memory,
+depending upon the sound configuration selected, and 2704KB of EMS (EXPANDED 
+memory). That is, in your CONFIG.SYS, the EMM386 line should include at 
+least the following:
+
+<drive>:<path>\EMM386.SYS 2704
+
+The FINAL version will have higher resolution lemmings if you have 8MB
+available.
+
+SMARTDRV
+--------
+
+The use of SMARTDRV is not prohibited, but you will need to increase the
+amount of EMS memory allocated so there is enough for it and 3D Lemmings
+to use.
+
+CONTROLS
+--------
+
+A mouse or CyberMan controller is STRONGLY recommended.
+
+SOUND
+-----
+
+The game supports the following sound cards:
+
+SoundBlaster AWE32
+Gravis Ultrasound
+General Midi
+Roland LAPC-1
+Roland SCC-1
+SoundBlaster 8-bit & compatibles
+
+There will be over 30 themed tunes.
+
+There will be over 100 samples, including Lemming speech.
+
+The CD-ROM version will also have over 20 audio tracks.
+
+HARD DISK SPACE
+---------------
+
+The FINAL version will be available on PC CD-ROM and 3.5 HD floppy. 
+
+The CD version requires approx 4Kb of Hard Disk space, 
+
+The floppy version will require approx 25MB of Hard Disk.
+
+============================================================================
+
+			   DEMONSTRATION VERSION
+		
+This version of 3D Lemmings contains all the 20 practice levels and 10 
+normal levels from the 100 that will be included in the FINAL version.
+
+The first couple of levels are fairly easy and are designed for you to
+get adjusted to the controls. The later levels are more difficult so they
+should keep you entertained a bit longer.
+
+Don't worry if you are having difficulties completing the later levels, the
+FINAL version will have a more gradual learning curve. 
+
+			   INSTALLING THE DEMO
+
+From <cd-rom drive>:, type SETUP. You can then enter the sound card you are
+using and various other preferences. This creates a small configuration
+file called C:\LM3D.CD\LM3D.CFG
+
+To run the demo type L3D from <cd-rom drive>:\
+
+			   OPTIONAL PARMETERS
+
+L3D sNN	- allocates NN KB for sample buffer.
+	  By default 3D Lemmings allocates a 64KB sound effect buffer. If
+	  you can't run the game because of insufficient base memory then
+          try using this parameter to reduce the amount of memory required.
+          (e.g L3D s32)
+	  If this parameter is used then fewer samples can be played at the
+          same time and some of the larger samples may be missing entirely.	  
+
+L3D d   - Diagnostic mode.
+	  This causes 3D Lemmings to pause on the initial loading screen to
+          give you a chance to read any relevant messages. 
+
+
+============================================================================
+
+				TITLE SCREEN
+
+There are five icons across the bottom area of the screen. From left
+to right, they are as follows:
+
+1) `PLAY' 	- Goes to a menu showing all available levels which you
+		  can choose to play. Initially this will only show the
+                  first level. After a level has been played the menu will
+		  show all levels that have been completed and the first
+                  level that hasn't been completed.
+		- 'F1' also activates this function.
+
+2) `CODE'	- activates the password screen. The player must then
+		  enter an eight character alphabetic code. If the code 
+		  is valid the player goes directly to the selected level,
+		  otherwise a message is displayed and the player is
+		  sent back to the title screen.  		
+		- `F2' also activates this function.
+
+3) `?'		- brings up the configuration requester. (see below
+		  for detailed explanation). 	 		
+		- `F12' also activates this function.
+
+4) `SKILL'	- changes between `PRACTICE' and `FUN' skill levels.
+                  A LEFT click increase the skill level.
+		- The UP and DOWN cursor key increase and decrease the 
+		  skill respectively.
+
+		- The FULL VERSION will have 5 skill levels.
+
+5) `QUIT'	- Exit to DOS. Requires confirmation.  	 
+ 		- `Esc' activates this function. 
+
+
+Before each level, the player is shown a cameo of the style of level about
+to be played with the Level name and number. 
+
+	- LEFT clicking (or F1) the mouse on this screen will play the 
+	  level. 
+	- RIGHT clicking (or F2) the mouse will take you back to the 
+	  title screen. 
+	- Pressing the ENTER key will show a rotating view of the level 
+	  along with some extra information:
+
+	1) Level name
+	2) Number of Lemmings available 	
+	3) Number of Lemmings required to rescue 	
+	4) Difficulty rating.
+
+After each level, the player is given a resume of how they did:
+
+	1) Number of Lemmings rescued 	
+	2) Number of Lemmings required to rescue 	
+	3) Password to start from this point (if the level was successfully 
+	   completed) 	
+	4) A comment on their efforts
+
+============================================================================
+
+			MAIN GAME CONTROLS
+
+Moving the camera
+-----------------
+
+The game can be played with a variety of combinations of control methods.
+
+1) Mouse only
+2) Cyberman only
+3) Keyboard only
+4) Mouse & Keyboard
+5) Cyberman & Keyboard
+
+If you have problems playing using only the mouse, try moving using the
+numeric keys, and moving the pointer with the mouse/CyberMan.
+
+Cyberman Control
+----------------
+
+A CyberMan compatible control method has been implemented. It is
+mutually EXCLUSIVE with the mouse (that is, they cannot been operated
+at the same time). Moving the controller in a flat plane moves the
+pointer around the in the same manner as the mouse would. LEFT click
+is the unchanged from the mouse. Movement is achieved in the
+following manner:
+
+PITCH FORWARD 			- move forwards.  
+PITCH BACKWARD			- move backwards.  
+ROLL LEFT			- move left.  
+ROLL RIGHT			- move right.  
+YAW LEFT			- rotate left.  
+YAW RIGHT			- rotate right.  
+PITCH FORWARD / YAW LEFT	- move forward and left.
+PITCH FORWARD / YAW RIGHT	- move forward and right.
+
+Pressing the MIDDLE button will cause the movement to occur at
+approximately 3x normal speed. The cursor is NOT context 
+sensitive with regards to movement when using the CyberMan.
+
+Mouse Control 
+-------------
+
+The camera can be moved about using the context sensitive mouse and 
+pressing the RIGHT MOUSE BUTTON. The camera will move depending 
+on which of the following 8 regions of the screen the mouse is within.
+The speed of movement will depend on the distance of the mouse from
+the centre of the screen.
+
+*--------------------*--------------------*--------------------*-*
+|  		     |                    |                    | |		
+|  		     |                    |                    | |		
+|     Forward 	     |	    Forward	  |       Forward      | |
+|     & Left         |                    |       & Right      | |
+|  		     |                    |                    | |		
+|  		     |                    |                    | |		
+|  		     |                    |                    |U|		
+|  		     |                    |                    |p|		
+*--------------------*--------------------*--------------------* |
+|  		     |                    |                    | |		
+|  		     |                    |                    | |		
+|  		     |                    |                    |a|		
+|     Rotate         |                    |       Rotate       |n|		
+|     Left	     |        None        |       Right        |d|		
+|  		     |                    |                    | |		
+|  		     |                    |                    | |		
+|  		     |                    |                    |D|		
+|  		     |                    |                    |o|		
+*--------------------*--------------------*--------------------*w|
+|  		     |                    |                    |n|		
+|  		     |                    |                    | |		
+|     Side Step      |      Backward      |      Side Step     | |		
+|     Left           |                    |      Right         | |		
+|  		     |                    |                    | |		
+|  		     |                    |                    | |		
+|  		     |                    |                    | |		
+|  		     |                    |                    | |		
+*--------------------*--------------------*--------------------*-*
+
+On the far RIGHT of the screen is a slider bar that controls the vertical
+positioning of the camera. RIGHT CLICKING on this will move the camera up 
+& down.
+
+The sensitivity of the mouse and the camera movement speed can be changed
+from the configuration screen (see below). If you are moving the mouse to
+move the camera we recommend the camera speed be set to about 2.
+
+Map
+---
+
+There is an aerial relief map of the level in the top left corner of
+the screen. On levels that are NOT played entirely INSIDE an enclosed
+area, the current camera can be moved anywhere on the map instantly by 
+right clicking on the location required to view, and dragging the camera 
+to the point they wish to view from, setting the view distance and
+location.
+
+Status Bars
+-----------
+
+Clicking the LEFT MOUSE BUTTON activates all other icons on the screen.
+In the extreme top right, top left & bottom left corners are 3 small
+icons which toggle the overhead map & status bars on and off.
+
+
+Bottom Status Bar
+-----------------
+
+Arrow 		- This is useful for when there are a lot of Lemmings 
+		  milling about in a small space and you want to make 
+		  sure you select the right one. LEFT clicking on the
+		  arrow icon will toggle it on & off. When the arrow 
+		  is highlighted it allows you to select any Lemming 
+		  on the screen (which will then be marked by a white 
+		  arrow above its head). If you accidentally select
+		  the wrong Lemming you can keep clicking on different 
+		  ones until you are happy with your choice. Then LEFT 
+		  clicking on a skill will give that Lemming the skill 
+		  straight away.
+                  This icon has an extra function when in Virtual Lemming
+                  mode. It cycles the through the Lemmings walking
+                  around the level. 
+
+Face 		- LEFT clicking on this and then on a Lemming enters Virtual
+                  Lemming mode. This allows you to see the world through the
+                  eyes of a Lemming.
+
+                  Whilst in this mode clicking on a skill causes the current
+                  Lemming to take that skill immediately. LEFT clicking on
+                  another Lemming transports you to Virtual Lemmings in that
+		  Lemming. You will be returned to normal mode when the 
+		  exits the level or when you LEFT click on the face icon
+                  again.
+
+		  It is possible to cycle through the Lemmings, in 
+		  Virtual Lemming mode, by LEFT clicking on the arrow icon 
+		  to the left of the Lemming skills.
+
+		  Whilst in Virtual Lemming mode, and NOT a BASHER, DIGGER,
+ 		  MINER, it is possible to turn the Lemming's head through 
+		  90 degrees left and right. Use the RIGHT mouse button to
+		  turn the head, with the position of the pointer controlling
+	 	  the direction the head turns. 
+
+Lemming Skills	- This shows the an icon for each Lemming skill (nine in
+		  total) and a number indicating how may Lemmings there are
+		  with that skill remaining to be used. If there is a 
+		  skill currently selected then this will be animating. 
+		  To change the current skill LEFT click on any of icons 
+		  which have a number by them. To select a Lemming to use 
+		  this skill, move the pointer over one of the Lemmings 
+		  until it changes to a box then LEFT click.
+
+		  The skills are as follows, from left to right:
+		  BLOCKER, TURNER, BOMBER, BUILDER, BASHER, MINER, 
+		  DIGGER, CLIMBER, FLOATER
+
+		  The 90 degree turner skill requires a further LEFT click 
+		  to indicate the direction in which the Lemming should 
+		  turn. An arrow will point in the direction the Lemmings 
+		  will turn to help in this function.
+
+		  NOTE: when the pointer moves over a Lemming, it changes 
+		  from a direction arrow into a box, indicating it is over 
+		  a Lemming. There is an exception to this rule:
+
+		  If the currently selected skill is 180 blocker and there 
+		  are still some available, the mouse pointer becomes a 
+		  pair of arrows indicating the direction Lemmings will 
+		  move when they encounter the selected Lemming.
+
+
+Right Status Bar
+----------------
+
+From top to bottom this contain the following icons.
+
+In 		- If it's a white number then it shows the number of
+		  Lemmings which you need to reach the exit. When you 
+		  have rescued more than the required number the number 
+		  will change to green showing how many extra have been 
+		  rescued.
+
+Out 		- Number of Lemmings currently in the level. 
+		  Important: this is NOT a percentage.
+
+Time Remaining 	- minutes and seconds remaining until level
+		  auto-destructs.
+
+Bomb 		- DOUBLE LEFT clicking on this will cause all the Lemmings 
+		  to blow up and the level to be aborted.
+
+Fast Forward 	- LEFT clicking on this toggles the game between normal &
+		  fast forward mode. In fast forward mode all the Lemmings 
+		  move a 3x their normal rate.  
+
+Camera 		- LEFT clicking on this toggles between 4 cameras.
+		  Each camera starts in a different position so you can
+		  quickly look around the level without having to move
+	          the camera. 
+
+Pause 		- LEFT clicking on this toggles pause mode on & off. 
+		  In pause mode you can still move the camera around but 
+		  the Lemmings don't move and the timer doesn't count down.
+
+Spin world left - LEFT clicking on these rotates the entire world left 
+& right		  & right about its centre point. 
+
+Increase 	- LEFT clicking on these increase & decrease
+& decrease	  the release rate of the Lemming. Note - the release 
+release rate	  rate can't be lowered below the starting level. 
+
+
+Keyboard short cuts
+-------------------
+
+`Return/Enter' 	- toggle fast forward.  
+`A' 		- rotate world left.  
+`S' 		- rotate world right.   
+`[`	 	- enlarge 3D window.  
+`]'		- shrink 3D window.  
+`P'	 	- toggle pause mode.  
+`Esc'		- abort level and try again.  
+`I'		- toggle Virtual Lemming mode.  
+`H'		- toggle Hilight Lemming / Cycle through Lemmings in 
+		  Virtual Lemming mode.  
+`C'		- cycle through cameras 1 to 4.
+`T'		- mouse pointer up.  
+`F'		- mouse pointer left.  
+`G'		- mouse pointer right.  
+`V'		- mouse pointer down.  
+`Space Bar'	- LEFT mouse click.
+'<ALT> Q'	- activate armageddon.
+`F1'		- activate 180 blocker (if available).  
+`F2'	 	- activate  90 blocker (if available).  
+`F3'		- activate bomber (if available).  
+`F4'		- activate builder(if available).  
+`F5'		- activate basher (if available).
+`F6'		- activate miner (if available).  
+`F7'		- activate digger (if available).  
+`F8'		- activate climber (if available).  
+`F9'		- activate floater (if available).
+`F11'		- quit back to the title screen. Requires
+		  confirmation.  
+`F12'		- bring up the Configuration Requester. 
+`1'		- Switch to camera 1 
+`2'		- Switch to camera 2 
+`3'		- Switch to camera 3 
+`4'		- Switch to camera 4 
+
+Numeric Pad: 
+------------
+
+`7' 		- move camera forward and left.
+`8'		- move camera forward.  
+`9'		- move camera forward and right.  
+`4'		- rotate camera to the left.
+`6'		- rotate camera to the right.  
+`1'		- side step camera to the left.  
+`2'		- move camera backward.
+`3'		- side step camera to the right.  
+`-'		- move vertically UP 
+`+'		- move vertically DOWN	
+`Return/Enter' 	- toggle fast forward.  
+
+If the SHIFT key is held down simultaneously, the camera moves at
+approximately 3x normal speed.
+
+============================================================================
+
+Configuration Requester
+-----------------------
+
+This requester allows the user to change various parameters within the
+game in order to obtain optimum playability on their system. The user
+can:
+
+1) Block texture mapping ON or OFF. The majority of the background will 
+then be made from polygons, giving a significant increase in speed on 
+slower machines.  
+
+2) Land texture mapping ON or OFF. The land will then be displayed as 
+large, flat polygons, giving an increase in speed on slower machines.  
+
+3) Sea texture mapping ON or OFF. The sea will then be displayed as a
+large, flat shaded area giving a significant increase in speed on
+slower machines.  
+
+4) Sky texture mapping ON or OFF. The sky will then be displayed as a
+large, flat area giving an increase in speed on slower machines.  
+
+5) CD Anims ON or OFF. DISABLED IN DEMONSTRATION VERSION.
+
+6) Replays ON or OFF. If this is on then if you fail a level your previous
+attempt will be played back. You can jump in at any moment by clicking 
+the mouse and trying something different.
+
+7) Toggle handedness of mouse. This causes the mouse buttons to be reversed. 
+That is, anything requiring a RIGHT click, now requires a LEFT click and 
+vice versa.  
+
+8) Change video mode. To help prevent the screen 'shearing' at high speeds,
+and the mouse pointer flickering, two different video modes have been used.
+If you experience problems with one mode, try the other one. Video mode 1 
+(X Mode) will give better results on most video cards, but does not work on
+all machines.
+If you are getting random pixels flickering on the screen with mode 1 then
+change to video mode 2.
+
+9) CD Music volume. DISABLED IN DEMONSTRATION VERSION.
+
+10) Music volume. The lowest setting will turn the music off.
+
+11) Sound effects volume. The lowest setting will turn the sound off. 
+
+12) Set the 3D window size. Obviously the smaller the window, the faster 
+the game will run.  
+
+13) The mouse pointer speed can be adjusted for optimum response on the 
+user's system.  
+
+14) The camera speed around the 3D environment can be adjusted for optimum
+playability. We recommned that the camera speed be set to about '2' if you
+are playing only with the mouse, and about '4' if you are moving using the 
+keyboard.
+
+============================================================================
+
+Special Blocks
+--------------
+
+Several new features which effect the Lemmings behaviour have been
+added to 3D Lemmings. They are as follows:
+
+Splitters 	- these pagoda type structures force a Lemming to turn 90
+		  degrees when they walk through them. They alternate 
+		  between turning left and right as each Lemming passes 
+		  through. It is important to note that each entrance to 
+		  the splitter keeps track of its own status, independently 
+		  of the other entrances to that particular splitter.
+
+Trampolines 	- when a Lemming walks/falls onto a trampoline it will be
+		  flung forwards and upwards, continuing in the same 
+		  direction. There are two types of trampoline: RED ones 
+		  increase the height and distance the Lemming travels by 
+		  1 each time they bounce, and BLUE ones which decrease 
+		  the height and distance by 1 each time they bounce.
+
+		  Lemmings will bounce off turner blocks whilst in flight 
+		  and will land on suitable platforms, including ladders. 
+		  If a Lemming lands on anything other than a crash mat 
+		  (see below), after having fallen more than the specified 
+		  distance, then may be stunned, or even explode.
+
+Springs 	- these fling the Lemming to a predetermined area, any
+		  distance and any height from the spring, in any 
+		  orientation. If the Lemming hits an obstruction whilst 
+		  being thrown, it will explode.
+
+Teleports 	- these occur in pairs, with the Lemmings being transported
+		  between the two teleporters each time they move across 
+		  them.
+
+Crash mats 	- these allow the Lemmings to fall from ANY height without
+		  being stunned or killed.
+
+Slippery blocks - on some levels there are slippy blocks (usually
+		  covered in ice or snow). When a Lemming walks onto these 
+		  they will quickly slide across them until they get to 
+		  a non slippy block. When a Lemming is sliding it can't 
+		  be changed into anything except a BOMBER, CLIMBER or 
+		  FLOATER.  
+
+============================================================================
+
+Auto-Replay	- all your moves are recorded whilst you play a level, and
+		  if you fail, these moves will be played back  up until the
+		  last move you made. You can jump in at any moment, by
+                  clicking the mouse or pressing a key saving you the
+                  hassle of doing it again and again.
+
+
+============================================================================
+
+Certain levels have a claustrophobic feel to them, where the cameras are
+limited in their movement. They may be trapped in a confined space, forcing
+you to use Virtual Lemming mode. Other levels may have inaccessible areas
+which can only be accessed in Virtual Lemming mode.
+
+============================================================================
+
+
+CLOCKWORK GAMES
+---------------
+
+PROGRAMMERS	- Martin Hall & James Thomas
+-----------
+
+GRAPHICS	- Neil Casini (Bitmaps) & Robert Matthews (3D modelling)
+--------	  & Peter Grayley (Original Lemming models)
+
+LEVEL DESIGN	- Andrew Brechin, Martin Hall, Neil Casini, James Thomas
+------------	  & Robert Matthews
+	
+MUSIC & SFX	- PC MUSIC
+-----------
+
+PRODUCER	- Greg Duddle
+(PSYGNOSIS)
+-----------
+
+PLAY TESTERS	- Paul Stone, Andrew Green, Matt Geeson & Sam Geeson
+------------
+
+
+============================================================================
+
+We hope you enjoy the game, and remember, any comments you make will be
+sent direct to CLOCKWORK GAMES and could be incorporated in the FINAL
+version. So get playing!!!
+
+============================================================================
+
+DISCLAIMER
+----------
+
+WE MAKE NO WARRANTIES, CONDITIONS OR REPRESENTATIONS EXPRESS OR IMPLIED,
+WITH RESPECT TO THIS PRODUCT, ITS QUALITY, MERCHANTABILITY OR FITNESS FOR
+ANY PARTICULAR PURPOSE. THIS PRODUCT IS PROVIDED 'AS IS'. WE SHALL IN NO
+WAY BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES.
+
+============================================================================
+

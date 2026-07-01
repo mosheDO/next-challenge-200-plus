@@ -1,0 +1,17 @@
+If you have problems with Funball, here are some quick trouble-shooting tips:
+
+
+Problem: while starting up, right after displaying "Initializing sound
+  system...", the screen blanks with a message from EMM386, and the computer
+  hangs.
+
+Solution: run Funball with the /NOSOUND switch. Funball tried accessing the
+  DMA channel 1 to see if you have a sound card capable of playing digitized
+  sounds. The /NOSOUND switch prevents it from doing so.
+
+
+Problem: Funball gets stuck making the same move over and over again.
+
+Solution: the ball will automatically disappear after 30 moves, or you can 
+  interrupt the process yourself after at least 5 moves by holding down both 
+  Shift keys.

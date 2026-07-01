@@ -1,0 +1,251 @@
+
+                              LAST OF THE FREE
+                              ================
+
+This file contains information intended to explain any error messages or
+problems you may encounter while running the program, and suggest some
+possible solutions. It also contains help for configuring your machine to get
+the best performance out of the Sound Blaster sound options.
+
+For installation details, and more general help, run README.
+
+
+Not enough free memory to run
+-----------------------------
+
+The program ran out of (conventional) memory. This is only likely to occur if
+you are using a Sound Blaster card.
+
+The 8-bit sample version requires 536,000 bytes of conventional memory, and
+the 16-bit version requires 566,000 bytes. You can check the amount of
+memory available by running the DOS command 'CHKDSK'. The last line displayed
+gives the relevant figure.
+
+Consult your DOS manuals for help on freeing up memory.
+
+Note: The exact amount of memory required varies with the sound card type.
+The drivers for the newer cards are larger than those for the older cards, so
+you may find that the program will run with less free than the amount given
+above.
+
+
+File missing/corrupted
+----------------------
+
+This indicates that one of the program files has been deleted or become
+corrupted. It should never happen, but if it does, install the program again
+from your original disk(s).
+
+
+Configuration data not found
+----------------------------
+
+The program could not find the information that specifies your sound device
+and option settings. To fix this, run SETUP.
+
+
+BIOS too old
+------------
+
+The program needs to use some services provided by the machine BIOS that
+were not present in early BIOS versions. If this message is given, there
+is nothing you can do, because your machine falls into this category.
+
+
+Sound Blaster - SETUP does not detect card
+------------------------------------------
+
+If a Sound Blaster card is installed in your machine, and SETUP fails to
+detect it, it means that the Sound Blaster drivers have not been detected.
+
+The program uses the drivers provided with the software that accompanies
+the Sound Blaster card. If you have not installed this, or have later
+removed some, or all, of the software, run the Sound Blaster installation
+program again. Now when you run SETUP, the card should be detected
+correctly. See your Sound Blaster manuals for further information.
+
+Notes for advanced users:
+-------------------------
+
+The program only needs the drivers CT-VOICE.DRV, CTVDSK.DRV, and AUXDRV.DRV
+(if the stereo option is selected), together with the environment variable
+'SOUND', giving the location of the directory containing the subdirectory
+'\DRV', in which the drivers are actually stored.
+
+E.g. if SOUND=C:\SB, then C:\SB\DRV should contain the drivers.
+
+SETUP reads the environment variable 'BLASTER' to determine the port and
+interrupt number. If BLASTER is not defined, the factory defaults are used.
+BLASTER does not need to be set to run the game.
+
+
+Sound Blaster - driver not found
+--------------------------------
+
+The program could not find the driver software.
+
+If a Sound Blaster is installed, install the driver software as described
+above, or change the sound device by running SETUP.
+
+Note: This error will also be given if you've got a basic Sound Blaster card,
+but have selected the Sound Blaster Pro or 16 in SETUP, and have switched
+the stereo option on. Change the setting to the basic Sound Blaster option.
+
+
+Sound Blaster - cannot initialise card
+--------------------------------------
+
+The program found the Sound Blaster drivers, but the card could not be
+initialised.
+
+If a Sound Blaster is installed, check that it is working correctly with
+the software supplied with it, or change the sound device by running SETUP.
+
+
+Sound Blaster - port/interrupt setting is wrong
+-----------------------------------------------
+
+The wrong port and/or interrupt number has been set.
+
+Run SETUP and change the settings to their required values. If you don't
+know the right settings, use the software supplied with the card to
+determine them.
+
+
+Sound Blaster 'hi-score' sample pauses
+--------------------------------------
+
+You should be able to eliminate pausing during sample playback by using a
+disk cache program, or if you already are, by increasing the size of the
+cache.
+
+The problem is most likely to occur when running the 16-bit version:
+
+- If you have got more than 2Mb of RAM, a 1Mb cache should do, though you
+may need to experiment.
+
+- On a 2Mb system, try the largest cache size that leaves enough XMS memory
+to run the program; even then, you may find that the hi-score sample still
+won't loop without pausing. In this case you can use the option in SETUP to
+switch to the 8-bit hi-score sample. This is smaller, and is therefore
+less demanding on disk/cache access. You should find that this plays back
+well with a cache size of, say, 400k, which should be a reasonable size to
+fit in a 2Mb system without having to chop the CONFIG.SYS/AUTOEXEC.BAT file
+contents down to a minimum.
+
+
+Sound Blaster 16 sound output sometimes stops
+---------------------------------------------
+
+There seem to be a few bugs in the early Sound Blaster 16 drivers which may
+cause the sound to stop playing, usually when you start a new game or have
+just finished one. It doesn't usually affect 'normal play', but might occur
+if you switch the sound on and off between games or while it's paused.
+
+If you encounter this problem, you should be able to get the sound back by
+turning the sound off, then on again, with 'S'.
+
+
+Sound Blaster - general notes
+-----------------------------
+
+The samples sound best on systems with good bass response. If you haven't
+got tone controls, placing the speakers next to a wall will probably improve
+the sound quality.
+
+If you've got a Sound Blaster 16, get the 16-bit sample version. The
+difference is comparable to that between poor quality AM radio and high
+quality FM. Also, check the treble setting on the mixer: for playing 8-bit
+samples this should be set to zero, but for 16-bit samples it should be
+set to a median value, say, 127.
+
+
+Extended memory (XMS) not found (16-bit only)
+---------------------------------------------
+
+The program could not find the XMS driver, which is needed to access extended
+memory.
+
+Check that your CONFIG.SYS file contains a line for loading the XMS driver,
+typically 'DEVICE=C:\DOS\HIMEM.SYS'. Consult your DOS manuals, or those for
+your memory management software, for detailed instructions.
+
+
+Unable to allocate XMS memory (16-bit only)
+-------------------------------------------
+
+The program was unable to obtain a block of extended memory from the XMS
+driver. The reason given may be:
+
+    - Insufficient XMS memory free.
+
+      The program requires 622,592 bytes (608K) of XMS memory. You can check
+      the amount available by running the supplied utility 'XMSINFO'. The
+      relevant figure is the 'largest free block'.
+
+      You can increase the amount of free XMS memory by reducing the
+      amount used by other programs. The most likely candidate is a
+      disk cache program - reduce its size to leave sufficient free
+      for LOTF, but otherwise keep the cache as large as possible.
+
+    - No XMS handles free.
+
+      The XMS driver can only provide a limited number of blocks of XMS
+      memory, irrespective of the amount free. Other programs must have
+      used up all the available 'handles'.
+
+      Either disable other programs that are using XMS, or increase the
+      number of XMS handles. Consult your DOS/memory management software
+      manuals for instructions.
+
+    - XMS error code 129
+
+      A VDISK (ram disk) device was detected that conflicts with XMS.
+
+      Disable any driver that may be causing the problem and try again.
+
+
+XMS memory operation failure (16-bit only)
+------------------------------------------
+
+An error occurred while moving data between conventional and extended memory.
+This *should* never happen.
+
+Note: Error code 169 indicates a memory parity error - a memory chip may be
+faulty.
+
+
+Low animation rate too 'flickery'
+---------------------------------
+
+The success of the low animation rate seems to depend on the monitor used -
+on some screens it works better than others. It also looks far worse if you
+play it immediately after playing the game on the high or medium settings -
+try coming back to it after a break.
+
+
+Why is there no joystick option?
+--------------------------------
+
+Joystick control was tried, but the result simply made the game harder to
+play due to the relative slowness of moving the stick around, and the
+difficulty of making accurate movements. The keyboard allows much faster
+responses, and complete accuracy when flying tricky manoeuvres.
+
+
+Other
+-----
+
+If you find any bugs, or have problems with the program, or have any comments
+or suggestions, please let me know:
+
+     Adrian Page
+     2 St Edburgs Close
+     Bicester
+     Oxfordshire
+     OX6 8BL
+     England
+
+                                  -- + --
+
+Sound Blaster is a registered trademark of Creative Labs, Inc..

@@ -1,0 +1,405 @@
+
+ROYAL VIDEO POKER DOC'S AND SETUP  Version 3.1
+
+Note: This is version 3.1 of ROYAL VIDEO POKER, and corrects errors in
+running and installation of the previous version. Specifically:
+
+All error messages now have clean exits to the user's system, and will
+not leave one in graphics mode.
+
+A mouse driver does not have to be installed for the program to run.
+The program will run from a "clean" boot-up, as from a system disk, to
+avoid any TSR problems.
+
+The program may be run from any directory the user desires, including a
+temporary download directory, not only from the royal directory. It will
+also run from a floppy disk, though this is not recommended.
+
+
+The program should run from any system that has a popular, or VESA
+compatible, 512K SVGA graphics card or better. Note, however, that not
+all systems will support the text screens in the game: the File Menu and
+the Statistics Screen, even if they can support the graphics screens.
+The only potential solution, if the user encounters this problem, is to
+run the game from a clean boot-up. They can, in any case, be readily exited
+by typing 4 at the File Menu, or hitting either mouse button at the 
+Statistics Screen. They are not essential to running the game in any case,
+as they are extra features only, that may not be important to the user.
+See the discussion below on SVGA compatibility.
+
+If any user has problems with the mouse, this is due to hardware or system
+speed problems. The game is completely playable from the keyboard.
+
+
+THE GAME
+
+This game plays draw three versions of  draw poker:  Jacks or Better, 
+Joker Poker (Kings and Aces High), and Deuces Wild, with two selectable card 
+decks.  One deck is a modified standard card deck, and the other features a
+baroque 17th century card deck, which is available when you send in the
+registration fee of $20.
+
+It also offers a Triple Draw and Double Up Option with all the games.
+Both mouse and keyboard are supported. Sound effects are through the 
+PC Speaker, and you can hear speech and music if you have a Sound Blaster
+compatible sound card. Sound quality is dependent upon the quality of your 
+sound card and speakers, and may not be equally good on all systems.
+All sound may be turned off if you desire.
+Game statistics are provided giving a complete record of your play. You may
+save as many games as you want and also delete them.
+
+
+The game runs in SVGA with 512 minimum video ram, 640x480x256 color mode, and
+should be run from a hard disk drive. The game is on a High Density 3.5" disk,
+and will take about 850k of hard drive space.  The registered version will
+take about 1 megabyte of hard drive space. It makes no direct use
+of any expanded/extended memory, but you will find it helpful to use a disk
+cache, such as SMARTDRV.SYS. See your DOS manual for information.
+
+
+To install the game on your hard disk drive:
+
+1) Type at the dos prompt while in the C: drive:  md royal
+2) Type at the dos prompt: copy B:*.* C:\royal
+   Substitute A: if you are using that floppy drive.
+   To run the game:
+   Type at the dos prompt: cd royal
+   Type at the dos prompt: royal
+
+If you are installing from a temporary download directory, do the above
+except substitute copy C:\directory\*.* C:\royal.  Use whatever directory
+name you used for a download directory in the last sentence. Example:
+copy C:\temp\*.* c:\royal. 
+
+Copying files in the above manner can be best done from DOSSHELL. See your
+DOS manual for information.
+
+Note: As mention above, you may run the game from any directory you choose,
+as from a temporary directory. The above is suggested for convenience. In
+any case, type royal to run the game from its directory.
+
+If you received this game on a floppy disk, it will also run from there. But
+this is not recommended, as it will be extremely slow.
+
+
+SVGA GRAPHICS COMPATIBILITY
+This game will run with svga cards that have VESA compatibility, or that
+use the most common cards, such as Trident and Paradise. If you have a SVGA
+card with at least 512k, and the game does not run, there are two things that
+could be the problem: You do not have a compatible SVGA card, or, more likely
+you have a TSR program that interferes with the SVGA graphics.  The best pro-
+cedure, if you have DOS 6.X, is to hit F5 to bypass the system files when you
+boot-up, and then run the game. If you have a lower version of DOS, your best
+option is to make a system boot disk. See your DOS manual for information.
+If the game still does not run, then you have a hardware compatibility 
+problem, and the game will not work on your system. Unfortunately, there
+are a wide variety of SVGA cards on the market that do not correspond to
+a given standard, as VGA does, and the game will not run, or will only run
+the graphics screens only using these cards. Note that the text screens are
+not essential to playing the game. If your card will not display them: hit
+any mouse button if you are in the Statistics Screen or the 4 key,  if you 
+are in the File Menu, to exit back to the graphics screens if your screen
+is blank. You should try to boot from a boot disk or the F5 key from DOS 6.x,
+as above, to try if you can use them doing so.
+
+General Game Instructions:
+
+The game graphics can vary quite a bit in appearance, depending on how you
+have set your brightness and contrast controls on your monitor. I suggest
+that your experiment with these controls for the best results.
+
+A note about the interface: This interface varies somewhat from other poker
+games you may have played. But once you read the following, you will find
+that they are very easy to use, and that the game will play quite fast on 
+any machine with a 386 processor or better. On either deck, if the hold 
+lights are black, the cards are NOT held, and the default is triple draw.
+
+The game is playable with either the mouse or the keyboard. Click on the 
+screen buttons with the mouse cursor and left button or hit the necessary
+keys from the keyboard. Exception: The File Menu uses the keyboard only.
+
+TITLE SCREEN:
+Hit any key to exit. You will hear music if you have a 
+Sound Blaster compatible sound card installed.  
+
+MAIN MENU SCREEN:
+The game begins with the default options of Jacks or Better, Sound on, and
+standard deck selected. If you are satisfied with these options, hit the 
+space bar (or click on it with the mouse) to proceed to the Game Screen.
+
+Click on the bar to the left of the button to activate it.
+An option button is red if selected, and white if not. Exception: the clear
+stats button will temporarily turn yellow if you clear the statistics. Unless
+indicated otherwise below, type only lower case letters on the keyboard.
+
+The game options you may select are:
+
+JACKS OR BETTER (default on, click or type f to use)
+
+JOKER POKER (click, or type j to use)
+
+DEUCES WILD (click, or type d to use)
+
+HIGH-LOW/DOUBLE UP (click, or type h to use, to disable: click
+                    with the right mouse button, or type SHIFT H)
+
+SOUND ON/OFF (default on, click with right mouse button or SHIFT M
+              to disable; to re-enable, click with left mouse button
+              or type m key)
+
+FILE MENU  (f key )
+
+TRIPLE DRAW  (F2, default on)
+
+STANDARD DRAW (F1) 
+
+VIEW STATISTICS  (s key, this screen also displays the payoffs for a game)
+
+CLEAR STATISTICS (c key)
+
+SPACE BAR (proceed to game screen with currently selected options)
+
+ESC KEY (exits game, you must hit the KEY)
+
+In the shareware version, an advertisement screen for the registered version
+will appear, hit any key to exit to DOS.
+
+The registered version has additional menu options to switch between two
+playing decks.
+
+You may freely enter the main menu from the game screen while the game is 
+playing to change options, view stats, etc, as long as the Menu option is
+displayed on the Menu icon.
+
+Note: If you select other options than the defaults, reselect the defaults,
+and then decide to select other options again, while you are still at the
+Main Menu, the defaults will become temporarily  "locked". Press or click
+the space bar, go to the game screen, then click or press on e to return to
+the Main Menu to free them up for reselection. This should not occur during
+normal play, and will never occur if you use the keyboard.
+
+THE GAME SCREEN:
+
+
+GENERAL PLAY
+Five cards are displayed on the screen. Below them are lights that indicate
+if the card are held. To hold any cards, click on the number icons, or press
+the number keys on the keyboard. You may also click on the card faces.
+If you change your mind, click on the c icon or the c key on the keyboard.
+You may also click on the right mouse button to cancel holds.
+Note: this will clear all cards. 
+Press the space bar or click on its icon to draw cards.
+The space bar indicates your current game status. If the Menu button
+has the words M(e)nu on it, you can click on it or press e on the keyboard to
+go to the main menu for saving, viewing statistics or changing options. 
+One window indicates your current pot amount,
+the other indicates any winning hands you have.  The game plays $5 per play,
+and starts you with a pot of $100. If your loses go below $100, you will 
+automatically be given another $100. Your net gain or loss on the stats
+screen reflects this. Example: You have a net gain of $200; $300 will appear
+in the pot amount on the game screen.
+
+DOUBLE UP
+If you have selected Double Up, messages will appear asking if you want to 
+Double Up your winnings. Click Y or N on the key board, or left or right 
+mouse button. The computer will select a card in the first slot, you can 
+select a card in any of the other slots.  You cannot click on the cards
+themselves for double up, use the key board or click on the number icons.
+If the card is equal, you are given the option to continue.
+If your card is lower, you lose. As long as you have
+a higher, winning card, you can continue the double up process. Only 
+the spades suit is used in Double Up.
+
+TRIPLE DRAW
+This is an option that allows you a third draw, no modification is made on 
+the payoffs when this option is selected.
+
+If you have selected sound on, you will hear game sounds and speech.
+  
+FILE MENU
+NOTE: THIS SCREEN USES THE KEYBOARD ONLY.
+You can go to the Main Menu at any time during the game when exit appears on
+the space bar icon. From there press l or click on the button to go to the
+File Menu. Each option has a number 1-4. Press the number you want for the
+action you need. You can load, save, delete, or exit. At the top of the 
+screen appears a directory of any saved games. Any saved games will be saved
+with the current game options in effect, and these will be reenabled when
+you load them back in. Type the names of the games when the requester appears.
+
+Note: if you mix options during the play of a game, such as switching from
+Jacks or Better, to Deuces Wild, or from any game to Double Up after you have
+played it for a while, the statistics will not be reliable. To keep stats
+clean, save a current game before you select a new option, and hit the c
+key, or load a previously saved game with the options you desire.
+
+If you are not interested in the statistics, and desire to mix options to
+earn more money during a game, you can do so, as your net pot amount is 
+still reliably saved. In this case the net gain/loss on the stats screen
+will be inaccurate, but the number of hands in each version will be reliably
+recorded, and you can view them by switching options on the Main Menu, and
+look at the stats under each.
+
+STATISTICS SCREEN
+You can go here from the main menu at any time during play, when exit appears
+on the space bar icon. Displayed are the number of winning hands, the total of
+each type, and their value. Also your current net gain or loss. If you have
+selected Double Up, the stats will indicate the number of times you tried it,
+the number of times you succeeded, and the modified net gain or loss.  As
+mentioned above in File Menu, changing options, and not clearing stats, will
+affect the reliablity of these figures. If you have loaded a saved game, the
+statistics are also saved, and will be viewable upon loading.
+
+
+GENERAL STRATEGY NOTES
+After having played played this game countless times, and studying the
+statistics of draw poker, I suggest the following game playing strategy:
+
+The general statistics for the first hand of standard Jacks or Better are:
+                HAND                    % PROBABILITY
+                Royal Flush             < 1%
+                Straight Flush          < 1%
+                Four of a Kind          < 1%
+                Full House              < 1%
+                Flush                   < 1%
+                Straight                < 1%
+                Three of a Kind           2%
+                Two Pair                  5%
+                Paired High Cards         12%
+                No Win                    80%
+
+If no winning hand occurs on the first draw, the best strategy is:
+            HAND                                        % PROBABILITY
+            Draw three cards to a pair                  29%
+            Draw four cards to a high card              25%
+            Draw two cards to a pair plus a high card   27%
+            Draw one card to four flush cards           19% 
+            Draw one card to an outside straight        17%
+If none of the above possibilities exist on the second draw, redraw all cards.
+The same basic strategy can be extended to the wild card variants and to the
+triple draw feature.
+
+There are other strategies that are used, the chief distinction between them
+and the above is based on the payoff amount, the idea being that you are 
+playing mainly for large amounts. Hence, you would hold any cards on the first
+draw that could conceivably lead to a larger hand, such as three cards to a
+royal or straight flush. Or hold four cards to an inside straight, where you
+need a number in the middle range, instead of either of two numbers at each
+end of the hand for an outside straight. But the probabilites of succcess are
+very low in going for these hands. Basically, this is a matter of your
+tolerance for risk taking, rather than probability.
+
+
+Another thing to keep in mind is that this game has no "house percentage".
+Which is the percentage that a casino must guarentee that IT will win to make
+a profit. How much this is, is a matter of some conjecture, depending on where
+you play a draw poker machine. It is  probably between 5 to 10 percent in the
+larger casinos. What this really means is that, unlike this game, you will
+lose if you continue to play a casino poker machine long enough for the house
+percentage to kick in. The best strategy there is to "stay in when you are
+low", and "get out when you are high".
+
+Again, as mentioned below in the disclaimer, I make no claims for the 
+accuracy or effectiveness of the above strategy. If you use it in actual
+casino play, it is at your own risk.
+
+
+I hope that you find this game enjoyable, and that you will send in the
+shareware fee for the complete game, which is $20.00. 
+You will receive the latest version of the game, which includes a baroque
+17th century card deck taking over a megabyte of game data.
+
+A coupon is provided: type coupon, while you are in the royal
+directory, and hit the print screen key, while your printer is on, and with
+paper. If you have any questions, feel free to contact me.
+
+
+Address any inquires to:
+Charles Lankiwicz
+226-43rd Street
+Pittsburgh, PA 15201
+Phone: 412-683-1725
+
+DISCLAIMER
+__________
+
+This game is intended for amusement purposes only, and should not be used
+for any other purpose. 
+The tips and suggestions listed in this documentation are my opinions, 
+and if anybody uses any of these suggestions in actual casino play, they do
+so at their own risk. The author of this computer game and documentation
+assumes no responsibility for any gambling losses resulting from any
+playing strategy suggested by this document.  
+
+
+
+DISTRIBUTING ROYAL VIDEO POKER
+_____________________________
+
+If you want to distribute Royal Video Poker:
+
+[]   Non-commercially, please do!  Distribution is non-
+     commercial if it is for free, or by any not-for-profit
+     organization, or by hobby, user or computer interest group
+     to its members, or by any BBS. We reserve the right to
+     withdraw this right by giving reasonable notice.
+
+
+[]   Commercially , please see VENDOR.DOC.
+
+NON-COMMERCIAL DISTRIBUTION: This "Small Print" statement gives you the
+right to copy and distribute the shareware version of ROYAL VIDEO POKER
+"non-commercially".  Distribution is non-commercial if it is for free, or
+by any not-for-profit organization, or by hobby, user or computer interest
+group to its members, or by any BBS. 
+
+
+USING ROYALVIDEO POKER, SHAREWARE VERSION: The shareware version of ROYAL
+VIDEO POKER is yours to use for a reasonable period to decide if you like it. 
+If you like it, please send in the registration fee of $20.00 to receive a
+enhanced version of the game.
+  
+
+OWNERSHIP: Except to the extent expressly licensed, Charles Lankiwicz  
+has and reserves the exclusive copyright and other right, title and
+interest to copy and distribute ROYAL VIDEO POKER, and the right to use the
+Trademark "ROYAL VIDEO POKER" in connection with it.
+
+ROYAL VIDEO POKER IS PROVIDED "AS-IS". NO WARRANTIES OF ANY KIND, EXPRESS OR
+IMPLIED, ARE MADE AS TO IT OR ANY MEDIUM IT MAY BE ON. CHARLES LANKIWICZ  
+THE AUTHOR WILL PROVIDE NO REMEDY FOR INDIRECT, CONSEQUENTIAL, PUNITIVE
+OR INCIDENTAL DAMAGES ARISING FROM IT, INCLUDING SUCH FROM NEGLIGENCE,
+STRICT LIABILITY, OR BREACH OF WARRANTY OR CONTRACT, EVEN AFTER NOTICE OF
+THE POSSIBILITY OF SUCH DAMAGES.
+
+If you distribute ROYAL VIDEO POKER non-commercially, 
+you must distribute all of its files together as released by
+Charles Lankiwicz, in compressed or other format.
+You may add simple introductory or batch files, so long as they do not
+interfere with or degrade the performance of ROYAL VIDEO POKER.                                     
+
+You will hold me, harmless from damage, loss and expense arising directly
+or indirectly from your acts and omissions in copying,
+distributing or adding introductory or installation files to the
+Program.
+
+
+Charles Lankiwicz reserves the right to withdraw this license by
+giving reasonable notice.
+
+
+To read this text without scrolling type at the dos prompt:
+type docs.txt | more    (include the FULL line, including type ). 
+The | is the "pipe" key located to the left of the Backspace Key. 
+Or type edit at the dos prompt and load c:\royal\docs.txt to use dos edit. 
+Also, Windows Notepad may be used to view this file. 
+Note, however, this game will not run under Windows. Exit Windows to run.
+This text may also be printed from dos edit, or Windows Notepad. 
+Or use the Dos print command from the command line: print docs.txt. 
+Be sure your printer is on line and loaded with paper.
+
+
+
+
+
+
+

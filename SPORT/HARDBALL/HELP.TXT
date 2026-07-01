@@ -1,0 +1,105 @@
+IF YOUR GAME WON'T RUN....
+
+
+The first thing to try is to use Hardball 4's virtual memory option.
+From the Hardball 4 demo directory, type VM <ENTER>.  Then try the
+demo again.  This will resolve most memory problems with the game.
+If this doesn't help, try the following...
+
+Most problems are caused by your system's memory configuration.  Try a 
+different start up for your computer called Booting Clean.  Booting this 
+way often corrects freezing, most error messages, and erratic game play.  
+This procedure is temporary and does not change your computer.
+
+You boot clean differently with DOS 5.0 and DOS 6.xx.
+
+BOOTING CLEAN WITH DOS 5.0
+First create a Clean Boot diskette.  Please note the following steps can 
+only be done in drive A.  Here's how you make this disk:
+
+  1  Insert the diskette in drive A:.
+
+  2  At the C:> prompt, type cd\DOS and press <Enter>.
+
+  3  Type FORMAT A:/S <Enter>.
+
+  4  When the format is done change to the A: drive.  Type A: <Enter>.
+
+  5  At the A:> prompt, type COPY CON CONFIG.SYS <Enter>.
+
+  6  The cursor moves down a line.  Type DOS=HIGH,UMB <Enter>.
+
+  7  Type DEVICE=C:\DOS\HIMEM.SYS <Enter>.
+
+  8  Press the control <Ctrl> and Z keys at the same time.  Then press 
+     <Enter>.  A message appears that says "One File Copied."
+
+  9  Now type COPY CON AUTOEXEC.BAT <Enter>.
+
+ 10  Type PROMPT $P$G <Enter>.
+ 
+ 11  Press the control <Ctrl> and Z keys at the same time.  Then press 
+     <Enter>.  
+
+ 12  You have created the Clean Boot diskette.  Keep the disk in drive A:  
+     and restart your computer.
+
+ 13  At the A: prompt type C: <Enter>.  Now, change to the directory
+     you installed the demo to and play HARDBALL 4!
+
+
+BOOTING CLEAN WITH DOS 6.xx
+Boot Clean directly from the keyboard.  Here's how:
+
+  1  Restart your computer.
+	
+  2  When you see the message "STARTING MS-DOS" press your F8 key.
+
+  3  MS-DOS asks you to confirm each config.sys command.  You give yes or 
+     no responses to each command line.
+
+  4  Say yes to only the following lines:
+       DOS=HIGH, UMB
+       DEVICE=C:\DOS\HIMEM.SYS
+
+  5  At the C:> prompt change to the directory you installed the demo
+     to and play HARDBALL 4!
+
+Note:  If you have a third party memory manager like 386MAX or QEMM you 
+should say yes to the equivelent command lines.  However you may have 
+problems using these managers.    
+
+
+CUSTOMER SERVICE
+
+IF YOU HAVE A MODEM....
+
+  Accolade gives customer service, news, demos, technical support, and other
+  information on the following Online Services.
+
+  ACCOLADE BBS--  (408) 296-8800, with settings of 8,N,1 and supports up to
+  14400 baud.  4 lines, 24 hours a day, 7 days a week.
+
+  AMERICA ONLINE-- Industry Connection, keyword: "Accolade",
+  E-Mail address: Accolade.
+
+  COMPUSERVE--  Game Publishers A Forum, type "GO GAMAPUB",
+  E-Mail address: 76004,2132.
+
+  INTERNET--  76004.2132@compuserve.com, accolade@aol.com
+
+TECHNICAL HELP AND CUSTOMER SERVICE
+
+  Telephone help is available Monday through Friday, 8 AM to 5 PM PST
+  Time.  Call (408) 296-8400 or FAX (408) 246-0231.
+
+  You may also write us at this address:
+
+  Accolade
+  c\o Customer Support
+  5300 Stevens Creek Blvd. Suite 500
+  San Jose, CA  95129
+
+
+(for more specific information on the demo's memory
+ requirements type README at the prompt.)

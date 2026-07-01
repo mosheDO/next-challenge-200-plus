@@ -1,0 +1,350 @@
+000 PossÇdez-vous une souris ? :
+001 Souris compatible Microsoft.
+002 Pas de souris ou autres cas.
+003 Choisissez une Option ou Echap pour Annuler
+004 Votre configuration vient d'àtre sauvegardÇe.
+005 - Pour lancer le programme pressez une touche.
+006 - Pour revenir au DOS, pressez la touche Echap.
+007 Votre disque est protÇgÇ en Çcriture.
+008 Enlevez la protection et
+009 pressez une touche.
+010 Votre configuration actuelle est la suivante :
+011 Carte VidÇo :
+012 couleurs
+013 Souris      : compatible MicroSoft.
+014 Souris      : Pas de souris ou autre cas.
+015 Langue      : Franáais.
+016 Configuration AvancÇe.
+017 Echap: QUITTER SANS SAUVER        SAUVER CHANGEMENTS <ƒŸ
+018 Echap: QUITTER-RETOUR DOS           LANCER PROGRAMME <ƒŸ
+020 Choisissez l'interface graphique :
+021 couleurs
+022 Choisissez une Option ou Echap pour Annuler
+030 Son         :
+031 Quel type de sons dÇsirez-vous ?
+032 Pas de sons
+033 Haut-Parleur PC.
+034 Interface MediaVision ProAudio.
+035 Interface compatible Adlib.
+036 Interface SoundBlaster.
+037 Interface InterSound MDO.
+038 Choisissez une Option ou Echap pour Annuler
+040 Franáais
+041 Choisissez une Option ou Echap pour Annuler
+042 ATTENTION!
+043 Il n'y a pas assez de mÇmoire Çtendue.
+044 Certains effets visuels ou sonores
+045 ne pourront pas avoir lieu.
+046 En cas de probläme consultez le manuel appropriÇ.
+047 Pressez EntrÇe pour continuer ou Echap pour sortir.
+050 Cette option permet d'adapter le programme
+051 Ö une configuration non standard de votre
+052 carte SoundBlaster ou ProAudio.
+055 Echap: RETOUR                  CONTINUER <ƒŸ
+057 Choisissez une Option ou <ƒŸ pour valider
+058 Address              IRQ                 DMA
+059 [A] : 210
+060 [B] : 220
+061 [C] : 230
+062 [D] : 240
+063 [E] : 250
+064 [F] : 260
+065 [G] : 270
+066 [H] :  2
+067 [I] :  3
+068 [J] :  5
+069 [K] :  7
+070 [L] :  0
+071 [M] :  1
+072 [N] :  3
+073 [O] :  5
+074 [P] :  6
+075 [Q] :  7
+080 ATTENTION !
+081 Pour fonctionner correctement,
+082 Ce programme a besoin de %d Koctets en Ram.
+083 Ce programme a besoin de %d Koctets sur disque dur.
+084 Vous avez seulement %d Koctets disponibles.
+085 En cas de probläme consultez le manuel appropriÇ.
+086 Pressez EntrÇe pour continuer ou Echap pour sortir.
+087 Ce programme a besoin d'un disque dur.
+088 Pressez une touche pour sortir ...
+089 une Souris Compatible Microsoft est nÇcessaire.
+090 Une carte VGA est nÇcessaire.
+091 Une carte son SoundBlaster est nÇcessaire.
+092 Une carte son compatible Adlib est nÇcessaire.
+093 Une carte son MediaVision ProAudio est nÇcessaire.
+094 Une interface son MDO est nÇcessaire.
+095 L'application nÇcessite un CD-ROM.
+096 Joystick is Enabled
+097 Joystick is Disabled
+098 DÇtection automatique.
+099 DÇtection en cours.
+100 Disquette systäme
+101 InsÇrez la disquette Ö formatter
+102 dans le lecteur A:
+103 PrÇparation de la disquette systäme en cours
+104 Pas de disquette !
+105 InsÇrez une disquette dans le lecteur A:
+106 Pressez ENTER pour continuer.
+107 Disquette dÇfectueuse.
+108 Changez de disquette et recommencez.
+109 Disquette systäme pràte !
+110 Utilisez-la pour dÇmarrer l'ordinateur.
+111 Certains ÇlÇments n'ont pas ÇtÇ trouvÇs :
+112 Gestionnaire HIMEM.SYS
+113 Gestionnaire de souris.
+114 Gestionnaire de clavier.
+115 Gestionnaire de CD.
+
+200 Besitzen Sie eine Maus ? :
+201 Maus kompatibel Microsoft.
+202 Keine Maus oder anderer Fall.
+203 Funktionstaste drÅcken oder <ESC> fÅr RÅckkehr.
+204 Die aktuelle Konfiguration wurde abgespeichert.
+205 - Beliebige Taste drÅcken, um das Programm zu starten
+206 - <ESC> = zurÅck zu DOS.
+207 Die Diskette ist schreibgeschÅtzt.
+208 Den Schreibschutz entfernen und
+209 eine beliebige Taste drÅcken.
+210 Ihre aktuelle Konfiguration ist folgende:
+211 GrafikKarte :
+212 Farben
+213 Maus        : Kompatibel Microsoft.
+214 Maus        : Keine Maus oder nicht anderer Fall
+215 Sprache     : Deutsch.
+216 Besondere Konfiguration.
+217 <ESC> ABBRUCH OHNE ABSPEICHERN   éNDERUNGEN SPEICHERN <ƒŸ
+218 <ESC> ZURÅCK ZU DOS                  PROGRAMM STARTEN <ƒŸ
+220 WÑhlen Sie die Grafik Karte :
+221 Farben
+222 Funktionstaste drÅcken oder <ESC> fÅr RÅckkehr.
+230 Ton         :
+231 WÑhlen Sie Ihre SoundKarte :
+232 Kein Ton.
+233 Keine Karte fÅr den Ton.
+234 Ton mit Karte ProAudio.
+235 Ton mit Karte Adlib.
+236 Ton mit Karte SoundBlaster.
+237 Ton mit Karte Intersound MDO.
+238 Funktionstaste drÅcken oder <ESC> fÅr RÅckkehr.
+240 Deutsch
+241 Funktionstaste drÅcken oder <ESC> fÅr RÅckkehr.
+242 Achtung !
+243 Nicht genug Speichererweiterung vorhanden.
+244 Einige optische und sound Effekte werden infolgedessen
+245 nicht vollstÑndig wiedergegeben.
+246 Bei Auftreten eines Fehlers im Handbuch nachschlagen.
+247 <ENTER>=weiter, <ESC>=Abbruch
+250 Diese Option ermîglicht es, ein Programm oder
+251 eine Konfiguration, die nicht standardgemÑ· sind,
+252 Ihrer Soundkarte SoundBlaster oder Mediavision
+253 ProAudio anzupassen.
+255 ESC: ZURöCK                  VORWéRTS <ƒŸ
+257 Taste drÅcken oder <ƒŸ.
+280 Achtung !
+281 FÅr einen stîrungsfreien Ablauf :
+282 Dieses Programm benîtigt %d KB RAM.
+283 Dieses Programm benîtigt %d Platz auf der Festplatte.
+284 Es sind nur noch %d KB frei.
+285 Bei Auftreten eines Fehlers im Handbuch nachschlagen.
+286 <ENTER>=weiter, <ESC>=Abbruch
+287 Dieses Programm benîtigt eine Festplatte.
+288 Beliebige Taste drÅcken=Abbruch...
+289 Microsoft kompatible Maus erforderlich.
+290 Dieses Programm benîtigt eine VGA-Karte.
+291 Dieses Programm erfordert eine SoundBlaster Soundkarte oder Kompatibel.
+292 Dieses Programm erfordert eine Adlib-Soundkarte oder Kompatibel.
+293 Dieses Programm erfordert eine MediaVision ProAudio Soundkarte.
+294 Dieses Programm erfordert eine Intersound MDO Schnittstelle.
+295 Dieses Programm erfordert eine CD-ROM.
+
+400 Do you have a mouse ? :
+401 Compatible Microsoft mouse
+402 No mouse, or other cases.
+403 Press a Function Key or ESC to return
+404 Your configuration has been saved.
+405 - To execute the program, press any key.
+406 - To exit to DOS, press the ESC key.
+407 Your disk is write-protected.
+408 Remove the protection and
+409 press a key.
+410 Your present configuration is as follows:
+411 Video Card :
+412 colors
+413 Mouse      : Microsoft compatible Mouse.
+414 Mouse      : No Microsoft compatible Mouse.
+415 Language   : English.
+416 Advanced configuration.
+417 ESC: EXIT-NO SAVE              SAVE CHANGES <ƒŸ
+418 ESC: EXIT TO DOS                RUN PROGRAM <ƒŸ
+420 Choose the graphic interface :
+421 colors
+422 Press a Function Key or ESC to return
+430 Sound      :
+431 Choose the sound interface :
+432 No sound
+433 Standard sounds
+434 MediaVision ProAudio card
+435 Adlib compatible card
+436 SoundBlaster card
+437 InterSound MDO interface
+438 Press a Function Key or ESC to return
+440 English
+441 Choose an option or ESC to return
+442 WARNING
+443 There is not enough extended memory available.
+444 Some visual or sound effects
+445 will be impaired.
+446 In case of malfunction, consult your manual.
+447 Press Enter to Continue or Esc to Exit
+450 This option permits you to adapt the program
+451 to a non-standard configuration of your
+452 SoundBlaster or ProAudio card.
+455 ESC: RETURN                  CONTINUE <ƒŸ
+457 Press a Key or <ƒŸ
+480 WARNING
+481 To run correctly,
+482 This program needs %d Kbytes in Ram.
+483 This program needs %d Kbytes on Hard Disk.
+484 You have only %d Kbytes free.
+485 In case of malfunction, consult your manual.
+486 Press Enter to Continue or Esc to Exit
+487 This program requires a hard disk to run correctly.
+488 Press any key to Exit ...
+489 Compatible Microsoft Mouse is necessary.
+490 VGA card is necessary for this application.
+491 SoundBlaster card is necessary.
+492 Adlib compatible card is necessary.
+493 MediaVision ProAudio card is necessary.
+494 InterSound MDO interface is necessary.
+495 A CDROM is necessary for this application
+496 Joystick enabled
+497 Joystick disabled
+498 Automatic detection.
+499 Detecting...
+
+600 ® Tiene un rat¢n ? :
+601 Rat¢n compatible Microsoft
+602 Sin rat¢n u otros casos.
+603 Pulse una tecla de funci¢n o ESC para anular.
+604 Tu configuraci¢n acaba de ser salvaguardada.
+605 - Para lanzar el programa pulse cualquier tecla.
+606 - Para acceder al DOS, pulse la tecla ESC.
+607 Su disco est† protegido contra la
+608 escritura. Quitar la protecci¢n y
+609 pulsar una tecla.
+610 Tu configuraci¢n actual es la siguiente :
+611 Tarjeta gr†fica :
+612 colores
+613 Rat¢n  : Rat¢n compatible Microsoft.
+614 Rat¢n  : Sin rat¢n u otros casos.
+615 Idioma : Espa§ol.
+616 Configuraci¢n avanzada.
+617 ESC: ABANDONAR SIN SALVAR                SALVAR CAMBIOS <ƒŸ
+618 ESC: ABANDONAR-VOLVER AL DOS       DESARROLLAR PROGRAMA <ƒŸ
+620 Escoja la interfaz gr†fica :
+621 colores
+622 Pulse una tecla de funci¢n o ESC para anular.
+630 Sonido :
+631 ® QuÇ tipo de sonido desea ? :
+632 Sin sonido.
+633 Sin interfaz sonora.
+634 Sonido con interfaz ProAudio
+635 Sonido con interfaz Adlib.
+636 Sonido con interfaz SoundBlaster.
+637 Sonido con interfaz InterSound MDO.
+638 Pulse una tecla de funci¢n o ESC para anular.
+640 Espa§ol
+641 Pulse una tecla de funci¢n o ESC para anular.
+642 ≠Atenci¢n!
+643 No dispone de bastante memoria extendida disponible.
+644 Algunos efectos visuales o sonoros
+645 ser†n incompletos.
+646 En caso de problema, consulta el manual.
+647 Pulse "Enter" para continuar o "Esc" para abandonar.
+650 Esta opci¢n permite adaptar el programa a
+651 una configuraci¢n no standard de tu
+652 tarjeta sonora SoundBlaster o ProAudio.
+655 ESC: VOLVER                  CONTINUAR <ƒŸ
+657 Pulse una tecla o <ƒŸ.
+680 ≠Atenci¢n!
+681 Para desarrollarse como conviene,
+682 Este programa necesita %d Kbytes en la RAM.
+683 Este programa necesita %d Kbytes en el disco duro.
+684 Solo dispone de %d Kbytes libres.
+685 En caso de problema, consulta el manual.
+686 Pulse "Enter" para continuar o "Esc" para abandonar.
+687 Es necesario disponer de un disco duro.
+688 Pulse cualquier tecla para abandonar...
+689 Es necesario disponer de una tarjeta compatible Microsoft.
+690 Es necesario disponer de una tarjeta VGA para esta aplicaci¢n.
+691 Es necesario disponer de una tarjeta SoundBlaster.
+692 Es necesario disponer de una tarjeta  compatible Adlib.
+693 Es necesario disponer de una tarjeta MediaVision ProAudio.
+694 Es necesario disponer de una interfaz Intersound MDO.
+695 Es necesario disponer de un CD-ROM.
+
+800 Avete un mouse ?
+801 Mouse compatibile Microsoft
+802 Senza mouse o altro
+803 Premere un tasto di funzione o ESC per annullare.
+804 La vostra attuale configurazione ä stata salvata.
+805 - Per lanciare il programma, premere un tasto.
+806 - Per uscire dal DOS, premere ESC.
+807 Il vostro dischetto ä protetto dalla
+808 scrittura. Togliere la protezione e
+809 premere un tasto.
+810 La configurazione ä la seguente :
+811 Scheda Video :
+812 colori
+813 Mouse    : Compatibile Microsoft.
+814 Mouse    : Senza mouse o altro.
+815 Lingua   : Italiano.
+816 Configurazione avanzata.
+817 ESC: USCIRE SENZA SALVARE         SALVARE LE MODIFICHE <ƒŸ
+818 ESC: USCIRE-RITORNARE AL DOS        LANCIARE PROGRAMMA <ƒŸ
+820 Scegliete la scheda grafica :
+821 colori
+822 Premere un tasto di funzione o ESC per annullare.
+830 Suono    :
+831 Che tipo di suono vorreste avere :
+832 Niente suono.
+833 Suono senza interfaccia.
+834 Suono con interfaccia ProAudio
+835 Suono con interfaccia Adlib.
+836 Suono con interfaccia SoundBlaster.
+837 Suono con interfaccia InterSound MDO.
+838 Premere un tasto di funzione o ESC per annullare.
+840 Italiano
+841 Premere un tasto di funzione o ESC per annullare.
+842 ATTENZIONE
+843 Non c'ä abbastanza memoria estesa disponibile.
+844 Alcuni effetti visivi e sonori
+845 saranno incompleti.
+846 In caso di disfunzione, consultare il manuale.
+847 Premere Enter per Continuare o ESC per uscire.
+850 Questa opzione permette d'adattare il programma
+851 ad una configurazione non standard della vostra
+852 scheda sonora SoundBlaster o
+853 ProAudio della Mediavision.
+855 ESC: EXIT                   CONTINUARE <ƒŸ
+857 Premere un tasto o <ƒŸ.
+880 ATTENZIONE
+881 Per un buon funzionamento,
+882 Questo programma richiede %d kbytes di RAM.
+883 Questo programma richiede %d kbytes su disco rigido.
+884 Ci sono solo %d kbytes liberi.
+885 In caso di disfunzione, consultare il manuale.
+886 Premere Enter per Continuare o ESC per uscire.
+887 Questo programma richiede un disco rigido.
+888 Premere un tasto per uscire.
+889 E' necessario usare un Mouse Microsoft compatibile.
+890 Quest' applicazione richiede una carta VGA.
+891 E' necessario usare una carta SoundBlaster.
+892 E' necessario usare una carta Adlib.
+893 E' necessario usare una carta MediaVision ProAudio.
+894 E' necessario usare un Intersound MDO interface.
+895 Quest' applicazione richiede un CD-ROM.
+
+

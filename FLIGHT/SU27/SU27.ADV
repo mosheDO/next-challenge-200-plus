@@ -1,0 +1,36 @@
+
+
+GAME 0 20
+
+BTN UB  /P /N RSFT 0 /R 0
+
+BTN MB  /U /N c
+        /M /P /N RSFT w /R w
+	/D /N c
+
+BTN LB  /N b
+BTN HU  /P /N RSFT ;
+BTN HR  /P /N RSFT /
+BTN HL  /P /N RSFT ,
+BTN HD  /P /N RSFT .
+BTN HM  '
+
+BTN 1	/U /N q
+	/M /N p
+	/D /N q
+
+BTN 2	/P /N =
+BTN 3  	/N -
+
+BTN 4   /U /P /N RSFT ` /R `
+	/M /N f
+        /D /P /N RSFT ` /R `
+
+BTN 5   /U /P /N RSFT TAB /R TAB
+	/M /N g
+        /D /P /N RSFT TAB /R TAB
+
+BTN 6	/N h
+
+RKR UP  /P 6 /R 1
+RKR DN 	/P 4 /R 1

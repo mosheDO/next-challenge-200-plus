@@ -1,0 +1,16 @@
+
+Instructions on loading and running Sport Accolade's HardBall 4 demo:
+
+1). Create a sub-directory named "H4DEMO" on your hard drive
+2). Copy the H4DEMO.EXE file to the H4DEMO sub-directory on your hard drive
+3). Type "H4DEMO" at the DOS prompt and press <enter> to extract the files
+4). Type "HB4DEMO" at the DOS prompt to run the demo program
+
+Notes: If you have trouble running the demo, please read the README.TXT file
+       for information.
+
+       For specific game features and game specifications, read the 
+       FEATURES.TXT file.
+
+
+Happy Gaming!

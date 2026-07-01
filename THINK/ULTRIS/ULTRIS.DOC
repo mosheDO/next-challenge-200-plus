@@ -1,0 +1,461 @@
+Ultris: The Ultimate Tetris
+Version 2.05
+
+(C) 1992 David Pritchard
+
+Requires: EGA or VGA
+Supports: 2 and 3 button Microsoft-compatible mice, AdLib (or compatible)
+          sound card, 2 player simultaneous Tetris & Columns (regular,
+	  co-operative, and competitive).
+
+
+LICENSE
+ÄÄÄÄÄÄÄ
+
+You may use Ultris provided that you follow these conditions:
+
+	1) All of the following files must be included:
+		README.COM
+		SETUP.EXE
+		ULTRIS.DAT
+		ULTRIS.DOC
+		ULTRIS.EXE
+		ULTRIS.ICO
+		ULTRIS1.DAT
+	2) None of these files may be modified.
+	3) You may distribute Ultris, provided that you distribute the .ZIP
+	   file exactly as you received it, and as long as no charge over $5
+	   is made.
+
+	Please, distribute Ultris! Let everyone know about it! If you like this
+game, and would like to see future updates, send $15 to:
+
+	David Pritchard
+	99 Woodmount Ave.
+	Toronto, Ontario, Canada
+	M4C 3Y3
+
+Include any suggestions/comments. You can reach me on the following Toronto
+BBSes: Stained Glass Window, Artsy Fartsy, and Super Sonic. Sorry, I don't
+have the cash for BIX, Canada Remote Systems, or anything like that. Anyway,
+I don't even have my own modem!
+	If you received the source code with this without my express permission,
+then what you have is an illegal copy. Delete it IMMEDIATELY. If you have
+received the source code directly from myself, you may not make copies of it
+for use by anyone other than the person or group that was allowed permission to
+use it. You may not modify the code unless given permission by the author. You
+may not distribute modified code under any circumstances.
+
+
+
+SETUP
+ÄÄÄÄÄ
+
+Ultris will automatically detect your hardware when you run it. Should its
+auto-detection be incorrect, and the game not run, run the SETUP.EXE program,
+which will let you configure Ultris from a menu.
+	Should you wish to do so, you can modify the ULTRIS.INI file manually.
+For more detail, see Appendix A: ULTRIS.INI.
+
+
+
+RUNNING THE GAME
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+To run the game, just run ULTRIS.EXE (for details on command-line parameters,
+see Appendix B: Command line parameters). You should see, for 1.5 seconds, what
+Ultris has detected as your configuration. Then, the program will show two
+title screens, and it will then enter the game.
+	If you do not have Ultris set up for a mouse, or if Ultris does not
+detect a mouse, the left player will be using the keyboard, and the right player
+will be using the keypad. If Ultris detects a mouse, the left player will be
+using the keypad, and the right player will be using the mouse. This can be
+changed either via SETUP.EXE or ULTRIS.INI.
+
+
+
+KEYS
+ÄÄÄÄ
+
+The keys for the Keyboard are:
+
+		  	 Raise Level
+			      
+	    Rotate   ÄÄ U    I    O ÄÄ   Rotate / PgUp
+                 Rotate   ÄÄÄ¿ 
+        	Move   ÄÄ J À K    L ÄÄ   Move
+
+                	    M    ,    . ÄÄ   Drop Brick
+                                 
+                           Speed up Brick
+
+Space bar is the general action key, including pausing, starting, etc.
+
+The keys for the Keypad are:
+
+		  	 Raise Level
+			      
+	    Rotate   ÄÄ 7    8    9 ÄÄ   Rotate / PgUp
+                 Rotate   ÄÄÄ¿ 
+        	Move   ÄÄ 4 À 5    6 ÄÄ   Move
+
+                	    1    2    3 ÄÄ   Drop Brick
+                                 
+                           Speed up Brick
+
+Enter is the general action key.
+
+	Escape brings up the Control Panel, which allows you to change the
+volume settings or quit.
+	For mouse, see the online help.
+
+
+
+HOW TO PLAY ULTRIS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Your goal in Ultris is to make solid horizontal lines. To do so, you must move
+and rotate the bricks until a line is made. When a line is made, it will
+disappear, and everything above it will drop down. Every ten lines you make,
+the level will go up, and the speed will increase.
+	You gain points for the speed you play each brick. So, by dropping a
+brick to the bottom, it will have been played faster, and you will gain extra
+points. You will also gain points for the more lines you make at once. For
+example, if you make four lines at once, you get more than four times the points
+earned when you get one line.
+	Also, you can see the next piece you'll get in the NEXT section. This
+can enable you to plan your future moves.
+
+
+
+HOW TO PLAY VERTRIS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Vertris is even easier to learn than Ultris. Your goal in Vertris is to make a
+line of three or more in a row of the same colour. This line can be in any
+direction: horizontal, vertical, or diagonal. When you make a line, it
+disappears, and everything above it drops down to fill the space made.
+	In Vertris, the rotate button changes the order of the colours in the
+falling column. The bottom-most colour moves to the top, and the other colours
+fall down (or vice versa, depending on which rotate you use).
+	There's more to Vertris than you might think, though...
+
+
+
+COMPETITIVE GAMEPLAY
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+When you play Ultris in competitive mode, the two players are playing head-on-
+head. Speed is essential. When one player makes two or more lines, an equal
+number of lines will be inserted at the bottom of the other player's wellÄÄwith
+a few gaps in them, of course.
+	When you play Vertris in competitive mode, the main difference is that
+when one player makes a column, the column re-appears on the other player's
+side. Each piece of the column has the same horizontal position, but the
+vertical position could be anywhere in the filled well. The colour is changed
+randomly as well. Everything above is moved up.
+	In competitive mode, when one player pauses, both pause, as it would be
+unfair for one player to be able to play while the other is absent. Also, when
+one player dies, both games end. The winner is the player who has managed to
+stay alive, while the loser is the player who died. It's still quite possible
+for the losing player to have a higher score than the winning player.
+
+
+
+CO-OPERATIVE GAMEPLAY
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+In co-operative mode, you will see not only your brick, but a half-image of the
+other player's brick. To really do well, you have to work together and try to
+help each other (i.e. Yelling at the other player for taking the only place
+where your piece could fit will not help. Instead, let them see how much the
+game wrecks up because of this. Then you can just say "I told you so!").
+	Your brick cannot move through the other player's brick unless you drop
+it.
+	Co-operative mode generally works like competitive mode, apart from the
+general gameplay. Pausing will occur for both players. Both games end at the
+same time.
+	A note on points: The player who makes the line will get the points!
+So, due credit will be given to the player who does the most workÄÄor takes
+advantage of the best opportunities...(but if you really want to do well, you
+still have to co-operate and get even further!)
+
+
+
+DISAPPEARING/APPEARING BRICKS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+This option allows for bricks to appear or disappear randomly in the well.
+The position of appearing bricks is not entirely random: the bricks won't appear
+very far above the top brick in the well.
+	If you're in co-operative mode, a combination of the choices of the two
+players will be used. For example, if both players choose SOME APPEARING BRICKS,
+you'll get the same amount of appearing bricks as usual. If only one chooses
+SOME APPEARING BRICKS, you'll get half as many bricks as is normal for SOME
+APPEARING BRICKS.
+
+
+
+SCORING
+ÄÄÄÄÄÄÄ
+
+OK, here are the official point values:
+
+1) Ultris lines:  Tetris: 260 points; Triple: 152 points; Double: 80 points;
+   Single: 32 points.
+2) Vertris lines: 2 to the power of (lines+3). If you get lots, you get LOTS of
+   points. Note that this is per cycle: if you get two lines, and that results
+   in making another line, you get 48, not 64.
+3) If next is not used, there is a 1 in 10 chance that you'll get a bonus point
+   each time you drop a brick, and each of the line values are worth 10% more.
+   If the indicator is not used, there is a 1 in 5 chance, and line values are
+   worth 20% more. If both, there's a 1 in 2 chance, and line values are worth
+   30% more.
+4) Point value of the brick drop is equal to	10 - time    where time is the
+   amount of time it took you to make your move. On a faster level, you'll
+   probably make your move faster, and then get more points.
+5) You get ten points for every brick that appears or disappears.
+6) You pass a level every 10 lines in Ultris, and every 15 lines in Vertris.
+
+
+
+POSSIBLE FUTURE ADDITIONS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+1) Pilltris: a Dr. Mario clone (hopefully in the next version).
+2) Better high scoring system (definitely next version).
+3) Full help system (definitely next version).
+4) More brick sets.
+5) Background music.
+6) Roland SCC-1, LAPC-I, MT-32 sound card support.
+7) Super VGA support.
+8) Joystick support.
+9) Original variations on Tetris.
+
+A number of people have suggested adding an over-the-modem version of Ultris,
+but as I don't even have my own modem, this will have to wait a while...
+
+
+
+Well, that's about it. The appendixes are all we have after this. Have fun!
+
+
+
+APPENDIX A: ULTRIS.INI
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Ultris.Ini is organized like a Windows .Ini file. There are headings, enclosed
+in brackets ([ ]), and settings under each heading. Ultris will ignore anything
+it doesn't recognize in the .Ini file. If a heading or setting is missing,
+Ultris will auto-detect it. The text parser is not case sensitive.
+	This appendix will list each section, the settings in each section, and
+what each setting can be set to. 
+
+[Video]
+Driver=           This can be set to VGA, EGA, or Detect.
+
+[Audio]
+Driver=           This can be set to AdLib, Internal, or Detect.
+Volume=           This must be set to a number between 0 and 100.
+
+[High Scores]
+Left Player=      This is the left player high score file.
+Right Player=     This is the right player high score file.
+
+[Devices]
+Left Device=      This can be set to Keyboard, Keypad, Mouse, Mouse2, or Mouse3.
+Right Device=     This can be set to Keyboard, Keypad, Mouse, Mouse2, or Mouse3.
+
+	With the devices, note that Mouse is equivalent to detecting the mouse
+type, while Mouse2 will use a two-button mouse and Mouse3 will use a three-
+button mouse.
+
+
+
+APPENDIX B: COMMAND LINE PARAMETERS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+None of the command line parameters are case sensitive.
+
+/ADLIB       Use AdLib
+/EGA         Use EGA
+/INTERNAL    Use Internal speaker
+/LDEVICE=xxx Set left device (where xxx=Mouse, Keyboard, Keypad, Mouse2, or
+             Mouse3)
+/LSCORE=xxx  Set left score file (where xxx=filename)
+/RDEVICE=xxx Set right device (where xxx=Mouse, Keyboard, Keypad, Mouse2, or
+             Mouse3)
+/RSCORE=xxx  Set right score file (where xxx=filename)
+/VGA         Use VGA
+/VOLUME=xxx  Set volume (where xxx=percentage from 0 to 100).
+
+
+
+APPENDIX C: RELEASE HISTORY
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ALPHA Tetris/2 1.0:	Working during August, September 1990
+	1) One player only (with two wells, though).
+	2) Exits to DOS when your game ends.
+	3) No high scores.
+	4) EGA/VGA support.
+	5) Keyboard only.
+	6) No AdLib.
+	7) No documentation.
+
+ALPHA dTetris (double Tetris) 1.0:	Working during March, April 1991
+	1) Name changed.
+	2) Two player regular play.
+	3) High scores.
+	4) EGA/VGA support.
+	5) No AdLib.
+	6) No documentation.
+	7) Keyboard and keypad only; not swappable.
+	8) Only "DAVID PRITCHARD" screen.
+	9) Cheap interface.
+
+BETA Ultris 1.0:	Working during May, June 1991
+	1) Name changed (too many people though it was "David Tetris").
+	2) No mouse support.
+	3) "Ultris   The Ultimate Tetris" screen added.
+	4) AdLib sound effects added.
+	5) Title screens sped up by Jonathan Shekter.
+
+Ultris 1.0:     July 17, 1992
+
+	1) Competitive and regular gameplay.
+	2) AdLib sound effects.
+	3) EGA/VGA support.
+	4) 2/3 button mouse support.
+	5) Minimal documentation.
+
+Ultris 1.1:	July 23, 1992
+
+	1) Bug fix for competitive play (if one player made lines high up, the
+	   lines would appear high up on the other player's well).
+	2) Lines inserted in other player's well in competitive mode now can
+	   contain more than one gap.
+	3) Revised documentation.
+	4) Improved README.COM: Home/End supported; no blink when PgUp used at
+	   top screen or PgDn used at bottom screen.
+	5) Icon for Windows (ULTRIS.ICO).
+	6) Co-operative game play.
+	7) Bug fix for high score filename qualification: wouldn't work well
+	   with path names over 9 characters long.
+	8) Bug fix for certain partially incompatible mouse drivers.
+
+Ultris 1.2:	July 31, 1992
+
+	1) Bug fix for cooperative play (if more than one line was made at a
+	   time, remnants were left on other player's side).
+	2) Bug fix for cooperative play (if players were on different levels,
+	   bricks would be in different colours).
+	3) Improved overall interface: button-oriented selection; easy to use
+	   with mouse.
+	4) Bug fix for high scores (scores were reset when game was run again).
+	5) Bug fix for mouse drivers with sensitivity settings.
+
+Ultris 2.0:	August 27, 1992
+
+	1) Bug fix for new interface (when game ends, cursor messes up; if one
+	   player is in high score mode and other player gets a high score,
+	   buttons disappear).
+	2) Vertris: a Columns clone is added (Normal/Competitive/Cooperative)
+	3) Indicator (showing where brick will drop) added.
+	4) Control Panel replaces DO YOU WANT TO QUIT (Y/N)? for exiting. F1
+	   and F2 no longer control volume.
+	5) Showing next brick becomes optional.
+	6) Disappearing/appearing bricks
+	7) I actually remembered to exclude the debugging info this time! The
+	   .EXE file size was about 38K larger when it was in...
+
+Ultris 2.01:	August 28, 1992
+
+	1) Bug fix for documentation: showed incorrect version number.
+	2) Bug fix for mouse with new keyboard interface (mouse would not work
+	   if a key was being held).
+	3) Bug fix for co-operative play with dis-appearing/appearing bricks.
+
+Version 2.05:	September 23, 1992
+
+	1) Bug fix for new keyboard interface (sluggish, irregular response).
+	2) Improved WAIT FOR OTHER PLAYER SCREEN: actually tells you what to do.
+	3) Faster README screen redraws.
+	4) Improved high-score screen.
+	5) Bug fix for high scores (if directory name contained a period, game
+	   would generate error).
+	6) Bug fix for title screens (screen cleared to yellow at end).
+	7) Checks that all files are present.
+
+
+
+APPENDIX D: WINDOWS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+If you want to use this with Windows, remember the following:
+
+	1) DON'T RUN IT IN A WINDOW!!! Sure, go ahead and try now, and you'll
+	   see why I'm saying this. First, the colours are totally messed up
+	   (Windows reverses light and dark grey). Second, Windows can't keep up
+	   with Ultris' demands for system resources (Ultris needs to be called
+	   18.2 times per second or so), so it's impossible to play.
+
+	2) Ultris requires enough memory to be able to load the .EXE file,
+	   and then each of the .DAT files (although neither is in memory
+	   simultaneously). If you don't care about the title screens, you can
+	   forget about leaving memory for loading the .DAT files.
+
+	3) Don't be surprised if it takes longer to start up from Windows. The
+	   game plays (generally) the same, but the start-up is slower.
+
+	4) There's an icon file (ULTRIS.ICO) available for you.
+
+	5) Windows 3.1 users with a sound card: try loading Media Player (or
+	   whatever music player you use) and starting to play a song before
+	   running Ultris. Make sure you run Ultris with the /INTERNAL switch.
+	   Ignore the error Windows gives you, and then you have background
+	   music with Ultris! Needless to say, this is not a good method for it.
+	   Maybe (with enough interest) in a future release? Besides, you're
+	   stuck with the horrible sound effects.
+
+If you want equal performance as under DOS, you'll have to run in Standard mode
+(which doesn't affect performance at all). In 386 Enhanced mode, you might want
+to modify the TrapTimerPorts switch in your SYSTEM.INI file in the [386Enh]
+section. This will enable Ultris to run a little more smoothly, but it'll mess
+up any communications programs that you might be running. See the README.WRI
+file, section 8.3 (at least with Windows 3.1) for more information.
+
+
+
+APPENDIX E: NETWORKS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+SysOps:
+	For high scoring, you can change the path for the high score file.
+Should you wish to allow each user to have their own high score file, you can
+do this (either with the .INI file, SETUP.EXE, or command-line parameters).
+	If you specify NUL as the high score file name, Ultris just won't write
+a high score file, so if you don't want the high scores saved, here's your
+solution (Of course, it's neater if you just make Ultris.Hgh Read-Only).
+	Running multiple copies of Ultris with one central high score file will
+(generally) work, but you'll run into problems if a player spends too much time
+at the ENTER YOUR NAME screen. Nothing (hopefully) fatal, but just to be safe...
+to reset the high scores, delete the high score file (ULTRIS.HGH).
+
+
+
+ABOUT THE AUTHOR
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+I'm a 14-year old grade 10 student at Danforth Collegiate & Technical
+Instititute. I make games like this in the summer, but I'll only make little
+touch-ups during the year; I have a high average I intend to maintain...
+	Jonathan Shekter is a grade 11 student at DCTI. He wrote the fast title
+screen loader (mine worked but was a lot slower; and the file size was bigger)
+in assembly language.
+	Everything else in this program was written first in Turbo C++ 2.0,
+and, as released, compiled under Turbo C++ 3.0 (added some in-line assembly,
+instead of pseudo-assembly).
+
+	Thanks to everyone who contributed suggestions for Ultris. Anyone else?
+

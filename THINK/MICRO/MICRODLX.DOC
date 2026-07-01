@@ -1,0 +1,642 @@
+                       Acumen Software
+                         presents...
+                 Micro! Deluxe (version 1.0)
+                              
+                    by Adrian B. Danieli
+             Copyright (C) 1995 Acumen Software
+
+-----------------------------------------------------------------------------
+Features
+-----------------------------------------------------------------------------
+     
+     Beautiful 3-D, animated graphics which fully exploit the VGA's 256-color
+          palette.
+     Large 4-way scrolling playfield.
+     20 levels of play in the shareware version, 80 in the registered version
+     Intuitive joystick & keyboard controls.
+     Music support:
+          Roland LAPC-I / MT-32 (or compatible).
+          General MIDI (MPU-401 compliant).
+          FM synthesis (Adlib or compatible).
+     Sound support:
+          Sound Blaster (or compatible) digitized effects.
+          Roland LAPC-I / MT-32 (or compatible).
+          FM synthesis (Adlib or compatible).
+          PC speaker.
+     Easy-to-use installation and setup program.
+
+-----------------------------------------------------------------------------
+Requirements
+-----------------------------------------------------------------------------
+     
+     286 (or higher) CPU required.
+     VGA card.
+     hard disk with 1.5 MB of disk space free.
+
+-----------------------------------------------------------------------------
+Recommended
+-----------------------------------------------------------------------------
+     
+     fast 386, 486, Pentium (or higher) CPU.
+     fast VGA card.
+     Roland LAPC-I / MT-32 (or compatible) for music.
+     Sound Blaster (or compatible) for digitized sound effects.
+
+
+-----------------------------------------------------------------------------
+Contents of this Document
+-----------------------------------------------------------------------------
+
+     1.0  Objective
+     2.0  Installation / Setup
+     3.0  Starting the Game
+          3.1       The Main Menu
+     4.0  Begin Play
+          4.1       Skipping Levels
+          4.2       Level Information
+          4.3       Game Controls
+          4.4       Floor Tiles
+          4.5       Game Objects
+          4.6       End of Level
+     5.0  Level Designer
+          5.1       The Piece Menu
+          5.2       The Level Menu
+          5.3       The File Menu
+     6.0  How to Order
+          6.1       How to Contact Acumen Software
+          6.2       Legal stuff
+     7.0  Credits
+
+=============================================================================
+(1.0) Objective
+=============================================================================
+     
+     The object of this game is to eliminate all the spheres
+in  the  playfield by redirecting a single laser beam.   You
+control  Micro  --  a cute, purple ball.   By  rotating  and
+moving  mirrors,  pushing obstacles, and throwing  switches,
+you'll  help  Micro advance through many  levels  of  unique
+puzzles  that range in difficulty level from the intuitively
+obvious to nearly impossible.
+      Each  level has a required number of spheres you  must
+destroy in order to proceed to the next level.  Often, there
+are  more  spheres on the screen than required.   Destroying
+all  the spheres can be a very challenging task even  for  a
+quick, perceptive player (like yourself).
+     Users who have purchased the registered version of this
+game receive an additional 60 levels of brain-teasers and  a
+level  designer which allows them to create and  play  their
+own puzzle sets.
+
+=============================================================================
+(2.0) Installation / Setup
+=============================================================================
+
+      First, run the installation program: MINSTALL (from  a
+floppy or hard disk).  This program will copy and decompress
+the  game files to your hard disk in a directory you specify
+("C:\MICRODLX"  for  example).  The  file  MDLXSHAR.CQZ  (or
+MDLXREGV.CQZ in the registered version) must be in  the same
+directory as the MINSTALL executable file.
+      Once  installation is complete, you should be  in  the
+newly-created  directory we  have made for this  game.   You
+will have to change to this directory each time you wish  to
+play.   Now  run  the setup program to configure  the  game:
+MSETUP.
+     The following music configurations are supported:
+
+None -- if you don't own a music card or don't want music
+    Roland LAPC-I / MT-32 sound module (or compatible)
+             General MIDI (MPU-401 compliant)
+            FM synthesis (Adlib or compatible)
+
+     The following sound configurations are supported:
+
+       None -- if you don't want any sound effects
+  Sound Blaster (or compatible) single-channel digitized
+                          sound
+ Sound Blaster overlapping, digitized sound effects (for
+                     fast computers)
+    Roland LAPC-I / MT-32 sound module (or compatible)
+            FM synthesis (Adlib or compatible)
+                        PC speaker
+
+      If  you  own a joystick, make that selection from  the
+controller  menu.   The  program  will  now  calibrate  your
+joystick:  simply hold the joystick in the  direction  asked
+and  press and release a button.  Note: Many computers  have
+turbo  switches.   Be sure that the speed  the  computer  is
+running at when you calibrate the joystick is the same speed
+at  which  you play the game.  This is because the  joystick
+routines are time-sensitive.
+      Once you have configured the game, select the save and
+exit  option from the main menu.  You are now ready to  play
+the game.
+
+=============================================================================
+(3.0) Starting the Game
+=============================================================================
+
+      Change  to  the  directory on your  hard  drive  which
+contains  this  game (for example CD \MICRODLX),  then  run:
+MICRODLX.   The game title screen followed by the main  menu
+should  appear.  If the game crashes, or if the sound output
+sounds  messed up, your sound/music card settings  are  most
+likely  invalid.  Rerun the setup program and check all  the
+settings.   Make  sure everything is correct,  then  try  to
+execute  the  game  again.  Note:  This  game  may  not  run
+correctly  from within Microsoft Windows on slower  systems,
+this includes the DOS prompt.  It is suggested that you exit
+Windows completely to play the game.
+
+-----------------------------------------------------------------------------
+(3.1) The Main Menu
+-----------------------------------------------------------------------------
+
+      There  are  five (5) options on the main menu:   Begin
+Play,  Level Designer, High Scores, How to Play,  and  Exit.
+The  Begin  Play  selection is explained  below,  the  Level
+Designer is described in detail later on in this document.
+      The  High Scores option displays the top five  players
+for  each  level  in the current puzzle  set.   Usually  the
+current  puzzle set will be the "normal" puzzle set, however
+if  you  are  using the registered version, the high  scores
+file of the last puzzle set played will be displayed.
+     The How to Play option is a brief overview of the game.
+It should be enough to get most people started.  Reading the
+full  documentation is recommended, however. (But  we  don't
+have to tell you that!)
+     The Exit option should be self-explanatory.
+
+=============================================================================
+(4.0) Begin Play
+=============================================================================
+
+     At this sub-menu you can select the puzzle set type you
+wish  to  play.   The normal puzzle set  is  found  in  both
+versions  of  this  game and contains 20  different  levels.
+Registered  users have access to the registered  puzzle  set
+which  includes an addition 60 levels of play,  as  well  as
+
+custom puzzle sets which you or other registered users  have
+created.
+
+-----------------------------------------------------------------------------
+(4.1) Skipping Levels
+-----------------------------------------------------------------------------
+
+      Each  puzzle  set can contain up to a  maximum  of  99
+levels.  You may skip levels in a puzzle set by entering the
+appropriate  skip  code.   After successfully  completing  a
+level,  you are often given the level skip code.  This  code
+will  allow you to skip over levels you've completed in  the
+past and get right back to where you left off (or got stuck)
+last time.  Not all levels have skip codes!  The decision to
+include a skip code is left up to the sole discretion of the
+person  designing the puzzle set.  All levels found  in  the
+normal and registered puzzle sets include skip codes.
+
+-----------------------------------------------------------------------------
+(4.2) Level Information
+-----------------------------------------------------------------------------
+
+     The pre-level screen contains the following information
+about  the  level:  the person who designed the  level,  the
+level  number, the level name, the number of spheres in  the
+level,  and  the number of spheres required to complete  the
+level.   The  name of the level's author scrolls by  quickly
+before the actual level-info screen.  If this level has been
+created by a member of the Acumen Software development team,
+the  words "Acumen Approved" will appear below the  author's
+name.   This is merely a way for you to distinguish  between
+custom puzzle sets made by other users and our own.
+
+-----------------------------------------------------------------------------
+(4.3) Game Controls
+-----------------------------------------------------------------------------
+
+      Either  the keyboard or the combination of a  joystick
+and  the  keyboard  may  be used to  play  this  game.   You
+maneuver  Micro  by pressing the arrow keys or  pushing  the
+joystick  in  the direction you want to walk.  The  spacebar
+(or  joystick  button) is the action key.   You  can  rotate
+mirrors,  turn  the laser, or flip a switch  by  facing  the
+appropriate object and pressing the action key.
+      Pressing  F1 will display a short help box  containing
+keystrokes and their respective action.  They are:
+
+             F1                 Help
+             F2             Sound on/off
+             F3             Music on/off
+             F4              Next song
+             F               Fire laser
+             S               Scan mode
+             M           Display level map
+             I              Object info
+            ESC             Abort level
+
+      The level map displays a condensed image of the entire
+level  and is very useful in planning your strategies before
+you  actually start moving things.  Scan mode allows you  to
+scroll  around  the playfield quickly without moving  Micro.
+The  "F"  key  fires the laser.  Do this only  after  you've
+successfully solved the level -- you've only got one chance,
+so  if  it doesn't work, it's back to the beginning  of  the
+level!  Object info displays the name of the object Micro is
+currently facing (including floor tiles).
+     The special function keys are self-explanatory.  If you
+don't have the game set up for sound effects, F2 won't work.
+Likewise,  if you don't have the game set up for  music,  F3
+and F4 will not work.  Go figure.
+      Note:   If you find that you are unable to complete  a
+level,  you can abort it by pressing the ESC  key  and  then
+restart it from the beginning.
+      Additional  note:  After firing the laser by  pressing
+"F", you can increase or decrease its speed by pressing  the
+"+"  or "-" keys.  Four possible laser speeds are available,
+the slowest one is used by default.
+
+-----------------------------------------------------------------------------
+(4.4) Floor Tiles
+-----------------------------------------------------------------------------
+
+      There  are 13 floor tile types in this game, separated
+into  two basic categories:  low-friction and high-friction.
+Micro  can  walk  over any floor tile, but  he  cannot  push
+mirrors or blocks over high-friction surfaces.  Low friction
+tiles  have  a  singular grey shade  (light  or  dark),  and
+occasionally  have  arrows  or  a  square  design  on  their
+surface.   High  friction  tiles  are  comprised   of   many
+different  shades  of white and grey; the direction  of  the
+shading is irrelevant.
+
+-----------------------------------------------------------------------------
+(4.5) Game Objects
+-----------------------------------------------------------------------------
+
+Micro     Our  picture-perfect, purple-skinned,  blue-eyed hunk of
+          spherical muscle.  He can push mirrors bigger than
+          himself,   rotate  lasers  with  ease,  and   flip
+          switches  effortlessly.  A word of  advice:  Micro
+          makes a better door than a window -- don't let him
+          get hit by the laserbeam!
+
+Spheres   These come in two flavors: blue and green. In order to be
+          destroyed by the laser, spheres must be BLUE!  Use
+          switches to change their colors.  You cannot  move
+          the spheres (the idea is to bring the laserbeam to
+          them).  Green spheres will block the laserbeam.
+
+Switches  There are two settings for each switch: blue and green.  A
+          switch  can be "linked" to one or more objects  on
+
+          the  playfield, and will have the following effect
+          depending on the object: spheres will change  from
+          blue  to  green  or  green to blue;  and  mirrors,
+          tubes, and blocks will change from a blue shade to
+          a  purple  shade (or vice-versa).   Switches  will
+          block the laserbeam.
+
+Laser     As its name implies, this is the source of the laserbeam.  There
+          is  only one laser per level, and Micro can't move
+          it.   He can, however, turn it to point in any  of
+          the  four  directions.   Press  the  "F"  key   to
+          activate the laser.  If the laserbeam loops around
+          and  hits  the laser, the beam will  stop  --  the
+          source has been destroyed.
+
+Mirrors   Mirrors come in two varieties and four orientations:
+          blue/purple,  and up-left/up-right/down-left/down-
+          right.  Mirrors with blue trim can be turned  from
+          left  to right by Micro (not up and down),  purple
+          ones cannot be turned.  Mirrors redirect the laser
+          beam (duh!).
+
+Tubes     Tubes come in two classic colors and two orientations:
+          blue/purple, and vertical/horizontal.  Blue  tubes
+          can  be  rotated by Micro, purple  one  cannot  be
+          rotated.   If the laserbeam is traveling  left  or
+          right, it may pass through the tube if it is in  a
+          horizontal orientation, but it will be blocked  if
+          the  tube  is in a vertical orientation.   Similar
+          when the beam is traveling up and down...
+
+Blocks    There are two "block" types: one large block that obstructs the
+          laserbeam, and four small blocks through which the
+          beam  can pass in between.  Also, blocks  come  in
+          two  colors  (you  guessed it: purple  and  blue).
+          Purple  blocks are fixed; Micro cannot move  them.
+          Blue blocks are movable.
+
+One-way   Similar to real one-way mirrors where you can see through one
+Mirrors   side but not the other, these objects only allow the beam to pass
+          when  entered from the green end.  Micro can  push
+          these objects, but they cannot be rotated.
+
+Beam      Beam splitters divide the beam into two orthogonal beams. That is,
+Splitters if  a beam enters a splitter from the  bottom  OR top, the two
+          resulting  beams will travel left AND right.   The
+          beam  must enter from the green end.  Micro cannot
+          rotate these objects, but he can move them.
+
+-----------------------------------------------------------------------------
+(4.6) End of Level
+-----------------------------------------------------------------------------
+
+      At  the  end  of  the  level a status  screen  appears
+displaying  the  level  number, the level  name,  the  total
+number  of spheres found on the level, the number of spheres
+required  to successfully complete the level, the number  of
+spheres you hit, and the total time it took you to play  the
+level.  Additional comments will tell you if you reached the
+goal (yeah!) or, if not, what happened.
+      Upon  successfully completing a level, the level  skip
+code  will  appear if the puzzle set designer  has  included
+one.  High scores for each level are ranked by the number of
+spheres  hit  followed  by the fastest  time  (for  example,
+someone  who  hit  10 spheres in 3 minutes would  be  ranked
+lower  than someone who hit 11 spheres in 30 minutes).   You
+have  the option to replay the last level again for a better
+time if you wish.
+     Note: You may repeat any level any number of times.  If
+at  first you don't succeed, try and try again.  There's  no
+losing!
+
+=============================================================================
+(5.0) Level Designer (registered users only)
+=============================================================================
+
+      This designer was created to make it very easy for you
+to  get  your puzzle idea into a real level quickly  without
+mastering  a  difficult interface.  You'll  find  the  level
+designer is well designed and aesthetically pleasing --  not
+a   programmers-only  level-hacking   tool.    Every   level
+distributed in the registered and shareware versions of this
+game was created using this same tool.
+     Basically, the screen is broken up into two parts:  the
+large  top  section contains a downsized view of the  entire
+level  (an  18x14  grid), the bottom  section  contains  the
+current  menu  and options.  In addition, basic instructions
+can  be  found to the right of the grid.  Each of the  three
+menus  (Piece,  Level,  and File) are  described  in  detail
+below.
+
+-----------------------------------------------------------------------------
+(5.1) The Piece Menu
+-----------------------------------------------------------------------------
+
+      This  is the default menu and can also be selected  by
+pressing  the letter "P".  This menu contains the 49  pieces
+which  are  used in the game.  The top row is  dedicated  to
+floor  tiles: 7 low-friction and 6 high-friction.  The other
+two   rows   contain  the  two  spheres,  the   four   laser
+orientations,  all  the mirror types & orientations,  tubes,
+blocks,  one-way  mirrors, beam splitters,  the  two  switch
+types, and four striking poses of Micro.
+      
+      Use the arrow keys (or joystick) to find the piece you
+want to place on the playfield.  Press ENTER or the SPACEBAR
+to  select it.  Now the placement box jumps to the playfield
+grid.  Again, use the arrow keys to find the spot where  you
+want the piece to go.  Press the SPACEBAR.  You can continue
+placing  this same piece as many times as you  wish.   Press
+the ENTER key when you want to jump down to the piece menu.
+
+-----------------------------------------------------------------------------
+(5.2) The Level Menu
+-----------------------------------------------------------------------------
+
+      This  menu's selections allow you to enter the level's
+name,  enter  your  name (the author), view  the  number  of
+spheres required to complete the level, view the skip  level
+code  for  this  level, edit switch links, or  view  current
+level  statistics (including any warnings and/or  problems).
+Select this menu by pressing the "L" key.
+      The level's name and the author's name can contain any
+alphanumerical characters, but are limited to 30  characters
+each.   Pressing ESC while entering text will erase whatever
+has been typed; ESC again will abort the selection.
+     The number of spheres required must be a number between
+1  and 99 (inclusive).    The skip level code can be any  4-
+digit number.  Pressing ENTER without entering a number will
+result in NO skip code for this level.
+      The "edit switch links" selection allows you to attach
+or link certain objects to a switch.  There must be switches
+already  placed in the level before you can use this option.
+The  interface is the same as placing a piece: position  the
+cursor  over the object you wish to link.  If it is a  valid
+object  (i.e. it is linkable, only spheres, mirrors,  tubes,
+and  blocks are) the display will prompt you for  a  number.
+You'll notice that each switch has a number overlaid on  top
+of  it;  use this number when linking an object to a certain
+switch.  If you press the SPACEBAR, the link for the current
+piece  will  be removed.  Press ENTER when you're  finished.
+Note:  Replacing  an object that is linked will  remove  the
+link  completely  (changing  a  blue  sphere  to  green  for
+example).   Also,  replacing a switch  with  another  object
+(except  another switch) will destroy ALL links that  switch
+had.
+      The  statistics  screen displays all  the  information
+about the level you're currently working on: it's name,  the
+author's  name,  the  level code (if  any),  the  number  of
+spheres  in  the level, the number of spheres required,  the
+number  of  switches,  and any warnings  or  problems.   The
+program  checks  the  current  level  to  make  sure  it  is
+playable.   If  it  is  not, errors (or  warnings)  will  be
+
+displayed.  Here are the level-creation rules:
+
+     There must be one and only one Micro per level.
+     There must be one and only one laser per level.
+There must be at least one sphere per screen, but no more
+                         than 99.
+ The number of spheres required must be equal to or less
+      than the total number of spheres on the level.
+  Blue spheres and green spheres cannot be linked to the
+                       same switch.
+    No more than 9 switches are allowed on each level.
+  No more than two beam splitters are allowed per level.
+
+Once  all  these rules have been met, the level "should"  be
+playable.  The program cannot guarantee this, however, since
+the level itself may contain logic faults -- there may be no
+way  to  complete  it successfully.  How  can  this  happen?
+Well,  you  could design a level with a laser, spheres,  and
+Micro...  all  appears well.  But, you  trap  Micro  in  the
+corner  behind  immovable blocks with no  means  of  escape.
+Therefore, no one can get past this level.  This is  why  it
+is  VERY important to ALWAYS test your levels before  saving
+them in a puzzle set to distribute later.
+      Note:  You can save an unplayable level (if you're  in
+the  middle of designing it and you have to stop),  however,
+the  game will skip over it if you decide to play the puzzle
+set until everything is fixed.
+
+-----------------------------------------------------------------------------
+(5.3) The File Menu
+-----------------------------------------------------------------------------
+
+      The  file  menu is accessed by pressing the  "F"  key.
+There  are six options available:  Clear/New level,  Load  a
+level, Save this level, Delete a level, Test this level, and
+Exit.
+      The  clear/new  level selection clears  the  playfield
+grid.   If  you have changes since your last save,  you  are
+asked to make sure you really want to do this.
+     To load an existing level, select the load option.  You
+will  be presented with a list of puzzle sets found  in  the
+current directory (if any).  Use the arrow keys to select  a
+puzzle set (pressing "M" will skip to the next screen if all
+the  levels can't fit on one screen).  Next, the level names
+will  appear.  The current level number and it's skip  level
+code  (if  it has one) will be displayed.  If the  level  is
+unplayable,  a red asterisk will appear to the left  of  the
+level name.  Use the arrow keys to select a level, or "M" to
+see  more screens.  Pressing ESC at any time will abort  the
+load.
+      After  pressing the save option, the statistics screen
+found in the Level menu will again appear.  You will be told
+if the level will be saved as playable or unplayable.  After
+pressing a key, a small menu will appear with three options:
+
+(M)odify an existing puzzle set, (C)reate a new puzzle  set,
+or  (Q)uick  save in last puzzle set as last  level  number.
+The  Quick  save feature will only be active  if  the  level
+you're working on was retrieved from an existing puzzle set.
+Hit  the appropriate letter to advance.  If you chose create
+a  new  puzzle  set,  you'll be prompted  for  a  legal  DOS
+filename (8 characters maximum) followed by a longer  puzzle
+set name (30 characters maximum).  If you chose to modify an
+existing  puzzle set (i.e. add/replace a level) you'll  have
+to  select  a  puzzle set as described  above  in  the  load
+option.  Now, a list of levels will appear.  If you wish  to
+replace  a level, select that level number and hit  the  "R"
+key.   If  you wish to insert this level before or after  an
+existing level, select the appropriate level number then hit
+the  "B"  key for before, or "A" key for after.   The  level
+will  then  be saved.  Note: a maximum of 99 levels  can  be
+saved in any one puzzle set.  If there are already 99 levels
+in  a puzzle set, you'll only be able to replace an existing
+one.
+
+      The  delete level option is very similar to  the  load
+option with the obvious difference in that you're deleting a
+level, not loading it.
+      To  test  out  the  level you're currently  designing,
+choose  the  test  level selection.  Again,  the  statistics
+screen  will appear telling you whether or not the level  is
+playable.  If it is, you will jump into game mode.  The only
+difference is that no level information is displayed.
+      When  you wish to exit the level designer, select  the
+exit option or hit the ESC key from this menu.  Hitting  ESC
+from any other menu will being you to the file menu.
+
+      That's all!!!  Now get out there and start making some
+REAL  levels.  Feel free to send us some of your  best  work
+(sorry  we  can't return disks without postage).   Remember,
+custom puzzle sets can be distributed freely.  However, only
+registered  users can play them so tell all your friends  to
+register  if  they want to play 'em.  Or, invite  them  over
+your  house,  but DON'T give them a copy of  the  registered
+version... how would game companies succeed if you did?!?
+
+
+                                                  Thank you!
+                                                            
+                                           Adrian B. Danieli
+                                        1995 Acumen Software
+
+=============================================================================
+(6.0) How to Order
+=============================================================================
+
+      You  can  order  the full version of this  game  which
+includes 60 additional levels, access to custom puzzle sets,
+and  the ability to design your own -- for only $12.00.   If
+you  would also like a printed copy of the game's postscript
+manual,  send  $15.00.  Please read ORDER.TXT  for  details.
+Make  checks or money orders payable to Acumen Software  and
+send to:
+
+     Acumen Software
+     404 Stone Church Road
+     Tiverton, RI 02878-2813
+     U.S.A.
+
+Note:  We can only accept checks drawn on U.S. banks in U.S.
+funds.   Sorry, we cannot handle credit card orders at  this
+time.
+
+-----------------------------------------------------------------------------
+(6.1) How to Contact Acumen Software
+-----------------------------------------------------------------------------
+
+     U.S. Mail:
+          Acumen Software
+          404 Stone Church Road
+          Tiverton, RI 02878-2813
+
+     Internet E-mail:
+          adrian@mit.edu
+
+     World-Wide-Web:
+
+http://www.mit.edu:8001/afs/athena.mit.edu/user/a/d/adrian/www/acumen.html
+
+Due  to  our  busy schedules, the possibility of  a  delayed
+response  should  not be unexpected.   Thank  you  for  your
+patience.
+
+-----------------------------------------------------------------------------
+(6.2) Legal stuff
+-----------------------------------------------------------------------------
+
+Acumen  Software  reserves the exclusive copyright  to  this
+program.  This version replaces all previous versions, which
+are  now withdrawn from shareware.  This program is provided
+"as-is".  No warranties of any kind, express or implied, are
+made  as  to  it.  We will provide no remedy  for  indirect,
+consequential, punitive or incidental damages  arising  from
+it,  including  such from negligence, strict  liability,  or
+breach  of  warranty or contract, even after notice  of  the
+possibility of such damages.
+
+=============================================================================
+(7.0) Credits
+=============================================================================
+
+     Original game idea                      Adrian B. Danieli
+          Game design / implementation         "    "    "
+
+     Graphics system programmer                "    "    "
+          Font                                 "    "    "
+          Raytraced sprites                    "    "    "
+          Backgrounds & other stuff            "    "    "
+
+     Sound system programmer                   "    "    "
+          Digitized sound effects              "    "    "
+          FM synthesis effects                 "    "    "
+          Roland LAPC-I / MT-32 effects        "    "    "
+          PC speaker bloops                    "    "    "
+
+     Music system programmer                   "    "    "
+          Acumen Theme Song                    "    "    "
+          Micro Theme music                    "    "    "
+          Magnetic Mind (end puzzle set music) "    "    "
+          Selections from the Nutcracker       Tchaikovsky
+
+     Controller interface programmer         Adrian B. Danieli
+
+     Setup & Installation programs             "    "    "
+
+     Documentation                             "    "    "
+          Assistance                         Brian A. Zabel
+
+     Puzzle sets and levels                  Adrian B. Danieli
+                                             Brian A. Zabel
+                                             Alexis M. Danieli
+
+     Alpha Tester                            Brian A. Zabel
+
+     Beta Testers                              "    "    "
+                                             Tommy Ng

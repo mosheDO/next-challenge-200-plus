@@ -1,0 +1,72 @@
+
+DANGEROUS DAVE in "TROPHY TROUBLE"
+   by John Romero
+
+Clyde Cooper, son of a NASA scientist, won all the Idaville skateboarding
+trophies.  You always coveted those trophies, so you bet him you could win a
+footrace against him, as long as you pick the course and get a four foot
+headstart.  He agreed and you chose the course--a ladder!  You won the trophies
+but Clyde was mad and hid them in a deserted pirate's hideout!
+
+"Just try and find them, fella!  Ha ha ha!" laughed Clyde as he walked away.
+"The entrance is down that silver tube...."
+
+
+YOUR QUEST
+
+You, yes, YOU, Dangerous Dave, must find the ten trophies and escape from 
+the pirate's hideout alive!
+
+You'll face deadly WeirdWeeds, infernal FearsomeFire, horrible WickedWater, and
+maybe the terrible inhabitants of the hideout!  Get the trophy and get to the
+door!
+
+Of course, you'll have help against these foes.  You might find some of the old
+pirate's pistols, and since the hideout is on the Cooper's land, Clyde's dad
+might have left some experimental jetpacks around.  But be careful--they have
+very little fuel!
+
+
+CONTROLLING DAVE
+
+You can use the joystick, keyboard, or mouse to control Dave.  I'd recommend
+them in that order--joystick is the best.
+
+		JOYSTICK	KEYBOARD	MOUSE
+	Left    Left            Left arrow (4)	Move left
+	Right	Right   	Right arrow (5)	Move right
+	Jump	Up		Up arrow (8)    Move up
+	Shoot	Button 1	Ctrl		Button 1
+	Jetpack	Button 2	Alt		Button 2
+	(on/off)
+
+
+OTHER CONTROLS
+
+Pressing F1 will bring up a help section.
+
+Pressing F2 will take you to the CONTROL PANEL. From here you may choose what
+graphic mode you'd like to play in (CGA, EGA, VGA), what kind of controls you'd
+like to use (joystick, mouse, keyboard), and Sound (on or off).  Once the
+settings are as you want them, press ESC.
+
+F3 restarts the game (from the title screen).
+
+F9 pauses (F9 again to continue play).
+
+F10 or ESC will quit DANGEROUS DAVE.
+
+
+
+PLAYING HINTS
+
+Collect everything (except for the aliens, ho ho).
+
+There may be areas you can only reach by trying something dangerous....
+
+Watch our for shoddy construction in some places.
+
+
+CONCLUSION
+
+Get those trophies and show Clyde he can't pull a fast one on DANGEROUS DAVE!

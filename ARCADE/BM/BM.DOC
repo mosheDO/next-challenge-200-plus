@@ -1,0 +1,373 @@
+BM.DOC - Break Machine Inline Documentation - English
+
+Note : Excuse me for my poor French 2 English tranlation !!!
+
+
+
+
+                          IO Design Presents
+
+                             BREAK MACHINE
+
+                        Version 1.0 Shareware
+
+
+
+  Code, Gfx, Sounds, Musics                     :   Fred Pesch.
+  Pov - Art                                     :   Benji Durin
+  Additional Gfx, Sprite Editor Creation        :   Micka‰l Bergue
+  Levels design                                 :   Natacha
+  Asm Optimisations (Vga Card)                  :   Reza
+  Bˆta-Testers                                  :   Micka‰l
+                                                    Anton
+
+
+ATTENTION : This Program is a SHAREWARE
+
+  Software (C) 1995, IO DESIGN
+
+  Don't Modify any file provided with BM
+  You're using this Program at your own risk but we inform you that
+  some people have a condition that causes them to exeperience an
+  epileptic.
+
+  This Software can be freely distributed, we invite you even to do it but
+  you have to follow these rules :
+
+              - all the files provided with Break Machine have to be
+                distributed (use Install.exe)
+
+              - If you like this program, you have to register
+                (see conditions in REGISTRATION part)
+                The Trial period is 15 days long.
+
+
+SYSTEM REQUIREMENTS
+
+  To play BM, you need
+
+     - a 100% IBM PC Compatible Computer with 80386,486 or Pentium processor
+     - Miscrosoft Ms-DOS(tm) version 5.00 or better
+     - 530Kb of Base Memory (see your Dos Manual)
+     - a Vga card with at least 256Kb of Memory
+     - a Microsoft(tm) compatible Mouse with Dos driver
+     - a 3"1/4 disk drive.
+
+     for the sounds:
+
+     - 256kb XMS memory (Extended Memory - need HIMEM.SYS)
+     - a Sound Blaster Compatible Sound Card
+
+     for the music:
+
+     - an Adlib compatible Sound Card
+
+  Note : You can run BM from Ms-Windows(tm) if you don't use the sounds
+         & musics but this program is a DOS program !!!
+
+
+  But Break Machine is a 320*400 MODEX Vga Graphic Mode and we recommand
+  the use of :
+
+          - a 486 or better Based Computer
+          - a Local Bus (VLB or PCI) Graphic Card
+          - a Hard Drive with 1.2Mb Free.
+
+  note : if you're not using a Local Bus VGA Card, some flicker can
+         appear and sometimes, the program will run slower.
+
+
+INTRODUCTION
+  In an another dimension exists an incredible World: BRICKANIA
+The only thing we know today about this parallax World is his main component
+We use to call it : THE BRICK
+
+  Some Bad Monsters Came from this World to Make the Earth a big Wall !
+
+  So, We, the Earthlings, decided to Destroy this Atmospherical Wall.
+
+  The X-PAD 01 ship was especially designed for "Space Bricks Breaking"
+  missions.
+
+  But this is too dangerous to put a human in the ship so we employed
+  the Best Computer Player, You, to "Virtually" command the Ship.
+
+  The X-PAD 01 uses a new Weapon type called X-Ball but don't let the X-ball
+Bounding on earth, we have only 3 negate-X-Ball missiles to protect Earth !
+
+  We will send you some Ship-features to help you but be carreful,
+the Brickanians will send you Computer Viruses !
+
+  There will be ugly Brickanian's Monsters and be carefull when you will
+reach the outer space regions :
+
+             the very big & violent WormTro'll wait you !
+
+GOOD LUCK !
+
+
+
+INSTALLATION
+
+  To Install Break Machine : insert the Disk Labelled "Break Machine" in
+  your disk drive then enter :
+
+            INSTALL
+
+  Choose the Destination directory pathname (default is C:\BM)
+  then choose then Run Install Command.
+
+  note : The Directory choosed mustn't exist !
+
+You can run the game from the disk but we recommand you to install it because
+it will run slower.
+
+CD-ROM distribution Note :
+
+       You can execute BM from the CD but you won't hear anything.
+
+
+
+SETUP INFORMATIONS
+
+  Before playing Break Machine for the First Time, enter
+
+         SETUP
+
+  on the Dos command Line in the Break Machine Directory.
+
+  see the SETUP.DOC files for more informations about SETUP.
+
+
+RUNNING BM
+
+  To Execute Break Machine, enter
+
+     BM
+
+  on the Command Line in the Break Machine Directory
+
+  (see CREATING YOUR OWN LEVELS For more Informations)
+
+
+
+USING THE GAME
+
+  Break Machine uses exclusively the Mouse.
+  only some Keyboard Commands are available.
+
+  I) MAIN MENU
+
+    If all is OK, after the Game Introduction, you will see a Screen
+    with 6 Menu Commands :
+
+              1) Play Game
+              2) Game Options
+              3) Informations
+              4) History
+              5) High Scores
+              6) Quit Game
+
+    To Choose a Command : put the Center of the IO Logo mouse pointer
+    (an i in an O) over the command choosed then click the left mouse button.
+
+  II) GAME OPTIONS
+
+    In this Screen, you can choose:
+
+       - The Digitized Sound reproduction (On/Off)
+       - The Fm Music reproduction (On/Off)
+       - The Mouse Speed (Low/Med/High)
+
+    then valid your choice by clicking the OK button.
+
+  III) MAIN GAME RULES
+
+    1- newcomer Pilotes
+
+    To Move the X-PAD 01 : use the Mouse. Moving the mouse left will
+    move the ship left, to the right : it will go Right !!! (all right !)
+    (you can also use the left & right direction keys)
+
+    The X-Ball isn't directly commanded : you have to catch it before
+    it disappear at the bottom of the screen and bound on earth !
+
+    The X-Pad 01 is a "directionnal" ship : you can modify the bounding
+    angle of the X-Ball (you have to entertain a bit).
+
+    The Objective of the game is to destroy the Wall you see on the screen
+    by hitting all the bricks with your X-BALL.
+
+    Many Monsters will come to stop you. their names are:
+
+      - TENTACLE BOB (the Green Tentacle)
+      - THE BLUB (the blue monsters with long teeth)
+
+      and in the registered version only :
+
+      - GLOBULA (the awfull liquid E.T. (ha!ha!ha!))
+      - Mr SNOW (the carbonic snowman)
+      - ROBOCUBE (the connex Robot (Student Joke !))
+
+    You can Destroy the monsters by hitting them with the X-Ball.
+    attention : the Ball will go Faster sooner.
+
+    The Final Objective is to Stop the Brickanian's attack based on
+    50 easy to "AAARRRRGGGGHHH" Levels. (5 levels in Shareware version)
+
+    Every 5 Levels you will Meet Worm-TRO : the Brickanian Dicator :
+    be carefull : every loose will make him more POWERFULL !
+
+
+    2- Brick Types
+
+    There is 3 different types of brick :
+
+    - The Normal Bricks (blue, orange, green, purple, white, black & red)
+      one Single Hit will destroy them.
+    - The Tri-Flex Bricks ( gray )
+      Three Hits will destroy them.
+    - the Transparent Bricks : UnDestroyables !
+
+    note : if you've got the XTra-Ball, you will pass thru all the
+           bricks and you will even destroy them (except the transparent one)
+
+    3- Ship Features
+
+      The X-PAD 01 accepts many options :
+
+        the "friend" options:
+          - the Laser (L letter) : you will get the famous
+            super-protonic Gamme-Ultra Laser class Z :
+              "with the S.P.GUL.C.Z. : no more trouble"
+            hit the left mouse button to launch a set of 2 torpedoes.
+            (the Space Bar will do the same Stuff).
+          - the Multi-Ball (M letter) : this will add 2 balls on the
+            screen with up to 5 X-balls (this software is a multitasking
+            one !!!)
+          - the XTra-Ball (X letter) : Powerfull Option : all the X-Balls
+            on screen will be featured with an astaunishing protect shield
+            that will allow the ball to pass thru the bricks.
+          - The AutoPilot (A letter) : 20 seconds of "Do what you want"
+            game but you can take the ship control by hitting the right
+            mouse button (or Alt Key).
+          - The Enlarge Option (E letter) : this Morphs the X-Pad 01 in
+            Super X-Pad 01.
+          - The Slow Option (S letter) : For Slow people !
+
+            Some Other Features are in Developpement and can appear in the
+          game : it's up to you to discover them !
+
+          The "Enemy" Options:
+            We don't have any information on this subject !
+
+
+    4- Keyboard Fonctions
+
+       During the game, you can
+
+              - Pause the Game : Hit the "P" key
+                To Continue : Hit the "P" key one more time
+
+              - Quit the Game : Hit the "ESC" Key and confirm by
+                hitting the "Y" key.
+
+              - Move the Paddle with Left and Right Arrows.
+
+              - Left Mouse Button  = SPACE BAR
+
+              - Right Mouse Button = ALT KEY
+
+
+  IV) WORM-TRO DUEL
+
+    When you will meet Worm-Tro, the X-Pad 10 will be Laser - Ready.
+    To Succeed : Hit Worm-Tro many times while don't touch his
+    Laser Ball.
+
+  V) GAME FEATURES
+
+    Registered Version :
+
+      To reach the End of the Game : you will have to pass 50 levels
+      and destroy Worm-Tro 10 times ----- GOOD LUCK !!!
+
+    Shareware Version : only the 5 starting levels are available.
+
+
+
+CREATING YOUR OWN LEVELS - Registered Version Only
+
+  You can use your own levels to play with Break Machine, you just have
+  to precise the name of the game in command line parameter :
+
+  for example :       enter       BM MONJEU.GME
+                      to play MONJEU.GME
+
+  For More Informations : See the BMEDIT.DOC Text File.
+
+  Note : If you play with your own levels : your score won't be recorded
+         and 10 levels are only available.
+
+
+REGISTRATION
+
+  We are looking for Outside & Inside C.E.E. distributors but you
+  can already buy Break Machine by sending
+    French Check or international payment at
+
+    PESCHANSKI Fr‚d‚ric
+    1 bis boulevard de la PAIX
+    91300 MASSY
+    FRANCE
+
+    >>>>> Compuserve User ID : 100625.632 <<<<<
+
+    prix :        70 F.F. (15$ U.S.) for the Game
+                + 10 F.F. (2$ U.S.) shipping & handling (Only FRANCE)
+                + 20 F.F. (4$ U.S.) shipping & handling (C.E.E.)
+                + 40 F.F. (8$ U.S.) other countries
+
+    other countries : Contact us, we will do whatever exists and even more
+                      to send you a BM version.
+
+
+    Note : We are looking for distributors !  <<< CONTACT US >>>
+
+    See the Order.FRM file to see what? what? (the ORDER FORM !)
+
+
+WE ARE LOOKING FOR ----------------------->
+
+   You like Games ? You want to make games too :
+
+
+   JOIN US !
+
+
+   we are looking for Coders, Graphists, Musicians, and More...
+   IMPORTANT: You are a S.F. novels writer : WE NEED YOU !!!!!!
+   We have a lot of projects !
+
+   But We are student : The Money isn't the first Objective !!!
+
+   ( it can be fun to make games !!! Yes, it is !!!)
+
+
+HELLO TO
+
+  Brother Nico, and "IRIS" Nico, Benji & Manu, Reza & Reza, Izard the Fraggle
+  Fouad and also my favorite NATACHA !
+
+THANKS TO
+
+  DP Tool Club Making Shareware (a bit) alive in FRANCE !
+
+  Georges LUCAS, ILM, Lucas Arts, ... for STAR WARS(tm) and all the
+  derivated products --- I am personnaly looking for U.S.A. Star Wars Fans
+  to receive the Star Wars Insider Magazine --> CONTACT US !
+
+
+
+
+

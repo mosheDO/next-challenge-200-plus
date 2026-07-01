@@ -1,0 +1,93 @@
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                       - MORPHELLO(TM) v1.1 -
+   Copyright (C) 1995 Sentience Entertainment.  All Rights Reserved.
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+   DISCLAIMER
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     MORPHELLO(TM) is protected by Canadian and International
+     Copyright laws. Making copies of *unregistered* MORPHELLO is
+     encouraged as long as the package is copied and distributed
+     in it's original form, and there is only a minimal charge for
+     distribution.
+                     ¿
+         MORPHELO.ZIPÃÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                     Ù       ÚÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ¿       
+                                MORPHELO.EXE    
+                                MORPHELO.DAT
+                                MORPHELO.DOC
+                                REGISTER.TXT 
+                                 DOS4GW.EXE
+                                 WHATS.NEW
+                             ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     You are prohibited to disassemble or reverse-engineer the
+     contents of the MORPHELLO package.
+
+     MORPHELLO is provided as is. In no event shall SENTIENCE be
+     liable for any loss of profit or any other damage, including but  
+     not limited to special, incidental, consequential or other  
+     damages.
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+   SYSTEM REQUIREMENTS
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+    386/486/Pentium
+    MS-DOS 3.3
+    2+ MEGs RAM
+    VGA graphics
+    MS-compatible mouse
+    SB or compatible (optional)
+
+
+
+ÚÄÄÄÄÄÄÄÄÄÄ¿
+   RULES
+ÀÄÄÄÄÄÄÄÄÄÄÙ
+
+     The object of MORPHELLO is to gain a majority of pieces on the
+     playing board.  The score is kept on the top of the screen.
+     Opponent pieces may be morphed into your own pieces by "capping"
+     both ends of a contiguous row of opponent pieces.  This row may
+     be in any 8 directions.  Moves that cause the surrounding of
+     opponent pieces are the only valid moves, and if no valid moves
+     exist the player's turn is forfeit.  The game ends when the board
+     is full or neither player can make a move.
+
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+   INSTRUCTIONS
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+     From the main menu, set up the game by choosing players.  Higher
+     intelligence levels may require some time to take their turn on
+     slower computers.
+
+     Registered owners of MORPHELLO can select their board from the
+     available list.
+
+     Select 'New' to begin playing.
+
+     During the game you can return to the main menu by left-clicking
+     anywhere off the board.  The game can be returned to by clicking
+     'Resume'.
+
+     The 'Save' button can be employed to store a copy of the game on
+     disk (only one save bank is available).  'Load' will restore the
+     saved game. 'Quit' returns to DOS.
+
+     Inside the game, right-clicking will cause a 90 degree rotation
+     of all the pieces on the board for improved visibility.
+
+     Simply move the mouse to the desired location and click to make
+     your move.
+
+
+* MORPHELLO is a TradeMark of SENTIENCE ENTERTAINMENT

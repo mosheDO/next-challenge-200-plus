@@ -1,0 +1,529 @@
+			    ++  ULTIMATE GIN  ++
+		    (C) COPYRIGHT 1993 ACCIDENTAL SOFTWARE
+			"If it's good, it's ACCIDENTAL"
+
+			     TABLE OF CONTENTS 
+
+			       1. Game features
+			       2. System requirements
+			       3. Registration
+			       4. Registration benefits
+			       5. Installation / Set up
+			       6. Game start up
+			       7. Menu
+			       8. Selecting an Opponent
+			       9. Playing the Game
+			      10. Game menu
+			      11. Game play
+			      12. Score Board 
+			      13. Use With Windows   
+			      14. Other Ultimate Games      
+			      15. Trouble shooting
+       
+			       GAME FEATURES
+
+1.  Play GIN RUMMY against one of 8 notorious characters.
+2.  Select the GIN RUMMY variation you like to play.
+    a. STANDARD 10 KNOCK: The knock value is set to 10.
+    b. OKLAHOMA GIN ACE = 1: (knock value based on the value of the first 
+       card to be turned face up, if it's an Ace then the knock value is 1).
+    c. OKLAHOMA GIN ACE = GIN: (knock value based on the value of the first
+       card to be turned face up, if it's an Ace then the knock value is GIN).
+    d. HOLLYWOOD SCORING: A scoring device where 3 games are played at once.
+3.  Play up to 40 games per match against any one of the 8 computer generated
+    players.  
+4.  All completed matches against any of the opponents will be saved and 
+    recalled each time that opponent is played against.
+5.  Start a new match at any time (will delete all matches previously on file 
+    for that opponent and start with new data.)
+6.  The following items can be set to range of values noted below.
+    1. GAME SCORE: Range 100 - 300 (the point count that must be reached or
+       exceeded to win the game.)
+    2. GAME BONUS: Range 100 - 300 (the amount of bonus points received for
+       winning the game.)
+    3. SKUNK BONUS: Range 100 - 300 (the amount of bonus points received if
+       a player wins the game and his or her opponent has not scored during 
+       the game.)
+    4. BOX BONUS: Range 0 - 50 (the amount of points received for each hand 
+       won by either player during the game.)
+    5. GIN BONUS: Range 0 - 50 (the amount of points received for winning a
+       hand with GIN.)
+    6. UNDER KNOCK BONUS: Range 0 - 50 (the amount of points received for
+       winning the hand by having fewer or equal points in deadwood to your
+       opponent when he or she knocks.)
+
+			    SYSTEM REQUIREMENTS
+
+1.  IBM or 100% compatible computer 
+2.  EGA/VGA Video adapter with 256K RAM on video card
+3.  Hard disk 
+4.  540K free RAM required
+
+RECOMMENDED:
+
+1.  Mouse 
+2.  Sound Blaster
+3.  80286 or better processor
+
+				REGISTRATION 
+
+1. The game supplied is an unregistered version.  This version is
+   provided as a demonstration of the game capabilities and provides 
+   a fully functioning GIN simulation.  Some game enhancements 
+   are reserved for those users who find this game to be a worthwhile 
+   investment. Shareware is a try before you buy marketing method. If 
+   you make regular use of this software, you are expected to "purchase"
+   it by paying the registration fee. As an additional incentive to 
+   register this program, I will supply you with the most recent version
+   of this game on disk when you register. The registered version has 
+   several game enhancements not available in the unregistered copy.  
+   These features are listed below.
+
+			   REGISTRATION BENEFITS
+
+1. Your registered version will no longer have registration reminders
+   on screen.
+2. Your registered version will allow you to play GIN with any of the 8
+   opponents.  The non registered version only allows play with the 4
+   players at the top of the players screen.
+3. Your registered version will allow you to save and recall the previous 
+   games against any and all computer players.  This will allow you to 
+   continue a previously started match.
+4. Sound Blaster support is provided.  Registered users can order the 
+   optional Sound Blaster Voice Pack if desired. These files will allow you 
+   to hear digital recordings of the words seen in most talk balloons by
+   the computer opponents.  This provides for a more realistic and entertain-
+   ing game.  NOTE: When all voice files are decompressed to your hard disk,
+   they will occupy more than 1.2 mega bytes of space.  This feature requires 
+   a Sound Blaster or 100% compatible system.
+5. Your registered version will keep your individual preferences (listed 
+   below) on file and will restore these as the game default when you
+   sign in with this name at a future time.
+	a. Game speed
+	b. Fan on or off
+	c. Talk on or off
+	d. The type of Gin being played (Standard, Oklahoma, Hollywood score)
+	e. The selected values for the Game Score and Bonus Values
+	f. All game scores for all matches against all computer players.
+
+6. Registered users can order additional "ULTIMATE" games at a 20% discount.
+   The registered version of the games "Ultimate Blackjack" and "Ultimate 
+   Baccarat" can be purchased for $8.00 each (regular price is $10.00).  If 
+   you order the Voice Pack for Ultimate Gin, you will receive the Voice Pack
+   for all other "ULTIMATE" games you purchase free.  If these games are 
+   ordered at one time, you need only pay one shipping and handling fee for 
+   the entire order.  See "OTHER ULTIMATE GAMES" at the end of this file
+   for a description of these games.
+
+			     REGISTRATION FEE 
+   
+   ---------------------------  OPTION #1  --------------------------------
+      (If you want a new disk with the most current version of the game) 
+
+   Ultimate Gin registration ------ $10.00 
+   Shipping, handling & disk ------ $ 3.00
+				    ------
+				    $13.00  Gets you current game on disk.
+
+   ----------------------------  OPTION #2  --------------------------------
+       (If you want current game plus sound blaster voice pack on disk) 
+
+   Ultimate Gin registration ------ $10.00
+   Sound Blaster Voice Pack -------- $5.00  
+   Shipping, handling & disk ------- $3.00                                     
+				     -----
+   Total Fee for Game + Voice   --- $18.00  Gets you current game & voice pack
+    
+   ----------------------------  OPTION #3  --------------------------------
+		  (If you want all 3 Ultimate games on disk) 
+
+   Ultimate Gin registration ------ $10.00
+   Ultimate Blackjack (reduced) --- $ 8.00
+   Ultimate Baccarat (reduced) ---- $ 8.00
+   Shipping, handling & disks ------ $3.00                                     
+				     -----
+   Total Fee for all 3 games     -- $29.00  Gets you 3 current games          
+					    (saves $10 over individual orders)
+   ----------------------------  OPTION #4  --------------------------------
+     (If you want all 3 Ultimate games on disk plus Voice Packs for all 3) 
+
+   Ultimate Gin registration ------ $10.00
+   Ultimate Blackjack (reduced) --- $ 8.00
+   Ultimate Baccarat (reduced) ---- $ 8.00
+   Sound Blaster Voice Pack -------- $5.00 for all 3 voice packs  
+   Shipping, handling & disks ------ $3.00                                     
+				     -----
+   Total Fee for games + Sound   -- $34.00  Gets you 3 games & voice packs
+					    (saves $20 over individual orders)
+   California residents only, add 7.75% sales tax.
+
+   Please send a check or money order to  ACCIDENTAL SOFTWARE
+					  13245 SKIOMAH RD.
+					  APPLE VALLEY, CA. 92308
+					  (619) 247-2804
+   Sorry no credit cards.
+
+	    PRESS "P" TO PRINT OUT A REGISTRATION / ORDER FORM.
+
+A registration / order form can be printed out using this utility. Press 
+"P" and select choice #2.  Specific printer support is not provided, but
+the form is ASCII text and should print on most printers.  If you can't
+print out of copy of the registration / order form, just send me a note
+and let me know what option you want.  The order form text file is 
+"ORDERFRM.TXT", you can load it into your word processor for print out if 
+desired.  Please include the type of disk desired. 
+
+Foreign orders please use an international money order and specify U.S.
+currency.
+
+			     INSTALLATION
+ 
+1.  Place the disk you have received in the proper drive.
+2.  Switch to the drive the disk is in.  Example -- if the disk is in B: 
+drive type "B:" then "ENTER".
+3.  Type "INSTALL" followed by the drive you want to install the game to.
+Omit the ":" after the drive letter.
+
+	Example:   To install the game to C DRIVE, type "INSTALL C"
+
+This will install the game to C DRIVE in the directory "GIN".  If you want 
+to install the game to a different directory, specify the directory after 
+the drive letter.
+
+	Example.  To install the game to C DRIVE in the directory "GAMES" you
+would type "INSTALL C GAMES". 
+
+4.  All disk files are compressed and must be decompressed before the game 
+can be played.  The compression and extraction routine used for diskette data
+is LHA which is copyrighted by Haruyasu Yoshizaki and is used as per the terms
+of the Mr. Yoshizaki's documentation.
+ 
+			     GAME START UP
+
+1.  The executable file is GIN.EXE.  Type GIN then push Enter to start.
+2.  Game credits will show.  Shorten by pressing  ESCAPE.
+3.  Sign in with the name you will play under.  Saved game information 
+will reference this name (Registered version only). The name may be 
+changed by pushing ESCAPE if an opponent has not yet been selected.
+4.  Choose an opponent or select MENU for game options.
+
+				 MENU
+
+1.  Click on the [MENU] button or push the up arrow key on the keyboard 
+to select.
+
+2.  "GAME VARIATIONS": This item will be selected.  Choose one of the 
+game variations offered.  This will be the game that you will always play 
+anytime you sign in with this name in the future (unless you change this 
+selection at a later time -- registered version only).
+
+3.  "SCORE OPTIONS": Select new values for the game and other score/bonus 
+amounts here.  To do this, select the item you want to change, then click 
+the + or - box with the hand pointer or use the + or - keys on the keyboard.  
+Double clicking on the "DEFAULT VALUES" item will change all values back 
+to the game default settings. (see help for a summary of these).  If you 
+want to play a new match against any opponent double click the "NEW MATCH" 
+item.  This will start a new match with all new games.  "HOLLYWOOD" scoring 
+may be selected by double clicking on this item.  All of the last 3 items 
+on this menu are selected by double clicking the item.  When selected a 
+double carat "< >" will show to the right of the item.  To deselect one of 
+these items simply double click on it again.  Push the Enter key to produce 
+the same results as double clicking an item.
+
+4.  "HELP":  This item will show several screens of information about the 
+game.  Information concerning the playing capabilities of each "computer 
+player" can be found under "PLAYER INFO".  In general, the better players 
+can be found toward the bottom of the sign on screen.  "ESCAPE", push this 
+item to exit the menu or click anywhere outside of the active menu that is 
+pulled down.
+
+5.  "REGISTRATION INFO":  This provides several screens of information 
+concerning registration.  You can print out a registration form from this
+menu.
+ 
+			  SELECTING AN OPPONENT
+
+1.  Push the square button above the player's head to select as an opponent.  
+Alternately, you can push the key on the keyboard that corresponds to the 
+underlined letter in the opponent's name or cycle through the players by 
+pushing the left or right arrow keys. When an opponent is selected, the 
+"PLAY GIN" button appears as does information about the number of games and 
+scores from your previous match with this opponent (Registered version
+only).  
+
+2.  You may change your selection as many times as you want.  If you have 
+not selected "NEW MATCH" from the Menu as explained in "SCORE OPTIONS" 
+above, you will add games to the existing match games (if any).  The game 
+will store up to 40 games per match (registered version only).
+
+3.  To play GIN, push the "PLAY GIN" button or the "A" key on the keyboard 
+or push RETURN after a player has been selected.  If you have not selected 
+a gin variation from the Menu as explained above, you will play standard 
+Gin with the default game scores and bonus values.
+
+				PLAYING THE GAME
+
+1.  The GIN room appears.  After your opponent appears, the hand pointer 
+will point to the flashing "DEAL CARDS" button.  Push this button or press 
+"ENTER" or "Space Bar" on the keyboard to deal the cards.  An item from the 
+menu may be selected at any time.
+
+				    GAME MENU
+
+1.  GAMES HISTORY:  Displays the results of previous games you have played 
+against this opponent.
+
+2.  HANDS HISTORY:  Displays the results of previous hands played against 
+this opponent during the current game.  The format displayed is (this hand 
+points)  --  (total hand points).  Example: You won the first hand with a 
+total of 10 points,  the score will be recorded as follows  10 -- 10.  
+This shows that your points for this hand were 10 and that you now have a 
+total of 10 points.  The Score board at the top right of the screen also 
+displays information about the game and hand scores.
+
+3.  NEW DECK:  Use this to request a new deck of cards for the next game.  
+There are 3 cards decks available that will be rotated with a new selection.
+
+4.  SPEED:  Use this to change the game speed.  Click on this button to 
+bring up the speed adjustment window.  To set a faster game speed, press 
+and hold the left mouse button while the hand pointer is on the base of 
+the speed indicator and move it towards the + sign.  To slow the game 
+down, move it towards the - sign.  You may use the + or - keys or the 
+arrow keys on the keyboard to accomplish the same result.  Push the SPEED 
+button again or push ESCAPE to exit the speed routine.
+
+5.  TALK:  Use this button to open a sub menu with the following two
+items.  To exit this sub menu push the TALK button again or push ESCAPE.
+
+	a.  Comments:  This is used to turn on or off the comments made by 
+the opponent when he or she picks up the card you just discarded.  These
+comments will slow the game down, and some may consider them to be too much.
+When the button is up, these comments are eliminated.  All other game 
+information will be displayed and voices will be heard for talk balloons
+if the Sound Blaster is selected and the optional voice pack has been 
+purchased.
+
+	b.  Sound Blaster:  This is used to turn on or off the Sound Blaster 
+voices if a Sound Blaster or 100% compatible card is found on the system.  
+If no card is found the button cannot be activated.  Down is Sound Blaster 
+on, up is Sound Blaster deselected.
+
+6.  FAN:  Use this to turn the fan off or on.  Some opponents will not 
+think quite as well when the fan is turned off.  Those that the fan 
+effects will say so if the Comments button is selected.  The default 
+selection is Fan on.  The spider crawling on the window will hide when the
+fan is off.
+
+7.  MAIN MENU:  Use this to return to the Main sign on screen to select 
+a different opponent or game variation or possibly change the values for
+game scores, etc.  NOTE: When this item is selected before a game is 
+complete (if one has been started), the hands played so far in this 
+game are lost.  All completed games will be saved and added to those 
+that may exist from a previous match.
+
+8.  QUIT:  Self Explanatory.
+
+				GAME PLAY
+
+1.  Push the button by the flashing Deal Cards message or push SPACE BAR 
+or ENTER.
+
+2.  The cards will be dealt by your opponent first.  Once the cards are 
+dealt,  You must either take the show card or pass.  To pass, move the 
+hand pointer to the pass button and push the left or right mouse key or 
+push the "P" key on the keyboard.  Move the hand pointer to the show 
+card and push either mouse key if you want to add this card to your hand.
+Alternately you may use the keyboard left and right arrow keys to select 
+the card.  Once selected with the keyboard, you may move the card to your 
+hand by pushing "ENTER".  The card will automatically move to your hand.
+
+3.  After the initial card is played or passed, you may select a card 
+from the STOCK pile or the DISCARD pile when it is your turn.  This is 
+done in the manner just explained in #2 above.
+
+4. CHOOSING A DISCARD:  Select a card in your hand to discard by moving 
+the hand pointer to the card you want to discard then push the LEFT MOUSE 
+BUTTON or move the hand pointer with the arrow keys.  The card that is 
+gray is selected as the potential discard.  To perform the DISCARD, move 
+the hand pointer to the discard stack (up turned cards or the position just
+to the right of the stock card pile) then push the left mouse key or 
+Enter on the keyboard.
+
+5.  KNOCKING:  You can request a KNOCK at any time after you have selected 
+a card from the discard or stock pile and before you discard a card.  Select 
+the card you will be discarding (highlight it gray as indicated above) but 
+do not discard it yet.  Move the hand pointer to the KNOCK button or push 
+"K" on the keyboard.  Your cards will be separated into melds and deadwood 
+at the bottom of the screen, with the discard you selected to the far left 
+and colored gray.  If your total deadwood count exceeds the KNOCK VALUE 
+(usually 10 unless playing Oklahoma Gin) a panel with your deadwood count 
+will appear to let you know that you cannot KNOCK yet.  Push the OK button 
+on this panel when you want to resume the game.  If your total deadwood is 
+less than or equal to the knock value, the panel will appear with the 
+message.......
+
+		    KNOCKING WITH (value of your deadwood)
+		       1.  REJECT  -->     OK
+		       2.  ACCEPT -->      OK
+
+Select REJECT if you want to continue playing without KNOCKING or ACCEPT 
+to take the KNOCK and end the hand.
+
+6.  CARD LAYOFF:  The non knocking player will layoff any cards he/she can 
+against the knocker's melds (providing the knocker did not knock with gin).  
+The cards laid off will be gray in color.
+
+7.  SAVED GAME INFORMATION:  The following game information is saved when 
+the game is quit (registered version only).
+
+		1.  Game Speed
+		2.  Fan on or off
+		3.  Talk on or off
+		4.  The type of Gin being played
+		5.  Game score value and bonus values
+		6.  All game scores for any match against a computer player.
+
+This information loaded for each game you play and will become the default 
+settings for your gin matches (registered version only).
+			  
+				SCORE BOARD      
+
+The score board located on the top right side of the main game screen con-
+sists of the following areas. 
+
+			   NAME              NAME   
+	     PREV    |                 |                 |  
+	     THIS    |                 |                 |     
+	     BONUS   |                 |                 |
+	     TOTAL   |                 |                 |
+	     WON     |                 |                 |
+
+			    STANDARD GIN SCORING
+
+      1. PREV: Shows the previous total score accomplished by each player 
+	 during this game.  
+      2. THIS: Shows the score achieved by each player for this hand.
+      3. BONUS: Shows the bonus score awarded for this hand (if any).
+      4. TOTAL: Shows the total score (bonus + this + prev) awarded so far  
+	 for the current game.
+      5. WON: Shows the number of hands won by each player during this
+	 game so far.
+
+			     HOLLYWOOD SCORING
+
+      1. PREV: This item is N/A for Hollywood since 3 games are played 
+	 simultaneously.
+      2. THIS: Shows the score achieved by each player for this hand.
+      3. BONUS: Shows the bonus score awarded for this hand (if any).
+      4. TOTAL: Shows the total score (bonus + this) awarded for this
+	 hand only. Select HANDS SUMMARY for a review of each hand so
+	 far during the game.
+      5. WON: Shows the number of hands won by each player during this 
+	 game so far.
+
+			    USE WITH WINDOWS
+
+1.  This product was not written specifically for windows compatibility,
+but in most cases it can be used from WINDOWS 3.1.  Compatibility with 
+WINDOWS is not guaranteed.  To use this product from windows perform the 
+following......
+
+	a. Install the program normally from DOS. Make note of the drive
+	   and directory on which you installed the program.
+	b. Start Windows.  Bring up the Program Manager.
+
+	   NOTE: If you want to place this file into an existing Program
+	   Group, select the program group you want this program to fit 
+	   into and skip to step f.
+
+	c. Click on File then click New. 
+	d. Select Program Group then click the OK button. 
+	e. In Description enter "GAMBLERS", then click the OK button.
+	f. Click File from the Program Manager, then click New.
+	g. Select Program Item then click the OK button.
+	h. In the Program Item Properties box enter the following.
+	   Description      : "ULTIMATE GIN".
+	   Command Line     : "GIN.EXE"
+	   Working Directory: (enter the drive and directory as noted in A
+	   above.  EXAMPLE: "d:\gin"
+	i. Click Change Icon button then click the next OK button.
+	j. In the File Name block enter "(drive and directory as noted in A
+	   above plus "\GIN.ICO"), then push the OK button. 
+	   EXAMPLE: "d:\gin\gin.ico". 
+	k. You should see the GIN icon appear as the Program Item Properties
+	   dialoge box reappears.  Push the OK button and you are now done.
+	
+	NOTE: If you have a sound blaster, insure the proper driver is 
+	installed through the Windows Control Panel.  You may have to adjust
+	the DMA buffer.  If you receive a windows error message advising you
+	to adjust the DMA buffer, use an ASCII text editor to add the 
+	following line to the [386Enh] section or your windows "system.ini" 
+	file.  Add "DMABUFFERSIZE = 017" to this file.
+
+			 OTHER ULTIMATE GAMES
+
+Go where no card player has gone before, into the ULTIMATE ZONE.  These 2
+exciting and addictive games will provide hours of entertainment and 
+excitement.  Each game has been designed to provide a realistic simulation of
+the game it emulates.  These games use keyboard or mouse and require 540K, 
+EGA or VGA, DOS 3.1 or above, and a hard disk.  A sound blaster voice pack 
+is available for both games.
+
+			    ULTIMATE BLACKJACK
+
+Enter a fully animated casino card game and gambling school where you play
+solo against the dealer or with any of 12 computer characters, each with a
+different style of play (biographies included!).  Set the number of decks,
+change the rules to match any casino, and monitor stats as the game 
+progresses.  See how the other player's strategies and bets fare in the long
+run.  Want more, how about this -- a simulation feature lets you test custom 
+strategies!  You can even use 2 different card counting systems.  Novices 
+will also appreciate the slick online tutor that suggests the best moves.  
+Even more features are included, but be prepared!  If you take a seat at 
+this table you may never get up!  
+
+			     ULTIMATE BACCARAT
+
+Have you always wondered how to play BACCARAT but were afraid to ask?  Relax
+and pull up a chair at this friendly baccarat table.  You can play with 3 
+computer generated characters, or if you prefer real human companionship, you
+can play with up to 5 other "human" players.  A Tutor is provided to take you
+through the game step by step.  Once you have learned the game you can turn
+the tutor off and go it on your own.  You can check the game stats of any 
+player at the table, change game speed, set your own bet amounts, repeat your
+last bet, push your last win, or lay a new bet.  All bets are implemented.
+The dealer talks you through the game.  Many more features.  Be prepared for 
+the best baccarat game in town and you don't even have to learn with 
+real money.  
+
+			       TROUBLE SHOOTING
+
+Some Logitech mouse drivers will not interface properly with this game.
+If you are using a Logitech mouse and note that the hand pointer will 
+not move to the bottom 1/2 of the screen, you may have a mouse driver that 
+will not function properly with this game.  If you have access to a Microsoft 
+mouse driver, you can substitute it for the Logitech mouse driver in your 
+autoexec.bat or config.sys file.  A Microsoft mouse driver will correct the 
+problem in most cases.  
+
+				ASP STATEMENT
+		  _______                                                
+	     ____|__     |                   (R)            
+	  --|       |    | ----------------------
+	    |   ____|__  |     Association of             
+	    |  |       |_|     Shareware
+	    |__|   o   |       Professionals 
+	  -----|   |   |-------------------------
+	       |___|___|       MEMBER        
+
+"This program is produced by a member of the Association of Shareware 
+Professionals (ASP).  ASP wants to make sure that the shareware principle 
+works for you. If you are unable to resolve a shareware-related problem 
+with an ASP member by contacting the member directly, ASP may be able to 
+help. The ASP Ombudsman can help you resolve a dispute or problem with an 
+ASP member, but does not provide technical support for members' products. 
+Please write to the ASP Ombudsman at 545 Grover Road, Muskegon, MI 49442
+or send a CompuServe message via CompuServe Mail to ASP Ombudsman 70007,3536.
+
+			    MEMBER ASAD 
+

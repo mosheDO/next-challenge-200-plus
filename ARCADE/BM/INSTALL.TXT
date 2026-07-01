@@ -1,0 +1,51 @@
+Break Machine Version 1.0 Shareware
+-----------------------------------
+     
+---> Installation Informations.
+
+-----------------------------------------------------------------------------
+English Language
+-----------------------------------------------------------------------------
+Archive Distribution : Copy the BMSHARE.EXE file as much as you want or can !
+
+To Install Break Machine :
+
+Create the Destination Directory et Copy the BMSHARE.EXE File on It 
+Then Execute this Program and Wait...
+
+        OR
+
+Execute the BMSHARE.EXE File with the Destination Directory on Command Line
+(ex : BMSHARE C:\BM\ will install the game in the C:\BM\ directory)
+
+Use the Read.EXE program to read the Information Files (????????.DOC)
+>>>>> First Read the READ.ME File <<<<<<
+
+Have a nice GAME !
+
+(C) 1995, IO DESIGN
+
+-----------------------------------------------------------------------------
+French Users
+-----------------------------------------------------------------------------
+
+Distribution Archiv‚e : Copiez le fichier BMSHARE.EXE tant que vous voulez
+ou pouvez !
+
+Pour Installer Break Machine :
+
+Cr‚ez le R‚pertoire de destination et Copiez le Fichier BMSHARE.EXE dedans
+puis Lancez ce programme et attendez...
+
+        OU
+
+Lancez le programme BMSHARE.EXE avec le r‚pertoire de destination en 
+Argument. (ex.: BMSHARE C:\BM\ installera le jeu dans le r‚pertoire C:\BM\)
+
+Utilisez le programme Read.Exe pour lire les fichiers d'Information...
+(fichiers ?????FR.DOC). 
+>>>>>> Lisez le fichier Lisez.Moi avant tout <<<<<<
+
+Bon Jeu !
+
+(C) 1995, IO DESIGN

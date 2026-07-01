@@ -1,0 +1,116 @@
+             ±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+                 IMPORTANT INFORMATION FOR SHAREWARE VENDORS          
+             ±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+
+This document contains information for shareware vendors.  The information
+contained within this document describes Union Logic's official policies 
+regarding distribution of the Vinyl Goddess From Mars product.  Descriptions 
+and program requirements are included for optional use with your packages, 
+catalogs, etc.  At the end of this document, you will find information on 
+how to contact Union Logic Software Publishing, Inc.  
+
+
+Vinyl Goddess From Mars -- Descriptions
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+
+LONG DESCRIPTION
+================
+Vinyl Goddess From Mars can only be described as a SEXY platform game.  While
+en-route to the esteemed intergalactic B movie festival, the Vinyl Goddess' 
+space ship is engulfed in a sea of rock and debris.  Veering off coarse, she 
+is forced to crash land on a strange and forbidding planet.  The force of the
+impact scatters her precious storage capsules about this strange planet.  It's
+up to you to guide this beautiful goddess through dangerous and exotic 
+locations while collecting her lost storage capsules.  Can the Vinyl Goddess 
+reach the festival in time?  GET READY!  Here comes this new and exciting 
+release from UNION LOGIC SOFTWARE PUBLISHING that will blow your mind at 70 
+frames per second.  Vinyl Goddess From Mars features beautifully detailed 
+graphics in 256 wonderful colors, a heart pounding soundtrack and full 
+digital sound f/x for SoundBlaster(tm) and compatible sound cards.
+
+MEDIUM LENGTH DESCRIPTION
+=========================
+Vinyl Goddess From Mars is a SEXY platform game.  The Vinyl Goddess has crash
+landed on a strange planet.  Help Vinyl recover enough storage capsules and 
+find her way off the planet in order to reach the intergalactic B movie 
+festival on time.  This game features 70 frames per second smooth scrolling, 
+a heart pounding soundtrack and full digital sound f/x for SoundBlaster(tm) 
+and compatible sound cards.
+
+SHORT DESCRIPTION
+=================
+Vinyl Goddess is a SEXY platform game with smooth scrolling and SoundBlaster 
+music/sfx.
+
+
+Game Requirements
+ßßßßßßßßßßßßßßßßß
+
+Vinyl Goddess From Mars requires:
+        --> VGA graphics card.
+        --> 560K (570,680 bytes) of free conventional RAM.
+        --> Hard drive.
+        --> 386DX or better ( 486 for best playablity ).
+
+Supports:
+        --> Adlib/Sound Blaster compatible music track.
+        --> Sound Blaster compatible digitized sound effects.
+        --> Joystick or gamepad.
+
+
+The Full Version
+ßßßßßßßßßßßßßßßß
+
+Episode 1 of Vinyl Goddess From Mars is shareware.  The full version is
+$29.95 US plus $4 US for shipping and handling.  The full, registered
+version consists of 3 full, action packed episodes with new graphics and
+music in each episode, a full color POSTER of the REAL Vinyl Goddess, and
+a manual/hint guide.
+
+Distribution Policies
+ßßßßßßßßßßßßßßßßßßßßß
+
+Following are Union Logic Software Publishing, Inc. policies regarding 
+distribution of Vinyl Goddess From Mars:
+
+<A> All files remain intact with no modification.
+<B> No copyright or trademark information may be removed.
+
+If a distribution fee is charged for a Union Logic software product, you must
+additionally ensure that:
+
+I.    If the program is distributed on CD-ROM, you must get written permission
+      prior to distributing the package.
+II.   You charge less that $8 (U.S.) for the shareware package.
+III.  Absolutely, no files are to be modified, deleted, purposely corrupted or
+      renamed.
+IV.   The concept of shareware is acknowledged.  This requires the program to
+      be clearly marked as shareware and the shareware concept fully 
+      explained.  
+V.    Union Logic Software Publishing is clearly marked as the publisher.  
+      This requires that our full name, "Union Logic Software Publishing, 
+      Inc.", is written on the package, or catalog.
+VI.   An effort is made to sell the most recent version of the program in 
+      question.
+VII.  If you wish, you may include your own installation software with the 
+      program.
+VIII. If you are manufacturing a catalog, or retail package, we would ask that
+      you forward a copy to Union Logic Software Publishing, Inc.
+
+
+How to Contact Union Logic Software Publishing, Inc.
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+
+Mailing Address:        P.O. Box 31039
+                        100 Bayshore Drive
+                        Nepean, Ontario
+                        K2B 8S8
+                        Canada
+
+Telephone Numbers:      (800) 583-4838 (Sales)
+                        (613) 828-1173 (Questions and technical support)
+                        (613) 599-7245 (Fax)
+
+Electronic Mail:        Internet: unlogic@globalx.net
+
+[ END OF DOCUMENT ]

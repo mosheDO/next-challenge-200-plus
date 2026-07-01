@@ -1,0 +1,57 @@
+WITCHAVEN
+
+At the DOS prompt type 'whaven'.  Select your audio configuration. 
+When that's done, set your game preferences (mode, inputs, etc...).
+
+There is no status bar in SVGA.  Select 'Help' for more complete 
+information.
+
+SPELLS:
+
+F1- Scare
+F2- Night Vision
+F3- Freeze
+F4- Magic Arrows
+F5- Open Locked Doors
+F6- Fly
+Press 'alt' to cast a particular spell.
+Press 'end' to cancel the fly spell.
+
+CONTROLS:
+
+CTRL:        Attack
+PAGE UP:     Look up
+PAGE DOWN:   Look Down
+HOME:        Center View
+A or INS:    Jump up
+Z or DEL:    Duck 
+UP ARROW:    Move Forward
+DOWN ARROW:  Move Backward
+LEFT ARROW:  Turn Left
+RIGHT ARROW: Turn Right
+TAB:         Map
++:           Zoom In
+-:           Zoom Out
+SPACE BAR:   Open Doors
+
+POTIONS:
+
+From left to right:
+HEALTH
+STRENGTH
+ARMOR
+FIRE WALK
+INVISIBLE
+
+SVGA- Scroll through potions.
+
+WEAPONS:
+
+1: Fists
+2: Dagger
+3: Morning Star
+4: Bow and Arrow
+5: Magic Sword
+
+
+

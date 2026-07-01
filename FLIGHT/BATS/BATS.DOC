@@ -1,0 +1,224 @@
+
+
+          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÄÄÄÄÄÄÄÄÄÄ´       Welcome       ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Welcome to Invasion of the Mutant Space Bats of Doom, Shareware Version,
+distributed by Pop Software. You should have these files:
+
+ READ.ME          Initial information 
+ BATS.EXE         The game
+ INFO.EXE         Viewer for the this documentation
+ BATS.DOC         This documentation                               
+ BATS.DAT         The game's data                                  
+ AUTOFORM.EXE     Allows you to fill-out ORDER.FRM before printing it
+ ORDER.FRM        Blank order form                                       
+ FILES.DOC        A copy of this file list                         
+ VENDOR.DOC       Info about distributing these files              
+ VGAIDEMO.EXE     A demo of VGA Interludes                         
+ HELP.ME          See this file if you have trouble or find bugs
+ FILE_ID.DIZ      This game's text description                      
+
+If any files are missing, contact us to receive the complete BATS.ZIP.
+
+Please share BATS.ZIP by giving it to your friends and uploading it 
+to your favorite BBS. For information about other types of distribution,
+please see VENDOR.DOC.
+
+The files BATS.KEY, BATS.JOY, BATS.TOP, and BATS.SET are created when
+you play or configure the game. AUTO.FRM is created with AUTOFORM. 
+You should not distribute these files, and if they've been passed along 
+to you, delete them before playing for the first time.
+
+          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÄÄÄÄÄÄÄÄÄÄ´      Shareware      ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Many people play Shareware and never register. That's why we need
+** you ** to be the exception! Stand up and be counted. Thanks.
+
+          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÄÄÄÄÄÄÄÄÄÄ´  Game Requirements  ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+The game runs under DOS on a PC compatible. The PC should be a 386
+or better. For best results, do not run this game from floppy-disk. 
+
+Memory: 553K of free memory is required to run the game with digital sound,
+or 533K is required to run it without digital sound.
+
+Graphics: The game runs under EGA or VGA, but VGA users will be treated
+to better graphics.
+
+Sound: The game supports music and digital sound-effects on Sound Blaster 
+and compatibles. No setup is necessary.
+
+This game can be played from many laptop computers.
+
+          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÄÄÄÄÄÄÄÄÄÄ´  Starting the Game  ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Start the game by typing BATS at the DOS prompt (running under Windows 
+is not recommended). You will see the Quick Start directions- press any key 
+to proceed. Then you may watch the slide-show- it will advance 
+automatically in time with the music. To speed it up, press SPACE, or it
+cancel it, press ESC.
+
+If you want to disable the slide-show from running each time you start
+BATS (for example if you've already seen it), toggle the INTRO setting 
+under the OTHER menu (in the game).
+
+          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÄÄÄÄÄÄÄÄÄÄ´   Using The Menus   ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Move the cursor with UP-ARROW and DOWN-ARROW, and press ENTER to make
+a selection. When you are in a sub-menu you can return to the main menu
+by choosing MAIN MENU or by pressing Esc. Pressing Esc from the main menu
+is the same as choosing QUIT. If a mouse is attached you can use the 
+mouse to move the cursor, and you can click to make a selection.
+
+You can't control the menus with the joystick... this is a safety 
+feature to keep you from losing control if your joystick becomes
+uncalibrated.
+
+          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÄÄÄÄÄÄÄÄÄÄ´      Controls       ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+The default keyboard controls are:
+
+Arrow Keys:  Move ship (up, down, left, right)
+Space Bar:   Fire guns (press repeatedly, or hold for auto-fire)
+P:           Pause game
+ESC:         Abort game, return to main menu
+
+In the CONTROLS menu, you can change these keys by choosing CONFIGURE.
+Or, to play using a mouse choose MOUSE, or JOYSTICK for joystick. If
+either choice is gray, then the mouse driver or joystick wasn't found.
+
+The first time you choose JOYSTICK you will go to CALIBRATE automatically.
+If you change the trim settings on your joystick, or change to another
+joystick, or find that the joystick is being weird, you should CALIBRATE 
+again.
+
+Some joysticks are not compatible with this game. If yours is one of
+them, please play the game using mouse or keyboard, and report your
+brand of joystick (contact us, or write it on the order form).
+
+          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÄÄÄÄÄÄÄÄÄÄ´    Your Choices     ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+These are your choices from the main menu:
+
+Play:      Starts a new game.
+Players:   Toggles between 1 or 2 players.
+Attract:   Attract mode- the game plays itself until you press ESC.
+Controls:  Allows you to choose between keyboard, mouse, and joystick.
+Music:     Allows you to select sound elements and the sound device.
+Hints:     Gives playing hints- including some not described here!
+Other:     Allows you to toggle the intro on and off, and see or reset 
+           the high scores. 
+
+          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÄÄÄÄÄÄÄÄÄÄ´       Playing       ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+You have three major goals:
+
+1. Stay Alive! Use evasive maneuvers to avoid Space Bats and their weapons. 
+
+2. Eliminate Space Bats! Fire your guns with careful timing to better 
+   protect yourself.
+
+3. Power Up! Many Space Bats carry power-crystals with them. When you 
+   hit such a Space Bat its power crystal will pop out. Grab it before it 
+   weaves by. 
+
+If you are skilled enough, you can survive the entire onslaught of the
+Mutant Space Bats of Doom and become Earth's greatest hero. (Note: this
+version wraps to the beginning after round 21... see Levels below.)
+
+          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÄÄÄÄÄÄÄÄÄÄ´   Power Crystals    ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+The key to doing well in Space Bats is to catch power crystals. Each 
+different crystal improves your ship in a different way:
+
+Green:  Makes your shots faster.
+Red:    Alternately makes your shot-spread wider or enables another gun.
+Blue:   Makes everything except your ship go slower.
+White:  Turns all your enabled guns into MEGA guns.
+Purple: Collect six of these to gain a free ship.
+
+When you catch a crystal, your ship will sparkle, and the window on the    
+left will display the effect of the crystal.
+
+          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÄÄÄÄÄÄÄÄÄÄ´  The Bonus Rounds   ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Pilots like you often wish to test their shooting skills in non-combat 
+situations.
+
+The bonus board contains four large bars, each highlighted with a 
+different color. Shoot each target orb when it is over the bar of the     
+matching color. For example, shoot the red orb when it is flying over 
+the red bar. Higher bars are worth more points. If you do well you may
+receive a reward. Each bonus round is different- good luck!
+
+          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÄÄÄÄÄÄÄÄÄÄ´     Free Ships      ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+You get a free ship every time you reach the score shown in purple below 
+your current score. You also get a free ship each time you collect six
+purple crystals. In a two-player game, both players get a free ship when
+six purple crystals are collected.
+
+          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÄÄÄÄÄÄÄÄÄÄ´        Levels       ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+There are three levels to conquer, each tougher than the one before.
+If you make it to the end of Level 3 you have won the game, and you
+will become a hero of earth!
+
+          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÄÄÄÄÄÄÄÄÄÄ´       Credits       ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Invasion of the Mutant Space Bats of Doom was created by Mike Pooler 
+(programming) and Dave Cockerill (artwork). Assisting us was the
+Legion of Invisible Elves, and a Gnome or two.
+
+Many thanks to Richard Carlson and Donald Carlson for their valuable
+beta-testing of this version.
+
+This software and related documentation are:
+Copyright (c) 1994 by Pop Software. All rights reserved.
+
+Space Bats, Mutant Space Bats, and Invasion of the Mutant Space Bats
+of Doom are trademarks of Pop Software.
+
+Call or write us with any comments, questions, or problems.
+Your feedback is welcome.
+
+Pop Software
+PO Box 60995
+Sunnyvale, CA 94088
+
+Voice Mail: (408) 450-3022
+
+CompuServe: 71460,2432
+
+          ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ÄÄÄÄÄÄÄÄÄÄ´       The End       ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+          ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+

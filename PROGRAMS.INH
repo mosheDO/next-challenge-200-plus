@@ -1,0 +1,276 @@
+[main]
+categories = 12
+cat1  = משחקים תלת מימדיים,1
+cat2  = משחקי פעולה, 2
+cat3  = משחקי קלפים,3
+cat4  = נהיגה,4
+cat5  = לחימה,5
+cat6  = הרפתקאות,8
+cat7  = סימולציות,9
+cat8  = ספורט,10
+cat9  = אסטרטגיה,11
+cat10 = חשיבה,12
+cat11 = טיסה,6
+cat12 = משחקי רמות,7
+
+
+// 3d
+[cat1]
+items  = 24
+Item1  =לבד בחשיכה  ,2001,3d\alonedrk\tatou.com,alonedrk.bmp
+Item2  =ספירת גופות ,2002,3d\bodycoun\bc.exe,bodycoun.bmp
+Item3  =ברח על חייך ,2003,3d\brkfree\brkfree.exe,brkfree.bmp
+Item4  = שטיח הקסמים 2,2004,3d\carpet\carpet2.exe,carpet2.bmp
+Item5  = מסדרון 7,2005,3d\c7demo\corr7.exe,corr7.bmp
+Item6  = דיסנט 2,2006,3d\d2demo\d2demo.exe,d2demo.bmp
+Item7  = כוחות האופל,2007,3d\darkforc\df.exe,darkforc.bmp
+Item8  = חנית הגורל,2025,3d\wolfsod\sod.exe,sod.bmp
+Item9  = דיסנט,2009,3d\descent\descent.exe,descent.bmp
+Item10  = דום,2010,3d\doom\doom.exe,doom.bmp
+Item11  = דיוק 3,2011,3d\duke3d\duke3d.exe,duke3d.bmp
+Item12  = בצע כסף,2012,3d\greed\greed.exe,greed.bmp
+Item13  = הרטיקס,2013,3d\heretics\heretic.exe,heretics.bmp
+Item14  = הקסן,2014,3d\hexndemo\hexen.exe,hexen.bmp
+Item15  = מרדף מהיר,2015,3d\hh\start.exe,hh.bmp
+Item16  = הרל,2016,3d\hurl\hurl.exe,hurl.bmp
+Item17  = למינגס תלת מימד,2017,3d\l3d\l3d.exe,l3d.bmp
+Item18  = רדיקס,2018,3d\RADIX\radix.exe,radix.bmp
+Item19  = טריאד,2019,3d\rott\rott.exe,rott.bmp
+Item20  = סטרייף,2020,3d\strife\strife.exe,strife.bmp
+Item21  = מלחמת טק,2021,3d\tekwar\tekd1.exe,tekwar.bmp
+Item22  = שודדי הקברים,2022,3d\tombraid\tomb.exe,tombraid.bmp
+Item23  = ויצ' הבן,2023,3d\whaven\wh.exe,whaven.bmp
+Item24  = וולפנשטיין,2024,3d\wolf3d\wolf3d.exe,wolf3d.bmp
+
+[cat2]
+// Arcades
+items = 39
+Item1  = אקואנויד,2029,ARCADE\AQUANOID\aqua.exe,aquanoid.bmp
+Item2  = ארצ'י,2030,ARCADE\ARCY2\arcy2.exe,arcy2.bmp
+Item3  = ארו האדום,2031,ARCADE\ARO\aro.exe,aro.bmp
+Item4  = אסטרואידים,2032,ARCADE\ASTRO\astro.exe,astro.bmp
+Item5  = הברון בולדריק,2034,ARCADE\BALDRIC\bdemo.exe,BALDRIC.BMP
+Item6  = שובר קירות,2036,ARCADE\BM\bm.exe,BM.BMP
+Item7  = מערות הקריסטל,2039,ARCADE\CCAVE\cc1.exe,CCAVE.BMP
+Item8  = פק מן 1,2040,ARCADE\CD-MAN\cd-man.exe,CD-MAN.BMP
+Item9  = חלומות קרים,2041,ARCADE\COLDREAM\cold.exe,COLDREAM.BMP
+Item10  = קוסמו,2042,ARCADE\COS1-ASP\cosmo1.exe,COS1-ASP.BMP
+Item11 = אחרון החופשיים,2045,ARCADE\DEFEND1\game8.exe,DEFEND1.BMP
+Item12  = סופת חול,2046,ARCADE\DESERT\sand.exe,DESERT.BMP
+Item13  = עולם השער,2052,ARCADE\GATE14\gtwrld1.exe,GATE14.BMP
+Item14  = מימי והחרקים,2062,ARCADE\MITES\mites.exe,MITES.BMP
+Item15  = מגה מן,2063,ARCADE\MMX\mmxdemo.exe,MMX.BMP
+Item16  = פשיטה לילית,2064,ARCADE\NTR\ntr.exe,NTR.BMP
+Item17  = פק מן,2066,ARCADE\PACMAN\pacman.exe,PACMAN.BMP
+Item18  = פאקו,2067,ARCADE\PAKO\pako.exe,PAKO.BMP
+Item19  = פטריוט,2068,ARCADE\PATRIOT\patriot.exe,PATRIOT.BMP
+Item20  = הצילו את הפיצה,2069,ARCADE\PIZ-S\pizza.exe,PIZ-S.BMP
+Item21  = תולעת פיצה,2070,ARCADE\PIZZA\pworm.exe,PIZZA.BMP
+Item22  = דר. ריפטייד,2074,ARCADE\RIPTIDE\riptide.exe,RIPTIDE.BMP
+Item23  = יערות מסוכנים,2075,ARCADE\RWOODS\risky.exe,RWOODS.BMP
+Item24  = טיגריס מועפף,2077,ARCADE\TGR\tgr.exe,TGR.BMP
+Item25  = תולעים,2080,ARCADE\WORMS\worms.exe,WORMS.BMP
+Item26  = הארי והרוחות,2082,ARCADE\Hhary\hh1.exe,HHary.bmp
+Item27  = מאחורי היער,2195,ARCADE\BCKFORST\forest.exe,BCKFORST.BMP
+Item28  = קיי, 2211,ARCADE\chk\kye.exe,kye.bmp
+Item29  = חיזרים,2162,ARCADE\ALIENS\waliens.exe,aliens.bmp
+Item30  = קליעה למטרה,2163,ARCADE\ARCADE95\arcade95.exe,arcade95.bmp
+Item31  = משחק יריקות,2166,ARCADE\BEAVIS\bbloogie.exe,beavis.bmp
+Item32  = מיקרו מן,2180,ARCADE\MICROMAN\microman.exe,microman.bmp
+Item33  = טילים,2182,ARCADE\MISSILE\missile.exe,missile.bmp
+Item34  = סקוירמר,2189,ARCADE\SQUIRMER\squirmer.exe,squirmer.bmp
+Item35  = תותחים,2171,ARCADE\CHK\bangbang.exe,bangbang.bmp
+Item36  = קוביות,2207,ARCADE\chk\block.exe,block.bmp
+Item37  = עולם הקופסה,2208,ARCADE\chk\boxworld.exe,boxworld.bmp
+Item38  = עמודים,2209,ARCADE\chk\columns.exe,columns.bmp
+Item39  = ציד הזהב,2210,ARCADE\chk\goldhunt.exe,goldhunt.bmp
+
+[cat12]
+// levels
+Items = 23
+Item1  = אביוז,2027,LEVELS\Abuse\abuse.exe,abuse.bmp
+Item2  = אלאדין,2028,LEVELS\ALADDIN\aladdin.exe,aladdin.bmp
+Item3  = קרב לחיים,2038,LEVELS\BTHORNE\bthorne.exe,BTHORNE.BMP
+Item4  = הרפתקאות דייב,2043,LEVELS\DDAVE\dave.exe,DDAVE.BMP
+Item5  = דיוק,2047,LEVELS\DUKE\dn1.exe,DUKE.BMP
+Item6  = דיוק 2,2048,LEVELS\DUKE2\nukem2.exe,DUKE2.BMP
+Item7  = ג'ים התולעת,2049,LEVELS\EWJ\ewj1.exe -f,EWJ.BMP
+Item8  = ג'ים התולעת 2,2049,LEVELS\EWJ\ewj2.exe -f,EWJ.BMP
+Item9  = זעם השעירים,2050,LEVELS\FURY\furydemo.exe,FURY.BMP
+Item10  = אלת הויניל,2053,LEVELS\GODD\goddess.exe,GODD.BMP
+Item11  = ג'אז הארנב,2054,LEVELS\JAZZ\jazz.exe,JAZZ.BMP
+Item12  = ג'יל בג'ונגל,2055,LEVELS\JILL\jill1.exe,JILL.BMP
+Item13  = ג'יל בג'ונגל 2,2056,LEVELS\JILL2\jill2.exe,JILL2.BMP
+Item14  = ג'אז הארנב בחג המולד,2057,LEVELS\JJXMAS95\jazz.exe,JJXMAS95.BMP
+Item15  = קומנדר קין 1,2197,LEVELS\KEEN1\keen1.exe,KEEN1.BMP
+Item16  = קומנדר קין 4,2058,LEVELS\KEEN4\keen4e.exe,KEEN4.BMP
+Item17  = קומנדר קין 6,2059,LEVELS\KEEN6D\k6demo.exe,KEEN6D.BMP
+Item18  = האחים מריו,2060,LEVELS\MARIO\mario.exe,MARIO.BMP
+Item19  = הרבץ למפלצת,2061,LEVELS\MB\bashlite.exe,MB.BMP
+Item20  = הנסיך הפרסי 2,2071,LEVELS\PRINCE2\prince.exe,PRINCE2.BMP
+Item21  = ריי מן,2073,LEVELS\RAYDEMO\rayman.exe,RAYDEMO.BMP
+Item22  = טרולים,2078,LEVELS\TROLLS\trolls.exe,TROLLS.BMP
+Item23  = זול 2,2081,LEVELS\ZOOL2\zool2.exe,ZOOL2.BMP
+
+
+[cat11]
+// Flight
+Items = 20
+Item1  = עטלפים בחלל,2035,FLIGHT\BATS\bats.exe,bats.bmp
+Item2  = המפציץ,2037,FLIGHT\BOMBERS\bomber.exe,BOMBERS.BMP
+Item3 = מבצר עמוק,2026,FLIGHT\Dpfort\dpfort.exe,dpfort.bmp
+Item4  = תמרוני התחמקות,2196,FLIGHT\EVASIVE\evasive.exe,EVASIZE.BMP
+Item5  = פעולת התחמקות,2113,FLIGHT\EVASIVEA\go.bat,evasivea.bmp
+Item6  = פלקון 3,2114,FLIGHT\FALCON3\falcon3.exe,falcon3.bmp
+Item7  = תקיפה בג'ונגל,2115,FLIGHT\JUNGLE\jungle.exe,jungle.bmp
+Item8  = פירוטכניקה,2116,FLIGHT\PYRO\pyro.bat,
+Item9  = מייג'ור סטרייקר,2198,FLIGHT\MAJOR\major.exe,MAJOR.BMP
+Item10  = הריגת יתר,2065,FLIGHT\OVERKILL\overkill.exe,OVERKILL.BMP
+Item11  = רפטור,2072,FLIGHT\RAPTOR\rap.exe,RAPTOR.BMP
+Item12  = חפש והשמד,2118,FLIGHT\SEEK\seek.exe,seek.bmp
+Item13  = סוויב,2119,FLIGHT\SWIVDEMO\swiv_dos.exe,swivdemo.bmp
+Item14  = מהירות סופנית,2201, FLIGHT\TV\TV.EXE,TV.BMP
+Item15  = טיריאן,2079,FLIGHT\TYRIAN\tyrian.exe,TYRIAN.BMP
+Item16  = גלקטיקס,2051,FLIGHT\GALAC\gx1.exe,GALAC.BMP
+Item17  = כוחות זרים,2161,FLIGHT\AFORCE\aforce.exe,aforce.bmp
+Item18  = אסטרואידים,2193,FLIGHT\WROIDS20\winroids.exe,wroids20.bmp
+Item19  = קואטרה,2186,FLIGHT\QCWGAM25\quatra.exe,qcwGAM25.bmp
+Item20  = סוחוי 27,2114,FLIGHT\SU27\SU27.EXE,SU27.BMP
+
+
+[cat3]
+// Cards
+items = 6
+Item1  = בלק ג'ק,2083,CARDS\BJAC\BJAC.EXE,BJAC.BMP
+Item2  = קבלקייד,2084,CARDS\CAVAL25s\caval25s.exe,caval.bmp
+Item3  = ג'ין אולטימטיבי,2085,CARDS\Ugin\gin.exe,ugin.bmp
+Item4  = ברידג',2200, CARDS\BRIDGE\br1.exe,bridge.bmp
+Item5  = רולטה,2083, CARDS\ROULETTE\ROULETTE.exe,ROULETTE.bmp
+item6  = פוקר מלכותי,2084,CARDS\ROYALPOK\ROYAL.EXE,ROYALPOK.BMP
+
+// Driving
+[cat4]
+items=13
+Item1  = מרוצים לפני הספירה,2086,DRIVING\BCRACERS\bcracers.exe,bcracers.bmp
+Item2  = המרוץ האדום הגדול,2087,DRIVING\BRRDEMO\racing.exe,brrdemo.bmp
+Item3  = סייברנוע,2088,DRIVING\CYBER\cyber.exe,cyber.bmp
+Item4  = אוקטן גבוה,2089,DRIVING\HIOCTANE\go.bat,hioctane.bmp
+Item5  = למבורגיני,2090,DRIVING\LAC\lac.exe,lac.bmp
+Item6  = מונית ,2091,DRIVING\QUARANT\qdemo.exe,quarant.bmp
+Item7  = חזיר בדרכים,2092,DRIVING\ROADHOG\roadexe.exe,roadhog.bmp
+Item8  = דרך השמיים,2093,DRIVING\SKYROADS\skyroads.exe,skyroads.bmp
+Item9  = דרך השמיים בחג המולד,2094,DRIVING\SKYXMAS\skyxmas.exe,skyxmas.bmp
+Item10  = מהירות,2095,DRIVING\SPEED\speed.exe,speed.bmp
+Item11  = סופר קארט,2096,DRIVING\SPRKARTS\kart.exe,sprkarts.bmp
+Item12  = הצורך במהירות,2097,DRIVING\TNFS\RUNSB16.BAT,tnfs.bmp
+Item13  = ויפלאש,2098,DRIVING\WHIPLASH\whip.exe,whiplash.bmp
+
+[cat5]
+items=5
+// Fight
+Item1  = אחד חייב ליפול,2099,FIGHT\1MUSTFAL\onefall.exe,1mustfal.bmp
+Item2  = ברוטל,2100,FIGHT\BRUTAL\brutal.exe,brutal.bmp
+Item3  = לוחמי FX,2101,FIGHT\FXFIGHT\fight.exe,fxfight.bmp
+Item4  = התפלל למות,2102,FIGHT\PRAY\pray.exe,pray.bmp
+Item5  = זירת קרב,2103,FIGHT\TSD\tsd.exe,tsd.bmp
+
+// Quests
+[cat6]
+items = 6
+Item1  = אמאזון,2104,QUEST\AM\am.exe,am.bmp
+Item2  = גורל אטלנטיס,2105,QUEST\ATLANTIS\playfate.exe,atlantis.bmp
+Item3  = גובלינים 3,2106,QUEST\GOBLIN3\gob3.exe,goblin3.bmp
+Item4  = פטפט על הירח,2107,QUEST\MOONDEMO\moondemo.exe,moondemo.bmp
+Item5  = פטפט במצעד,2108,QUEST\PUTTDEMO\puttdemo.exe,puttdemo.bmp
+Item6  = מלכת האמאזון,2109,QUEST\QUEEN\queen.exe,queen.bmp
+Item7  = סימון הקוסם,2110,QUEST\SIMON\1.bat,simon.bmp
+
+// Sims
+[cat7]
+items=3
+Item1  = ספינת קרב,2111,SIMS\BC3k\bcflight.exe,bc3k
+Item2  = קפיטליזם,2112,SIMS\CAPDEMO\cap.exe,capdemo.bmp
+Item3  = סים סיטי 2000,2117,SIMS\SC2000\sc2000.exe,sc2000.bmp
+
+// Sport
+[cat8]
+items=13
+Item1  = איפריית כדורגל,2120,SPORT\EMPIRESO\footy.exe,empireso.bmp
+Item2  = פינבול,2121,SPORT\EPICPIN\pinball.exe,epicpin.bmp
+Item3  = גולף,2122,SPORT\GREENS\golf.exe,greens.bmp
+Item4  = כדור בסיס,2123,SPORT\HARDBALL\hb4demo.exe,hardball.bmp
+Item5  = הוקי 96,2124,SPORT\NHL96\nhldemo.exe,nhl96.bmp
+Item6  = ביליארד,2125,SPORT\POOL\pool.exe,pool.bmp
+Item7  = סנוקר,2126,SPORT\SNOOKER\snkrdemo.exe,snooker.bmp
+Item8  = כדורגל VR, 2127,SPORT\SOCCERVR\sccrdemo.exe,soccervr.bmp
+Item9  = טניס,2128,SPORT\TENN3D\tennis.com,
+Item10  = גולף עם וילסון,2202, SPORT\WILSON\golf.exe,wilson.bmp
+Item11  = הוקי אויר,2194,SPORT\WSLAM\wslam.exe,wslam.bmp
+Item12  = פינבול,2190,SPORT\TILT31\demo.exe,tilt31.bmp
+Item13  = קריקט,2124,SPORT\CRICKET\CRICKET.EXE,CRICKET.BMP
+
+[cat9]
+// Strategy
+items = 9
+Item1  = אסנדנסי,2129,STRAT\ASCEND\ascend.exe,ascend.bmp
+Item2  = הקירחים,2130,STRAT\BALDIES\baldies.exe,baldies.bmp
+Item3  = תפוס את הדגל,2131,STRAT\CAPTURE\capture.exe,capture.bmp
+Item4  = אדון המבוך,2132,STRAT\LREALM\lords.exe,lrealm.bmp
+Item5  = Z,2133,STRAT\Z\z.Bat,Z.BMP
+Item6  = פיקוד אדמירלים,2203, STRAT\ADCMD\adcmd.exe,adcmd.bmp
+Item7  = Battle Bugs,2204,STRAT\BBUGS\BUGS.EXE,BBUGS.BMP
+Item8  = מלחמות גובלינים,2205, STRAT\WARCRAFT\warcraft.exe,warcraft.bmp
+Item9  = טנקים,2076,STRAT\SCORCH\scorch.exe,SCORCH.BMP
+
+[cat10]
+// Thinking
+items=  47
+Item1  = קוביה תלת מימדית,2134,THINK\3DCUBIC\3dcubic.exe,3dcubic.bmp
+Item2  = איש הבלוק,2135,THINK\BMAN\bman2.exe,bman.bmp
+Item3  = מר בולו 1,2136,THINK\BOLO1\bolo1.exe,bolo1.bmp
+Item4  = מר בולו 3,2137,THINK\BOLO3\bolo3.exe,bolo3.bmp
+Item5  = בריקס,2138,THINK\BRIX\brix1.exe,brix.bmp
+Item6  = טטריס סוכריות,2139,THINK\BTRIS\jelly.exe,btris.bmp
+Item7  = דמקה סינית,2140,THINK\cc\chinese.exe,cc.bmp
+Item8  = דמקה,2141,THINK\CHECKERS\checkers.exe,checkers.bmp
+Item9  = החופרים,2142,THINK\DIGGERS\diggers.exe,diggers.bmp
+Item10  = הבהוב זכרון ,2143,THINK\FLASHER2\flasher2.exe,flasher2.bmp
+Item11  = כדורים,2144,THINK\FUNBALL\funball.exe,funball.bmp
+Item12  = הקסגון,2145,THINK\HEXXAGON\hexx.exe,hexxagon.bmp
+Item13  = חליפת טיסה,2146,THINK\JET\jetpack.exe,jet.bmp
+Item14  = פזלים,2147,THINK\JIGSAW\jigsaw.exe,jigsaw.bmp
+Item15  = משחקים חכמים,2187,THINK\SGC1DEMO\sgc1_net.exe,sgc1demo.bmp
+Item16  = למינגס,2149,THINK\LEMMIN94\lem94.exe,
+Item17  = מיקרו,2150,THINK\MICRO\microdlx.exe,micro.bmp
+Item18  = מורפלו,2151,THINK\MORPHELO\morphelo.exe,morphelo.bmp
+Item19  = אוריגמי,2152,THINK\ORIG\origamo.exe,orig.bmp
+Item20  = סנופי,2153,THINK\SNOOPY\snoopy.bat,snoopy.bmp
+Item21  = סופר טטריס,2154,THINK\SUPTET\supertet.exe,suptet.bpm
+Item22  = המכונה המופלאה,2155,THINK\TIM\tim.exe,TIM.BMP
+Item23  = המכונה המופלאה 2,2156,THINK\TIM2\tim2.exe,tim2.bmp
+Item24  = טרוג,2157,THINK\TRUGG\trugg.exe,trugg.exe
+Item25  = אטומים,2158,THINK\TUBES\tubes.exe,tubes.exe
+Item26  = טטריס אולטימטיבי,2159,THINK\ULTRIS\ultris.exe,ultris.bmp
+Item27  = תור,2206, THINK\THOR\THOR.EXE,thor.exe
+
+Item28  = איקס מיקס דריקס,2160,THINK\0X\0x.exe,0x.bmp
+Item29 = משחק מילים,2164,THINK\BAGO\bago.exe,bago.bmp
+Item30  = חלץ את בוב,2165,THINK\BAILBOB\1.exe,bailbob.bmp
+Item31  = פעמונים מוזיקלים,2167,THINK\BELLS\bells.exe,bells.bmp
+Item32  = צוללות,2168,THINK\BG\bg.exe,bg.bmp
+Item33  = בול פגיעה 1,2169,THINK\BULPGI\1.exe,bulpgi.bmp
+Item34  = ציורים,2170,THINK\CHILDP\chldplay.exe,childp.bmp
+Item35  = גלגל המזל,2192,THINK\WOLUCK\wol.exe,woluck.bmp
+Item36  = ציטוטים,2172,THINK\DEQ\dequoter.exe,deq.bmp
+Item37  = צוללות 2,2173,THINK\DES\des4win.exe,des.bmp
+Item38  = שלוט בלוח,2175,THINK\DOMIN\dominate.exe,domin.bmp
+Item39  = משחקי קליידוסקופ,2176,THINK\ENDORFUN\endorfun.exe,endorfun.bmp
+Item40  = משחקי פנים,2177,THINK\FACE\face.exe,face.bmp
+Item41  = סערת יהלומים,2178,THINK\GEMSTORM\gemstorm.exe,gemstorm.bmp
+Item42  = מבוכים,2179,THINK\MAZEMSTR\winmaze.exe,mazemstr.bmp
+Item43  = בול פגיעה 2,2181,THINK\MIND12B\mind.exe,mind12b.bmp
+Item44  = כדור בוץ,2183,THINK\MUDBALL\mudball.exe,mudball.bmp
+Item45  = יהלומי האורקל,2184,THINK\ORCLE\orcle.exe,orcle.bmp
+Item46  = צינורות,2185,THINK\PIPE\pipe.exe,pipe.bmp
+Item47  = טאיפי,2191,THINK\TP\tp.exe,tp.bmp
+

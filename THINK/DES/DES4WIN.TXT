@@ -1,0 +1,74 @@
+				Destroyer for Windows (ver. 1.0)
+					by Don Krafcheck
+
+                                         DOCUMENTATION
+
+
+GAME
+
+	SET UP - This is the first step in getting the game ready for play.  You will see a 
+modeless dialog box appear in the upper right corner of the window.  Through this dialog you
+will set up each of your five ships upon your grid.  Simply select a ship and the direction
+of which it will sail and click on a cell in your (left hand) grid.  If you hear a beep,
+you either clicked outside your grid, selected a cell where the ship would have extended
+beyond the bounds of the grid, or selected a cell which would permit the ship to overlap
+another ship.  After all five of your ships are placed,  click on "Set Up" again to remove
+the dialog box.  You are now ready to play Destroyer for Windows.
+
+	START - Starts the game.  Be sure you focus your attention on the blue box that is
+sitting upon the grids.  This is where all the information involving the game will be
+displayed.  The computer will automatically set up its own ships on the right hand grid.
+It's in this grid that you will be doing all your firing.  When you see the words "Your shot:",
+click on a cell in the right hand grid.
+
+SKILL
+
+	BEGINNER - Computer fires randomly into your grid.
+
+	INTERMEDIATE - Computer fires randomly into your grid.  It also will home in on any
+ships that have been struck until they are sunk.
+
+	EXPERT - Computer is very selective as to where the next shot will be.  It looks for
+rows and columns of consecutive empty spaces and determines whether or not the smallest ship
+still remaining can fit in those spaces.  For example, if cells A2 and B1 have been fired at,
+then A1 will never be selected.  Computer will also home in on any struck ships.
+
+OPTIONS
+
+	FIRST SHOT
+
+		MY SHOT - Computer starts game.
+
+		YOUR SHOT - You start game.
+
+	HITS 
+
+		ORDERED - You will see the actual location of where the computer's ship have
+been hit. This differs from the classic board game in that you are not allowed to know which
+parts of the ship have been struck.
+
+		RANDOM - You will see the computer's ship struck, but the location of the hit
+upon the ship will be at a random spot.
+
+	GAME 
+		
+		STANDARD - Each player takes turns firing one shot at the other.
+
+		SALVO - A player's turn consists of as many shots as he has ship
+For example, if the player has all five ships intact, then his turn would consist of five
+shots.  If the computer is left with a submarine, cruiser and destroyer, then it would
+only be allowed to take three shots per turn.
+
+	SOUND 
+
+		ON - A jingle will be heard when the scoring dialog appears at the end 
+of the game.  
+
+		OFF - No sound will be heard
+
+SCORING - The player is awarded 1 point for every cell that has not been shot at.  This
+score is then multiplied by the skill level factor:   Beginner - x3, Intermediate - x5,
+Expert - x10.  If the hit type has been selected to Random, then the score is multiplied
+by 1.5.  The highest possible score for a game of Destroyer for Windows is 1245.
+
+

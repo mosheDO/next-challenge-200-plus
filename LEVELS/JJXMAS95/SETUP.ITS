@@ -1,0 +1,89 @@
+;
+; SETUP.ITS: English text for the SETUP.EXE utility
+; English language version
+; for international translation
+;
+
+[info]
+Lang         "ENG"
+Language     "English"
+Description  "English"
+MainEXE      "PINBALL.EXE"
+MainITS      "SETUP" ; Name of main program's primary ITS file
+ConfigFile   "SETUP.INI"
+
+SetupMASI "" ; Delete this line to remove MASI setup option
+;SetupITS  "" ; Delete this line to remove ITS setup option
+
+[main]
+;
+; Epic Pinball setup program text
+;
+MenuTitle " Main Setup Menu "
+TopTitle "Epic Pinball Sound Setup"
+ByLine "Version 2.0"
+BotLine "(c) 1994 Joshua Jensen and Epic MegaGames"
+EndLine "Thank you.  Please type PINBALL to begin."
+HelpMe "helpme.exe" ; Name of "helpme" executable file
+SingleWin "Ä³Ú¿ÀÙ " ; Menu border characters
+Wait " Please Wait... "
+;
+; Menu choices.  Leave a blank space at the beginning and end of each text
+;
+YesWord " Yes "
+NoWord  " No  "
+ExitWord " Exit "
+MenuSelectCard " Select Sound Card "
+MenuHelp " Instructions "
+MenuExit " Exit and Save "
+ExitToMain " Exit to Main Menu "
+
+[masi]
+;
+; If you don't want the English-language sound card information
+; displayed,  commend out the ShowCardText line.  The sound card
+; information window can NOT be translated and always appears in
+; English.
+;
+ShowCardText "" ; Comment this
+
+;
+; Other texts
+;
+SelectCard " Select Your Sound Card " ; Menu Option
+UltraFound " ULTRASND Environment Variable Found.  Use it? " ; For GRAVIS
+BlasterFound " SET BLASTER command found.  Use it? " ; For Sound Blaster
+IgnoreNA " Ignore - Not available "
+UseDefault " Use default option "
+AlreadySet " Sound Card Already Setup.  Reconfigure? "
+SelectPort " Select Port Address "
+SelectIRQ " Select Main IRQ "
+SelectMidiPort " Select MIDI Port "
+SelectMidiIRQ " Select MIDI IRQ "
+SelectDmaIn" Select DMA Channel In "
+SelectDmaOut " Select DMA Channel Out "
+
+;
+; Sound playback rate/quality
+;
+SelectQuality " Select Playback Quality "
+Quality1 " Ultra high quality    (Requires a 486-50 or faster PC) "
+Quality2 " Very high quality     (486-33 PC) "
+Quality3 " High Quality          (486-16 PC) "
+Quality4 " Medium Quality        (386-33 PC) "
+Quality5 " Low Quality           (386-16 PC) "
+QualityHz " Hz "       ; Abbreviation for sampling rate (Hertz).
+Sound8Bit "(8-bit "    ; For 8-bit sound cards
+Sound16Bit "(16-bit "  ; For 16-bit sound cards
+SoundMono "Mono)"      ; For non-stereo sound cards
+SoundStereo "Stereo)"  ; For stereo sound cards
+
+QInfo1 "High quality music and sound require a fast CPU."
+QInfo2 "If the game runs slowly or unreliably on your PC, try"
+QInfo3 "selecting a lower quality setting."
+
+[its]
+SelectLanguage " Select Language "
+MenuSelectCard " Select Your Language "
+ExitToMain " Exit to Main Menu "
+

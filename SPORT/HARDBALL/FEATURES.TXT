@@ -1,0 +1,93 @@
+
+
+
+
+Thanks for your interest in HardBall 4!
+
+
+
+HardBall 4 is the 4th generation of the most successful line of baseball 
+products ever available for the IBM PC.  Listed below are the availability
+dates, suggested prices, game requirements and many of the features to be 
+found in the final game.
+
+
+Ship Date:       November 1994
+
+Suggested Price: $69.95 Main Game
+                 $24.95 MLBPA Add-On Disk
+
+# of players:    1 - 2 players
+
+How to purchase: Visit your local software retailer, or order direct from 
+                 Accolade by calling 1-800-245-7744 (in the U.S).
+
+
+
+System Requirements:
+
+IBM PC 386-33MHz system
+4MB RAM
+10MB free disk space (18 MB free disk space if the add-on disk is installed)
+DOS 5.0 or greater
+VESA SVGA graphics card capable of 640 x 400 or 640 x 480 resolution in 
+  256 colors with native support for many graphics chipsets including:
+  Paradise, S3, Tseng ET 3000 and 4000, Trident, and more...
+Sound Card (recommended) - Supports most major sound boards, including:
+  SoundBlaster 16, Pro-Audio Spectrum 16, Gravis Ultrasound, Microsoft Sound
+  System, and many more...
+
+
+Features list:
+--------------
+Designed completely in SVGA 640 x 400 256 color mode!
+All 28 realistically rendered ballparks - Each with different wind, altitude
+  and field conditions
+All 28 team cities represented
+Extensive Play-by-play commentary by Emmy Award-winning sportscaster 
+  Al Michaels
+See the action from either a batter's or pitcher's view
+Saves and updates player stats, league standings for every game during the 
+  season
+Extensive stats - Batting averages vs. left and right handed pitchers,
+  put-outs, assists, wild pitches, percentage of pop-ups, and lots more...
+Instant replay - View those close plays over and over again
+Automated Highlight reel - Highlights saved automatically from your last game
+Track league leaders in over 20 statistical categories, and sort by team, 
+  position, and many other ways
+Player, pitcher, and team editors - Create the perfect team, and even design
+  the logo and choose the jersey colors
+Expanded printing functions for rosters, team and player statistics, schedules
+  and standings
+Modem and network support
+Batting and pitching practice, including a "Homerun Derby"
+Zooming and panning baserunner windows - Never lose sight of your runners again
+Tougher computer opponent - More aggressive base-running, run-downs, and 
+  pick-offs
+Dramatic close-ups (20% larger than HardBall III)
+Incorporates the new league/division realignment
+
+
+MLBPA Add-On disk features:
+---------------------------
+700 Real ballplayers, including their photos and stats in the familiar 
+  baseball card format
+Al Michaels calls each player by their name!
+
+
+Demo note:
+----------
+
+Real ballplayers have been included on this disk for demo purposes only! 
+In the final version, the real MLBPA players will be available only on the 
+add-on disk.
+
+
+Note:
+-----
+
+If the text above scrolls by too quickly, try typing in:
+ 
+      "TYPE FEATURES.TXT | MORE" and press <enter>
+
+This will pause the text after each screen of information.

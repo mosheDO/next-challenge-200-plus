@@ -1,0 +1,17 @@
+This is a playable demo of Infograme's Alone In The Dark.
+I've uploaded it before (several times), but it has been
+deleted from the directory, presumably because I used 
+version 2.04g PKZip to zip up the programs. 
+Hopefully, they'll stay this time, since I've used
+version 1.04 (??).
+
+Remember, press 's' during gameplay to turn on the sound
+effects! The game's not the same without them.
+
+
+The Long Ranger
+ltpc@ukc.ac.uk
+
+p.s. type 'tatou' to start the demo.
+
+

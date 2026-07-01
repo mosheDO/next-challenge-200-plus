@@ -1,0 +1,361 @@
+    ฒฒ         ฒฒฒ                                            ฒฒฒ
+   ฒฒฒฒ         ฒฒ                   ฒฒ                        ฒฒ
+  ฒฒ  ฒฒ        ฒฒ                                             ฒฒ
+ ฒฒ    ฒฒ   ฒฒฒฒฒฒ   ฒฒ ฒฒฒฒ ฒฒฒฒ   ฒฒฒ   ฒฒ ฒฒฒฒ    ฒฒฒฒฒ     ฒฒ    ฒฒฒฒฒ
+ ฒฒ    ฒฒ  ฒฒ   ฒฒ    ฒฒ   ฒฒ   ฒฒ   ฒฒ    ฒฒฒ  ฒฒ       ฒฒ    ฒฒ   ฒฒ   ฒฒ
+ ฒฒฒฒฒฒฒฒ  ฒฒ   ฒฒ    ฒฒ   ฒฒ   ฒฒ   ฒฒ    ฒฒ   ฒฒ   ฒฒฒฒฒฒ    ฒฒ   ฒฒ
+ ฒฒ    ฒฒ  ฒฒ   ฒฒ    ฒฒ   ฒฒ   ฒฒ   ฒฒ    ฒฒ       ฒฒ   ฒฒ    ฒฒ    ฒฒฒฒฒ
+ ฒฒ    ฒฒ  ฒฒ   ฒฒ    ฒฒ   ฒฒ   ฒฒ   ฒฒ    ฒฒ       ฒฒ   ฒฒ    ฒฒ        ฒฒ
+ ฒฒ    ฒฒ  ฒฒ   ฒฒ    ฒฒ   ฒฒ   ฒฒ   ฒฒ    ฒฒ       ฒฒ   ฒฒ    ฒฒ   ฒฒ   ฒฒ
+ ฒฒ    ฒฒ   ฒฒฒฒ ฒฒ   ฒฒ   ฒฒ   ฒฒ  ฒฒฒฒ  ฒฒฒฒ       ฒฒฒฒ ฒฒ  ฒฒฒฒ   ฒฒฒฒฒ
+ 
+ ฒฒฒฒฒฒ                                 ษอออออออออออออออออออออออออออป    ฒฒฒ
+ฒฒ    ฒฒ       Version 2.3a for DOS     บ by SimoneSystems Software บ     ฒฒ
+ฒฒ                                      ศอออออออออออออออออออออออออออผ     ฒฒ
+ฒฒ         ฒฒฒฒฒ   ฒฒ ฒฒฒฒ ฒฒฒฒ   ฒฒ ฒฒฒฒ ฒฒฒฒ    ฒฒฒฒฒ    ฒฒ ฒฒฒฒ    ฒฒฒฒฒฒ
+ฒฒ        ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ       ฒฒ    ฒฒ   ฒฒ  ฒฒ   ฒฒ
+ฒฒ        ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒฒฒฒฒ    ฒฒ   ฒฒ  ฒฒ   ฒฒ
+ฒฒ        ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ  ฒฒ   ฒฒ    ฒฒ   ฒฒ  ฒฒ   ฒฒ
+ฒฒ        ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ  ฒฒ   ฒฒ    ฒฒ   ฒฒ  ฒฒ   ฒฒ
+ฒฒ    ฒฒ  ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ  ฒฒ   ฒฒ    ฒฒ   ฒฒ  ฒฒ   ฒฒ
+ ฒฒฒฒฒฒ    ฒฒฒฒฒ    ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒ   ฒฒฒฒ ฒฒ   ฒฒ   ฒฒ   ฒฒฒฒ ฒฒ
+                    
+                    Copyright (C) 1991-1994 by Frank L. Simone
+
+ีอออออออออออออออธ
+ณ Introduction  ณ
+ิอออออออออออออออพ
+  Thank you for trying SimoneSystems Software's Admirals Command (formerly
+BattleShip) version 2.3a, the classic game of Battleships, with a twist.
+Admirals Command provides an easy to use mouse interface, and VGA high
+resolution graphics.  The twist?  Admirals Command adds another level of
+strategy to the game with these special game features:
+
+    Mines!               With mines, you can get a head start on your 
+                         opponent by exposing part of his navy without 
+                         firing a shot.  You can also help guard your 
+                         ships from enemy attack.
+    Islands!             The virtually unlimited combination of screen 
+                         layouts make each game different!
+    Submerge Submarine!  Just when the enemy starts aiming at your sub, 
+                         give the order to dive!  Submerge your sub
+                         to a depth even the computer can't hit!
+    Move Spy Ship!       Secretly move your spy ship to a new location 
+                         after the game has already started!  But watch
+                         out for those enemy mines!
+    Minesweeping!        Use your minesweeper to locate and destroy 
+                         enemy mines!
+                  
+Admirals Command also includes these options:
+    Edit Colors.         You can change any or all of the screen colors.
+    Set Mouse.           You control the mouse speed by setting the
+                         mouse sensitivity.
+    Save Configuration.  Admirals Command will automatically save the 
+                         game options you select.
+    Reset High Scores.   The high scores can be reset from the Main Menu.
+
+  The Save Configuration option is only available in the registered version.
+However, this Shareware version does include BONUS games!  These BONUS games
+allow you to try any or all of the playing options!  Every time you start a
+new game, Admirals Command will determine if it is a BONUS game.  If it is,
+you can select any of the game options you wish!  Then, when you select Save
+Configuration, Admirals Command will remember your selections for the
+duration of the BONUS game.
+
+Admirals Command is also available for the Microsoft Windows environment.  
+See Registration below for details.
+
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÝฺฤออออออออออออออออออออออออออออออออออออออออฤฟÞ
+Ýณ The International Admirals Hall of Fame! ณÞ
+ÝภฤออออออออออออออออออออออออออออออออออออออออฤูÞ
+฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿
+Make your mark in the International Admirals Hall of Fame!  See how your best
+score fares against Admirals Command Admirals from around the world. The 
+Admirals Hall of Fame lists the top 15 Admirals and their scores.  Take your 
+best shot and submit an entry form with your high score to the Admirals Hall 
+of Fame.  The list will be updated periodically, and posted on most major 
+BBS's in the file "ADMHOFmm.ZIP".  The ability to view the Admirals Hall of 
+Fame, and print an entry form are both available from within the game.  
+Good luck!
+          (This option is available for registered users only.)
+
+ีอออออออออออออออธ
+ณ Requirements  ณ
+ิอออออออออออออออพ
+  Admirals Command runs on an IBM PC or compatible (XT, AT, 286, 386, 486, 
+etc.) running DOS 2.0 or higher, with VGA high resolution graphics (640 x 
+480 x 16), and requires a mouse.  Note: if the mouse cursor is not visible 
+on the game menus or when firing, this indicates an out of date mouse driver 
+written before VGA became a standard.  The solution is to simply get a newer 
+mouse driver from the manufacturer of your mouse.
+
+ีอออออออออออออออธ
+ณ Instructions  ณ
+ิอออออออออออออออพ
+The following files are distributed with Admirals Command:
+      1. FILE_ID.DIZ   Admirals Command description.
+      2. ADCMD.DOC     instructions (this file).
+      3. ADCMD.REG     registration form.
+      4. ADCMD.EXE     the executable program. (Shareware version).
+      5. ADCMD.FNT     character fonts.
+      6. ADCMD.IMG     graphics images.
+      7. ADCMD.SH1     graphics images.
+      8. ADCMD.SH2     graphics images.
+
+  Make sure the above files are in the current directory before starting.
+You start the game by typing ADCMD.  There is one command line switch 'Q'.
+The game defaults to sound on, but you can override the default by typing:
+ADCMD q.  Of course, the sound can be controlled from within the game.
+
+The object of the game is to sink my navy in the fewest number of shots,
+before I sink yours.  The game board is divided in two sections.  You will
+place your navy on the left, I will place mine on the right.  Of course my
+ships will be hidden until you hit them.  Each navy consists of 8 ships and
+8 mines.
+
+  The first screen prompts you for your name.  Type your name and press ENTER.
+You are now presented with the game board.  As you move your mouse, your ship
+will move around the board.  Press the RIGHT MOUSE BUTTON to rotate the ship.
+Press the LEFT MOUSE BUTTON to lock the ship in place, and go on to the next
+ship.  You cannot place ships on islands, and they cannot overlap each other.
+If you place a ship where I have a layed a mine, that portion of your ship
+will explode and reveal to me the ships location.  If minesweeping is
+activated, a box will appear around the mine sweeper showing the area it will
+sweep. As soon as you place the mine sweeper, it will begin to sweep for enemy
+mines, destroying all that it finds.  After you place your ships, It's time to
+lay your mines. If you place a mine where I have hidden a ship, that portion
+of my ship will explode and reveal to you the ships location.
+
+  You will always have the first turn.  Move your gun site around with the
+mouse.  Fire with the LEFT mouse button.  You start with one shot.  For every
+ship you sink, you will receive an extra shot.  If you hit a mine, you lose
+the rest of your shots for that turn.
+
+  If SUBMERGE SUBMARINE is active, it will show up as an option on the Main
+Menu.  When you want to submerge your submarine, select Submerge Submarine on
+the Main Menu before shooting.  This option takes the place of one turn. Your
+submarine will stay submerged while the computer takes its next turn.  Then
+it automatically re-surfaces.  If MOVE SPY SHIP is active, it will show up as
+an option on the Main Menu.  When you want to move your spy ship, select Move
+Spy Ship on the Main Menu before shooting.  This option also takes the place
+of one turn.  To bring up the Main Menu, press the RIGHT MOUSE BUTTON or the
+ESCape key.
+
+  Admirals Command will keep the top 20 scores in a file named ADCMD.SCO.  
+The scores are based on the lowest number of shots, highest number of hits, 
+and number of shots left.  The scores can be reset from the Main Menu.
+
+ีอออออออออออออออธ
+ณ   Controls    ณ
+ิอออออออออออออออพ
+The following controls are always active:
+    S                       toggle sound ON/OFF
+    ESC (Escape key) or
+    RIGHT MOUSE BUTTON      Main Menu.  When you are placing your ships, the
+                            RIGHT MOUSE BUTTON rotates your ship instead of
+                            bringing up the Main Menu.  Use the ESCape key
+                            instead.
+    Instructional messages appear in the center at the bottom of the screen.
+
+ีอออออออออออออออธ
+ณ   Revisions   ณ
+ิอออออออออออออออพ
+Version 2.3a
+  Renamed BATTLESHIP to Admirals Command after learning of a registered 
+trademark for BATTLESHIP.
+
+Version 2.3
+  Several customers requested the capability to change the screen colors, so
+I added the Edit Colors option to the Main Menu.  You can set any or all of
+the 16 available colors to any color you desire.  The game always remembers
+the default game colors, so you can easily set any or all of the colors back
+to their original settings.
+  I enhanced the drawing routines when firing to make the mouse movement much
+smoother.
+  I also added a little tune that plays when you make a high score.
+
+Version 2.2
+  Added Yes/No buttons for Exit Game and Reset Score menu options.  Added
+Mouse Setup option to Main Menu to set mouse sensitivity.  The setting is
+kept in the ADCMD.CFG file.  I also added a new customized mouse cursor.
+
+Version 2.1
+  Re-worked the timing routine in minesweeping to make it more consistent.
+Reduced the size of the program by taking advantage of new features in GFONTS
+version 3.0 and optimizing more routines.
+
+Version 2.0
+  To continue the effort (see Version 1.2 below), I added three new features.
+First, Islands!  When islands are selected, islands are randomly placed
+throughout the playing board occupying the same number of spaces on each
+side.  The combinations are virtually endless, making each game different.
+Second, Submerge Submarine!  Now you can submerge your submarine to hide from
+the enemy and escape his deadly torpedos.
+Third, Move Spy Ship!  After the game has started (and you've figured out
+which pattern the enemy is using!), you can move your spy ship to a new
+location.
+  I enhanced minesweeping by adding a box surrounding the minesweeper to show
+the area about to be swept.
+  Menus and instructional messages have been added to make the game easier to
+use.  The messages appear in the center at the bottom of the screen.
+  All of the playing features (Islands, MineSweeping, Submerge Submarine, 
+Move Spy Ship), have been made optional to preserve the original Admirals 
+Command, and to allow different combinations of each option.
+  The option to Reset High Scores was added to the Main Menu. It clears all 
+of the high scores, which are kept in ADCMD.SCO.
+  I changed the function of the RIGHT MOUSE BUTTON when you are placing your
+ships, to rotate the ships.  This makes it possible to play the entire game
+with the mouse!
+  Fixed a problem where your last shot was not subtracted from shots left for
+calculating high score.
+
+Version 1.2
+  In a continuing effort to make Admirals Command unique, interesting, and 
+more fun, a new feature has been added: Mine sweeping!  Now, when you place 
+your mine sweeper on the playing grid, it will sweep the immediate area for 
+enemy mines!  If it locates a mine, it will automatically detonate it.
+  I improved some of the graphics displays making it easier to distinguish
+between hits and misses.
+
+Version 1.1
+  A problem was found where the mouse cursor is not visible after placing
+your ships.  The problem is caused by an out of date mouse driver.
+Admirals Command uses the 640 x 480 VGA graphics mode.  Mouse drivers which 
+were written before VGA became a standard don't handle these high resolution
+graphics screens correctly.  The solution is to simply get a newer mouse
+driver from the manufacturer of your mouse.
+  A user suggested that when you place your ships, the next ship should not
+always appear in the upper left area of the playing grid.  This eventually
+causes you to have to pick up your mouse and move it!  I changed the routine
+to make the next ship appear where your mouse pointer is.  This makes it a
+lot friendlier.
+  I fixed a minor problem where unwanted images appeared on the screen at the
+end of the game if you won, made a high score, and the mouse was in motion.
+  I've started optimizing several routines, reducing the program size to
+prepare for future enhancements.
+
+Version 1.0
+  Initial release for public distribution.
+
+ีอออออออออออออออธ
+ณ Registration  ณ
+ิอออออออออออออออพ
+  Admirals Command is distributed as Shareware.  This allows you to try it 
+before you buy it, but if you continue to use the game after the trial period 
+of 21 days, you are expected to register.  When you register you will receive
+the latest version of Admirals Command on diskette, and receive discounts on 
+all new versions of Admirals Command.  The registered version allows you to 
+select and save any or all of the playing options for ALL games.  Every game 
+is a BONUS game!  You also receive technical support for Admirals Command via 
+U.S. Mail at the address listed below, or on Compuserve - CSID 71461,1704.
+
+Register now and receive a Registration Bonus Certificate! This certificate
+gives you a 50% discount on the "JCSM Shareware Collection" tm CD-ROM!  This 
+CD contains hundreds of the most popular Shareware titles.
+
+  To print the registration form, select the PRINT REGISTRATION FORM option
+from the final exit game screen, or copy the file ADCMD.REG to your printer
+(COPY ADCMD.REG PRN).
+
+Select one of the following:
+  New order registration $15.00,
+  or Upgrade from prior version $5.00.
+     (Remember to include your registration number.)
+
+To register, send the registration form along with
+the registration fee (U.S. Dollars) to:
+                          ีออออออออออออออออออออออออธ
+                          ณ SimoneSystems Software ณ
+                          ณ 3096 Dell Drive        ณ
+                          ณ Hermitage, TN   37076  ณ
+                          ิออออออออออออออออออออออออพ
+
+    SimoneSystems Software accepts the following methods of payment:
+        1. Checks in U.S. Dollars drawn on a U.S. Bank.
+        2. U.S. Dollars Cash (please send Certified mail).
+        3. VISA or MasterCard (Include your name as it appears on the card, 
+           card number, expiration date, effective date, and your signature).
+  
+  Admirals Command is also available for the Microsoft Windows environment.
+It comes complete with a Windows installation program, and a Windows Help
+file.  The registration fee for the Windows version is $20.00 for new
+customers, and $10.00 for current SimoneSystems customers.
+
+Register on-line with Compuserve!  Type GO SWREG and search for Registration
+ID (#1859) for the DOS version, or ID (#1857) for the Windows version.  You
+will receive your Admirals Command diskette via US Mail.
+
+
+ีอออออออออออออออออออออออธ
+ณ Registration in Japan ณ
+ิอออออออออออออออออออออออพ
+For local registration in Japan, contact P. & A. Shareware.
+    Tel: 0425-46-9141
+    Fax: 0425-46-9142
+    NiftyServe: PAF02461                
+Call for details.
+
+ีอออออออออออออออธ
+ณ Distribution  ณ
+ิอออออออออออออออพ
+ You are encouraged to copy and distribute this software as long as the
+following restrictions have been met:
+
+1. When distributing this software, it must be in its original unmodified
+form, and contain all of the files listed in the above instructions.
+Please make sure the name of the archive file contains the version number.
+Example: ADCMD23.ZIP (where 23 is the version.)
+                                              
+2. Prior written consent from SimoneSystems Software must be obtained before 
+a fee or charge is made for copying or distribution.
+
+3. This software shall not be included with other programs, goods, services,
+etc. without prior written consent from SimoneSystems Software.
+
+ีออออออออออออออออออออออออธ
+ณ Disclaimer of Warranty ณ
+ิออออออออออออออออออออออออพ
+  This software is sold "as is", without any warranty as to performance or
+any other warranties whether expressed or implied.  Because of the many
+hardware and software environments into which this program may be used, no 
+warranty of fitness for a particular purpose is offered.  The user must
+assume the entire risk of using the program.  Any liability of the seller 
+will be limited exclusively to product replacement or the refund of the
+registration fee.
+
+ีออออออออออออออออออธ
+ณ Acknowledgements ณ
+ิออออออออออออออออออพ
+Admirals Command was written on a 386 with Paradise VGA in Microsoft 
+QuickBasic 4.5 and was enhanced with special customized character fonts with 
+the GFONTS package from Milestone Programming, Arcata, CA.
+
+ีอออออออออธ
+ณ Support ณ
+ิอออออออออพ
+If you encounter any problems with Admirals Command, or if you have any
+comments or suggestions, contact me at this address:
+                          ีออออออออออออออออออออออออออธ
+                          ณ  SimoneSystems Software  ณ
+                          ณ  3096 Dell Drive         ณ
+                          ณ  Hermitage, TN  37076    ณ
+                          ิออออออออออออออออออออออออออพ
+Or you can send me E-mail on Compuserve.  My CSID is 71461,1704.
+
+ีอออออออออออออออออธ
+ณ Latest Releases ณ
+ิอออออออออออออออออพ
+Get the latest SimoneSystems Software releases from:
+   ีออออออออออออออออออออออออออออออออออออออออออออออออธ           
+   ณ Software Creations BBS  "Home of the Authors"  ณ
+   ณ               Sysop: Dan Linton                ณ
+   ฦอออออออออออออออออออออออออออออออัออออออออออออออออต
+   ณ 1200/2400 V.42/MNP5           ณ (508) 365-2359 ณ
+   รฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤลฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤด
+   ณ 2400-16.8k HST US Robotics    ณ (508) 368-4137 ณ
+   รฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤลฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤด
+   ณ 2400-14.4k V.32/V.32bis Hayes ณ (508) 368-7036 ณ
+   ิอออออออออออออออออออออออออออออออฯออออออออออออออออพ
+
+Thank you for your support, and enjoy!

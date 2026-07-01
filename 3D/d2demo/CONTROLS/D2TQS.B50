@@ -1,0 +1,94 @@
+REM          ษออออออออออออออออออออออออออออออออออออป
+REM          บ       FLCS & TQS file (v2.0)       บ
+REM          บ                for                 บ
+REM          บ DESCENT 2 by Interplay Productions บ
+REM          บ        and Parallax Software       บ
+REM          ศออออออออออออออออออออออออออออออออออออผ
+
+MDEF Descent2
+
+REM ษออออออออออออป
+REM บ Enable TQS บ
+REM ศออออออออออออผ
+
+USE TQS
+
+REM ษอออออออออออออออออออป
+REM บ Set Keypress Rate บ
+REM ศอออออออออออออออออออผ
+
+RATE 20
+
+REM ษอออออออออออออออป
+REM บ FLCS Commands บ
+REM ศอออออออออออออออผ
+
+BTN TG1 /H Fire_Primary
+BTN TG2 /H Fire_Primary
+
+BTN S1 /H Fire_Primary
+BTN S2 /N Fire_Secondary
+BTN S3 /H Drop_Bomb
+BTN S4 /H Fire_Flare
+
+
+REM ษออออออออออออออออออออออออป
+REM บFLCS HAT SWITCH SETTINGSบ
+REM ศออออออออออออออออออออออออผ
+
+BTN H1U /H Slide_Up
+BTN H1D /H Slide_Down
+BTN H1L /H Slide_Left
+BTN H1R /H Slide_Right
+
+
+BTN H2U /N Taunt_Macro1
+BTN H2D /N Taunt_Macro4
+BTN H2L /N Taunt_Macro2
+BTN H2R /N Taunt_Macro3
+
+
+BTN H3U /N Drop_Marker
+BTN H3D /H Energy_Transfer
+BTN H3L /N Cycle_Primary
+BTN H3R /N Cycle_Secondary
+
+BTN H4U /H AfterBurner
+BTN H4D /H Reverse
+BTN H4L /H Slide_Left
+BTN H4R /H Slide_Right
+
+
+REM ษอออออออออออออออออออป
+REM บTQS BUTTON SETTINGSบ
+REM ศอออออออออออออออออออผ
+
+BTN T1 /N Drop_Marker
+BTN T2 /U Taunt_Macro1
+       /M Automap
+       /D Rear_View
+BTN T3 /U Taunt_Macro2
+       /M Energy_Transfer 
+       /D Headlight
+BTN T4 /U Taunt_Macro3
+       /M Roll_Right
+       /D Drop_Marker 
+BTN T5 /U Taunt_Macro4
+       /M Roll_Left	
+       /D Kill_List
+BTN T6 /N Drop_Bomb
+BTN T9 /H AfterBurner
+BTN T10 /N Rear_View
+
+REM ษออออออออออออออออออออออออออออออป
+REM บTQS DIGITAL TRACKBALL SETTINGSบ
+REM ศออออออออออออออออออออออออออออออผ
+
+BTN T11 Cycle_Secondary 
+BTN T12 Cycle_Primary
+BTN T13	Cycle_Secondary
+BTN T14	Cycle_Primary
+
+
+REM ***********************************************************************
+

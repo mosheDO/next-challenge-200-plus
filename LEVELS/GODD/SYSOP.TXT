@@ -1,0 +1,110 @@
+   ±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+       CALLING ALL BBS SYSOPS -- BECOME A UNION LOGIC DISTRIBUTION SITE
+   ±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+
+Hurry!  Become an official BBS distribution site for Union Logic Software 
+Publishing.  By carrying Union Logic products, you can attract new callers
+and allow your regular callers a reliable place to find the latest Union 
+Logic shareware games.
+
+** Best of all, by becoming an official distribution site, and filling out  **
+** DISTAPP.FRM, we will include your bbs in a special file shipped with all **
+** of our products.  This file, BBS_SITE.EXE, will list all of Union        **
+** Logic's official distribution sites by area.  This will bring lots of    **
+** exposure to your bulletin board.                                         **
+
+
+How To Become A BBS Distribution Site
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+
+To become an official Union Logic Software Publishing distribution site, we 
+require that:
+
+I.   You must be operating a BBS that runs 24 hours per day and is open to the
+     public.
+
+II.  Create a file section on your BBS called "Union Logic".
+
+III. Carry all software published from Union Logic.
+
+IV.  Post the newest Union Logic shareware releases as they become 
+     available.
+
+V.   If you wish to be listed in the Union Logic official distribution file, 
+     BBS_SITE.EXE, you must further agree to:
+
+     i.  Allow free (no ratio) downloading of Union Logic shareware titles.
+     ii. Fill out and return DISTAPP.FRM to Union Logic.  Please read the 
+         section on how to fill out DISTAPP.FRM.  
+
+
+Filling out DISTAPP.FRM
+ßßßßßßßßßßßßßßßßßßßßßßß
+
+Get your BBS promoted in Union Logic's BBS_SITE.EXE.  Simply, fill out the
+DISTAPP.FRM and please contact us in one of the following ways:
+
+I.   Print the DISTAPP.FRM document, fill it out, and mail
+     it to the following address:
+
+                Union Logic Software Publishing, Inc.
+                P.O. Box 31039
+                100 Bayshore Drive
+                Nepean, Ontario, Canada
+                K2B 8S8
+
+II.  Print the DISTAPP.FRM document, fill it out, and fax
+     it to the following number:
+
+                (613) 599-7245
+
+III. Edit the DISTAPP.FRM document with a text editor and
+     send it via Internet to:
+                unlogic@globalx.net 
+
+
+How To Get Union Logic Software and Keep Up To Date
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+
+I.   If you have access to internet ftp, then use Union Logic's official
+     ftp site: 
+                      ftp.unlogic.com       /pub/unlogic
+     
+     This ftp site is the FIRST place all Union Logic software is posted.
+
+II.  Software Creations BBS.  This is Union Logic's home bbs.  All of or 
+     products as well as our latest releases are available here.  Switch to 
+     the Union Logic file section ( currently, section 158 ) to find all of 
+     our software.  Phone Numbers:    
+         2400 - 14.4K HST US Robotics Lines                     (508)368-7036
+         2400 - 16.8K V.32/V.42bis US Robotics Lines            (508)368-7139
+         2400 - 21K HST/V.42bis/V.32terbo US Robotics Lines     (508)368-0457
+         2400 - 28.8k V.32/V.42bis/V.fc Hays Optima 28800 Lines (508)365-9352
+
+III. A package containing our complete library of shareware releases with 
+     complete descriptions and requirements is available by mail.  The cost
+     is only $10US to cover the cost of the disks, shipping and handling, etc.
+     To order this package you can either:
+
+     1> Send a check or money order to:
+                Union Logic Software Publishing, Inc.
+                P.O. Box 31039
+                100 Bayshore Drive
+                Nepean, Ontario, Canada
+                K2B 8S8
+
+     2> Use your Visa/Mastercard and phone 800-583-4838 ( 613-828-1173 if you
+        live outside of the United States or Canada ).  You can also fax your
+        Visa/Mastercard information to 613-599-7245.
+
+     Note: This package is only available on 3.5HD disks.
+
+IV.  Add yourself to our Internet mailing list.  You will receive the latest
+     news, new file announcements, product information, etc.  Send us a note
+     at:
+
+                 unlogic@globalx.net
+
+     Address to the attention of News.
+
+[ END OF DOCUMENT ]

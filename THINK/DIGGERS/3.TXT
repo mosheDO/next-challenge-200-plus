@@ -1,0 +1,9 @@
+    ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+    บ DIGGERS will now be installed in the current directory, shown     บ
+    บ below, and will take approximately 6MB of hard disk space.  After บ
+    บ it is installed, you will be able to set up your sound card.      บ
+    บ                                                                   บ
+    บ If you don't want to install to this directory, quit the Install  บ
+    บ program now (by pressing "N"), copy all the program files         บ
+    บ to a different directory and start again by typing INSTALL.       บ
+    ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ

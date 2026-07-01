@@ -1,0 +1,19 @@
+
+
+
+A BRIEF NOTE ABOUT MEMORY AND THIS PROGRAM !!
+=============================================
+
+If you get an "out of memory" or "NOT ENOUGH MEMORY" error when you try
+
+to run this program, you have too many drivers taking up your memory space.
+
+We suggest you boot up off of a floppy disk (BOOT DISK) or you purchase
+
+a memory manager program.  The important factor is NOT how much memory
+
+you have on your machine, but how much you have available for use
+
+within the first 640K.  You may have no difficulty at all, but if you do,
+
+BOOT FROM A FLOPPY DISK AND THEN RUN THE PROGRAM !!

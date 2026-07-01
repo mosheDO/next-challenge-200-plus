@@ -1,0 +1,236 @@
+
+                             Highway Hunter v1.0
+
+=============================================================================
+                    * Instructions/Troubleshooting Info *
+=============================================================================
+
+
+System Requirements
+===================
+
+  þ Fast 386 or better CPU
+  þ 570K free RAM
+  þ 2 Megs HD space
+  þ VGA card and monitor
+
+Recommended hardware:
+
+  þ Joystick or Mouse
+  þ Sound Blaster
+
+
+To start Highway Hunter
+=======================
+
+1. Switch to the drive where the game is installed (C:)
+2. Switch to the subdirectory where the game is installed (CD \HH)
+3. Type "Start"
+
+
+=============================================================================
+
+                            Playing the Game
+
+=============================================================================
+
+
+ Keyboard Commands
+ =================
+
+     ARROW keys move your vehicle around.
+
+      CTRL keys fire your current weapon.
+
+         P pauses the game.
+
+       ESC Quits the game.
+
+
+ Joystick Configuration
+ ======================
+
+     If you want to use Highway Hunter with a joystick, you need
+     to select JOYSTICK SETUP from the Main Menu, then follow
+     the instructions given.
+
+
+ Upgrade Modules
+ ===============
+
+     During the game, try to collect upgrade modules that come your
+     way by running into them with your vehicle. Each type of module
+     serves a special purpose that will increase your chances of
+     completing the game.
+
+
+    UPGRADE     PURPOSE
+
+       C    =   Executes a massive photon pulse that does damage to
+                all of the enemies on the screen.
+
+       O    =   Gives you temporary invincibility.
+
+       U    =   Gives you more weapon units. If you exceed the weapon
+                units for your current weapon, your vehicle will be
+                upgraded to the next available weapon type.
+
+ WEAPONS
+ =======
+
+   Highway Hunter has 9 available weapons. As you find weapon upgrades,
+   your current weapon increases in power. If you exceed the amount of
+   power your current weapon can handle, your weapon will be upgraded to
+   the next available weapon. Weapon upgrades require a lot of energy.
+   This energy is depleted as it is used. If your upgrade runs out of
+   energy, your weapons system will revert back to the next lower weapon.
+
+
+ SHIELDS
+ =======
+
+    Shield upgrades are also available during the game. For a limited time,
+    they will protect your vehicle from mines and oncoming enemy attack. You
+    obtain different shields by running your vehicle over shield modules on
+    the highway. Each shield type serves a different purpose and a different
+    method of helping you. Hint: After you understand how different shields
+    work, try to select of the type of shield best suited to your play style.
+
+
+
+=============================================================================
+
+                            Troubleshooting
+
+=============================================================================
+
+
+ NOT ENOUGH FREE MEMORY
+ ======================
+
+   If you run Highway Hunter, and the game refuses to start and gives
+   me the message "You need (amount) of free memory to run this program",
+   you need to free up more main (conventional) memory.
+
+   Here are some solutions:
+
+1. If you are trying to run Highway Hunter from Windows, completely exit
+   Windows and try running it from DOS.
+
+2. If you are trying to run Highway Hunter from "DOSSHELL" or any other
+   menu program,  please exit from the menu program.  Then, run Highway
+   Hunter from the DOS prompt.  Menu programs often occupy enough memory
+   that there won't be enough left for Highway Hunter.
+
+If neither #1 or #2 solves the problem,  do the following:
+
+1. From the DOS prompt,  type "MEM" and press Enter.
+
+2. You'll see a lot of information about your computer's memory.  Look at
+   the number after the words "Largest Executable Program Size".  This is
+   the amount of memory you currently have available.
+
+Now you need to free up more main memory.  Here are some tips:
+
+
+1. You may need to modify your AUTOEXEC.BAT and CONFIG.SYS files
+   in your root directory.  This can be done in any version of DOS.
+
+   Rewrite your CONFIG.SYS file to contain the lines:
+
+           HIMEM.SYS
+           EMM386.EXE NOEMS HIGHSCAN
+           DOS=HIGH,UMB
+
+2. We also recommend that you clean out all other TSR's and memory
+   managers from CONFIG.SYS by either removing the line, or by typing
+   "REM" before the command.
+
+3. Once your CONFIG.SYS and AUTOEXEC.BAT files have been changed, you must
+   restart your computer for the changes to take effect. Do this by
+   pressing the CTRL-ALT-DEL keys simultaneously.
+
+4. A handy program for MS-DOS 6.0+ users is MEMMAKER.  This file will
+   help you optimize your CONFIG.SYS and AUTOEXEC.BAT files to allow
+   you optimal memory conservation.
+
+5. Please read the manual that came with DOS for more information about
+   configuring memory.
+
+
+
+ SOUND
+ =====
+    
+    Highway Hunter was designed to work with Sound Blaster and
+    100% compatible sound cards. 
+
+    The first time you run Highway Hunter, you will be asked to configure
+    your sound card. After you choose the type of sound card you have, 
+    the setup program will ask you for specific information regarding
+    your sound card. If the SET BLASTER environment is found, Highway
+    Hunter will read the needed information from this command. Otherwise,
+    the port address, IRQ, and DMA channel must be entered manually.
+    Consult the manual that came with your sound card for further
+    details on the SET BLASTER command and sound card configuration.
+
+
+ RUNNING UNDER Windows OR OS/2
+ =============================
+
+    This game should work properly under Windows and OS/2 if you turn all
+    sound card support OFF when configuring the game.  However, if you want
+    to hear music or sound through your Sound Blaster card, you must run
+    Highway Hunter through DOS.
+
+More Windows and OS/2 tips:
+
+1. Even though Highway Hunter will work under Windows with sound card
+   support turned OFF,  the graphics will run more smoothly under plain DOS.
+
+2. If you try to run Highway Hunter through Windows or OS/2 with sound card
+   support ON,  you'll get unpredictable results - Highway Hunter will not
+   run properly.
+
+3. If you encounter any problems running through Windows or OS/2, exit and
+   run Highway Hunter through plain DOS instead!  This will likely solve any
+   problems you are encountering.
+
+4. Running Highway Hunter through the "MS-DOS Shell" in Windows (or the
+   OS/2 DOS box) is NOT the same as running it straight from DOS.  For
+   best results, you need to completely exit from Windows or OS/2 and run
+   Highway Hunter from the DOS prompt.
+
+
+
+
+ Game Speed
+ ==========
+
+   If you find that Highway Hunter runs too fast on your computer, change
+   the SPEED setting in the main menu of the game to a lower speed.
+
+
+=============================================================================
+
+                   - CONTACTING Safari's TECH SUPPORT -
+
+=============================================================================
+
+If you need further assistance, please call our tech support department
+at 301-738-2349 between 9AM and 5PM Eastern Standard Time,  or fax us
+at 301-299-3841.  You can also contact us on-line:
+
+COMPUSERVE:
+   Mail:  70007,1631
+   Messages & Files:  GO EPIC
+
+Safari's BBS:
+   Exec-PC
+   Phone: (414)789-4360
+
+THE SHAREWARE SUPPORT BBS (Herts, England):
+   Contact: Safari Software
+   2400-14.4K Baud: +44 (0) 442-891-109
+
+

@@ -1,0 +1,155 @@
+-------------------------------------------------------------------
+
+               SUPERKARTS v0.98        17-Jan-94
+      Manic Media Productions (c) 1994. All rights reserved.
+
+-------------------------------------------------------------------
+P1 VS COMP
+==========
+
+KEYS: (KEYS must be selected as PLAYER 1 controls)
+==================================================
+A     -  Accelerate
+Z     -  Brake
+<     -  Turn Left
+>     -  Turn Right
+TAB   -  Cycle through features (Turbo, Oil, SuperGrip)
+SPACE -  Activate selected feature
+ALT   -  Reverse
+--------------------------------------------------------------------
+
+P1 VS P2 (Not available in demo)
+========
+
+PLAYER 1 KEYS: (KEYS must be selected as PLAYER 1 controls)
+===========================================================
+Q     -  Accelerate
+A     -  Brake
+S     -  Turn Left
+D     -  Turn Right
+TAB   -  Cycle through features (Turbo, Oil, SuperGrip)
+ALT   -  Activate selected feature
+Z     -  Reverse
+
+PLAYER 2 KEYS: (KEYS must be selected as PLAYER 2 controls)
+===========================================================
+L               -  Accelerate
+.               -  Brake
+LEFT ARROW      -  Turn Left
+RIGHT ARROW     -  Turn Right
+I               -  Cycle through features (Turbo, Oil, SuperGrip)
+CTRL            -  Activate selected feature
+DOWN ARROW      -  Reverse
+
+---------------------------------------------------------------------
+
+JOY 1: (JOY 1 must be selected as PLAYER 1 controls)
+====================================================
+Push forward    -  Accelerate
+Pull back       -  Brake (Reverse if stationary)
+Push left       -  Turn left
+Push right      -  Turn right
+Button 1        -  Select feature
+Button 2        -  Activate feature
+
+JOY 2: (JOY 2 must be selected as PLAYER 2 controls)
+====================================================
+Push forward    -  Accelerate
+Pull back       -  Brake (Reverse if stationary)
+Push left       -  Turn left
+Push right      -  Turn right
+Button 1        -  Select feature
+Button 2        -  Activate feature
+
+-----------------------------------------------------------------
+
+CUSTOM 1: (CUSTOM 1 must be selected as PLAYER 1 controls)
+==========================================================
+
+Joy1 Button 1     -  Accelerate
+Joy1 Button 2     -  Brake
+Joy1 Push left    -  Turn left
+Joy1 Push right   -  Turn right
+TAB               -  Cycle through features (Turbo, Oil, SuperGrip)
+ALT               -  Activate selected feature
+Z                 -  Reverse
+
+CUSTOM 2: (CUSTOM 2 must be selected as PLAYER 2 controls)
+==========================================================
+
+Joy2 Button 1     -  Accelerate
+Joy2 Button 2     -  Brake
+Joy2 Push left    -  Turn left
+Joy2 Push right   -  Turn right
+I                 -  Cycle through features (Turbo, Oil, SuperGrip)
+CTRL              -  Activate selected feature
+Z                 -  Reverse
+
+-------------------------------------------------------------------
+
+THRUSTMASTER T1: (THRUSTMASTER T1 must be selected as PLAYER 1 controls)
+========================================================================
+
+Right Pedal       -  Accelerate
+Left Pedal        -  Brake
+Turn wheel left   -  Turn left
+Turn wheel right  -  Turn right
+Pull stick back   -  Cycle through features (Turbo, Oil, SuperGrip)
+Push stick forward-  Activate selected feature
+Button A          -  Reverse
+
+-------------------------------------------------------------------
+
+Other controls:
+===============
+PgUp  -  Hi Res (default)
+PgDn  -  Low Res
+End   -  Toggle sky on/off
+-     -  Shrink screen
++     -  Grow screen
+Esc   -  Exit race
+F     -  Show frame rate
+
+Camera controls:
+
+F1/F2 -  Select car to view
+
+F3/F4 -  Select camera in the following order
+                ChaseCam (default)
+                LeftCam
+                RevserveCam
+                RightCam
+                HeadCam
+                LeftVRCam
+                ForwardVRCam
+                RightVRCam
+                ZoomCam1
+                ZoomCam2
+                ZoomCam3
+
+F5/F6 -  Rotate camera (Not available on ZoomCam)
+
+F7/F8 -  Zoom in/out (Not available on ZoomCam)
+
+F9/F10-  Adjust 'padlock' view. This follows the direction that your
+         head would be pointing as you go round a corner to give the
+         impression of 'G' force.
+
+Short cuts to camera:
+
+ALT-F1     -  Select ZoomCam1
+ALT-F2     -  Select ZoomCam2
+ALT-F3     -  Select ZoomCam3
+ALT-F4     -  Select ChaseCam
+ALT-F5     -  Select LeftCam
+ALT-F6     -  Select RevserveCam
+ALT-F7     -  Select RightCam
+ALT-F8     -  Select HeadCam
+ALT-F9     -  Select LeftVRCam
+ALT-F10    -  Select ForwardVRCam
+ALT-F11    -  Select RightVRCam
+
+
+
+
+

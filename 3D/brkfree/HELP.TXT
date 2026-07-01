@@ -1,0 +1,412 @@
+
+                            BREAKFREE
+                         by Software Storm
+
+                       Instructions for Play
+
+
+OBJECT OF GAME
+==============
+
+    The object of the game is to break free from each level by destroying
+    all the breakable walls with your fireballs. You have a limited number
+    of fireballs with which to break out of all the levels in the game. 
+    When you lose the last fireball, the game is over.
+
+GAME ELEMENTS
+=============
+
+    Walls:
+
+    There are many different types of walls in the game, but they fall
+    into four general categories:
+
+        - unbreakable walls.  The ball will bounce off these.
+        - breakable walls.  The fireball destroys these.
+        - power drain walls.  These walls consume the fireball.
+          Usually, power drain walls are behind you.
+        - special effect walls.
+
+    Special Effect Walls:
+
+    Some walls have special properties or exhibit special behavior during
+    play.  Usually, these walls are marked, but not always.  Some walls
+    require multiple hits to be destroyed.
+
+    Objects:
+
+    Some walls release objects when they are destroyed.  Some objects are
+    good - try to catch them.  Other objects are bad and should be
+    avoided.  You will have to learn which are which as you play.
+
+    Objects also fall into several categories:
+
+        - bonus objects.  You receive a bonus if you catch these.
+        - penalty objects.  You are penalized if you catch these.
+        - gun (and ammo).  You will be able to shoot if you catch
+          this.  If you catch a second gun, it adds to your ammo count.
+        - different types of balls.  These have interesting effects
+          in the game that you will have to learn by trying them out.
+
+GAME PLAY
+=========
+
+    Starting a new game:
+
+    To start a new game, choose "NEW GAME" from the Main Menu.  You will
+    be prompted to select from one of four difficulty settings:  Easy,
+    Medium, Difficult, and Impossible.  Below are some of the items which
+    vary depending on the setting:
+
+       - number of fireballs you start with
+       - ball speed
+
+    Let us know if you ever win with the Impossible setting!  It has some
+    very challenging features.
+
+    Playing:
+
+    Launch your fireballs by pressing the space key.  Your fireballs and
+    other objects will bounce off the walls in front of you, and return
+    towards you.  You need to keep your fireballs in play by bouncing
+    them off an invisible paddle directly in front of you.  You must
+    constantly predict where each fireball will return, and move yourself
+    to intercept it.
+
+    Movement:
+
+    During game play, you can move forward, backward, and from side to
+    side. Moving forward and back is especially important for controlling
+    where the fireballs will bounce, and thus how long it takes to break
+    free from a level.  You can move with either the arrow keys or the
+    mouse.
+
+    Key Summary:
+
+        Arrow keys = move up/back/left/right
+        +/- keys   = resize the main viewscreen
+        Space      = launch more fireballs
+        S          = toggle Sound on/off
+        W          = Warp to a level
+        Ctrl       = fire gun (only if you have a gun)
+        Esc        = show the Main Menu
+        F1         = show these help screens
+
+    Screen:
+
+    The top of the screen has the main viewscreen, where the game action
+    takes place.  Located at the bottom of the screen are several fields
+    which indicate your current play status:
+
+        +--------+  +-------------------+ +-----+ +-----+ +--------+
+        |  ammo  |  | level name        | |lev.#| |timer| |        |
+        |  count |  +-------------------+ +-----+ +-----+ |        |
+        |        |  +----------+ +--------------+         |        |
+        | weapon |  | SCORE    | | score        |  S S I  | radar  |
+        |        |  +----------+ +--------------+         |        |
+        |        |  +-----------------------------------+ |        |
+        |        |  | fireballs remaining and in play   | |        |
+        +--------+  +-----------------------------------+ +--------+
+
+        - ammo count/weapon.  Shows gun (if any) and ammo remaining.
+        - level name. This is used for warping.
+        - level number.
+        - timer.  This shows the time remaining to complete the level.  You
+          get bonus points for completing a level before the timer runs out.
+        - score.
+        - fireballs remaining.  Empty circles are balls currently in play.
+        - radar.  This displays an overhead view of the current level.
+          Colors in the radar indicate different items:
+
+              dark red  = unbreakable walls
+              light red = breakable walls
+              dark grey = power drain walls
+              yellow    = fireballs in play
+              green     = you
+
+    Watch the radar to keep track of the fireball when it goes out of
+    view on the main viewscreen!
+
+    Shooting:
+
+    On some levels, guns and ammo can be found.  In order to get a gun
+    you must capture it (similar to the other bonus objects).  Once you
+    have a gun, use the Ctrl key to shoot.  Be careful, because your
+    first inclination is to use the space bar, which will launch
+    fireballs instead.
+
+    Use your ammunition wisely.  It can be carried over from level to
+    level, and you can save it for hard-to-get walls.
+
+    Pausing:
+
+    If for some reason you get interrupted while playing the game, or
+    just need to stop and collect your thoughts, you can pause the game
+    by pressing the Esc (escape) key to get to the Main Menu.  From the
+    Main Menu you can continue playing exactly where you left off by
+    selecting the RESUME GAME option.
+
+    Scoring:
+
+    You get points for every wall that you destroy.  The number of points
+    per wall increases with higher levels. Therefore, you can warp past
+    some of the beginning levels and still get a high score.
+    
+    When you complete a level, you get a bonus for the balls that are
+    still in play, and for any time remaining on the timer.
+
+    Warping:
+
+    Every level has a name.  When you get to each level, write down the
+    level's name.  Using the name, you can warp to that level any time
+    you want.
+
+    Often you will want to start a new game (to establish the difficulty
+    setting), then warp directly to a level to keep playing where you
+    left off.
+
+    Winning:
+
+    If you can break free from all the levels with your fireballs and
+    other items you find along the way, you have escaped and you win the
+    game!  Even if you don't finish all the levels, you may get a score
+    which is one of the greatest of all time.  If so, at the end of the
+    game you will be asked for your name, to go on the high score list.
+    You may view the high score list at any time by selecting
+	SHOW HIGH SCORES from the Main Menu.
+
+HINTS AND TIPS
+==============
+
+  * A good way to control the ball is by is by hitting the edges of the
+    paddle.  For example, if you hit the ball on the left side of the
+    paddle (the left side of the main viewscreen), the ball will bounce
+    more towards the left.
+
+  * You may launch a ball even if you already have one in play. 
+    Sometimes it is usefull to finish off a level faster by having more
+    than one ball in play.  But be warned, it is VERY difficult to keep
+    multiple balls in play for a long period of time.  (Hint: you might
+    to do this only when you are almost finished with a level.)
+
+  * You get a bonus for each ball still in play at the end of each level.
+    Plus, each ball is added to your fireballs remaining.
+
+  * Pay attention to the radar to keep track of where the ball is.  The
+    fireball can go behind walls and come out on the other side. 
+    Sometimes, the ball will change direction when you can't see it.  It
+    is generally a good idea to watch the radar whenever the ball goes
+    out of view on the main viewscreen.
+
+  * Move forward and back to control where the fireball bounces.  This
+    is the key to finishing levels before the time runs out.  Often, as
+    you get to the end of a level, there are just one or two hard-to-get
+    walls left.  By moving forward and back, you have much more control
+    of where the fireball will bounce.  For example, in the case below
+    where there is a single block left in the corner, and the ball has
+    just bounced off the back wall, then if you stay at the back of the
+    level, the ball will bounce off the paddle and miss the block. (see
+    below)
+
+        +-------------------+      +-------------------+
+        |[]          / \    |      |[]                 |
+        |           *   \   |      |   *               |
+        |                   |      |  /       /        |
+        |                   |      | /       /         |
+        |                   |      | \      /          |
+        |                   |      |  \    /           |
+        |                   |      |   \  /            |
+        |                   |      |    \/             |
+        |  --               |      |    --             |
+
+    However, if you move up to intercept the ball, you can reflect it
+    directly at the remaining block.  (see below)
+
+        +-------------------+      +-------------------+
+        |[]          / \    |      |[]                 |
+        |           *   \   |      |   *      /        |
+        |                   |      |    \    /         |
+        |                   |      |     \  /          |
+        |                   |      |      \/           |
+        |                   |      |      --           |
+        |                   |      |                   |
+        |                   |      |                   |
+        |  __               |      |                   |
+    
+
+SYSTEM REQUIREMENTS
+===================
+
+    BreakFree requires 540,000 (528K) bytes of free conventional memory.
+    BreakFree will detect how much memory you have when it starts.  If it
+    detects that you do not have enough, it will ask you if you would
+    like to: 1) continue anyway, 2) continue without digital sounds, or
+    3) abort loading the game.  Since the levels in BreakFree require
+    different amounts of memory, you may be able to play some levels even
+    if you don't have the full 540,000 (528K) bytes required by the largest
+    level.  If you want to try, select number 1.  The digital sounds in
+    BreakFree require about 40,000 (39K) bytes of memory.  If you don't have
+    enough free memory, you can select option 2 to run the game without
+    digital sounds.  The game will still use the PC speaker sounds.
+
+    BreakFree uses 256-color VGA graphics, and can use a SoundBlaster or
+    compatible sound card.  To use a SoundBlaster or compatible sound
+    card, you must the BLASTER DOS environment variable set.  When you
+    installed your sound card, it should have put a command in your
+    AUTOEXEC.BAT file with the interrupt, I/O, and DMA settings for the
+    card.  See the troubleshooting section of these instructions for more
+    help in configuring your environment so that BreakFree can use your 
+    sound card.
+
+    Machine Speed:
+
+    We recommend a 20 Mhz 386 system or faster for best results in
+    playing BreakFree.  However, there are a few things you can do to
+    make the game more playable on a slower machine:
+
+       - resize the viewscreen smaller
+       - use the mouse instead of the keyboard for smoother movement
+	     control
+
+TROUBLESHOOTING
+===============
+
+    Error Messages:
+
+    There are only a few error messages which might be displayed during
+    the game.  If you are attempting to warp to a level, and you get the
+    message "Could not find level", try warping again, checking to make
+    sure that you spell the destination level name correctly.  If you get
+    the message again, you may have written the level name down wrong.
+
+    If the game suddenly exits, and prints a "Critical Error" message,
+    then something has happened from which the game could not recover. 
+    VERY often, the critical error will be a failure to allocate memory. 
+    If this happens, then you should try to get more free conventional
+    memory, and run the game again.
+
+	How to get more free conventional memory:
+
+    Use the DOS MEM command to see how much free memory you have.  Type
+    "MEM" at the DOS command prompt. If you are running MSDOS, there
+    should be a line telling you the size of the largest executable
+    program that can be run.  If you are running Novell DOS 7.0 or DRDOS,
+    this will be listed as "available" conventional memory.  If
+    necessary, unload TSRs or use a floppy boot disk to make more memory
+    available before playing.
+
+    Sound problems:
+
+    If you have a SoundBlaster or compatible sound card, but the game
+    does not play digital sounds (either the game produces no sound at
+    all, or only produces sounds through the PC speaker), then you may
+    not have your sound card configured properly, or you may not have
+    your BLASTER environment variable set.
+
+    Type SET at the DOS command prompt, and you will see a list of DOS
+    environment variables.  You should see a line starting with
+    "BLASTER=", followed by some settings, like "A220 D1 I7".  These
+    settings indicate the I/O port, the DMA channel, and the interrupt
+    number for your sound card.  If you do not have an environment
+    variable like this, then you will need to set one in order for
+    BreakFree to use your sound card.  When your sound card was
+    installed, it was configured with an I/O port, a DMA channel and an
+    interrupt number (IRQ).  If you know what these options are, you can
+    use the DOS SET command to create a DOS environment variable which
+    BreakFree can use.
+
+	For example, if your sound card is at I/O port 220 (hex), uses DMA
+    channel 1 and interrupt (IRQ) number 7, then you should type
+
+        SET BLASTER=A220 D1 I7
+
+    at the DOS command prompt.  If you place this line in your AUTOEXEC.BAT
+    file, it will be set every time you start your computer.
+
+ 	Power Management:
+
+	If you are using Power Management Software, such as POWER.EXE or 
+	POWER.SYS, then the game may pause between keystrokes.  If a keystroke
+	starts the game again, then power management is probably the problem.  
+	Turn power management off to play BREAKFREE.
+
+
+ORDERING THE RETAIL VERSION
+===========================
+
+    We hope you enjoy playing this shareware version of BreakFree. The
+    registered version includes more levels, more effects, and greater
+    challenges.
+
+    It also includes an editor for you to make your own levels for you
+    and your friends to enjoy.
+
+    To order BreakFree send $14.95, plus $3.00 shipping and handling to:
+
+            Software Storm
+            P.O. Box 2029
+            Orem, UT  84059
+
+    Please print and fill out the Software Storm order form and send
+    it with your order.  The order form is in the file ORDER.FRM, and
+	at the end of this HELP.TXT file (see below).
+
+            Thanks!!
+
+                        SOFTWARE STORM ORDER FORM
+
+Name _______________________________________________________________________
+
+Address ____________________________________________________________________
+
+City _________________________ State/Province __________ ZIP _______________
+
+Country (if not USA) ____________________ Phone/Fax ________________________
+
+
+Please send me BreakFree, for $14.95.
+
+
+Disk size:    [ ] 3.5 inch diskette    [ ] 5.25 inch diskette
+
+Quantity:   _____ X $14.95 = $___________
+
+Shipping and Handling:       $___________
+  U.S. orders add $3.
+  All others add $5.
+
+Total amount enclosed:       $___________
+
+Please send check or money order, payable to "Software Storm",
+with this order form to:
+
+          Software Storm
+          P.O. Box  2029
+          Orem, UT  84059
+
+Please allow 4 to 6 weeks for delivery.
+
+*** Thank you! *************************************************************
+
+We'd like to know more about you:
+
+Is this your first order with Software Storm?  [ ] Yes  [ ] No
+
+Where did you find this game?
+   [ ] BBS
+   [ ] Information Service (CompuServe, etc.)
+   [ ] friend
+   [ ] retail store
+   [ ] other ______________
+
+Have you purchased any other shareware software?  [ ] Yes  [ ] No
+
+Computer:  [ ] 286  [ ] 386  [ ] 486  [ ] Pentium/586
+
+Processor speed (in MHZ):  [ ] 12  [ ] 16  [ ] 20  [ ] 25
+   [ ] 33  [ ] 50  [ ] 66  [ ] 99 or greater (wow!)
+                                                                        bf100
+============================================================================
+To print these help instructions, with the oder form, type:
+COPY HELP.TXT PRN:
+

@@ -1,0 +1,52 @@
+BM Read Me File - 15/05/95
+
+
+
+
+Ce fichier est … lire avant toute utilisation de Break Machine
+
+problŠmes (bugs) connus:
+------------------------
+          - si vous d‚marrez Break Machine avec les sons digitaux,
+            vous ne pourrez utiliser de programmes en mode prot‚g‚
+            (comme Windows) cons‚cutivement … l'utilisation de BM.
+            Rebootez l'ordinateur si n‚cessaire.
+
+
+utilisation du programme READ.EXE
+---------------------------------
+  tapez READ NOMFIC.DOC pour lire le fichier NOMFIC.DOC
+
+  les touches HAUT et BAS d‚placent le texte d'une ligne vers le haut
+  ou vers le bas.
+
+  les touches PAGE DOWN et PAGE UP d‚placent le texte d'une page vers
+  le haut ou vers le bas.
+
+  la touche ESCAPE ou ECHAP quitte le programme.
+
+
+
+  veuillez consulter les fichier BMFR.DOC et SETUPFR.DOC
+  avant d'installer Break Machine, S.V.P.
+
+  consultez le fichier FILES.DOC pour la liste des fichiers
+  du programme.
+
+
+
+  Note : - Le fichier archive de Break Machine devra s'appeller
+           BMSHARE.<Extension de l'archive> S.V.P.
+
+
+
+
+  ATTENTION :  Nous recherchons des distributeurs : contactez-nous !
+
+               COPUSERVER USER ID = 100625.632
+
+
+
+  (C) 1995, IO DESIGN
+
+

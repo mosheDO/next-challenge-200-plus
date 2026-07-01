@@ -1,0 +1,24 @@
+                            ULTIMATE GIN
+                            packing list
+
+The following files must be present on disk in the same directory
+to insure your program functions properly.
+
+       1. p1.t through p8.t
+       2. gin.exe
+       3. ginbook.exe
+       4. gin.lpl
+       5. gin.lsc
+       6. manual.txt
+       7. orderfrm.txt
+       8. packlist.txt
+
+The following additional files must be present if you have ordered
+the Voice Pack for this game.
+
+       1. p1.v throught p8.v
+       2. g2gmain.v
+
+
+
+

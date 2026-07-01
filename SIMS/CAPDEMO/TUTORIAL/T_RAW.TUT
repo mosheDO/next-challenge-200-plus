@@ -1,0 +1,171 @@
+In this lesson, you will set up a mining company and start a raw
+material production business.
+
+In this tutorial, the following hot keys can be used:
+
+[Esc]              - Quit the tutorial.
+[Back Space] - Go back one tutorial step.
+
+pos   : 281, 88, 308, 101
+mouse : left single
+First, you need to locate a site with reserves of natural
+resources. Click the Resource Map button to view all natural
+resource reserves in the map.
+
+pos : 146, 142
+On the resource map, locations that have natural resource
+reserves are represented by the first letter of the resource's name.
+For example, oil is shown on the map with the letter "O".
+
+pos   : 217, 148, 227, 156
+mouse : left double
+Double-click on the letter "I" to jump to a location with iron
+ore reserves.
+
+pos : 470, 267
+When you highlight a location with a natural resource reserve,
+its information is shown here. The reserve level, ranging from 1
+to 100, is the size of the reserve. The quality rating, also
+in the range of 1 to 100, indicates the quality of the natural
+resource. Land with both high reserves and high quality have
+a higher cost than land with either low reserves or low quality.
+
+pos   : 276, 312, 313, 334
+mouse : left single
+This location seems to be a reasonable choice.
+
+Click the Build button to set up a mining company here.
+
+pos : 13, 321, 117, 329
+mouse : left single
+Select "Mining Company".
+
+pos   : 571, 417, 619, 453
+mouse : left single
+
+Notice that the combined cost of the land and construction is
+greater than your current capital. At this point, one of your
+opinions is to take out a loan from the bank.
+
+pos : 341, 58
+openmenu : 4, 2
+To take out a loan, you select the "Financial" option from the
+"Action" menu.
+
+runmenu : 4, 2
+
+pos : 145, 64, 241, 74
+mouse : left single
+This menu permits several financial actions. Click here to take out
+a bank loan.
+
+pos : 260, 168
+The first figure you should keep in mind is your credit
+limit, which is the maximum amount of money your corporation can
+borrow now. It is determined by the equity and profitability of
+your corporation.
+
+pos : 262, 182
+You should also look at the interest rate. A higher rate, of
+course, mean that a loan costs more, which results in higher loan
+payments.
+
+pos : 243, 212, 248, 222
+mouse : left single
+Now, click the "+" button of the spinner to set the amount
+you want to borrow.
+
+pos : 243, 212, 248, 222
+mouse : right single
+You can right-click on the spinner to increase or decrease the
+value by a large step.
+
+Try right-clicking here.
+
+pos : 396, 214, 443, 223
+mouse : left single
+Press the "Borrow" button to confirm the loan.
+
+pos : 271, 141
+Note the total loan that your corporation and the monthly
+interest payment of the loan is shown in this window once the
+transaction is complete.
+
+pos : 305, 400, 319, 408
+mouse : left single
+action : enable_next_day
+Click the "Ok" button to close the menu.
+
+pos   : 571, 417, 619, 453
+mouse : left single
+Now, you can afford to build an iron mine. Press the "Build"
+button to construct your new mine.
+
+pos   : 276, 285, 313, 308
+mouse : left single
+Click the "Layout" button to see the layout plan of the mining company.
+
+pos       : 334, 259, 397, 314
+mouse     : left double
+checkunit : 1, 8
+A mining company cannot operate without a mining unit.
+
+Double-click here to set up a mining unit.
+
+pos : 190, 291
+Pay special attention to the "Reserve" level, which is the amount
+of reserve remaining in the land. When it reaches zero, the
+reserve is exhausted and you can no longer mine the mineral in
+that location.
+
+pos       : 418, 259, 480, 313
+mouse     : left double
+checkunit : 2, 5
+Instead of linking the mining unit directly to a sale unit, it
+might be a good idea to set up an inventory unit between them. An
+inventory unit provides a place to store large quantities of
+raw materials and can protect against unexpected surges in demand.
+This allows the mining company to continue to serve customers throughout
+an unexpected increase in demand.
+
+Double-click here to create one.
+
+pos       : 503, 261, 561, 312
+mouse     : left double
+checkunit : 3, 12
+Double-click here to set up a sale unit.
+
+pos   : 399, 282, 415, 292
+mouse : left double
+Next, link the units together by switching on the linkage lines between
+them.
+
+Double-click on this line...
+
+pos   : 482, 283, 498, 289
+mouse : left double
+...and double-click this one, too.
+
+pos   : 277,257,312,279
+mouse : left single
+Your mining company is now ready for business. To see a summary of
+current operations, click on the Information button.
+
+pos : 216, 300
+Here you see the summary information for the firm. The first
+three details are obvious; the fourth one, average utilization,
+needs some explanation. It tells how well you are using the
+capacity of the units in the mine. The utilization level of all
+units in the firm is in a range from 0 to 100. If the utilization
+level of this mining company is high, you are running near the
+mine's current capacity. In this case, you can consider adding
+another team of mining and sale units to increase capacity.
+
+Note that most raw materials can be produced by setting up a
+mining company. The exceptions are timber and crude oil. Set up a
+forestry company for timber and a crude oil company for the
+production of crude oil. Setting up a forestry company or a
+crude oil company is very similar to the process for a mining
+company. You now have the basic skills necessary to run a mining
+company. You are now ready to move on to the next lesson.
+

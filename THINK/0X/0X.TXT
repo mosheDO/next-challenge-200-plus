@@ -1,0 +1,21 @@
+
+0x-10   Noughts And Crosses ( line up five pieces ), version 1.0
+
+Copyright (c) 1993, Pentti Moilanen, All Rights Reserved.
+
+Noughts And Crosses.
+The object of the game is to line up five pieces in a row before
+the opponent does. The game is played on a board big enough
+not to usually cause trobles getting near the border.
+In this version the size of the board is 62x62 grid of squares.
+
+Noughts and Crosses requires Microsoft Windows 3.0 or better.
+
+You have right to use, copy and distribute this program
+    -if no charge other than for handling costs is made.
+    -if all three files are copied unmodified. 
+       ( 0x.exe , 0x.hlp and 0x.txt )
+
+The Author of Noughts and Crosses is
+    Pentti Moilanen
+    internet: pentti.moilanen@hut.fi

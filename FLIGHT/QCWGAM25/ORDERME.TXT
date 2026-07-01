@@ -1,0 +1,163 @@
+Quatra Command(tm) 2.05
+Designed and created by Doe Entertainment(R).
+Copyrighted(c) 1994, All Rights Reserved.
+
+PLEASE READ THE FOLLOWING LICENSE AGREEMENT CAREFULLY! USAGE
+OF THE GAME CONSTITUTES ACCEPTANCE OF THESE TERMS.
+
+
+Shareware is "try it before you buy it" software.
+Use the program for a few days and decide whether you'll ever use it again.
+If you plan to keep the software, please pay the authors.
+These fees are small, and bring more than good feelings.
+By paying Shareware fees, you support some of the brightest programmers
+working today as well as qualify yourself for updates and improved
+versions of the programs as they are released. Please honor this system.
+
+
+Terms & Conditions
+
+LIMITED WARRANTY.
+THIS SOFTWARE IS PROVIDED 'AS IS'.  ALL WARRANTIES, EITHER EXPRESSED OR
+IMPLIED, ARE DISCLAIMED AS TO THE SOFTWARE AND ITS QUALITY PERFORMANCE,
+MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  THE ENTIRE RISK
+RELATING TO THE QUALITY AND PERFORMANCE OF THE SOFTWARE IS ASSUMED BY THE
+USER.  IN NO EVENT WILL Doe Entertainment(R) BE LIABLE FOR DIRECT,
+INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES RESULTING FROM THE USE,
+INABILITY TO USE, OR ANY DEFECT IN THE SOFTWARE.  IF THE SOFTWARE PROVES TO
+HAVE DEFECTS, THE USER ASSUMES THE COST OF ANY NECESSARY SERVICING OR REPAIRS.
+
+Copyright (c) 1994 Doe Entertainment(R).
+All rights reserved.  All rights of reproduction in other media reserved.
+
+
+
+ORDER FORM FOR Doe -- QUATRA COMMAND
+
+	Send order form to:
+
+	Doe Entertainment(R)
+	2412 Desert Oak Drive
+	Palmdale, Ca.
+	93550
+	USA
+
+
+	PAYABLE TO : Doe ENTERTAINMENT
+
+	17 US DOLLARS
+	($17 for labor; add $3 for Shipping & Handling)
+	CHECK or MONEY ORDERS (US Currency)
+
+	(outside USA)
+	($17 for labor; add $7 for Shipping & Handling)
+	 Some Form of US currency.
+
+
+ORDER FORM
+
+
+
+
+	PLEASE PRINT WITH BLOCK LETTERS
+
+
+	Version: ___.____ of Quatra Command(tm) Shareware
+
+	Where/How did you get Quatra Command(tm):
+
+	__________________________________________________________
+
+	__________________________________________________________
+
+
+	Name:_____________________________________________________
+
+
+	Company:__________________________________________________
+
+
+	Street address:___________________________________________
+
+
+	City:___________________________ ZIP code:________________
+
+
+	Country:__________________________________________________
+
+
+	Phone:________________________ FAX:_______________________
+
+
+	Age:_____________ Occupation:_____________________________
+
+
+**      Please answer some questions about your hardware:
+
+**      Machine type:
+
+	[ ]     386SX           Processor speed:________MHz
+	[ ]     386DX
+	[ ]     486SX           Amount of cache:________KB
+	[ ]     486DX
+
+	[ ]     other:__________________________
+
+	RAM:_______MB           Hard disk:________MB
+
+
+**      Floppy disk type:   [ ] 3.5"   [ ] 5.25"
+
+**      Video subsystem:
+
+	[ ]     CGA or lower    Amount of video memory:_________KB
+	[ ]     EGA
+	[ ]     VGA
+	[ ]     SVGA
+	[ ]     other:_______________________
+
+**      Sound card:
+
+	[ ]     Covox (or other DAC)     [ ]    Pro Audio Spectrum
+	[ ]     Sound Blaster            [ ]    Pro Audio Spectrum+
+	[ ]     Sound Blaster Pro        [ ]    Pro Audio Spectrum 16
+	[ ]     Sound Blaster 16         [ ]    Thunder Board
+	[ ]     Gravis Ultra Sound       [ ]    MultiSound
+
+	[ ]     Other:________________________________________
+
+**      Other peripherals (like modem, printer etc...)
+
+
+	_________________________________________________________
+
+
+	_________________________________________________________
+
+
+**      Here you can insert any comments about Quatra Command(tm):
+
+
+	_________________________________________________________
+
+
+	_________________________________________________________
+
+
+	_________________________________________________________
+
+
+
+**      What type of games would you like to see:
+
+
+	_________________________________________________________
+
+
+	_________________________________________________________
+
+
+	_________________________________________________________
+
+
+(c) 1994 Doe Entertainment(R). All Rights Reserved

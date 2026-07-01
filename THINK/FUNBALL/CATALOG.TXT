@@ -1,0 +1,253 @@
+______________________________________________________________________________
+
+                      I M P U L S E   G A M E S   I N C.
+
+                               SOFTWARE CATALOG
+______________________________________________________________________________
+
+Impulse Games is committed to bringing you the most enjoyable games available.
+Browse through our catalog to find out about the other exciting products that
+are available now!  There is also an easy-to-use order form included with the
+filename "ORDERFRM.TXT"
+
+Call TOLL-FREE, 24 hours a day: 1-800-6-IMPULSE       MAIL orders to:
+           FOREIGN ORDERS call: 1-317-271-4409
+     or FAX your order form to: 1-317-247-1009          IMPULSE GAMES
+                                                        P.O. BOX 31199
+ You can now order ON-LINE for instant software!        INDIANAPOLIS, IN 46231
+Call the Software Creations BBS at 1-508-368-7139
+      and type "STORE" from the main menu.
+
+If you have a problem using any of our software, just call our tech support
+line during normal business hours at (317)271-4409.  Our technicians do not
+have any hints or tips for gameplay, but they can assist you with problems
+relating to installing and running any of our products.
+______________________________________________________________________________
+______________________________________________________________________________
+______________________________________________________________________________
+
+  Call Software Creations BBS to get our latest trial version software FREE!
+
+                           Software Creations BBS
+                           "Home of the Authors!"
+
+                      2400 - 16.8K baud: (508)368-7139
+                     16.8K - 28.8K baud: (508)365-9352
+
+______________________________________________________________________________
+
+FUNBALL                                                                 $19.95
+
+  Wrack your brains on this strategy game played on a huge
+  scrolling playfield in 256 colors. Make balls bounce,
+  merge, shatter, shrink, slide, teleport and explode in
+  devilish patterns to try and overcome your opponent.
+  Cringe in horror as the robot player jumps in and destroys
+  whole ranks of your own balls in one fell swoop! Featuring
+  features digitized sounds and smooth ray-traced
+  ball-gobbling animations.
+  Supports SoundBlaster compatible cards for music and sound.
+  Runs entirely in English, French and German.
+
+REQUIREMENTS :  VGA   286+ CPU   MOUSE
+ALSO SUPPORTS:  SoundBlaster compatible sound cards
+
+______________________________________________________________________________
+
+SHIH DAO                                                                $19.95
+
+  Based on a game played in ancient China, Shih Dao is the
+  ultimate strategy game.  Call upon your deepest powers of
+  intuition as you match beautifully rendered tiles!  You
+  will learn new puzzle skills while using logic and
+  cunning to match tiles and form the four-way combinations
+  that are the mark of the true Shih Dao master!  Test your
+  skills with those of the masters in the ultimate oriental
+  mind game.  Includes a variety of boards and tiles with
+  fantastic 256 color SVGA graphics.
+
+REQUIREMENTS :  WINDOWS
+ALSO SUPPORTS:  SVGA   Windows compatible sound cards
+______________________________________________________________________________
+
+ENTOMBED                                                                $39.95
+  CD-ROM VERSION                                                        $59.95
+
+  You play the role of an archaeologist who becomes trapped in
+  an ancient tomb in this ultimate 3-D puzzle adventure game!
+  Breathtaking raytraced 640x480 SVGA graphics in the Windows
+  environment take this a step beyond games like 7th Guest and
+  Myst.  Alone you must navigate your way through deadly traps,
+  intricate puzzles, and involved mazes as you try to escape
+  from your harsh captor before it claims another victim.  What
+  did become of the race that created this vast underground
+  metropolis, and what is its purpose?  Communication with
+  another realm?  Time travel?  Explore 5 detailed levels with
+  over 40 megabytes of graphics.  Excellent digital sound on
+  all Windows compatible sound cards.
+  The CD-ROM version of the game includes an incredible 16-bit
+  CD quality soundtrack, studio recorded narration, and an
+  enhanced ending sequence for over 200 megabytes more than the
+  disk version.
+
+REQUIREMENTS :  WINDOWS 3.1 WITH 386+ CPU   512K SVGA   2MB RAM
+ALSO SUPPORTS:  Windows compatible sound cards
+______________________________________________________________________________
+
+TUBES                                                                   $19.95
+
+  Help Dr. Lanny B. Brilliant form new molecules and win the
+  Nobel Prize!  Your goal is to match 3 or more similar atoms
+  before your beaker overflows.  Create new molecules while
+  watching out for mischief crystals and other bad elements.
+  Watch newly formed atomic chains disappear in a whirl of
+  animation!  Impressive digital sound on the Sound Blaster
+  or PC Speaker with an original musical score for Adlib
+  compatible sound cards.
+
+REQUIREMENTS :  VGA   286+ CPU
+ALSO SUPPORTS:  Sound Blaster/Adlib   Joysticks
+______________________________________________________________________________
+
+GOD OF THUNDER                                                          $24.95
+  GOD OF THUNDER HINT BOOK!  90 Pages, Fully Illustrated                 $9.95
+
+  Thor battles and plots his way past dozens of puzzles and
+  hundreds of enemies to reach the final showdown with the three
+  evil boss creatures who are terrorizing innocent villagers!
+  A great adventure with fun, Zelda-style gameplay and an
+  engrossing story line of an enchanted past!  Includes Sound
+  Blaster digital sound and a complete musical soundtrack.
+
+REQUIREMENTS :  VGA   286+ CPU
+ALSO SUPPORTS:  Sound Blaster/Adlib   Joysticks
+______________________________________________________________________________
+
+ARGO CHECKERS                                                           $14.95
+
+  Gorgeous graphics, great sound, and smooth play make this the
+  most enjoyable Checkers game ever! Includes over a MEG (before
+  compression) of animated 256 color VGA graphics & digital sound.
+  From the developers of HEXXAGON.
+
+REQUIREMENTS :  VGA   286+ CPU
+ALSO SUPPORTS:  Sound Blaster   Mouse
+______________________________________________________________________________
+
+FILECLIP                                                                $17.95
+
+  FileClip is a simple utility that can be used to augment or
+  replace the Windows File Manager.  Whether you are a novice
+  or a power user, you'll find that FileClip provides a conven-
+  ient way to locate and handle files.  In addition, FileClip
+  greatly enhances the functionality of the Windows Clipboard
+  with the enhanced Clipboard utility in Windows for Workgroups.
+  With FileClip, you can create a clipboard stack.  The stack
+  stores a history of the clipboard, which means you can have a
+  multiple undo capability. In addition, FileClip enhances your
+  ability to paste between applications.  FileClip has been
+  completely revamped for version 4.0, it now is easier to use
+  and far more powerful than any other file manager on the market!
+
+REQUIREMENTS :  Windows 3.1   286+ CPU
+______________________________________________________________________________
+
+SQUAREZ DELUXE                                                          $19.95
+
+  Devastator bombs, missiles, and hazardous chemicals dominate
+  the playing field as you try to maneuver ahead of your
+  opponent!  Get a new look at Tetris-style games from the
+  author of Jetpack.  With the enthralling combination of
+  action and strategy you can blow your opponent away, or race
+  the clock for hours of stimulating action!  Maneuver your
+  pieces filled with bizarre items to form 'squarez' and keep
+  your area clear.  Join the ranks of Squarez addicts!  Fast
+  puzzle action with excellent 256 color VGA graphics.
+
+REQUIREMENTS :  VGA   PC compatible
+ALSO SUPPORTS:  Sound Blaster/Adlib   Joysticks   Mouse
+______________________________________________________________________________
+
+HEXXAGON                                                                $19.95
+
+  The dictionary defines agon as a classic struggle.  Classic,
+  indeed -- the days of sterile strategy games are over! Immerse
+  yourself in one of the most enjoyable and richly crafted games
+  to date.  The fully animated 256 color graphics and completely
+  digital sound (for SoundBlaster compatibles) will seduce even
+  those who don't consider themselves "strategy game" players.
+  With an almost infinite number of board configurations possible
+  (5 favorites can be saved), the friendliest menus, and CRANIAC
+  -- the unfriendliest of computer opponents -- HEXXAGON will
+  provide hours of fun and intellectual excitement!
+
+REQUIREMENTS :  VGA   286+ CPU
+ALSO SUPPORTS:  Sound Blaster   Mouse
+______________________________________________________________________________
+
+NIGHT RAID                                                              $14.95
+
+  Violate the Geneva Convention-blast your enemy's paratroopers
+  out of the sky in this fast action arcade game!  Defend your
+  lonely desert bunker against wave after wave of invaders and
+  their delivery aircraft.  Get Night Raid, and discover adren-
+  aline pumping fun!  Supports MULTI-CHANNEL digital sound on a
+  SoundBlaster (or 100% compatible) or the Disney Sound Source,
+  and music playback on AdLib/SoundBlaster.
+
+REQUIREMENTS :  VGA   286+ CPU
+ALSO SUPPORTS:  Sound Blaster/Adlib   Sound Source   Mouse
+______________________________________________________________________________
+
+JETPACK                                                                 $19.95
+  JETPACK HINT BOOK!  127 Pages, Fully Illustrated                       $9.95
+
+  Conquer and explore 100 treacherous levels of dungeons with
+  your model L-1069E Jetpack!  Equipped with Jet Turbines and
+  armed with a powerful Phase Shifter, you quest for precious
+  gems through dungeons full of treasures and peril.  With the
+  BUILT-IN EDITOR you can create and collect thousands of
+  levels! Up to 8 players, joysticks supported. Fast 256 color
+  VGA arcade action with digital Sound Blaster support!
+
+REQUIREMENTS :  VGA   PC compatible
+ALSO SUPPORTS:  Sound Blaster/Adlib   Joysticks
+______________________________________________________________________________
+
+GENERAL TRIVIA (one of the Trivia Shell products)                       $16.95
+
+  General Trivia lets you get information on everything
+  under the sun and beyond. Learn about National Hobo
+  Conventions, the man who made the longest recorded speech to
+  the United Nations, the person who started a republic called
+  New Atlantis, the US president who skinny-dipped in the
+  Potomac River almost daily and the first country ever to pass
+  legislation against foul odors.  600 questions!
+
+  Catagories Include: States, History, Landmarks, Military,
+  Politics, Occupations, Nicknames, The Arts, Famous People,
+  Misc., Nature, Science, Quotes, Sports, Geography.
+
+  This is just one of over 35 Trivia Shell products available!
+  Request a Trivia Shell catalog!
+
+REQUIREMENTS :  EGA   PC compatible
+ALSO SUPPORTS:  Mouse
+______________________________________________________________________________
+
+PICTURE PUZZLE                                                          $16.95
+
+  Picture Puzzle allows you to load and scramble an EGA Pic-
+  ture from 4 to 1400 pieces.  Make the puzzles any size you
+  want, turn the grid on or off, view a scaled down version
+  of the picture into a window for help.  You can watch the
+  grid disappear as you build the puzzle and get the correct
+  pieces. Save puzzles and work on them later.  Send and ask
+  about all our puzzle collections and get a color catalog.
+  Great for ages 7 to 70!  Deluxe version also available!
+
+REQUIREMENTS :  EGA   PC compatible
+ALSO SUPPORTS:  Mouse
+______________________________________________________________________________
+______________________________________________________________________________
+______________________________________________________________________________

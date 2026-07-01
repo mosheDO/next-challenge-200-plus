@@ -1,0 +1,18 @@
+The 3D Cubic game contains following files:
+
+3DCUBIC.EXE    -- Cubic Game
+3DCUBIC.HLP    -- Online help file for Cubic Game
+README.BAT     -- Introduction to Cubic Game and Instructions to play
+                  Just type README, and it will show you all the help
+                  you will need to play this game.
+INSTALL.BAT    -- Batch file that installs Cubic Game on hard disk
+INSTALL2.BAT   -- Supplementary batch file needed for INSTALL.BAT
+GO.BAT         -- Batch file that invokes Cubic Game
+                  To execute Cubic Game, just type GO and press ENTER.
+3DCUBIC.ICN    -- Cubic Game icon for Microsoft Windows
+REGISTER.FRM   -- Registeration form to license this game.
+SOLVED.GAM     -- One saved Cubic Game to show the example of
+                  solved game.
+PACKAGE.LST    -- The file you are reading now.
+
+

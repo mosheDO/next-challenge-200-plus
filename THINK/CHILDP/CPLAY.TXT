@@ -1,0 +1,166 @@
+                          CHILD'S PLAY
+
+REQUIRES:
+
+256 color video driver, Windows 3.1, VBRUN300.DLL.
+
+INSTALLING:
+
+1. Create a directory.
+2. Copy the contents (a compressed ZIP file or a disk) into the 
+   directory you created.
+3. In FILE MANAGER, look into the directory you created. Look for 
+   CHLDPLAY.EXE. Click this, drag it to the program manager and
+   drop it into the Group of choice. This sets up the icon for you. 
+
+INTRODUCTION:
+
+Keep your kids busy for hours with the best paint/art program in the
+shareware marketplace with Child's Play. It's so easy that your kids
+will have this mastered in no time. More importantly, it is FUN!
+
+Child's Play mixes art creation tools, screen erasers and special 
+effects to bring out the young artist. This is the one program that 
+kids never seem to tire of.
+
+Child's Play takes full screen. This keeps kids from mousing over to
+other places in Windows and potentially destroying something. Although
+they can still Alt-Tab into another program, Child's Play is so mouse
+intensive that it isn't likely that they will do this.
+
+In addition, Child's Play is also an educational tool in that the mouse 
+actions used to draw are the same ones used in programs used in adult
+programs. Drawing rectangles, dragging stamps and other actions will help
+prepare them for similar actions such as "drag and drop" later in life. 
+Similarly, by supporting the right mouse button (although there is no
+requirement to use it) your child becomes used to the idea that more than 
+one mouse button can do things.
+
+OPERATION: 
+
+To operate, note that there are 2 3d pushbuttons on screen at the upper
+left. The top one is the "menu" and the one underneath is UNDO. The 
+menu button allows you to choose from a list of buttons on a 'flyout'
+bar:
+
+Draw Tools/Erasers/Effects/Stamps/Text/Load/Save/Print/Sound/Help/About/Exit
+
+The HELP window will describe the operation of the first 3 sets of tools;
+when you have selected DRAWING TOOLS or STAMPS the red arrow buttons on 
+the left of the screen will cycle through the available choices. 
+
+STAMPS will smear if the mouse button is being pressed and the mouse is 
+moving. This is intentional; kids like the effect. Single stamps can be 
+deposited once per mouse click.
+
+TEXT will allow the child to type on screen.
+
+SOUND toggles the sound effects off and on.
+
+HELP brings up a window that describes the drawing tools, erasers, and 
+special effects.
+
+ABOUT tells you who we are and how to order. 
+
+EXIT lets you quit the program.
+
+
+COLORS:
+
+Child's Play is a 256 color program and will use either mouse button. If you
+look at the upper left of the screen, you'll see 2 boxes with color in them. 
+They correspond to the colors assigned to the left and right mouse buttons. 
+(Young children won't much care about the right mouse button, but the older 
+kids will.) To select a color for the right mouse button, just choose a color
+from the color palette at the screen top with the right button instead of the
+left. You can access the rest of the color palette by clicking the boxes at 
+the upper left described above; a window will pop up with the available color
+spectrum.
+
+
+HOW TO ORDER:
+
+In North America, if ordering by credit card, call 1-800-242-4775 and order 
+product # 11588. If ordering Child's Play, it is $19.95. "Child's Play Pro"
+(Le Paint Petite) is $24.95.
+
+If ordering by mail, send to:
+
+ASL
+P.O. Box 581
+Ruidoso, NM 88345
+
+Make checks payable to "Alston Software Labs".
+
+In the UK and Europe, contact:
+
+The Thompson Partnership
+Churchcroft, Bramshall
+Uttoxeter, Staffs ST145DE
+(0)889-564601 Fax (0)889-563219
+
+Tech Support/general queries in the US is at (209) 522-8666.
+
+
+WHAT YOU GET:
+
+Ordering Child's Play ($19.95) will get you the registered version of this
+program which has more sound effects, no registration reminders, and no
+"Test Drive" marks on saved or printed pictures.
+
+If ordering Child's Play Pro, you'll receive a copy of Le Paint Petite, 
+which is a much more advanced program. Le Paint Petite is the same engine
+that is being used in many new retail products (you'll see variations of
+it on a few upcoming CD's from "name" companies if you look.)
+
+Offering many more tools, Le Paint Petite is also faster (we used another
+compiler) and has many other advantages. These are:
+
+1) 72 Rubber Stamps
+2) About 2 dozen more drawing tools, including quill pens, charcoal pencils,
+   tri-color spray paint, freehand fills, string art, propellers, cloth, 
+   patterned fills, radio waves, and more.
+3) 24 screen erasers
+4) 24 special effects
+5) Wordless picture loading using thumbnail pictures. What this means is that
+   rather than giving a name to a picture to load (and having to guess if it 
+   is the correct picture), the available pictures are presented in a 
+   miniature format. Choosing the picture to play with is now as simple as 
+   pointing to it.
+6) More sound effects!
+7) Picture compression. On a 800x600 display, the VB based Child's Play will
+   save a picture in BMP format at roughly 421,000 bytes. Le Paint Petite 
+   uses compressed DIB technology, meaning that pictures of the same sized 
+   drawing area will be saved in about 1/4 the size.
+8) Picture management. Use of thumbnails means that the child can also delete
+   unwanted or old pictures easily.
+9) Ability to print on PostScript printers. (Child's Play will only print on 
+   printers that use a PCL type technology.)
+10) Installer.
+11) Le Paint Petite is FAST.
+12) There's more in this list, but you get the idea. 
+
+Le Paint Petite is not available as shareware, but through Child's Play we 
+can offer it to our shareware customers. Just remember to order "Child's 
+Play Pro".
+
+**************************************************************************
+  The latest ASL titles are available online at (209) 883 - 0ASL. (0275)
+            Log in with your name, use 'ASL' as the password.
+**************************************************************************
+
+VENDOR INFORMATION:
+
+There are three requirements: 
+
+1) You must include VBRUN300.DLL with any copy of Child's Play sold to the end
+   user for purposes of evaluation.
+
+2) You must include "ASL" in any description.
+
+3) Don't sell this for more than $6 US, period, under any circumstance. (Not
+   applicable to CD vendors.)
+
+
+Child's Play and this document Copyright (c) 1994 ASL.
+Le Paint Petite Copyright (c) 1994 ASL.

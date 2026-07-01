@@ -1,0 +1,478 @@
+WELCOME TO CAPITALISM! In this lesson, you will learn how to set
+up a department store to sell products. You will also see some of
+the information reports that let you assess your success in the
+market.
+
+In this tutorial, the following hot keys are available:
+
+[Esc]              - Quit the tutorial.
+[Back Space] - Go back one tutorial step.
+
+pos   : 136, 131
+First, we need to introduce you to the game controls. Look at
+the regional map window. The world in Capitalism is generated
+randomly, so it is different in each game.
+
+pos   : 109, 106
+The words on the map are city names. As in the real world,
+business prospers where people come together. The cities will be
+where most of your business activities take place.
+
+pos   : 89, 72
+Notice the highlight box in the regional map.
+
+pos   : 428, 142
+The area surrounded by the highlight box is magnified in the
+detailed map window.
+
+pos : 103, 91, 116, 103
+mouse : left single
+You can click any area of the regional map to show that area in
+the detailed map.
+
+Try clicking here.
+
+pos : 428, 142
+You can also scroll the detailed map by using the scroll bars at
+the sides of the window or by right-clicking on a site in the map to
+center it on that spot.
+
+Now that you have a basic understanding of the world, it's time
+for you to build your first company.
+
+pos   : 276,312,313,334
+mouse : left single
+Click the Build button.
+
+pos   : 37,290
+These are types of firms that you can build in Capitalism.
+
+pos   : 56,260
+A department store is the easiest to set up and operate, so that is
+where you will start.
+
+The location of the department store can greatly influence its
+profitability. Here are a few suggestions for a good department
+store site.
+
+- Select a city with sufficient population to support
+   strong sales.
+- Building the firm near the city center will attract
+   more customers.
+
+Remember though, that a good location always has a higher land
+cost.
+
+pos        : 326,29,613,222
+wait       : 20,400
+checkpoint : 1
+Now choose a location for your department store in the detail window.
+
+Click the "Continue Tutorial" button when you've made your decision.
+
+pos   : 490,453
+The cost to build this store is shown here.
+
+pos   : 284,15
+You have $10,000,000 cash and can afford it without difficulty.
+
+pos   : 571,417,619,453
+mouse : left single
+Now press the "Build" button to build your first firm.
+
+pos   : 277,257,312,279
+mouse : left single
+Congratulations! You have just set up your first department
+store. Now click the Information button to look at your company.
+
+pos   : 85,390
+This is a picture of the interior of your department store.
+
+pos   : 38,281
+This is the logo of your company. In the tutorial, we have selected
+the logo for you. In a new game, you can select your logo from a
+list of choices.
+
+pos   : 103,281
+This is your portrait. It doesn't look like you? Don't worry,
+you can select it in a new game, too.
+
+pos   : 211,276
+This area shows some key information about your department store.
+
+pos   : 214,390
+This is the revenue graph for your company. It has no revenue yet, but
+we will take care of that in a few moments.
+
+pos   : 466,295
+This area shows the goods that your department store is selling,
+none currently. But we are going to add some soon.
+
+pos   : 276,285,313,308
+mouse : left single
+Click the "Layout" button to see the internal layout of your company.
+
+pos   : 448,361
+There are nine slots here. Each slot represents a space where you can
+set up a business functional unit.
+
+pos       : 334,259,397,314
+mouse     : left double
+checkunit : 1, 10L
+Let's set up a purchasing unit right now. Double-click on this
+slot.
+
+pos   : 200,420
+This is your purchasing unit and these are your employees. You
+have just created jobs for the city. We and the mayor of the
+city thank you for your contribution.
+
+pos       : 418,259,480,313
+mouse     : left double
+checkunit : 2, 12
+You also need to set up a sales unit. Double-click on this slot, and select
+a sales unit.
+
+Now you have both the purchase and sales units. But you still need
+to tell the workers in the purchasing unit to move the purchased
+goods to the sales unit.
+
+pos   : 399,282,415,292
+mouse : left double
+Link these two units together by switching on the linkage line
+between them.
+
+Double-click on this line.
+
+pos   : 334,259,397,314
+mouse : left single
+Now, your company is ready to operate and earn some money. Let's
+purchase some goods from outside suppliers, which in turn will be
+sold to the customers.
+
+Click the purchasing unit.
+
+pos   : 172,340,238,354
+mouse : left single
+Next, click the "Link Supplier" button.
+
+In Capitalism, you can produce goods locally or import them from
+overseas countries. At the beginning of the game, there aren't
+too many good local suppliers yet, so we will import some goods.
+
+pos : 39, 103, 50, 113
+mouse : left double
+In this tutorial, the government has built two seaports. One supplies
+consumer goods and the other supplies raw materials.
+
+Double-click here to highlight the seaport.
+
+action: next_day
+pos   : 372,289
+These are the products available from the seaport. Before picking a
+product, you must consider several factors. The most important are
+price, quality, and brand.
+
+pos   : 404,373
+The price is shown here, but our total cost also includes a freight
+cost related to the distance between your department store and the seaport.
+
+pos   : 370,440
+The quality and brand of the products are represented as numbers.
+Since brands of imported goods are probably unknown to local
+buyers, their brand ratings are always zero unless you arrange some
+advertising for them.
+
+pos   : 368,462
+The overall rating is calculated based on the price, quality,
+and brand rating. Low price, high quality, and a high brand rating
+assure a high overall rating.
+
+pos : 398, 310
+The overall rating is displayed here as an indicator. Each
+portion represents a different aspect of the product and their
+combined rating becomes the overall rating of the product. The
+yellow portion represents the price attractiveness of the
+product, the green portion represents its quality, and the orange
+portion represents its brand rating. Since the product's brand
+rating is zero, you do not see any orange portion right now.
+
+It seems that you could simply pick the product with the highest
+overall rating. But you must consider other factors, such as the
+freight cost, demand of the product in your city, and the
+products offered by your competitors. We will discuss each of
+these factors, but right now let's just pick a product to keep
+things moving along.
+
+pos   : 277,257,312,279
+mouse : left single
+Click the "Link" button to establish a purchase link with the
+supplier. This tells your purchasing unit to buy this product.
+
+pos   : 38,284
+Your staff is now preparing to take delivery of the goods from the supplier.
+
+In Capitalism, you only need to tell the purchasing unit which
+product you want to buy. Your staff will keep purchasing the
+product until the supply of the product is no longer available.
+
+pos   : 334,259,397,314
+Currently, the goods you have ordered are still on their way to
+your department store.
+
+pos   : 334,259,397,314
+action: next_day
+Now they are being unloaded...
+
+pos   : 334,259,397,314
+action: enable_next_day
+This area shows the stock of the product in the unit. Each box
+represents one cargo of the product. Each cargo can store a
+number of units of the product. The number of units a cargo can hold
+varies from product to product. For some expensive products, such
+as cars, one cargo can hold only a few units of the product.
+For lower-cost products, such as shampoo, one cargo can hold up
+to several thousand units of the product. This makes the total
+value of all cargoes of all types of products about the same.
+
+pos   : 418,259,480,313
+Now, the goods are moving to the sales unit from the purchasing
+unit. Once the goods reach the sales unit, you are in the retail
+business.
+
+pos   : 277,257,312,279
+mouse : left single
+To find out sales information for the product, click the
+Information button.
+
+pos : 366, 293
+This browser shows products that are being sold in the department
+store. At the sides of each product picture, there are several
+bar and line indicators. By reading these indicators, you find
+out how well the product is selling.
+
+pos : 360, 324
+Underneath the picture of the product, there are two horizontal
+lines. The upper blue one is the supply line and the lower red
+one is the demand line. Since the product has just been launched
+into the market, there isn't much demand yet. Thus, the red
+line is extremely short and looks like a small dot.
+
+pos : 360, 324
+If the supply line is longer than the demand line, the supply of
+the product is more than the demand. This implies that the
+product's profitability might not be fully exploited yet. It has
+the capacity to meet more demand and generate more revenue.
+
+pos : 360, 324
+Conversely, if the demand line is longer than the supply line,
+this indicates that the firm is not able to supply enough goods
+to meet the demand. In this situation, try to lift the supply,
+because any additional supply will be turned into sales.
+
+pos : 408, 305
+When your product begins to gain ground in the market, you see a
+red vertical bar showing the market share of the current product
+in the city. If the length of the bar is close to its maximum,
+your product is dominating the market in this city.
+
+pos : 402, 324
+Another indicator you see here is the brand owner indicator.
+It shows the corporate color of the brand owner of each product.
+
+pos : 552, 389
+The sale information for the highlighted product in the browser
+is shown here. Three types of graphs are available: revenue,
+quantity sold and gross profit. Select the graph you want to see
+by pressing the appropriate button above the graph.
+
+action : disable_next_day
+You now have a basic understanding of how a department store
+operates and have set up a sound one.
+
+pos : 335, 261, 388, 314
+mouse : right single
+However, to survive in a highly competitive market, you must
+understand the market status of your company, as well as where
+your competitors stand. To help you, Capitalism has several
+market analysis tools. The first one you should examine is the
+product detail report.
+
+Right-click on the product picture to display it, now.
+
+pos : 440, 260
+Here is the product detail report. First, let's look
+at the product browser. It lists all products of the same
+type currently being sold in the city, including yours and those
+of your competitors. The price, quality rating, and brand rating
+of each product are shown. To get more information about a
+specific product, simply highlight it in the browser.
+
+You then see the details related to price, brand, and quality
+displayed in the lower section of the report. These data
+may seem complicated, but they are just a condensed form
+of what you will learn in later lessons on manufacturing
+and advertising. For now, we will ignore these items.
+
+pos : 116, 169
+In the upper part of the report, there are two graphs. The left
+one shows the combined sales of the current product type in the
+current city over the past 12 months, while the right one shows
+the sales of the highlighted product only.
+
+pos : 168, 438
+In the default setting, revenue data are shown in the graphs.
+If you click the "Qty Sold Graph" button, then quantity sold
+data are displayed instead.
+
+pos : 222, 175
+To the right of the graphs are a pair of pie charts. The
+left one shows each producer's share in the market and the right
+one shows each retailer's share in the market. You can identify
+the owning corporation by the color of the pie sections. The white
+section represents the combined market share of all local
+competitors in the city.
+
+pos : 384, 185
+As just mentioned, there are local competitors in each city.
+Although their firms are not shown in the game map, they do
+compete directly with corporations in the game. Sometimes they
+may even be the major competing force in the market.
+
+You can refer to this area for the average price, quality rating,
+brand rating, and overall rating of the goods that the local
+competitors in the city are selling.
+
+pos : 459, 184
+Next to the information about the local competitors, you see the
+average price, quality rating, brand rating, and overall rating of
+all products from both corporations and local competitors. By
+comparing your numbers to the averages, you get an overview of
+your competitive position in the city.
+
+When consumers buy a product, they usually consider several
+factors. The three most important factors are price, quality, and
+brand. The importance of these three factors, however, varies from product
+to product. For example, when buying a pair of sport shoes, a
+consumer is concerned more about the brand than the price. In
+contrast, when buying a piece of frozen meat, a consumer is
+usually concerned more about the price and less about the brand.
+
+pos : 537, 164
+Based on this consumer behavior, the game assigns a set of
+predefined values to each product. These are "price concern,"
+"quality concern," and "brand concern." They are shown as
+percentages; their sum is always 100%. For example, when a
+consumer is buying a product with 50% price concern, 30% quality
+concern, and 20% brand concern, the foremost criterion in the
+consumer's selection is price, with quality second, and brand
+last.
+
+pos : 480, 230
+You may have noticed that these concern numbers are also shown on
+the top of the browser, next to their descriptions. This lets you
+get a quick glimpse of the concern numbers while you are reading
+the information in the browser.
+
+pos : 170, 95
+Another important number is the necessity index. A high
+index value means that the product is necessary to people in their
+daily life. The demand for necessary goods is fairly constant, as
+people must buy them even if the value they offer is not attractive.
+The attractiveness of a product is represented by its overall rating.
+
+pos : 170, 95
+In contrast, the demand for non-necessary goods is strongly
+influenced by the attractiveness of the goods. Thus, sometimes,
+cutting price does not result in reduced profit, as it can
+stimulate the demand. The increased demand may more than
+offset the reduced profit margin.
+
+pos : 450, 89
+This report also allows you to look at the market information for other
+cities. You can select a city you are interested in from this list.
+The population of each city is shown next to the city name in
+brackets.
+
+pos : 309, 429, 395, 442
+mouse : left single
+The product summary report shows much the same information, but on
+several products at a time. It is useful when you want general
+information on several products at once, rather than all the information
+on a single product. Let's look at that report now.
+
+Click here to display it.
+
+pos : 134, 190
+This report has a lot in common with the product detail
+report. The most obvious similarity is the sales graph. It shows
+the combined sales of the current product type in the current
+city over the past 12 months, just like the one in the product
+detail report.
+
+pos : 233, 194
+The pie charts are also no different from those in the product
+detail report. The left one shows each producer's share of the
+market and the right one tells each retailer's share of the
+market.
+
+There are several additional features in this report. One of the
+most useful features is display filtering. You can control the
+types of products listed in the report by setting the display
+filters. There are four display filters in this report.
+
+pos : 77, 64
+The first filter is the "Product Availability Filter." If you set it
+to "Has Trade Sales," the report shows only products that are
+available in the trading market. If you set it to "Has Retail Sales,"
+then only products that currently have corporate retail sales are
+displayed.
+
+pos : 200, 64
+The second filter is the "Product Category Filter." Set it to
+"Consumer Goods" to show only consumer goods. Set it to
+"Industrial Goods" to show only industrial goods.
+
+pos : 334, 76
+The third filter is the "Corporation Filter."  If this filter is set
+to a specific corporation instead of "All" corporations, the
+report will list only those products that are being produced or
+retailed by that corporation.
+
+pos : 500, 90
+The final filter is the "City Filter." If this filter is set to "All
+Cities," the report shows the combined sales of the listed products
+in all cities. If it is set to a specific city, then only the
+sales information of that specific city will be shown. It also shows the
+population of each city next to the city name.
+
+pos : 280, 310, 350, 370
+To browse through the data, use the scroll bar or click
+the body area of the browser. If you click the upper half of the
+body area, the browser scrolls up. Likewise, if you click the
+lower half of the body area, the browser scrolls down.
+
+pos : 67, 195
+The product picture itself is a hyper-text button. Click the button
+to display its product detail report.
+
+pos : 304, 426, 324, 441
+mouse : left single
+Okay, it's time to go back to your department store.
+
+Click here to close the report.
+
+pos : 430, 397
+After reading the reports, you may need to take some actions to
+compete successfully in the market. You can react to competition
+by adjusting the selling price of your products. To change the
+selling price of a product use the "New Price" spinner and press
+the "Confirm" button to confirm the change.
+
+
+Price cutting is probably not the best way to outperform your
+competitors. In future tutorials you will learn many new ways to
+enhance the sales of your products. Take some time to review what you
+have just learned and when you are ready move on to the more advanced
+tutorials.
+

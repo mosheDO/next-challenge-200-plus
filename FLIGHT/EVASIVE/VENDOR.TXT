@@ -1,0 +1,90 @@
+ÿ       ---------------------------------------------------------------
+ÿ                             Vendor Information
+ÿ       
+ÿ          Copyright 1994 Exaggerated Software.  All Rights Reserved.
+ÿ       ---------------------------------------------------------------
+ÿ       
+ÿÿ      Exaggerated Software
+ÿ       --------------------
+            You may distribute this shareware game under  the  following
+        conditions:
+        
+            - You specifically mention shareware and  it's  "try  before
+              you buy"  nature  explaining  that  the  customer  is  not
+              purchasing the software and make no  references  to  "free
+              software."
+            - You charge no more then US$5 per disk.
+        
+            and the most IMPORTANT condition:
+        
+            - You do not put the software in packaging  and  sell  in  a
+              retail environment, such as a book, computer, or  discount
+              store.  For this we will require a very small royalty  for
+              each unit  sold  or  some  similiar  arrangement.    We're
+              flexable, just contact us.
+              NOTE: This is commonly refered to as  "rackware",  vendors
+              who sell nothing but the disk from their own store, may do
+              so.
+        
+            Feel free to take your own screen shots from  this  game  to
+        promote it in your publications.  We'd love to see any published
+        reviews or colour catalogs featuring the game.
+        
+            Currently we are ignoring the market abroad as we don't have
+        the contacts, and we wish to establish ourselfs in North America
+        first.  If your company is currently  taking  orders  for  other
+        shareware game companies, and you're interested in selling  this
+        and future products in your country, please write to us.
+        
+            Contact us at:
+        
+                 Exaggerated Software
+                 c/o Chris Blackwell
+                 238 Renforth Drive
+                 Etobicoke, Ontario
+                 Canada M9C 2K9
+        
+        
+ÿÿ      Descriptions
+ÿ       ------------
+            The following are  descriptions  you  may  use  to  describe
+        Evasive Maneuvers:
+        
+            Short:
+        
+            A thrilling flying experience.  This  is  no  game  of  pure
+            destruction, but it sure can be!  VGA,386+. Supports: Adlib,
+            SB, GM
+        
+            Detailed:
+        
+            Lush  graphics,  realistic  digital  sound  effects,  and  a
+            wonderful sound track set the stage for a  thrilling  flying
+            experience.  Just collect fuel.  This is  no  game  of  pure
+            destruction, but it sure can be!  Requires: VGA,  540K,  and
+            at least a 386.  Supports:  Adlib,  Sound  Blaster,  General
+            Midi.
+        
+ÿÿ      Required Hardware
+ÿ       -----------------
+            Evasive Maneuvers requires the following hardware:
+        
+            - At least a 386 processor.  A 486, or Pentium is fine.
+            - The minimum free conventional memory is 395K.
+              Sound will require an additional 125K
+              Music will also require an additional 20K.
+              Total memory requirements are 540K.
+            - A VGA card.  Super VGA and MCGA cards are fine.
+        
+        
+ÿÿ      Optional Hardware
+ÿ       -----------------
+ÿ       
+            Evasive Maneuvers supports the following  optional  hardware
+        which make the game more enjoyable:
+        
+            Sound: Sound Blaster
+        
+            Music: Adlib, General Midi
+        
+            Input Device: Joystick, Mouse

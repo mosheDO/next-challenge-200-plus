@@ -1,0 +1,58 @@
+nager found.
+EMM_HEAP:  PAGE_CNT = 0
+IMAGE:  Initializing.
+MOUSE:  Initializing.
+LIST:  Initializing.
+DLINK:  Initializing.
+READDATA:  Initializing.
+PLANE:  Initializing.
+PIMAGE:  Initializing.
+GRAF:  Initializing.
+CIRC_BUF:  Initializing.
+MOUSEBUF:  Initializing.
+CROSS:  Initializing.
+REGION:  Initializing with 55 regions defined.
+POPUP:  Initializing.
+VIEWPORT:  Initializing.
+MESS:  Initializing.
+COLORS:  Initializing.
+DIGITAL:  Initializing.
+DEBRIS:  Initializing.
+MC_OPEN:  Initializing.
+SOUND:  Initializing.
+BBOX:  Initializing.
+BOMBER:  Initializing.
+MC_DISP:  Initializing.
+MC_SITES:  Initializing.
+MIRV:  Initializing.
+PLAYER:  Initializing.
+CURSOR:  Initializing.
+FORM:  Initializing.
+MC_MENU:  Initializing.
+MC_DEMO:  Initializing.
+CIRCLE:  Initializing.
+BURST:  Initializing.
+MC_HELP:  Initializing.
+NCODE:  Initializing.
+MC:  Initializing.
+GRAF.INIT_GRAF:  GRAPH_DRIVER = 9   GRAPH_MODE = 2
+GRAF.INIT_GRAF:  X MAX = 639   Y MAX = 479
+Patriot Command 1.3D:  Serial number 0016-10161
+MC_OPEN.INIT_MC_OPEN:  Could not find the executable file E:\PATRIOT\PATDEMO.EXE
+MOUSE.INIT_MOUSE:  Number of buttons detected = 2
+PIMAGE.READ_PIMAGE_LIST:  Could not find E:\PATRIOT\PATDEMO.EXE
+MC_OPEN.ATTEMPT_LOAD:  Could not load E:\PATRIOT\PATDEMO.EXE
+MC_OPEN.MAKE_CUR:  TOP_BKG_PTR = nil.
+ECHO:  Initializing.
+Patriot Command 1.3D 
+
+Please mail this file to:
+
+     Timber Valley Software:  BUGS!
+             P.O. Box 80301
+        Portland, OR 97280-1301
+
+Internal program error:  MC_OPEN.MAKE_CUR.
+
+
+And that's all ECHO echoed.

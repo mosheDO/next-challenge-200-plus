@@ -1,0 +1,90 @@
+FOR COMMERCIAL DISTRIBUTORS ONLY:
+
+Note: This is version 3.1 of ROYAL VIDEO POKER, and corrects errors in
+running and installation of the previous version. Specifically:
+
+All error messages now have clean exits to the user's system, and will
+not leave one in graphics mode.
+
+A mouse driver does not have to be installed for the program to run.
+The program will run from a "clean" boot-up, as from a system disk, to
+avoid any TSR problems.
+
+The program may be run from any directory the user desires, including a
+temporary download directory, not only from the royal directory. It will
+also run from a floppy disk, though this is not recommeded.
+
+The program should run from any system that has a popular, or VESA
+compatible, 512K SVGA graphics card or better. Note, however, that not
+all systems will support the text screens in the game: the File Menu and
+the Statistics Screen, even if they can support the graphics screens.
+The only potential solution, if the user encounters this problem, is to
+run the game from a clean boot-up. They can, in any case, be readily exited
+by typing 4 at the File Menu, or hitting either mouse button at the 
+Statistics Screen. They are not essential to running the game in any case,
+as they are extra features only, that may not be important to the user.
+
+If any user has problems with the mouse, this is due to hardware or system
+speed problems. The game is completely playable from the keyboard.
+
+
+This VENDOR.DOC describes the only terms by which I, Charles   
+Lankiwicz, 226-43rd Street; Pittsburgh, PA 15201; (412)-683-1725,
+permit Commercial Distribution of this Program: ROYAL VIDEO POKER.
+
+
+[] Distribute it non-commercially: please see "DOCS.TXT", 
+   and the opening screen on the program.
+   Distribution is non-commercial if it is for free, or by any
+   not-for-profit organization, or by hobby, user or computer
+   interest group to its members, or by any BBS.
+
+By "Commercially distribute" we mean to distribute for gain on
+any medium now or subsequently known, including by direct mail,
+catalog, trade show, or CD ROM.
+
+By "Program" I mean this current version of ROYAL VIDEO POKER, and
+all its related files, and as it may be upgraded or otherwise modified 
+from time-to-time.
+
+A. OWNERSHIP: Except to the extent expressly licensed by me, I
+have and reserve the exclusive copyright and other right, title
+and interest to copy and distribute the Program, and the right to 
+use the Trademark "ROYAL VIDEO POKER" in connection with it.
+
+B. LICENSE: You are licensed to Commercially Distribute the
+Program so long as you [1] market it as shareware using "try
+before you buy" or similar words, in catalogs and other product
+promotion, and [2] distribute all of its files together,
+except that you may add simple introductory or batch files,
+or compress the files as may be necessary,
+so long as they do not interfere with or degrade the performance
+of the Program, and [3] You do not charge a sum for it in excess of other
+shareware programs you are distributing of equivalent size.
+
+
+
+THE PROGRAM IS PROVIDED "AS-IS".  NO WARRANTIES OF ANY KIND,
+EXPRESS OR IMPLIED, ARE MADE AS TO IT OR ANY MEDIUM IT MAY BE
+ON.  WE WILL PROVIDE NO REMEDY FOR INDIRECT, CONSEQUENTIAL,
+PUNITIVE OR INCIDENTAL DAMAGES ARISING FROM IT, INCLUDING SUCH
+FROM NEGLIGENCE, STRICT LIABILITY, OR BREACH OF WARRANTY OR
+CONTRACT, EVEN AFTER NOTICE OF THE POSSIBILITY OF SUCH DAMAGES.
+
+
+You will hold me, harmless from damage, loss and expense arising directly
+or indirectly from your acts and omissions in copying,
+distributing or adding introductory or installation files to the
+Program.
+
+ACCEPTED AND AGREED:
+
+If you distribute this program commercially, you are bound by the terms 
+set forth in this VENDOR.DOC.
+
+If you have any questions, please contact me:
+
+Charles Lankiwicz
+226-43rd Street 
+Pittsburgh, PA 15201
+(412)-683-1725

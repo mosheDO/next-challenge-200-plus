@@ -1,0 +1,20 @@
+;Soundblaster Resource File WW3
+SRESFX:
+	FXEQ WeCrash,2Bang.SND       
+	FXEQ DistBang,2Distant.SND       
+	FXEQ WeShootWep1,2OurGun.SND       
+	FXEQ WeShootWep2,3Launch.SND       
+	FXEQ TheyShootWep1,2Theirgu.SND       
+	FXEQ Launch,2Catapul.SND       
+	FXEQ Lock1,3Lock1.SND       
+	FXEQ Lock2,3Lock2.SND       
+	FXEQ Touchdown,3Wheel.SND       
+	FXEQ WePickle,3Bleeps.SND       
+	FXEQ UCarriage,4Clang.SND       
+
+MELRES:
+	MELEQ EVA-WW3.KMD
+
+ENDSRES:
+
+

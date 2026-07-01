@@ -1,0 +1,113 @@
+ÿ       ---------------------------------------------------------------
+ÿ                         Problem Solving Information
+ÿ       
+ÿ          Copyright 1994 Exaggerated Software.  All Rights Reserved.
+ÿ       ---------------------------------------------------------------
+        
+ÿÿ      Introduction
+ÿ       ------------
+            This text file contains information to hopefully  solve  any
+        problems you may encounter when playing Evasive Maneuvers.
+        
+            Your first course of action should be to swear loudly.    If
+        you have a cluttered computer desk, you should then take an  arm
+        and wipe the desk clean with one quick back-hand motion.
+        
+            Now you've let off sufficient steam...
+        
+        
+ÿÿ      Error Messages
+ÿ       --------------
+ÿ       
+            Evasive Maneuvers generates  the  following  error  messages
+        when an error occurs.  Following each message  is  the  solution
+        to the problem.
+        
+ÿ       "This program requires at least a 386."
+ÿ       
+            Evasive Maneuvers requires at least a 386 processor  to  run
+        and it doesn't detect one.
+        
+ÿ       "Evasive Maneuvers requires VGA"
+ÿ       
+            Evasuve Maneuvers requires VGA to run and it doesn't  detect
+        one.
+        
+ÿ       "Run SETUP.EXE to configure Evasive Maneuvers for your System"
+ÿ       
+            Evasive  Maneuvers  hasn't  been  setup  for  your   system.
+        Normally, Evasive Maneuvers  will  run  the  SetUp  program  for
+        you, if it can't do that it displays this message.  The solution
+        is to run SETUP.EXE yourself then run EVASIVE.EXE again.
+        
+ÿ       "Evasive Maneuvers requires <some number> bytes of free memory
+ÿ       with this SetUp!"
+ÿ       
+            Evasive Maneuvers checks how much free  conventional  memory
+        (below 640K) you have when it first runs.   If  you  don't  have
+        enough Evasive Maneuvers aborts with this message.  The solution
+        is to free up more memory or  lower  Evasive  Maneuvers'  memory
+        requirements, for example, turn sound and/or music off.
+        
+ÿ       "<Somewhere>: Resource File Error!"
+ÿ       
+            A resource file is missing or there  is  a  problem  reading
+        it.  Re-install the game.    If  that  doesn't  help,  it  maybe
+        necessary to obtain another copy from a different source.
+        
+ÿ       "<Somewhere>: Resource Error!"
+ÿ       
+            Evasive Maneuvers was unable to load  a  file  it  requires.
+        Most likely the game requires even more memory then  it  checked
+        for at the beginning.  The solution is to free  up  more  memory
+        or lower Evasive Maneuvers' memory  requirements,  for  example,
+        turn sound and/or music off.
+            It's also possible the resource is bad, in  which  case  you
+        may try re-installing the game.  If that doesn't help, it  maybe
+        necessary to obtain another copy from a different source.
+        
+ÿ       "Installing <some device> driver"
+ÿ       
+            Evasive Maneuvers is  having  a  problem  loading  a  driver
+        you've specified in SETUP.EXE.    Try  rebooting  to  reset  the
+        device.  A previous program using the device may  have  left  it
+        in an  unstable  state.    If  there  are  still  problems,  run
+        SETUP.EXE and pick another device from the same group.
+        
+        
+ÿÿ      Computer Lock-Ups
+ÿ       -----------------
+ÿ       
+            For unknown problems such  as  a  computer  hanging,  things
+        become  more  difficult  to  solve.    Obscure  software  and/or
+        hardware conflicts can  occur  because  everyone's  computer  is
+        different.  Here are some suggestions:
+        
+            - Change your sound effect selection to No Sound.
+            - Change your music selection to No Music.
+            - Re-install the game in a new directory
+            - Reboot with as little as necessary running.  Try a clean
+              boot disk.
+        
+            I've heard of random hangs when using the  PC  Speaker  with
+        QEMM in Stealth mode.  Disabling QEMM allowed the PC Speaker  to
+        work flawlessly.  Also selecting No Sound for the sound  effects
+        selection allowed the game to play under Stealth mode.
+        
+        
+ÿÿ      Still Having Problems?
+ÿ       ----------------------
+ÿ       
+            When all else fails, perhaps a friend, someone on a network,
+        or a co-worker may be able to solve your problem.  You may  also
+        write to us, the address is in the order form,  however  it's  a
+        slow process and not very interactive.  Please include  detailed
+        information about  your  problem  and  your  computer,  such  as
+        print-outs of AUTOEXEC.BAT and CONFIG.SYS.  We probably won't be
+        able to help out with hangs, but as more people write we'll  see
+        common  components  among  the  computers  and  maybe  able   to
+        identify the problem.
+        
+        ----------------------------------------------------------------
+            Brand names and  product  names  listed  are  trademarks  or
+        registered trademarks of their respective holders.

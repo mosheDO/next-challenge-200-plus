@@ -1,0 +1,124 @@
+
+ PacMan Version 0.40
+ ____________________________________________________________________________
+
+ Copyright (c) Eclipse 1996
+
+
+ Shareware___________________________________________________________________
+
+    Pour obtenir la version complŠte (60 niveaux) ainsi que l'‚diteur
+    de niveaux c'est trŠs simple :
+
+     þ Imprimer ou recopier le fichier REGISTER.FRM.
+
+     þ Envoyer-le nous accompagn‚ d'un chŠque de 100 francs … l'ordre
+       de Marc Radermacher … l'adresse suivante :
+
+       Marc RADERMACHER
+       Les RosetiŠres - Bat C
+       3 route de champagne
+       69130 ECULLY
+       FRANCE
+
+     þ Si vous ne poss‚dez pas le fichier REGISTER.FRM indiquez simplement
+       vos coordon‚es sur papier libre.
+
+     þ Pour toutes informations contacter nous au 78.33.38.95.
+
+
+ Configuration requise_______________________________________________________
+
+     þ MS-DOS version 3.1 ou ult‚rieure.
+     þ Micro-ordinateur … base de processeur 486.
+     þ Carte SVGA compatible VESA.
+     þ Carte son de type Gravis UltraSound ou SoundBlaster.
+
+
+ M‚moire_____________________________________________________________________
+
+    Ce jeu fonctionne avec toutes les configurations :
+
+     þ Mode RAW sans Himem.
+     þ Mode XMS avec Himem.
+     þ Mode VCPI avec EMS (Emm386 highscan).
+     þ Mode VCPI sans EMS (Emm386 noems).
+
+
+ Information sur la musique__________________________________________________
+
+    La carte son est d‚tect‚e automatiquement par le programme.
+    Pour cela, vous devez d‚clarer correctement les variables
+    d'environnement MS-DOS.
+
+     þ Pour la SoundBlaster :
+
+             SET BLASTER = A220 I7 D1 T1
+                             I   I  I ----> 1 = Sound Blaster
+                             I   I  I       2 = Sound Blaster Pro
+                             I   I  I       3 = Sound Blaster 2.0
+                             I   I  I       4 = Sound Blaster 16
+                             I   I  ------> DMA
+                             I   ---------> Irq
+                             -------------> Port
+
+     þ Pour la Gravis UltraSound :
+
+             SET ULTRASND = 220,1,1,7,7
+                             I  I   ------> Irq
+                             I  ----------> DMA
+                             -------------> Port
+
+
+ Le clavier__________________________________________________________________
+
+
+ Touches pendant le jeu
+
+     þ Space                    : Utilisation d'un joker.
+     þ Ctrl                     : Utilisation du booster.
+     þ                      : D‚placement.
+     þ P                        : Pause.
+     þ ESC                      : Quitter.
+
+ Touches de l'‚diteur de niveaux
+
+     þ F1                       : Construction d'un mur.
+     þ F2                       : Effacement d'un mur.
+     þ F3                       : D‚part pour le Pacman.
+     þ F4                       : D‚part pour les fantomes.
+     þ F5                       : Emplacement des options.
+     þ F6                       : Emplacement des SuperPacGommes.
+     þ F7                       : Emplacement des t‚l‚porteurs.
+     þ F8                       : Absence de PacGomme sur le sol.
+     þ F9                       : Effacement du niveau.
+     þ F10                      : Effacement complet (pas de PacGomme).
+     þ F11                      : Niveau pr‚c‚dent.
+     þ F12                      : Niveau suivant.
+     þ S                        : Sauvegarde des niveaux.
+     þ L                        : Chargement des niveaux.
+     þ CTRL + F11               : Niveau pr‚c‚dent (avance rapide).
+     þ CTRL + F12               : Niveau suivant (avance rapide).
+     þ ESC                      : Tester le niveau.
+     þ E                        : Editer de nouveau le niveau.
+     þ ESC/ESC                  : Quitter l'‚diteur de niveaux.
+
+
+ Fichiers distribu‚s_________________________________________________________
+
+
+     þ Version Shareware :
+
+       Pacman.exe       Le programme ex‚cutable.
+       Pacman.doc       La documentation en fran‡ais.
+       Pacman.us        La documentation en anglais.
+       Register.Frm     Le bon de commande en fran‡ais.
+       Register.Us      Le bon de commande en anglais.
+       Eclipse.nfo      Les productions d'Eclipse.
+
+
+ Mises … jour________________________________________________________________
+
+
+     þ 26 Apr 1996    Version 0.40   PremiŠre diffusion … la Saturne Party 3.
+

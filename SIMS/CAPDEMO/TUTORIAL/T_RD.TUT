@@ -1,0 +1,150 @@
+You need a high quality product to compete successfully in the
+market. To improve your products' quality, you have to invest in
+R&D to find new ways to produce better products.
+
+In this tutorial, the following hot keys are available:
+
+[Esc]              - Quit the tutorial.
+[Back Space] - Go back one tutorial step.
+
+In this lesson, you will learn how to set up an R&D center, start
+R&D projects, and apply the research results to your business.
+
+wait       : 20,400
+checkpoint : 32
+First, choose a location for your R&D center. You are recommended
+to choose a suburban location, for its low land cost and
+availability of labour. Click the "Continue Tutorial" button when
+you are done.
+
+pos   : 276, 312, 313, 334
+mouse : left single
+Now click the "Build" button.
+
+pos : 41, 281, 125, 290
+mouse : left single
+Select "R&D Center".
+
+pos   : 571, 417, 619, 453
+mouse : left single
+Click the "Build" button to erect your first R&D center.
+
+pos   : 276, 285, 313, 308
+mouse : left single
+Now click the "Layout" button to see the layout plan for your
+R&D center.
+
+You can set up a maximum of nine R&D units in an R&D center. They
+can work independently as nine separate teams or be linked
+into a large team for increased performance.
+
+An R&D team with three or four units is reasonable if you are not
+too aggressive or too conservative towards R&D.
+
+pos       : 334, 259, 397, 314
+mouse     : left double
+checkunit : 1, 11
+Let's create an R&D team with 3 units. Double-click here to set up
+the first unit.
+
+pos       : 418, 259, 480, 313
+mouse     : left double
+checkunit : 2, 11
+Double-click here to set up the second one.
+
+pos       : 507, 266, 557, 309
+mouse     : left double
+checkunit : 3, 11
+Double-click this slot to set up the last one.
+
+pos    : 399, 282, 415, 292
+mouse  : left double
+Next, you have to link them. Double-click here.
+
+pos   : 484, 282, 498, 292
+mouse : left double
+Double-click here to finish setup.
+
+pos   : 418, 259, 480, 313
+mouse : left single
+Now the R&D team is ready to start research. All they need is
+your direction. Click the "leader" unit, which has connections to
+all other R&D units in the team.
+
+pos   : 175, 339, 254, 350
+mouse : left single
+Click the "R&D Technology" button. Then you will be asked to
+select the type of product to research and the duration of the
+R&D plan. Answer "Beer" and "3 Years" respectively.
+
+Upon receipt of your order, your team of scientists immediately
+start the research. However, there won't be any solid results
+until the R&D plan is complete.
+
+pos : 215, 285
+Now, let's look at the information area. It displays the
+no. of months since the R&D plan began and the duration of
+the R&D plan in months. These two numbers tell you the status
+of the R&D plan.
+
+pos : 229, 312
+The next two lines show the technology level before the R&D plan
+started and the expected technology level when the R&D plan is
+complete.
+
+The next section explains "technology level" and its effect on
+product quality.
+
+pos : 249, 103
+openmenu : 3, 5
+To find out more about technology, look at the technology section
+of the corporate detail report.
+
+runmenu : 3, 5
+
+pos : 452, 58, 530, 66
+mouse : left single
+Select "Technology".
+
+The technology report shows information about your corporation's
+R&D plans. The "Top Tech." column, displays the highest level of
+technology ever used in production of the product.
+
+pos :  298, 166
+In the beginning of the game, the top technology level of all
+products is 100. When a product with a higher technology level
+hits the market, the top technology level is updated accordingly.
+
+The top technology level is closely related to product quality.
+Launching a product with an unprecedented technology level into
+the market can cause the existing products to become inferior.
+
+For example, if your technology level for beer production is 50,
+and the top technology is 100, your product gains 27 quality
+points in production. (55% of beer quality is determined by
+production, so 55 X 50 / 100 = 27.) If the top technology were
+200, the result would be much different. Your product could gain
+only 50 X 50 / 200 = 13 quality points in the product part.
+
+Thus, a high production technology level does not guarantee a
+high quality rating, unless the technology level of your factory
+is close to the top technology level.
+
+pos : 212, 433, 231, 446
+mouse : left single
+Now you should have no problem understanding the technology
+report, click here to close it.
+
+When a research is complete, you can apply the results, that is
+the improved production technology, to your manufacturing units.
+You find the "Upgrade Tech" button in your manufacturing
+units that are eligible for a technology upgrade. Press the
+button to upgrade the production facilities of the unit to the new
+technology and enable manufacture of better-quality products.
+However, the unit's productivity may drop as the workers adapt to
+the new production facilities.
+
+R&D is critical to the success of a manufacturing business, but
+you have to figure out yourself how to go about it. Now you are
+ready to move on to the next lesson.
+

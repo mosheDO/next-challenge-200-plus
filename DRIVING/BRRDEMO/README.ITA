@@ -1,0 +1,356 @@
+Big Red Racing
+
+
+Here's the readme.txt file incase you didn't read it before
+loading. It contains some information not included in the 
+manual coz to be honest we did the manual before the game
+was finished. We know you wont read it now, but when things 
+start to go wrong try reading this as well as the manual
+to see if we thought of it ... we should of coz we've been
+playing it long enough!!
+
+
+First a quick note on the big changes
+
+AS an attempt to please our public in the final weeks before
+launch we decided to pull the release date to improve our
+game yet further. As a bonus, you now have an extra
+6 levels including 4 extra vehicles namely Big Rigs and
+Helicopters. Due to the hurried nature of the computer biz,
+these have not been described in your manual. They are a
+bonus so in the words of our US buddies, enjoy....
+
+First, some instructions for those reading this before they 
+installed .....
+
+
+ Installing (DOS mode)
+컴컴컴컴컴컴컴컴컴컴컴�
+
+Get onto the CD
+
+Type
+
+ INSTALL
+
+ Now type where on your hard drive you want the game data
+ do go (ie - C:\BIGRED)
+
+
+.After installation, either type
+
+
+ VIDEO
+  
+  If you want the gripping movie video thing.
+  
+  A note to shop type people: you can type "DEMO" which loops
+  this video as a rolling demo (we try!) 
+  Alternatively, the game itself runs a rolling demo mode if
+  you leave it alone on the title page.
+
+ RACING
+  
+  if you want to play the game.
+
+
+
+ Guide to the root directory of the CD
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴�
+
+
+This file(!)
+ README.TXT
+
+The DOS installer:
+ INSTALL.EXE
+
+The WINDOZE 95 installer:
+ SETUP.EXE
+
+Stuff to do with the dos installer:
+ DOS4GW.EXE
+ COPYIT.BAT
+
+Stuff to do with the windows installer:
+ COPYIT.BAT
+ DSETUP.DLL
+ DSETUP16.DLL
+ BRR.ICO
+ AUTORUN.INF
+
+
+SETSOUND <dir>
+RACING   <dir>
+VIDEO    <dir>
+MODEM    <dir>
+DIRECTX  <dir>
+
+
+
+ Playing the Game
+컴컴컴컴컴컴컴컴컴
+
+** Controls **
+
+ Default keys ( which you can change in the game) are
+
+  Cursors for left/right/accel/brake
+  Keypad-0 for nitro.
+ Right-CTRL  puts you back on the track if you get hopelessly lost.
+
+
+** Extra Keys **
+
+ Pause  pauses
+ PrtSc  saves a PCX to the racing directory (for the journos: see
+        we do try!)
+        -Additional: use SHIFT-PrtSc if you're feeling rotten & don't
+        like the way we move the horizon to full-distance on the
+        screenshots!
+
+ Escape quits the game, or takes you up a level in the menus
+  
+ Ctrl-Escape is instant-quit from wherever 
+ (unless you're in a Windows DOS shell(!))
+
+
+ F1 is "view the other cars" (shift-F1 cycles in reverse order)
+ F2 selects the "Elasticam"(TM) behind-car view, and then either
+       (1) forces the camera behind the car
+    or (2) switches between 3 different heights.
+ F3 is the cabin view
+ F4 is the trackside view.
+
+
+ +/- are the screen size. 
+     At full-screen VGA there's a debounce before switching to 
+     SVGA mode.
+     (Full-screen SVGA is only recommended for people with Pentiums.)
+     (or better!)
+
+Helicopters
+컴컴컴컴컴�
+
+ There's no doubt about it, the helicopters take some getting used to...
+ (Well, it'd be pretty boring if all the cars behaved exactly the same
+ way, wouldn't it?)
+
+ SO: The controls are BASICALLY the same as all the vehicles, except that
+ the nitro key behaves as "upward thrust", and you fall gently under gravity.
+
+ Hovever, you occasionally want to go down faster, and this can be achieved
+ by pressing "decelerate" without letting go of the accelerator.
+ (not possible on a joystick, but you can't have everything!)
+
+ Oh, and to save you having to use the "up-thrust" key ALL the time, there's
+ a sort-of "low-altitude automatic hover" built in. You'll still need to
+ thrust up to get over hills & stuff, though.
+
+ General advice: How to turn a tight bend at speed:
+ Anticipate the corner, turning the chopper to skid sideways thru the
+ corner (even face back at the camera if necessary).
+ Don't forget to straighten out "early" as well, or you'll run into the inside
+ of the bend.
+
+ (For what it's worth, even Domark's testers had trouble when they first
+ tried flying the choppers. Perseverence is all! Trust us: they're great
+ when you're used to them!)
+
+  
+The Mouse:-
+컴컴컴컴컴�
+ Mouse movement looks around, but homes back to the "normal" angle.
+
+ On the external view, a "Left-Click" will stop the camera from moving
+ back down (For that "looking straight down at the car" viewpoint that
+ you've always wanted...)
+
+ Keeping the "Right button" pressed while dragging up & down controls
+ the camera's Zoom.
+
+ 
+The Joystick :-
+컴컴컴컴컴컴컴�
+ There's a joystick configure screen under "Options...Joystick"
+ Quickly:-
+
+ Plug in your stick.
+
+ Click on "pl1" or "pl2" to choose between keys, sticks 1 & 2, or a
+ "steering wheel-plus-pedals" combo.
+
+ Click on "Recalibrate"
+ Waggle the joystick(s) around to its extremities.
+ Centre it/them (or leave "pedals" in their "off" position).
+ Hit a fire button.
+
+ Tick "analogue" if the stick is an analogue(*) one, and you'll get true
+ "stick position = steering wheel position"steering.
+ You'll find it feels totally different (less prone to oversteer).
+
+ Un-tick "analogue" if the stick is a "gamepad". This gives the same
+ movement type as with the keyboard.
+
+ If you've got a really weird joystick setup, do the "recalibrate",
+ and set both players to use "keys".
+ Then go to the "key defining" screen, but move the stick instead of
+ pressing a key.
+
+ Support has been added for
+  the Thrustmaster formula T1 steering wheel
+  the virtual pilot pro steering wheel
+  the ch "pro pedals" ** IN "CAR" MODE **
+
+
+(*) Or Analog. Hello, American type people.
+
+
+The sound :-
+컴컴컴컴컴컴
+ We use the "miles drivers" for creating sound effects in Big Red
+ Racing. These drivers have been used in many games before so you
+ may find you have another game which works with them.
+
+ The install utility runs a program called SETSOUND. This 
+ establishes which card is installed in your machine. Should you
+ change your sound card after installing the game, or say if you 
+ have installed Racing on a file server and more than one 
+ person plays the same copy of the game with different sound card
+ options: run SETSOUND to create a new sound driver. 
+
+ Next time you run the Racing, and are prompted with enter your 
+ name, type in a new name. You will then be promted with a 
+ create new config. By answering yes to this (hit Y), the new name 
+ will use the new sound driver yet keeping the old driver intact.
+ 
+
+
+2PL Split Screen:-
+컴컴컴컴컴컴컴컴컴
+  
+ Player 2's default keys (again, alterable) are:-
+ 
+ Q,A,R,T for driving
+ ALT     for nitro
+
+ Left-CTRL for "putting on track"
+
+ Player 2, being on the left end of the keyboard, gets F1..F4 for the views...
+
+ F1 gives PL2 control of the mouse
+ F2,F3,F4 are the same as 1PL mode
+
+ ...And Player 1 gets to use F9...F12 instead
+
+ F9 gives PL1 control of the mouse
+ F10,F11,F12 are PL1's view keys (see F2,F3,F4)
+
+The Tapedeck:-
+컴컴컴컴컴컴컴
+
+ When playing a recording...
+ F5 is "slow down / rewind" Hammer it for extreme rewind.
+ F6 is "pause"
+ F7 is "speed up" (again, hammer it for extreme fast-forward)
+ F8 is the "play" key
+
+ ESC quits the recorder
+ F1,F2,F3,F4 behave as for the normal game.
+
+ Note that things like the nitro display are not updated during recordings.
+ Also note that the dust effects aren't stored as part of the recording,
+  so they behave rather oddly during rewinds!
+
+
+2PL Modem Game
+컴컴컴컴컴컴컴
+
+ The modem game has to be played by launching it thru the 
+ modem launch program called modem. This is a similar 
+ prog to that that DOOM uses so people should be reasonably
+ aware of whats going on. You simply type modem at the  
+ command line.
+
+ First select you name using the cursory up and down thing 
+ like the install program.The instructions I think are quite 
+ explanitory and easy to understand.
+ 
+ Now select your modem type from the list provided once you
+ have both got the right modem set up, choose the connect 
+ option. To establish if you have got the right modem strings,
+ try to connect. If the modems response to initalisation is to
+ return an error or even not answer at all, try returning to DOS
+ and attempt to connect again, try swithing the modem off then on
+ and attempt to connect again and finally try to switch your 
+ computer off then on and attempt to connect again. The init 
+ strings used are the same that are used on DOOM, so if all else
+ fails, check that DOOM works and edit the MODEM.INI file.
+
+ 
+ The MODEM.INI file looks something like this :- 
+ 
+
+ ;
+ ;Big Red Modem Interface
+ ;
+
+ DEVICE      Pace Linnet 32 Plus vfx
+ INITSTRING  AT &C0 F8 \N0
+ HANGSTRING  AT Z H
+ DIALSTRING  ATDT
+ BAUD        9600
+ PORT        1
+ LINE SPEED  19200
+ TELEPHONE   
+ NAME        
+
+
+ Hopefully the above should be fairly self explanatory. But
+ just in case:
+ 
+
+ Note all strings and numbers start at the 13th position in!
+
+ DEVICE      is the name of the modem.
+ INITSTRING  is the string used to initialize the modem.
+ HANGSTRING  is the string used to hang up the phone. 
+ BAUD        is the speed the modem talks to the outside world.
+ PORT        is the serial port the modem is connected to.
+ LINE SPEED  is the speed the serial port talks to the modem.
+ TELEPHONE   is the default number to call when you dial.
+ NAME        is your name.
+ 
+ Having corrected the strings and the correct baud rates
+ again attempt to connect upon getting your strings right you 
+ should see you modem respond with an OK. You can experiment 
+ with the modem strings by using the chat mode to chat directly 
+ to your modem. When in chat mode, all modems should respond with
+ OK when you type +++ (then wait a second or two) +++ and then 
+ then AT followed by enter. If this doesn't work then its likely
+ you haven't set the baud rates properly.
+ 
+ 
+ Assuming your modem choice is correct, (read what 
+ appears in the modem response box if ), one person must choose 
+ to dial while the other chooses to answer the phone.
+
+ Having established a connection, you will then be able to chat to
+ each other by typing stuff on the keyboard and watching the 
+ response box.
+
+ Press escape to exit and then choose to play the game. At the time
+ of writing, you still then have to select the modem game from 
+ within racing, (short cut keys M for multi play then M for modem). 
+ By the final cut this will be the defaulted to when the game
+ is run.
+
+
+
+Command Line Options
+컴컴컴컴컴컴컴컴컴컴컴
+
+use "RACING -CFG <yourname>" to bypass the name-entry screen
+use "RACING -NOSOUND" to avoid loading a "wrong" sound driver
+
+

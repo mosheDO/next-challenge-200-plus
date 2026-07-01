@@ -1,0 +1,675 @@
+
+
+
+                             MVP Bridge
+
+                                 by
+
+                           Steve Estvanik
+
+                     An MVP Software Production
+
+MVP Bridge is shareware.  You are free to evaluate this software for 30 days,
+after which you must either register with MVP Software or delete the software
+from your system.  Thanks for evaluating MVP Bridge and for supporting
+shareware.  Your honesty pays.
+
+To order MVP Bridge Deluxe, call 800-968-9684 toll-free 24 hours a day.
+Please have your Master Card or Visa ready when you call.  Or fill out the
+order form at the end of this manual and fax it to: 616-245-3204.  Make
+sure your credit card number and expiration date are legible.  Or if you
+prefer mail the order form and your check to: MVP Software, 1035 Dallas SE,
+Grand Rapids, MI 49507-1407.
+
+For overseas orders or technical support call 616-245-8376.
+
+Now you can get all MVP products FREE from MVP's home BBS, Ryan's Bar.  Call
+(616) 456-1845 or (616) 456-5342 with your modem and check out the free MVP
+file section.
+
+                     _______
+                ____|__     |                (R)
+             --|       |    |-------------------
+               |   ____|__  |  Association of
+               |  |       |_|  Shareware
+               |__|   o   |    Professionals
+             -----|   |   |---------------------
+                  |___|___|    MEMBER
+     
+
+MVP Software is a member of the Association of Shareware Professionals (ASP).
+ASP wants to make sure that the shareware principle works for you.  If you are
+unable to resolve a shareware-related problem with an ASP member by contacting
+the member directly, ASP may be able to help.  The ASP Ombudsman can help you
+resolve a dispute or problem with an ASP member, but does not provide
+technical support for members' products.  Please write to the ASP Ombudsman
+at 545 Grover Road, Muskegon, MI 49442-9427 or send a CompuServe message via
+CompuServe Mail to ASP Ombudsman at 70007,3536.
+
+INSTALLATION
+============
+To install MVP Bridge, place the diskette into the A drive and type A:, or
+into the B drive and type B:.  When the A> or B> prompt appears on the screen,
+type INSTALL.  Follow the directions to install the software.
+
+To begin the game type BR1.
+
+Note to Windows users
+---------------------
+MVP Bridge will run as a DOS application, spawned under Windows, but there will
+be no sound.  This is due to a conflict for IRQ vectors which are currently 
+in use by Windows drivers.  The best solution is not to run from Windows, 
+but if you do try, you may need to disable the Windows sound drivers before 
+running MVP Bridge.
+
+
+INTRODUCTION
+============
+This game is not a tutorial on Bridge, but can be used by beginners to learn 
+the game.  The following sections give a good general introduction to the 
+rules of the game, and the basic techniques of bidding and play.  There are 
+many excellent books available in stores and libraries, covering all phases 
+of the game.  
+
+If you're an intermediate or advanced player, you can go right to PLAYING 
+THE GAME (or, skip this entirely, and jump right into the game.) 
+
+
+BRIDGE BASICS
+=============
+
+Brief summary of the rules
+--------------------------
+Bridge is played by 4 players.  All cards are dealt so each player has 13 
+cards that are kept hidden from other players.  In the program, you are 
+always considered to be SOUTH.  Your partner plays NORTH, and your opponents 
+are EAST and WEST.  A hand of bridge is divided into 2 parts: bidding and 
+play.  During bidding you try to describe your hand to your partner and make 
+a claim to the number of tricks you can take.  During play you try to 
+make the contract that you bid.  
+
+Evaluation of the hand
+=======================
+To decide how strong your hand is, we assign points to certain cards.  These 
+are called high card points or 'hcp'.  We rate an Ace (A) at 4 points, a 
+King (K) at 3, a Queen (Q) at 2, and a Jack (J) at 1.  In order to count, 
+though, a King must be accompanied by at least one other card in the same 
+suit.  We show this as 'Kx', and describe it as a King doubleton.  
+Similarly, to count for hcp, the Queen must have 2 other cards, and the Jack 
+needs 3 other cards. 
+
+      Some examples:
+
+            Kx          3 pts
+            AK          7 pts
+            AQ          4 points (Q doesnt count)
+            AQx         6 points
+            KJXX        4 points
+            KJx         3 points (J doesnt count)
+
+In addition, we can add points for distribution.  
+
+      1 pt for 5th card in a suit
+      1 pt for 6th in a suit
+      2 pts for 7th, 8th, etc
+
+When raising trump suit partner has proposed, you can add more points:
+
+      3 pts for void
+      2 pts for singleton
+      1 pt for doubleton
+
+Your total hand value is figured as follows:
+
+          Hand value = high card pts + dist pts + trump 
+
+For opening bids, you usually consider only hcp.  For deciding whether your 
+partnership has enough points for game, you can use total points as follows:
+
+Pts required for game:
+
+      3NT or major suit         26
+      minor suit                29
+      small slam                33
+      grand slam                37
+
+Bidding Primer
+---------------
+Bidding starts with the dealer and proceeds clockwise around the table .  
+The suits are arranged in the following order: CLUBS, DIAMONDS, HEARTS, 
+SPADES.  Thus 1 S can be bid over 1 H, but over 1S, you must bid 2 H.  
+Bidding a suit usually says that you wish to use that suit as trump.  
+Bidding normally starts at the lowest level possible, but there are also 
+times when the bidder jumps the bidding (For example, an opening bid of 2H 
+or 3H shows a very different hand from 1H.) 
+
+Playing in a suit contract makes that suit the 'trump' suit. During play, 
+you must follow the suit played.  But, if you lack any cards in the suit 
+played (this is called a 'void'), you may play a trump, and win the trick.   
+You want to play in trump if you and your partner have at least 8 of the 
+cards in a suit.  You may also play without trump (NOTRUMP or NT).  
+
+Bidding continues until everyone has had a chance to bid and there are 3 
+passes in a row.  The person who firrst bid the suit of the final bid 
+becomes 'declarer'.  The person to the left of declarer is the leader for 
+the first trick.  The declarer's partner is dummy -- their cards are turned 
+over for everyone to see, after the opening lead. 
+
+Your goal in Rubber Bridge is to win 2 games to make a rubber.  A game is 
+100 points made by bidding.  This can be the result of one or more hands.  
+Scores vary by suit.  CLUBS & DIAMONDS are the minor suits, and are worth 
+only 20 points each.  HEARTS & SPADES are the major suits, and are worth 30 
+points each.  Thus a contract of 4 H would give you 120 points, which is a 
+game, but a contract of 4 D gives you only 80 points.  No trump is a special 
+case: the first NT level is worth 40 points, and successive levels are worth 
+30 each.  Thus 2 NT is worth 70 points, and 3NT is 100, a game.  If your 
+contract does not give you a game, it remains as a partial score until 
+one side makes game.  If a contract is set, the defenders gain points.
+
+The following sections offer some simple advice for bidding.  For more 
+details, you should consult a Bridge bidding book.  
+
+Opening Bids
+------------
+   You have
+   HCP        Distribution of hand                 Bid:
+   --------- ------------------------------------ -----------------
+   13-20      5+ card suit                         1 of the suit
+   16-18      flat (no singleton or void)          1 NT
+   21-22      flat (no singleton or void)          2 NT
+   13+        flat, but good 4 card major          1 of a major
+   13+        no previous bid possible             1 of better minor 
+   4-10       no voids, 7 card suit                3 of the long suit
+
+In actual practice, the tendency is not to bid 4 card majors, unless the 
+suit is strong (eg, AKJx) and there is no alternative.  This allows partner to assume that the opener has 5 in the major and to support with only 3. If 
+the suit is good, a 4-3 fit is acceptable.
+
+
+Responses to partner's opening bid
+----------------------------------
+Partner bid one of a suit 
+--------------------------
+   You have
+   HCP        Distribution of hand                 Bid:
+   --------- ------------------------------------ -----------------
+   < 6                                              Pass
+   6-9        support for partner's suit*           2 of partner's suit
+   10-12      support for partner's suit*           jump in partner's suit
+   13-15      strong trump support in a major       4 level 
+   13-15      no major suit at 1 level              2 NT
+   16-18      no major suit at 1 level              3 NT
+   6-18       4 card suit                           suit at 1 level
+   18+        5 card suit                           Jump shift **
+   10+        5 card suit                           suit at 1 or 2 level
+   6-9        flat hand, no 1 level bid             1 NT
+
+    * Support is 3 cards of a major or 4 of a minor
+
+   ** Jump shift: a bid that skips a level of bidding.  Eg, 1H -- 2S
+      is a jump shift because you could have bid 1S.
+    
+Partner bid 1NT
+---------------
+   You have
+   HCP        Distribution of hand                 Bid:
+   --------- ------------------------------------ -----------------
+   8-9        Balanced                              2 NT
+   10-14      Balanced                              3 NT
+   < 8        5 or 6 card suit                      2 of the suit
+   < 8                                              Pass
+   10+        5 of a major, 5 or 6 of a minor       3 of the suit (forcing) 
+   7+         6 card major                          4 of the major
+   10+        no 5 card major                       3 NT
+
+Note: Most players use the Stayman convention which allows a much better 
+description of your hand, and usually keeps the stronger hand concealed 
+while revealing the weaker hand as dummy. 
+
+Opener's rebids
+---------------
+This next bid lets opener more completely describe her hand.  
+
+Opener started with 1NT
+-----------------------
+   Partner Bid       Opener's hand                Bid
+   -----------      ----------------------        -----------
+       2 NT          17-18                         3 NT
+       3 of major    3+ cards in partner's suit    4 of partner's suit
+       3 of major    2 cards in partner's suit     3 NT
+
+Opener started with a suit bid
+------------------------------
+   Partner Bid          Opener's hand                  Bid
+   -----------          ----------------------       -----------
+   New suit: 1 level  12-15, no support for partner  1 NT
+                      6 cards in original suit       rebid original suit
+                      second suit of at least 4      show new suit
+                      12-15, 4 card support          raise of partner
+                      15-17, 6+ card suit            jump in original suit
+                      16-18, 3+ support              jump raise of partner
+                      19-20, 4 card support          4 of partner's major
+                      19-20                          2 NT
+
+   New suit: 2 level  15-18                          2 NT (forcing)
+                      12-15, usually 6 card suit     rebid original 
+                      < 16                           show second suit
+                      < 16, support for parter       single raise
+                      17+                            reverse*
+                      17+                            jump rebid of opener's
+                      17+  6 card suit               jump to game in opener's
+                      17+  3+ support for partner    jump raise in responder's
+                      18+, second suit               jump shift (forcing)
+                      19-20                          3 NT
+
+* A reverse is the bidding of 2 suits in opposite order from that expected.
+  i.e., usually you would bid Spades, then Hearts, to keep the bidding at a low
+  level.  If you bid Hearts first, then show Spades, this is a 'reverse' and
+  shows a stronger hand. (Since partner must bid hearts at the next level in
+  order to show a preference).
+
+Bidding continues, with opener and responder describing their hands.  If
+there is no competition, you should look for a game contract with about 25+
+points between the 2 hands.
+
+This completes the overview of bidding.  Once someone opens, the opponents
+can still compete by making overcalls in new suits.  Competitive bidding is
+beyond the scope of this brief introduction.
+
+
+CONVENTIONS
+----------- 
+A convention is a bid that carries additional information, and does not 
+promise anything in the suit actually bid.  Eg, in the Stayman convention, a 
+2C bid over 1NT says nothing about responder's club suit, but does promise 
+at least 4 cards in at least one of the majors.  Conventions are used to 
+describe your hand more accurately.  Any conventions in use must be known by 
+all players -- you may not have secret arrangements with your partner.
+
+The following are brief descriptions of the conventions available:
+
+TAKEOUT
+-------  
+A takeout double shows at least an opening bid, with support (at least 3 
+cards) for each of the unbid suits. It may also be made with a hand TOO 
+strong for an overcall (18+ points). 
+
+STAYMAN 
+-------  
+A 2 club response to 1 NT is artificial and asks partner to bid a 4 card 
+major, otherwise reply 2 D. Subsequent bids can invite or bid game 
+directly. 
+
+BLACKWOOD 
+---------
+4 NT asks partner to show Aces: 5C response indicates 0 or 4, 5D shows 1 
+ace, etc. 5 NT asks for Kings. Any other bid is a shutoff. 
+
+GERBER 
+------
+4 C asks partner to show Aces: 4D response indicates 0 or 4, 5H shows 1 
+ace, etc. 
+
+WEAK2 
+-----
+Shows 5-12 hcp and reasonably good 6 card suit.  A 2C bid is reserved for 
+any strong hand, so 3C can be made with only 6 cards.  
+
+A 2NT response asks partner to describe her hand.
+
+    3 of original suit shows minimum weak 2
+    3NT shows suit headed by AKQ or AKJ
+    3 of new suit shows a feature (A, K or Q), and 8-12 hcp
+
+Note: Weak 2's automatically cancel Strong 2's
+
+STRONG2
+-------
+This is the standard form of bidding a strong hand. It's a natural bid, 
+showing strength and a good suit. 
+
+Note: Strong 2's automatically cancel Weak 2's
+
+
+PLAY
+====
+The person who first bid the suit that becomes the final bid becomes the 
+declarer.  To make a contract, you must take 6 tricks, plus the number you 
+bid.  Thus a 3 H contract requires you to take 9 of the 13 tricks. The 
+person to the declarer's left is the leader. 
+
+The leader selects a card and places it so that everyone can see it. At this 
+point, the partner of the declarer lays down his cards for everyone to see.  
+Partner is now the 'dummy' and his cards are played by the declarer.  In the 
+program, when North is declarer, you get to play as declarer, and your 
+original hand becomes the dummy. 
+
+Play proceeds in a clockwise fashion.  You must follow suit.  If you are 
+void (have none of that suit), you can play any card.  In a trump contract, 
+the highest trump played on the trick wins.  The winner of the trick leads 
+to the following trick.      
+
+ 
+SCORING
+=======
+
+Rubber scoring
+--------------
+A rubber is played until one side has scored 2 games.  Each game requires 
+100 pts below the line.  If a side has won a game, they are then 
+'vulnerable'.  (This increases the penalties if they are later set in a 
+contract).
+
+If a slam is bid and made, additional bonuses are awarded as follows.
+
+                                 Not Vulnerable     Vulnerable
+      Small slam (12 tricks)            500             750
+      Grand slam (13 tricks)           1000            1500
+       
+You must win 2 games to end rubber.  Additional bonus points are then 
+scored: 700 additional points if your opponents won no games, otherwise 500.
+
+Undertrick Penalties
+--------------------
+For each trick by which the declarer fails to make the contract, opponents 
+score the following points (above the line):
+
+                                       Not Vulnerable
+                                Undoubled       Doubled    Redoubled
+      First undertrick             50             100       200
+      For each additional          50             200       400
+
+                                         Vulnerable
+                                Undoubled       Doubled    Redoubled
+      First undertrick            100             200       400
+      For each additional         100             300       600
+
+If declarer makes a doubled contract, he receives an extra 50 points, "for 
+the insult".
+
+Glossary & Abbreviations
+========================
+Trick - one complete play of 4 cards.
+Trump - the suit of the contract.  highest trump played on a trick always wins.
+NT - No trump.
+HCP - high card points (A = 4, K = 3, Q= 2, J = 1).
+TCP - total card points (HCP plus distribution).
+Void - no cards in a suit.
+Singleton - one card in a suit.
+Stiff - a singleton.
+Honor - ten, Jack, Queen, King or Ace.
+Doubleton - 2 cards in a suit.
+Tripleton - 3 cards in a suit.
+Major suit - hearts or spades.
+Minor suit - clubs or diamonds.
+Declarer - the person who first bids the suit of the final contract.
+Dummy - declarer's partner.  After the opening lead, dummy's cards are
+        revealed, and played by declarer.
+
+
+PLAYING THE GAME
+================
+
+Main menu
+---------
+ABOUT:   Program credits
+  
+OPTIONS: Select conventions
+         Toggle verbose mode 
+         Select card back
+  
+KIBITZ:  Show hands of other players
+  
+PLAY:    Play the game
+  
+QUIT
+
+Press F1 at any point for help.
+
+OPTIONS
+=======
+
+Systems
+--------
+Bidding system is GOREN: 
+Goren: 16 to 18 HCP for opening NT
+       Usually opens 5 card majors, but occ'ly opens 4 card majors.
+       Bids longer minor suit with balanced hand, and poor 4 card major.
+       Standard conventions: 
+            TAKEOUT
+            STAYMAN
+            BLACKWOOD
+            STRONG2
+
+Set Conventions
+---------------
+For each side, toggle the conventions you wish them to play.
+Right click on a convention title to get a short description.
+
+Verbose
+-------
+Toggles on & off.  This adds additional messages to describe conventions 
+being used.  It's a good way to learn unfamiliar conventions, but does slow 
+down the game a little.
+
+CardBacks
+---------
+Choose which card back to show
+
+Kibitz
+------
+Choose which hands to reveal.  Note that this destroys basic elements of the 
+game, so should only be used for tutorial or practise.  When kibitz mode is 
+on, you have an option to ask why a particular bid is made.  A status screen 
+pops up to show what that player knows about the hand thus far, based on the 
+bidding.  Usually this includes their estimates of the number of points held 
+by each other player, and their estimates of those players' distributions.  
+A minimum and maximum value is given in each case.  As the bidding 
+progresses, these numbers may change.  (E.g., if North preempts in Hearts, 
+and East holds 2 hearts, he knows that West and South can each hold a 
+maximum of 4 hearts.)
+
+Play
+----
+To play a hand, you first bid by clicking on the appropriate bid box when 
+it's your turn.  After 3 passes, the bid is final, and the person to the 
+left of the declarer leads.  (To escape back to the main menu press ESC.)
+
+Each round, or trick, is started by the hand that won the last trick.  (The 
+first leader is the left hand opponent of the declarer.)  You must follow 
+suit if you can.  If you're void, you can play a trump or discard any other 
+suit.  Click on the card you want to play, when prompted by the program.  
+The current tricks taken by each side are displayed on the top 2 lines of 
+the play area.  Press 'R' to review the status of the hand.  
+
+Escaping early from a hand:
+
+If you make a mistake, or otherwise make a bad bid, press ESC when it's your 
+turn to bid.  If you then ask to replay, the bidding will start from the 
+beginning.  If at the start of a hand, you click on the QUIT button, the 
+session ends and you return to the main menu.
+
+During play, you can click on SKIP at any time, and the remainder of the hand
+will not be counted.  You can then choose to play the next hand in the series,
+or quit back to the main menu.
+
+                        ---------------------
+
+           Download All the Latest MVP Shareware Games FREE
+
+If your favorite BBS doesn't have an MVP file section, then you may be
+missing some great shareware.  To get all the latest and greatest MVP
+shareware releases, call one of the leading boards listed below, and check
+out the FREE MVP file area.
+
+In Grand Rapids, Michigan -- Ryan's Bar (616) 456-1845
+In Milwaukee, Wisconsin -- Exec-PC (414) 789-4200
+In New York, New York -- The Invention Factory (212) 431-1194
+In Boston, Massachusetts -- Channel 1 (617) 354-8873
+In Kansas City, Missouri -- Sound Advice (816) 436-1492
+In Palo Alto, California -- Space BBS (415) 323-4193
+In Reston, Virginia -- WorldNet (703) 648-1841
+
+Even better, tell your favorite sysop about the MVP Distribution Network and
+how he can be assured of getting all of the latest MVP shareware hits as soon
+as they are released.  See the SYSOP.DOC file for details.
+
+                       Ordering Information
+
+MVP Bridge Deluxe is available from the following authorized distributors:
+
+In the United States:
+--------------------
+MVP Software
+1035 Dallas SE
+Grand Rapids, MI 49507-1407
+phone: 800-968-9684 24-hour order line only
+       (616) 245-8376 information, technical support, or orders.
+fax: (616) 245-3204
+
+order price: $29.95 plus $3.00 shipping in the US, $4.00 shipping to
+Canada, $5.00 shipping everywhere else.  Michigan residents please add
+appropriate sales tax.
+
+In Australia:
+------------
+Budgetware
+9 Albermarle St
+Newtown NSW 2042
+phone: (02) 519-4233          Fax: (02) 516-4236
+
+order price: $A45.00 (includes shipping)
+
+In the United Kingdom:
+---------------------
+Testware Publishing
+46 The Avenue
+Harrogate, N Yorks  HG1 4QD
+phone: (0423) 886 415          Fax: (0423) 889 728
+
+order price: 30 pounds (includes shipping)
+
+In Denmark and all of Scandanavia:
+---------------------------------
+Pro-Soft
+Benloese Skel 4 G
+DK 4100 Ringsted
+
+phone: 53 61 90 42
+fax: 53 61 93 91
+
+order price: 210,00 kr. + VAT 25% + s/h 25,00
+
+In Japan:
+--------
+P. & A. Company Ltd
+302 Bellwins, 1367-23
+Nakagami, Akishima
+Tokyo 196
+
+phone: 425-46-9141
+fax: 425-46-9142
+BBS: 425-46-9143
+
+please call for current price
+
+4500 yen includes shipping and taxes
+
+Germany, Austria, and Switzerland
+---------------------------------
+JDS -- Software Vertrieb
+Jens Driese
+Postfach 1269
+D-26302
+
+phone: 04451-85743
+fax: 04451-860500
+CIS: 100273,2252
+BTX: DRIESE#
+
+price: 49 DM (includes taxes) plus 6 DM shipping
+
+The Netherlands
+---------------
+HaSa Software Applications
+PO Box 414
+9500 AK Stadskanaal
+
+phone: 5990 50161
+fax: 5990 50124
+BBS: 5990 50212 or 50314 or 50232
+CIS: 100115,542
+
+price: Call for current price
+
+Italy
+-----
+Systems Comunicazioni srl
+via Olanda
+6 - 20083 Gaggiano
+
+phone: (02) 9084 1814
+fax: (02) 9084 1682
+BBS: (02) 9084 1811
+
+price: Lire 62.000 IVA inclusa
+
+                  MVP BRIDGE DELUXE ORDER FORM
+
+Name ________________________________________________________________
+
+Address _____________________________________________________________
+
+City _______________________________ State ______ ZIP _______________
+
+Country (if outside USA) ____________________________________________
+
+CIRCLE HD DISK SIZE:    5-1/4"    -or-   3-1/2"         IMPORTANT!
+
+Price of MVP Bridge Deluxe                                      $29.95
+Shipping and Handling (US)                                        3.00
+Shipping and Handling (Canada)                                    4.00
+Shipping and Handling (all other countries)                       5.00
+Michigan residents add sales tax                                  1.32
+                                                                ------
+Make check payable to "MVP Software"           Total enclosed:  $
+Master Card/Visa information (credit card orders only)
+
+Card number __________________________________________
+
+Expiration number ____________________________________
+---------------------------------------------------------------------------
+VOLUNTARY QUESTIONS:  Please help us determine what features you would like
+====================  in future products.
+
+Circle what type of equipment you have:   8088    286    386    486    Pentium
+Circle the speed of your computer(Mhz): 12  16  20  25  33  40  50  66  ___ 
+Circle any that apply: Joystick  Mouse  Modem_______  SVGA card____________
+                                             (speed)              (type)
+
+Sound Capability:  Adlib   Sound Blaster   SB Pro   SB 16   Thundercard
+    PC speaker only   Other ____________________________________
+
+Where did you get MVP Bridge?
+    Friend   CompuServe   AOL   Prodigy   Ryan's Bar   Exec-PC   Sound Advice
+    Invention Factory   Channel 1   Space BBS   WorldNet
+    BBS (name): _______________________
+    Shareware Distributor (name): _________________________________________
+
+Are you a game player?  Please answer the following questions about what you
+like and don't like in computer games.
+
+Approx # of commercial games owned: ____  #Registered shareware games: ____
+
+Circle preference:        Beautiful Graphics     Game Complexity 
+Circle preference:    Solo against computer   -OR-   Modem 2-Player
+Circle preference:    Strategy    Action    Simulation    Other_________
+Long term game playability:   Few Levels w/ hard difficulty   Lotsa Levels
+---------------------------------------------------------------------------
+Send this order form and your check to:
+
+MVP Software, 1035 Dallas S.E., Grand Rapids, MI  49507-1407
+
+US or Canada 24-hour order line: 800-968-9684.  Fax: 616-245-3204.
+Tech support, information, or overseas order line: 616-245-8376.
+

@@ -1,0 +1,63 @@
+                           CHINESE CHECKERS
+                             Version 1.3
+                             May 1, 1992
+
+                 Copyright (c) 1992, ImagiSOFT, Inc.
+                         All rights reserved.
+
+
+                   SAMPLE SHAREWARE CATALOG LISTING
+
+ImagiSOFT's  extraordinary  game of Chinese Checkers for  1-6  players
+features  animated  graphics and brings you all the challenge  of  the
+traditional board game.  As in the board game, to win you must be  the
+first  player  to move all your marbles to the opposite  side  of  the
+board.  The 6 players (represented by animated icons, a Dragon,  Wind,
+Flower, Mantis, Tiger, and Peacock) can be played either by people  or
+by the computer. It uses the keyboard or MS-compatible mouse, requires
+EGA or VGA,  and  640K of memory.   Nominated for Best New Product and
+Best Entertainment Software  at  the Summer Shareware Seminar in 1992.
+Run Chinese Checkers from your floppy by entering the command CHINESE,
+but it will run faster if you install it to your hard drive  with  the
+command A:INSTALL.
+
+
+                    DISTRIBUTING CHINESE CHECKERS
+
+Anyone distributing Chinese Checkers for any kind of remuneration must
+first contact ImagiSOFT, Inc. at the address below for  authorization.
+This authorization is automatically granted to distributors recognized
+by the Association of Shareware Professionals (ASP) as adhering to its
+guidelines for shareware distributors, and such distributors may begin
+offering  Chinese Checkers immediately; however, ImagiSOFT, Inc.  must
+still  be advised so that the distributor can be kept up-to-date  with
+the latest version of Chinese Checkers.
+
+If you are going to distribute Chinese Checkers in a compressed  file,
+please  use  the  name CC13.??? (.ZIP, .ARC,  .LZH,  etc).   We  would
+appreciate  if  you would distribute our  original  CC12.ZIP  whenever
+possible so that new users can be assured that they aren't receiving a
+program infected with a virus.
+
+Please include the following files in your distribution copy:
+
+    CHINESE.EXE   main program
+    CHINESE.TXT   registration info, license agreement, etc.
+    CC_ORDER.TXT  order form
+    CHINESE.WL    graphics file
+    REGISTER.WL      "      "
+    CC_I_1.WL        "      "
+    CC_I_2.WL        "      "
+    CC_I_3.WL        "      "
+    CC_I_4.WL        "      "
+    CC_I_5.WL        "      "
+    CC_I_6.WL        "      "
+    INSTALL.EXE   install to Hard Drive
+    INSTALL.FIL   install script file
+    CHINESE.BAT   run from Hard Drive
+    READ.ME       brief description, how to install, etc.
+
+IMPORTANT  NOTE:  The Chinese Checkers program checks for  missing  or
+altered  files.  If either of our *.TXT files has been altered  or  if
+one of the *.WL files is missing, the program will exit to DOS.
+

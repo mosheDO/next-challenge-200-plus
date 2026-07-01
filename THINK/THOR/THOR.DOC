@@ -1,0 +1,910 @@
+
+
+                                             Page 1
+
+
+Thor ?
+
+Thor is an Othello/Reversi game-playing program. It allows you to
+play against the computer or to use it as an Othello board. It 
+includes a complete set of functions for the study of the game.
+
+
+
+Versions
+
+Version 1 existed in 1982-1983. It was written in Z80 assembly language
+for Tandy TRS-80 computers.
+
+In late 1988, version 2 was completed, written in the C programming
+language for PC-compatible computers. This version was compiled
+using Borland's Turbo-C. Additionally, there were versions numbered
+2.0x ("x" varying between 1 and 9). These intermediate versions
+were reserved exclusively for testing purposes by certain users.
+
+Version 2.1, dating back to 1989, is the version 2.x distributed. Next
+came version 3, created in 1990, including the database of games. After
+a series of enhancements, the version number was changed from 3.0 to 3.1,
+then 3.2. Another version, distributed as freeware, was named Gthor
+(version 1, then 2).
+
+Finally this version 3.3 reintegrates the freeware Gthor.
+CGA, EGA, VGA and Hercules graphics cards are handled for a
+graphical display of the board.
+
+This program is freeware. You may use it, copy it, and distribute
+it freely. However, you don't own it and hence cannot sell it. See
+the READ.ME file for more information about freeware.
+
+
+
+System Requirements
+
+An IBM PC/XT/AT/PS or compatible computer
+At least 512K memory (with a minimum of 320K free)
+A floppy drive, either 1.2 meg 5.25" or 1.44 meg 3.5"
+A hard disk with at least 2 megabytes free
+MS-DOS version 3.0 or later
+Any video card and compatible screen
+                                             Page 2
+
+
+Contents of THOR's subdirectory after installation
+
+THOR.EXE  variable size
+Thor's executable module
+
+THOR.CFG  14 bytes
+User configuration (see below)
+
+THOR.BIB  around 15K
+The opening library
+
+THOR.DOC  around 36K
+This usage file
+
+THOR.PAR  56000 bytes
+File containing stored positions (see below)
+
+THOR.DBA  greater than 1 meg
+The database of games. As of May 1, 1993, this included 16091 games
+and took 1147056 bytes of storage.
+
+READ.ME
+The latest information on the program, including usage and installation
+procedures.
+
+
+
+Starting Thor
+
+Under the MS-DOS prompt, change into the Thor directory using the
+CD command (for example, "CD \THOR" if the directory was named THOR),
+then type THOR followed by the <Enter> key. The program loads itself
+into memory along with the library of openings, and certain information
+about the database of games (tournament and player names). Thor also
+checks the configuration file for user options. When all files are 
+loaded, the copyright screen appears. After pressing a key, you reach
+Thor's main screen.
+
+If a mouse driver (MOUSE.SYS or MOUSE.COM) is installed, the mouse is
+recognized and pressing a mouse button is equivalent to pressing a key.
+                                             Page 3
+
+
+Graphic Mode
+
+With certain computers or video cards, the system may be unable to
+correctly detect the graphic card present (in which case either the
+program is run in text mode or doesn't work at all). You may force
+the program to use a specific video mode by giving Thor a run-time
+parameter.
+
+For example, if you know that your video card can work in colour VGA
+mode, begin with program with the command :
+
+THOR  G8
+
+where G indicates graphic mode and 8 is the number corresponding to
+VGA colour mode. If your video card is unable to support the mode
+which you have given it, the program will either function improperly
+or not at all. You may also choose a mode supported by your graphics
+card which does not make use of the full resolution and the most colours
+available (for example, you could use VGA monochrome mode on a colour
+system in order to do a screen dump to your printer).
+
+
+The available graphics modes are :
+
+0    text mode, using BIOS
+1    CGA 640x200, monochrome
+2    extended CGA, 640x400, monochrome
+3    Hercules 720x348, monochrome
+4    EGA 640x200, 16 colours
+5    EGA MONO 640x350
+6    extended EGA, 640x350, 16 colours
+7    VGA MONO, 640x480
+8    VGA 640x480, 16 colours
+
+Notes :
+- Thor uses graphics or text functions operating directly with video
+memory for reasons of speed. In certain cases (such as under a
+multitasking environment such as an older version of Desqview or 
+Windows), it may be necessary to force text mode using the BIOS
+video. Mode 0 serves this purpose.
+- Mode 2 works on certain TOSHIBA and AT&T machines
+                                             Page 4
+
+
+Using Thor
+
+
+Thor's user interface is based on two elements :
+
+
+-1- Buttons.
+
+These take the form of a small piece of text written in inverse video
+(generally black on a white background), and indicate a possible action.
+You can execute the button command by clicking on it with a mouse or by
+pressing the key associated with the button. In general, the associated
+keystroke is the letter in upper case of the button's text (see the
+list).
+
+
+-2- Selection lists
+
+a) Horizontal : These take the form of a list of 2 or more elements
+placed on a line, one of which is selected (in inverse video). You
+may activate the selected element by pressing <ENTER> or by clicking
+on it with the mouse. You may change the selected element by clicking
+on another element or by using the right and left cursor keys to make
+a new selection. Hitting the space bar has the same effect as the
+cursor right key. Horizonal lists are usually lists of buttons and
+you may simply press the associated key to make a choice. The most
+common example of a list of two elements is a confirmation request
+('Yes' or 'No').
+
+b) Vertical : Here we have a list of 2 or more elements places one
+above the other of which one is selected (in inverse video). You
+may activate the selected item by pressing <ENTER> or by clicking on
+it with the mouse. You may change the element selected by clicking
+on another element or by using the cursor up and down keys to change
+the selection. Hitting the space bar has the same effect as the
+cursor down key. Vertical lists are often menus and in this case
+you may make a choice by pressing the letter which precedes the
+element on the line.
+                                             Page 5
+
+
+Buttons
+
+Here is the list of buttons with their associated keystroke :
+
+<escape>            <Esc> or <Escape>
+<enter>             <Enter> or <Return>
+<begin>             <Home>
+<end>               <End>
+.-Pg-Up-.          <PgUp> or <Page Up>
+/-Pg-Dn-/           <PgDn> or <Page Down>
+<insert>            <Insert>
+<delete>            <Del> or <Delete>
+<plus>              +
+<minus>             -
+<--                 <cursor left>
+-->                 <cursor right>
+<F1=functions>      <F1>
+Yes                 Y
+No                  N
+Black               B
+White               W
+Draw                D
+Normal              N
+Inverse             I
+Position            P
+Mobility            M
+# discs             N
+<Pass>              P
+<Erase>             E
+<Inverse>           I
+<Back>              B
+<Change>            C
+<List>              L
+<Next>              N
+<Diagram>           D
+< 2 >               2
+< 3 >               3
+< 4 >               4
+                                             Page 6
+
+
+The Screen
+
+At the top left, the name and version of the program is listed.
+
+Just below is the Othello board, with letters designating the
+columns and numbers for the rows.
+
+To the right of the screen are the following :
+- two buttons for passing or to activate the menu of functions.
+- if the "bip" is active, the word "Bip".
+- the level of play (initially fixed at 0).
+- the mode of play (initially set to Player/Thor).
+- the player colour (initially Black).
+- the number of moves played (initially 0).
+- the number of discs and available moves for black and for white.
+
+Next are the last moves played (initially empty). Finally, there's a
+field requesting your move. From here you access all functions
+described below.
+
+At any time you can either play a move or execute a function (see
+pages 8 and following).
+
+
+
+To play
+
+You may make your move in three different ways.
+
+-1- Enter the letter of the column to which you would like to play,
+then the row number. To cancel the column, press <escape> or
+enter another letter which will replace it.
+
+-2- Move the '*' character on the Othello board using the cursor
+keys. When the desired square has been reached, simply press
+<enter>.
+
+-3- If you have a mouse and the mouse driver is loaded, you may
+simply point to the desired square and click on it (with the left
+mouse button).
+
+In either case, an illegal move is not accepted. In order to pass,
+use the <Pass> button.
+
+Once your move has been entered, if it's in Player/Thor mode, the
+program analyzes the position and makes its move (see below). If not,
+it indicates the colour of the player to move and waits for a new
+move.
+                                             Page 7
+
+
+Analysis
+
+     The program first examines the position to see if it's one of
+the opening positions stored in memory. If this is the case, the
+response is immediate. Thor includes a varied library of openings.
+It includes over 500 lines and over 7000 positions. The most
+well-known lines go up to 25 moves deep.
+
+     If not, it begins analysis of the position. At the bottom of the
+screen a window appears, containing the depth currently being analyzed,
+the number of nodes per second (number of moves played through in the
+past second), the move currently being analyzed (with the current
+response), the selected move (the best move found so far, along with
+its best response) and a clock which keeps track of the time spent.
+
+     When the game is almost over, at some point the depth will become
+"+-". This indicates that the program is seeing if a winning move
+exists. If one is found, the depth becomes "++" indicating that the
+program is searching for the best winning move. If not, the depth
+becomes "--", meaning that all moves lose and it's looking for the
+move which loses by the smallest amount. In both cases, as soon as one
+continuation (winning or losing) has been found, the final score is
+given just below the clock.
+
+     In some cases, the depth changes from "+-" to "+=". This means
+that the program has found a move leading to a draw and that it is
+continuing to look for a winning move. If one is found, it will try to
+find the best one. Otherwise, it plays the drawing move.
+
+     When the allocated time is used up, analysis is interrupted and
+the best move at that moment is played. The time allocated depends on 
+the level of play (see below). You may also abort analysis by pressing
+<escape>. If a mouse is being used, pressing the right mouse button
+also interrupts analysis. At this point, it's once again your turn
+to play.
+                                             Page 8
+
+
+To perform a function
+
+A function may be executed in 2 different ways :
+
+-1- by holding down the <alt> key and pressing the key associated
+with the function (this key is simply the letter preceding the function
+name).
+
+-2- by using the <F1=functions> button. The menu of functions appears
+with, at the beginning of each line, the corresponding letter. Execute
+the desired line as described on page 4. You may return to the Othello
+board without doing anything by pressing the <escape> key (or with the
+Escape option).
+
+
+
+Function list
+
+
+<F> Forward one move
+
+Allows you to advance the game one move. This function is useful if
+the game in progress was read from the database of games. It is
+used to replay a game along with the takeback function.
+
+
+
+<D> Database
+
+Gives access to the database management menu. The functions in
+this menu are described beginning on page 16.
+
+
+
+<C> Configuration
+
+Gives access to the configuration menu. The functions in this menu
+are described beginning on page 13.
+                                             Page 9
+
+
+<I> Input diagram
+
+Allows the entry of a diagram. A diagram appears on the right side
+of the screen. You may enter the move numbers or move around using
+the cursor keys (the HOME key moves the cursor to the upper right).
+
+The <inc.> button increases all move numbers by one which are equal
+to or greater than the move number given by the cursor. The <dec.>
+button descreases by one all move numbers which are less than or
+equal to the move number given by the cursor. The <insert> button
+allows you to insert a move in the square indicated by the cursor
+(pushing back towards the end of the board all move numbers which
+follow). The <delete> button allows you to delete the move 
+indicated by the cursor (moving all following moves back one square).
+The <Reverse> button allows you to easily enter a game played in
+which the colours were reversed, then to flip the entire board before
+validating the moves.
+
+Each time the cursor leaves a square, if the move number of this
+square is repeated in the diagram, a "bip" is heard.
+
+You may quit diagram entry at any time with the <escape> key.
+Use the <enter> key when the diagram entry is finished. The
+program verifies all the moves and informs you where the problem
+is with an illegal transcript (either a missing move, a repeated
+move, or an illegal move). On the left of the screen, the Othello
+board shows the state reached with all correct moves played. The
+computer allows you to save only the correct moves and return to the
+functions menu, or to return to the diagram entry if you'd prefer.
+
+
+
+<W> Write game to disk
+
+Allows you to write the current game into one of the 500 positions
+in memory read from the THOR.PAR file. The program lists the catalog
+of 500 games stored in the file. Each game is displayed along with 
+the memory code (from A00 to Y19), the game title, the number of
+black and white discs, and finally the side to play.
+
+The program lists the 500 positions on 25 pages of 20 positions.
+When the function is first called, page A is listed. To list
+another page, press the letter for that page. You may also move
+from page to page using the <Pg-Up> and <Pg-Dn> buttons. The <begin>
+button moves you to page A, while the <end> button moves you to page Y.
+The <escape> button quits the function.
+                                             Page 10
+
+
+The display gives a vertical list of selections which allows you
+to choose the code which you would like to store the position as.
+The program then asks you for the title which you would like to
+give to this position. Then after confirmation, the position is
+written into the file.
+
+The position thus written contains the initial position, the list
+of all moves played, the mode, the level of play, and the suggestion
+(if there is one).
+
+
+
+<E> End of game
+
+Allows you to start a new game. The program asks you if you really
+want to end the current game. If you confirm this, the Othello board
+is returned to its initial state. The mode and level of play are not
+modified by this function.
+
+
+
+<T> Transcript
+
+This function displays on the Othello board all moves played
+since the start of the game. The program displays to the board
+the initial position then, for each of the squares played, the
+move number of that square. The moves played by the first player
+(Black from the usual starting position) are written normally. The
+moves played by the second player (White usually) are written in
+inverse video and preceded by a "-". Press any key to return
+to the normal Othello board.
+
+
+
+<R> Read game from disk
+
+Allows you to read a position from among the 500 stored in memory
+from the file THOR.PAR. The game selection process is exactly as
+with the function <W> described above.
+
+
+
+<M> change Mode
+
+Allows you to change the mode of play. This function changes back
+between Player/Player and Player/Thor modes. In Player/Player mode,
+the program only turns over the appropriate discs and allows you to
+play for both sides.
+                                             Page 11
+
+
+<L> change Level
+
+Allows you to set the level of play. The level you select determines
+the maximum time given for analysis of each move, as follows :
+
+     0 =  2 sec
+     1 =  5 sec
+     2 = 15 sec
+     3 = 30 sec
+     4 =  1 min
+     5 =  2 min
+     6 =  5 min
+     7 = 10 min
+     8 = infinite (actually 99 hours)
+     9 = global (time is given for all moves in the game)
+
+A horizontal selection list allows you to choose the level. The
+key associated with each level is simply the corresponding number.
+
+If you choose level 9, the time (in minutes) for the entire game
+is requested. Use the left and right arrow keys to change this
+value. The maximum time is 99 minutes.
+
+
+
+<H> Help (where to play)
+
+This feature lists the squares to which you can play. The program puts
+a "*" on each square to which you can play. Press a key to return to
+remove the "*" indications.
+
+
+
+<P> enter Position
+
+Allows you to enter an initial position. The program puts a "*" on
+the A1 square. At this point, you are in entry mode. You may move
+around using the arrow keys, place a black disc by pressing <B>
+or <b>, place a white disc by pressing <W> or <w>, or clear the
+square by pressing the space bar. The <Clear> button removes all
+discs from the Othello board. Using a mouse, clicking on a square
+with the left button places a black disc there, unless one was already
+there in which case the square is cleared. The right button has the
+same effect for white discs.
+
+The <escape> button allows you to cancel the position. You return
+to the position before this function was called. The <enter> button
+allows you to verify the position. The program then asks whether
+white plays first. Then you return to the game.
+                                             Page 12
+
+
+<Q> Quit Thor
+
+Allows you to exit Thor. The program checks to make sure you really 
+want to quit. If you confirm, the screen is erased and you return to 
+MS-DOS.
+
+
+
+<B> Back one move
+
+The program cancels the last move played. Note that this results
+in you changing colour. To take back two moves (for example,
+to cancel the program's last move and your prior move, in order to
+play a new one), just perform this function twice.
+
+
+
+<S> Suggestion
+
+Gives you a computer suggestion as to where to play. This function
+only works if the program just analyzed its position and played a move.
+The program suggests the move which it thought was the best response
+to its last move. Therefore it does not work in Player/Player mode,
+after a move was taken back, or when the program is playing from its
+opening library. The '*' character used for entering a move is
+placed on the suggested square.
+
+
+
+<V> eValuate position
+
+Gives an evaluation of the current position. This is similar to
+the program searching for its best move with the following
+differences :
+
+- The thinking time is 99 hours. You may interrupt analysis at any
+time by pressing the <escape> key (note that the button is not
+displayed on the screen). You may also use the right mouse button
+to interrupt analysis.
+- The 3 best moves (and their expected responses) are displayed, not
+just the best move.
+- Once analysis is interrupted, the best move is not played. Pressing
+another key erases the analysis window.
+- This function is inactive when there are fewer than 20 empty squares.
+                                             Page 13
+
+
+<X> eXchange Player/Thor
+
+Allows you to switch sides with Thor. The program takes your colour
+and you take its. It analyses the position and plays its move. This
+function does not work in Player/Player mode.
+
+
+
+Functions available in the Configuration Menu
+
+
+<B> Bip
+
+Activates "Bip" mode if it's not already set. Otherwise, it is
+deactivated. In "Bip" mode, the program beeps whenever the program
+makes a move.
+
+
+
+<C> Coefficients
+
+Allows you to change the coefficients used by the program for its
+analysis. There are three such coefficients : a positional value,
+mobility, and the number of discs. The program attempts to have
+a good score in all three features (of course, a good score in number
+of discs comes from having fewer discs, except in endgame). You may
+vary the relative importance of these three features, which will result
+in a different playing style.
+
+For example, to increase the weight for mobility and decrease the score
+for number of discs, the program may take a large mass of central discs.
+If, however, the number of discs feature is increased in value and the
+other two features are decreased, the program will play a more simple
+disc minimization strategy. This feature teaches you the results
+of different styles of play.
+
+The three parameters are displayed in a column. One of the three is
+active, and using the left and right arrow buttons allows you to
+increase or decrease the relative importance of this feature. The
+up and down arrow keys allow you to change the active parameter.
+You may also change the active parameter using the mouse. The
+relative importance can vary between 50% and 200% (of course, 100%
+is the default value, which is theoretically optimal). The <enter>
+button quits this function while using the new coefficients. The
+<escape> button quite this function while discarding the new 
+coefficients.
+                                             Page 14
+
+
+<G> Graphics on/off
+
+Allows you to pass to graphics mode if the display is in text mode or
+to text mode if the display is in graphics mode. If no graphics
+mode is recognized, the function has no effect.
+
+
+
+<I> system Information
+
+Displays the following information :
+- the number of lines in the opening book.
+- the total number of moves in the opening book.
+- the resolution of your screen when in graphic mode.
+
+
+
+<L> change Language
+
+Allows you to change the language used by Thor. A vertical selection
+list displays the languages supported by the program. Each language
+is displayed in the language in question. Pressing <escape> maintains
+the same language. When a new language is selected, all displayed
+text is changed along with the keystrokes used (for example, Y for Yes
+in English becomes O for Oui in French, B for Black in English becomes
+N for Noir in French, etc...).
+
+
+
+<M> silent Mode on/off
+
+Activates silent mode if it's not already active. Otherwise, it
+is deactivated. If silent mode is active, the program only displays
+the clock while it's thinking, and no information about the depth being
+searched and the current move chosen is displayed.
+                                             Page 15
+
+
+<S> Save configuration
+
+Allows you to save the current configuration. This includes :
+- Display mode (text or graphics).
+- "Bip" mode.
+- Silent mode.
+- Level of play.
+- Mode of play.
+
+This configuration is read each time the program is started and
+gives initial values to these parameters.
+
+If you confirm this function, the program modifies the THOR.CFG file.
+
+
+
+<T> Type of discs
+
+Allows you to change the type of discs. The program recognizes two
+ways of displaying discs : normal and reversed. You may select the
+type which displays properly on your hardware.
+
+Certain liquid crystal screens (especially in text mode) have a
+reversed display compared to most screens. With this function, you
+may switch the display of black and white discs. This may also be
+useful for making a screen dump which also will be inverted.
+                                             Page 16
+
+
+Database of games : possible uses
+
+- Selection of a set of games
+
+- Selection criteria possible : opening, name and colours of players.
+These criteria may be combined : for example, you could choose
+all games in which Hideshi Tamenori (four time World Champion)
+played the "Tiger" opening as black.
+
+- Win/loss statistics for black and white in either "real" mode 
+(given statistics reflect the actual outcome of the games) or
+"theoretical" mode (in which perfect endgame play is substituted
+after move 44, verified by computer).
+
+- Examination of one or several games from the database by moving
+forward and backwards through a game or moving from one game to
+another (in which the same opening was played). The given information
+(player names, final score, tournament name) can be useful in
+determining the relative strength of the moves chosen.
+
+- Export as an ASCII file the selected games, for example to print
+them.
+
+
+Functions
+
+The selection of these functions is made by the menu displayed to
+the right of the screen. Execute the desired command as described
+on page 4. You may return to the usual Othello board, that is
+exit the Database menu, by pressing the <escape> key (or by choosing
+the Escape option).
+
+
+<O> Opening
+
+This function allows you to use the first moves already played on
+the Othello board as a criterion for selecting games from the
+database. The program then prompts : "Start of game is on ?".
+Verify that you wish to read only games from the database which
+use the current opening. If you don't verify the opening, the
+line displaying selected opening is cleared. The opening line
+used for this selection is limited to the first 15 moves.
+
+Once the selection has been made, the selected moves are displayed
+at the top of the database window. If no opening moves have been
+selected, no opening moves are displayed.
+                                             Page 17
+
+
+<1> player 1 (black)
+
+This function allows you to use one particular player (playing black)
+as a selection criterion for most of the database functions (load from
+database, detail of games, statistics, and export). To select the
+player name, simply type in the name letter by letter. The program
+displays, at the bottom of the screen, a list of players whose name
+starts with these letters. If fewer than 5 names are displayed, the
+list also includes player names in which the first or last name contains
+the letters entered in that order. Usually, after entering 3 or 4 letters,
+there is only one name left on the list. The list of names is a
+selection list, and you may select the name from this list at any time.
+You should be aware that this list may contain more names than those
+which are displayed, but you may only select from among the first 5
+names. If you don't enter a player (or enter the player name "???")
+or if you press <escape>, no name will be used in selecting games.
+
+
+
+<2> player 2 (white)
+
+This function allows you to use one particular player (playing white)
+as a selection criterion for most of the database functions (load from
+database, detail of games, statistics, and export). To select the
+player name, simply type in the name letter by letter. The program
+displays, at the bottom of the screen, a list of players whose name
+starts with these letters. If fewer than 5 names are displayed, the
+list also includes player names in which the first or last name contains
+the letters entered in that order. Usually, after entering 3 or 4 
+letters, there is only one name left on the list. The list of names is a
+selection list, and you may select the name from this list at any time.
+You should be aware that this list may contain more names than those
+which are displayed, but you may only select from among the first 5
+names. If you don't enter a player (or enter the player name "???")
+or if you press <escape>, no name will be used in selecting games.
+
+
+
+Note on player selection
+
+If you select both a white and a black player, the criterion used
+in loading games will be :
+
+     games between these to players WITH EITHER COLOUR.
+
+If you use the SAME player name for BOTH the white and black player,
+the criterion used will be :
+    
+     games involving THIS PLAYER WITH EITHER COLOUR.
+                                             Page 18
+
+
+<L> Load from database
+
+This function allows you to load all games from the database (the 
+THOR.DBA file) satisfying your criteria into memory.
+
+The program first asks you for the initial tournament from which to
+read games, then for the final tournament to read from. This allows
+you to speed up the process of loading games if you only wish to load
+a particular part of the database (for example, only one tournament,
+or one one year, or games before 1990).
+
+While games are being read from disk, you may interrupt the process
+by hitting the <escape> key (however, there is no button displayed
+on the screen). You may also use the right mouse button to interrupt
+loading.
+
+
+
+<D> Detail of games
+
+This option allows you to examine in more detail one or several
+games according to the selection criteria which you have selected
+and matching the current position on the Othello board. The program
+displays the first game which it finds matching your criteria. You
+may play moves with the arrow keys or with the mouse. If the move
+played is different from the move in the displayed game, the program
+automatically tries to find a game matching the current position (if
+no such game is found, it informs you of this fact also).
+
+The displayed information is :
+- the tournament name.
+- the player names.
+- the actual score of the game.
+- the theoretical result of the game.
+- an index number for the game in the database (this number is mainly
+of use to the author of this program).
+
+The following buttons may be used :
+- <Next> button, for advancing one move.
+- <Back> button, for taking back a move.
+- <Pass> button, if one of the players cannot play.
+- <begin> button, to return to the initial configuration.
+- <Pg-Up> and <Pg-Dn> buttons for changing to the next or previous
+games, respectively, satisfying the given criteria and matching the
+actual position on the Othello board.
+- <escape> button to return to the database menu.
+                                             Page 19
+
+
+<S> Statistics
+
+This function allows you to work with a set of games from the database
+matching your criteria and the position on the Othello board. When
+selected, the right side of the screen is divided into 2 main parts :
+
+- At the top, the statistical results of this move
+- At the bottom, the commands available
+
+In the "results" portion, you will see, from top to bottom and left
+to right :
+
+- the current mode of calculation (real/theoretical). The statistics
+in theoretical mode are based on the player who would have won the game
+had both players played perfectly from move 44 on. This mode avoids
+misjudging a move which gave favourable positions which were lost in
+the final moves of the game. There are often large differences between
+these and the statistics from real mode, which use as a result the
+actual score of the game.
+- the list of moves played in this position, along with the number
+of games in which this move was played and the percentage of wins for
+black and white.
+- the total number of games matching the current board position along
+with the percentage of wins for black and white.
+
+When using this function, you should keep in mind the following important
+points :
+- the fewer games matching the current position, the less useful
+the statistical information will be.
+- be careful to take into account the relative strength of the players
+involved : just because Paul Ralle wins games with the parallel or
+X-square openings doesn't mean these openings are good !
+
+You may play moves using the arrow keys or the mouse. If no game
+matches the current position, the results portion of the screen
+will be empty.
+
+The following commands are available :
+- <Mode> button to toggle between "real" and "theoretical" modes
+- <Back> button, to take back a move
+- <Pass> button, if one of the players cannot move
+- <List> button, to examine the list of games (see below)
+
+
+The list feature displays information about all games used in
+the statistics. If there are more than 20 games, the <begin>,
+<end>, <Pg-Up> and <Pg-Dn> buttons provide for movement through
+the the games, page by page. Each page is a selection list
+which allows you to pass automatically to the detail of games
+(retaining the title "Statistics" to remind you where it was
+called from. It functions exactly the same as selecting
+"Detail of Games" from the database menu, except that leaving
+this menu returns to the statistics screen rather than the main
+database menu.
+                                             Page 20
+
+
+<E> Export ascii
+
+This function allows you to produce an ASCII file, that is, a
+text file containing the selected games. Be warned that since
+games are not coded in any way, the file produced (THOR.EXP) can
+be quite large, especially for a list of diagrams.
+
+The program asks you if you would like the output to take the form of
+a list of games, or a series of diagrams. In the case of a list,
+the format is the same as in the list of statistics, with one line per
+game. The file is created, then you return to the database menu on
+pressing a key. If you request a list of diagrams, the program
+requests some additional information :
+
+First, it asks whether you wish to have 2 or 3 games displayed in a row.
+Displaying 3 transcripts in a row creates a file 132 columns wide, which
+is most suitable for printing to a printer with 132 column capability.
+
+Next the program asks whether you wish to display 3 or 4 rows of
+transcripts per page. The output file will automatically move
+to the beginning of the next page after the appropriate number of
+rows have been printed (using a "Form Feed" code). In addition,
+page numbers are displayed. Printing 4 rows on a page requires a
+printer capable of printing 88 lines or more on a page.
+
+The program outputs only games matching your selection criteria and
+the position on the Othello board (for practical considerations,
+only 500 games can be exported). It gives you the option of sorting
+the games before exporting them, which groups similar openings 
+together. At this point, the file of transcripts is created.
+
+In each transcript, the program precedes all moves by white with a
+minus sign ("-"), to differentiate them from black moves. The
+letter at the bottom left corner indicates who would have won the
+game if the two players had made no errors past move 44.
+
+Finally, after pressing a key, you return to the main database menu.
+

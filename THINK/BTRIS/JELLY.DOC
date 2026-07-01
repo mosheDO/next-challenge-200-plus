@@ -1,0 +1,173 @@
+
+        / \
+       /   \                   SUMMIT Software
+     //     \                 14567 Woodbine Ave.        Tel: (905) 727-6964
+    /        \                 Gormley, Ontario          Fax: (905) 727-4036
+      SUMMIT                   Canada   L0H 1G0
+     Software
+
+============================================================================
+
+
+
+                            the JELLY BEAN FACTORY
+                           ------------------------
+
+
+
+  Requirements
+  ------------
+
+       In order to run properly, the JELLY BEAN FACTORY requires the
+  following:
+
+      - 286 MINIMUM, 386 highly recommended for good quality music
+      - VGA card
+      - a hard drive with at least 1.2 Megs of free space
+      - 370k RAM min., 540k for full music and sound effects
+
+  In addition, the JELLY BEAN FACTORY also supports:
+
+      - SOUND BLASTER for digitized music and sound effects
+      - SOUND BLASTER PRO for STEREO digitized music and sound effects
+      - Joystick
+
+  WARNING: the JELLY BEAN FACTORY was not designed to run under Windows,
+           OS/2 or desqview, and as such, will not work properly when
+           run from them.
+
+  NOTE: If the game is operating slow, then try decreasing the sound quality
+        option in the config program (see setup and sound card details).
+
+
+  Installation
+  ------------
+
+       Before you can play the JELLY BEAN FACTORY, you must first run
+  INSTALL.EXE to extract the files, and set up your sound card and input
+  device.  The installation program will ask for the drive and directory
+  you want the JELLY BEAN FACTORY installed to.  Installation could take up
+  to six minutes depending on computer speed, so be patient.
+
+
+
+  Setup
+  -----
+
+       The setup program is automatically executed at the end of the
+  installation process.  To customize the setup configuration, run the
+  program CONFIG.EXE.  The following briefly explains the setup options.
+      Sound Card
+      ----------
+
+             If you have a SOUND BLASTER, SOUND BLASTER PRO, or
+        compatible sound card, then you can enjoy the full gaming
+        experience with the excellent digitized music and sound effects.
+        NOTE: If you do not have such a sound card, then be sure to
+              select NO SOUND at the sound card menu option.
+ 
+             Pro Audio Spectrum users must select the Sound Blaster
+        option in the setup program, and choose the settings
+        corresponding to the SOUND BLASTER section of the card.  Refer
+        to your sound card manual for more information.
+
+
+      Input Device
+      ------------
+
+             This is where you select whether you want to use the
+        keyboard or a joystick.  If you select joystick, and one is not
+        available when the game is loaded, then it will return to
+        keyboard operation.
+
+             If you choose to use a joystick, it will ask you to center
+        the joystick and press any key, and then to move the joystick in
+        all directions, and press any key.
+
+
+      Sound Quality
+      -------------
+
+             This game uses special digitized music which requires a lot
+        of the CPU's time, and because of this, this option has been
+        added so that slower computers can still enjoy the great music
+        and sound effects.  For better sound clarity, use a higher setting.
+        For a slow computer, try using the lower settings (6-10 kHz),
+        and slowly increase the setting until the game runs slower.
+		NOTE: It IS possible that some slow computers will not even be able to
+              handle the lowest quality setting.
+
+
+  Loading the JELLY BEAN FACTORY
+  ------------------------------
+
+       Once the JELLY BEAN FACTORY has been installed, type JELLY to load
+  the game.
+
+
+
+  Playing the Game
+  ----------------
+
+      Object of the Game
+      ------------------
+
+             To clear the most beans off the screen by aligning them by
+        color, horizontally, verticaly, or diagonally, as they fall,
+        before the screen fills up.
+             After your game ends, a gameover screen will appear.  To
+        continue, press escape, enter, or the spaceber.
+
+             If you attained a high score, you will then be asked for
+        your initials.  After entering your initials, press escape or
+        enter to return to the main menu.
+
+
+      Types of Beans
+      --------------
+
+             "Normal" Beans - These beans are all one color and fall in
+        combination with two other randomly selected beans.  These can be
+        cleared away by aligning three or more beans of the same color,
+        horizontally, vertically, or diagonally.
+
+             "Clearing" Beans - (pulsing blue beans) When you drop a set
+        of clearing beans, all of the beans on screen that are the same
+        color as the bean below, the clearing beans, will be cleared.
+
+             "Reject" Beans - (striped beans)
+        Once in a while the factory will produce reject beans.
+        These can only be cleared away with the clearing beans.
+
+      Keys Active During Game Play
+      ----------------------------
+
+         Up/Down       - Changes the bean order
+         Left/Right    - Moves the beans
+         Space/Enter   - Drops the beans
+         Center        - Turns the beans vertically or horizontally
+            (#5 key on numeric keypad)
+         Escape        - Aborts the current game
+         F1            - Pauses current game
+         F2            - Toggles music & sound effects on/off
+         F3            - Toggles sound effects on/off
+         F4            - Toggles fast clear on/off
+
+
+
+  Using The Joystick
+  ------------------
+
+     Up/Down       - Same as Up/Down arrow keys
+     Left/Right    - Same as Left/Right arrow keys
+     Button 1      - Same as Space Bar or Enter Key
+     Button 2      - Same as center key on numeric key pad
+     Both buttons  - Same as Escape Key
+
+
+  Credits
+  -------
+     Programming    Mark Batchelor
+     Music          Chris Mintz
+     Graphics       Mark Batchelor
+

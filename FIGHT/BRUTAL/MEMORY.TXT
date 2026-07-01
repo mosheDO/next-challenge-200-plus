@@ -1,0 +1,13 @@
+The Install program has detected that
+you do not have enough memory to run
+the Brutal PC Demo.  If you are running
+Windows, please exit Windows and then 
+try to run the Demo from the Dos prompt 
+in the C:\GAMETEK\BRUTAL directory
+(re-boot your computer if necessary).
+
+If you need additional assistance, 
+please refer to your Computer's 
+Documentation for Dos.
+
+

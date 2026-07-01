@@ -1,0 +1,314 @@
+
+                                  FUNBALL
+
+             Copyright 1995, Jeffrey Belt  All rights reserved.
+                         Published by Impulse Games
+
+Welcome to Funball!
+
+Funball contains a complete online help system, as well as an extensive help 
+  balloon system, both in several languages. Help balloons are turned on
+  automatically the first time you run the game. Once you know your way
+  around, you can disable them in the Control panel.
+
+That's really all you need to know to get started. To get help within the
+  game, simply press a Help button (with a large H on it), or press H or F1 on
+  your keyboard. The rest of this documentation is mainly trouble-shooting.
+
+
+
+                               WELCOME SCREEN
+
+HOW TO GET HELP
+
+You can press a "Help" button (the one with a large H), or press F1 or H on
+your keyboard, anytime.
+
+To exit a help page, press the button at the top right. It's an "Exit" or
+"Cancel" button.
+
+
+HELP BALLOONS give a short description of whatever the mouse arrow points at.
+You can turn them off in the Control Panel.
+
+Hint: even when they're off, you can display them by pointing at something and
+clicking the right mouse button.
+
+
+TO PLAY THE GAME, click on "Start a new game" (or press <ENTER> on your
+keyboard).
+
+
+HOW TO QUIT FUNBALL
+
+Click on the "Exit" button until the game asks you if you really want to quit,
+and click Yes.
+
+
+
+                              STARTUP SCREEN
+
+Choose the board on which the game will be played. You can choose either a
+built-in board, or one you create using the Board Editor.
+
+Choose which color you want to play - either red or green. You can play
+against a human or robot (computer) opponent of varying difficulty.
+
+Don't be afraid to say "Yes" for the spider. It won't bite.
+
+Then press the button with a ball (bottom middle) to start playing!
+
+
+
+                                GAME RULES
+
+OBJECTIVE: reach the enemy base (or destroy all the enemy balls).
+
+THE BASIC IDEA
+
+The balls are of different sizes, the bigger the better. When one ball jumps
+on another one, both balls usually merge into one. Its color is determined by
+the bigger ball.
+
+Hint: hold down the Shift key to display ball sizes.
+
+Detailed rules are as follows:
+
+JUMPING: Balls jump from base to base. To move a ball, you pick it up with the
+mouse, and click on the destination base.
+
+MERGING: Jumping on a friendly ball merges the two balls. If the resulting
+ball is too big, it will split in two, and bounce back if it reaches the edge.
+
+ATTACKING: Jumping on a smaller enemy ball absorbs it, and your ball gets
+bigger! If it becomes too big, it can overflow.
+
+DEFECTING: Jumping on a bigger enemy ball is suicide! It makes the enemy ball
+bigger. Unless it makes it grow until it explodes!
+
+CANCELING: Finally, two enemy balls of identical size simply cancel each other
+out.
+
+
+Some bases have special powers. Use them to your advantage!
+
+PUMP: The gold base pumps balls full of energy. A ball leaving keeps on
+bouncing until it reaches something other than a normal empty base.
+
+ARMOR: Here your ball is safe. The enemy cannot attack it.
+
+TELEPORTER: A ball landing there is transported to the next empty teleporter
+towards the colored enemy goal.
+
+SLIDE: The slide sends your ball slamming into the next slot, pushing whatever
+is there out of the way.
+
+SMALL: A small base can only hold balls up to a certain size. Big balls will
+shrink to fit.
+
+DRAIN: The drain is very dangerous. A ball landing there flows into it and 
+disappears!
+
+SPRING: The spring makes your ball bounce off to the next slot, and normal 
+merging rules apply.
+
+SOAP: This transforms your ball into a very fragile bubble which can float 
+very far. But the slightest contact with anything other than a smooth, empty 
+base makes it burst.
+
+MAGNET: A ball on a magnet slot cannot be attacked by the enemy, and can merge 
+with friends. But the magnet attracts it so strongly that half of it will stay 
+when you try to leave it.
+
+CANNON: With the cannon, you can destroy any kind of base, except armored 
+bases. The bigger the ball, the longer the barrel, and the longer the range.
+
+MINE: Be careful! They blow up so violently, all surrounding balls shrink a 
+little, except those on armored bases. Watch out for chain reactions!
+
+
+SPIDER
+The spider goes around the board, laying small eggs. Landing on an egg makes
+your ball bigger!
+
+
+
+                                HOW TO PLAY
+
+The mouse arrow is either red or green, depending on whose turn it is. Click
+on a ball to select it, and on the target base to move it.
+
+If you change your mind, click again on the ball you selected. You will then
+be able to choose another one.
+
+
+ROBOT
+
+There are four different robots. The dumbest would get lost in a corridor, and
+the most intelligent is almost impossible to beat.
+
+Pressing any key or mouse button while a robot is thinking stops it and brings
+the player back to human.
+
+
+OVERVIEW
+
+There is an overview of the game board in the lower left corder of the game
+screen (you can press <O> to jump directly to it).
+
+Clicking somewhere on the reduced board will bring you to the same spot on the
+main board.
+
+
+OTHER BUTTONS
+
+You can surrender, or exit back to the title screen, where you can for
+instance save your game.
+
+You can also undo your last move, and access the Control Panel.
+
+
+
+                               CONTROL PANEL
+
+ANIMATION BETWEEN TURNS
+
+If scrolling is jerky, turn down the number of animations between turns. The 
+slower your computer, the less animations it can support and still scroll 
+smoothly.
+
+
+SOUND EFFECTS
+
+If you have a SoundBlaster compatible card and can't hear sound effects on it,
+and it isn't something obvious like the volume being turned all the way down,
+then Funball doesn't detect it properly. Type under DOS:
+
+SET BLASTER=AXXX IX
+
+AXXX is the port (usually A220), and IX the interrupt (usually I7). Then run 
+Funball again.
+
+
+
+                                HOW TO SAVE
+
+Click on the small button next to a saved game slot. You can overwrite a
+previously saved game, or save in an empty slot.
+
+Next, type the name under which you wish the game to be saved (for instance:
+"The red are winning!" OR "Let's go to the beach"), and press <ENTER>.
+
+That's it!
+
+
+
+                                HOW TO LOAD
+
+Just click on the small button next to the name of the game you want to
+restore.
+
+
+
+                                BOARD EDITOR
+
+You can customize up to nine game boards, which you will then be able to 
+choose from the Startup screen.
+
+
+MODIFYING A BOARD
+
+Select the ball or base you want to put on the board, and click on the 
+corresponding slot(s). Little digits tell you how big balls are.
+
+
+MIRROR IMAGE
+
+This function divides the board according to the diagonal that does not
+include the red and green bases.
+
+It then copies the upper left half into the lower right, inverting the ball 
+colors.
+
+
+
+                            SYSTEM REQUIREMENTS
+
+Required:
+  - 286 or better processor.
+  - VGA compatible display card.
+  - Microsoft(TM) compatible mouse (the driver must be loaded).
+  - 640 KB conventional RAM, with at least 550 KB free from the DOS prompt.
+
+Highly recommended:
+  - SoundBlaster(TM) or compatible sound card.
+  - The game will be significantly faster if you have one of the following:
+        + more than 1.5 MB free XMS memory, or
+        + more than 1.5 MB free EMS memory, or
+        + disk cache such as SMARTDRV.EXE (see below).
+
+
+                           COMMAND LINE PARAMETERS
+
+If Funball doesn't work properly on your system, you can try using one or both
+  of the following switches:
+
+FUNBALL /NOMUSIC prevents Funball from trying to play music.
+
+FUNBALL /NOXMS prevents Funball from loading data in EMS or XMS memory.
+
+
+                             WHAT'S A DISK CACHE?
+
+A disk cache is a resident program that can remember the latest information
+  read from the disk, and which holds it in memory. If that same information
+  is needed at a later time, it is simply read from memory instead of being
+  loaded from the disk again. Disk caches usually do more than this but that's
+  the basic idea.
+
+Funball needs huge amounts of memory and barely fits into the low 640 KB. It
+  does so by forgetting information as soon as it is not needed. The drawback
+  is that it may often refer to the same information over and over again, so
+  may need to load it multiple times. This is where the disk cache comes in.
+
+A typical example of disk cache is SMARTDRV.EXE. Usually your AUTOEXEC.BAT
+  file contains a line with the name SMARTDRV on it. If it doesn't, then try
+  inserting in your AUTOEXEC.BAT:
+
+LH SMARTDRV A B C (and more drive letters if needed).
+
+This will activate the disk cache every time your computer reboots. Note that 
+  it will be used by all your programs (and not just Funball), so it will make 
+  life much easier for your hard disk. However, disk caches can sometimes 
+  (though rarely if used in read-only as shown here) lead to problems with 
+  disk tools such as PC Tools Compress, or Microsoft Windows. Please refer to
+  the other programs' documentation for more information.
+
+
+                                   SOUND BITS
+
+Funball can play background music and digitized sound on your SoundBlaster
+  compatible card. If your sound card is not compatible with the original 
+  SoundBlaster, then you won't hear any sounds at all.
+
+Funball will play digitized sounds only if it can detect your card properly.  
+  In most cases it will, but sometimes it might not, depending on your system
+  configuration.
+
+If you cannot enable digitized sounds in the control panel, then you have to 
+  tell Funball where your sound card is. Type at the DOS prompt (or even
+  better, include in your AUTOEXEC.BAT file) a statement similar to the
+  following:
+
+SET BLASTER=A220 I7
+
+A220 is the port address (220 is hexadecimal), possible values are A210, A220,
+  A230, A240, A250 and A260. I7 is the interrupt (IRQ), possible values are
+  I3, I4, I5 and I7. A220 I7 is the default factory value of the standard
+  SoundBlaster. Funball assumes the card is a standard SoundBlaster on DMA 1.
+
+
+SoundBlaster is a trademark of Creative Labs, Inc.
+Other trademarks mentioned in this documentation or in Funball appear for
+identification or illustration purposes only and are the property of their
+respective owners.

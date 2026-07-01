@@ -1,0 +1,125 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+		       Micro! Deluxe, version 1.0
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+This game requires:
+  
+  * A 286 or faster IBM-compatible PC (386 or faster strongly recommended)
+  * VGA graphics
+  * Hard disk (approx 1.5 MB free)
+
+This game also supports:
+  
+  * Sound Blaster, Roland LAPC-I, Adlib, general MIDI
+  * Joystick
+
+-----------------------------------------------------------------------------
+
+== TO SETUP THE GAME ==
+
+1. Change to the drive where the game is installed (C:)
+2. Change to the subdirectory where you installed the game (CD \MICRODLX)
+3. Type MSETUP, then press ENTER.
+
+== TO PLAY THE GAME ==
+
+1. Change to the drive where the game is installed (C:)
+2. Change to the subdirectory where you installed the game (CD \MICRODLX)
+3. Type MICRODLX, then press ENTER.
+
+-----------------------------------------------------------------------------
+
+== WINDOWS USERS ==
+
+*  This game has tested fine under Windows on fast CPUs, however slower
+   computers may experience problems.  Play the game from DOS for best
+   results.
+*  The sound and/or music may not function properly.  This is because the
+   Windows sound drivers often conflict with DOS programs which also use
+   music and sound.  Try running the game from DOS.
+*  If the graphics are jittery or flicker, run the program from DOS.  The
+   game is faster.
+NOTE: Running the game from the "DOS Shell" in Windows is NOT the same as
+running it straight from DOS.  Exit Windows completely.
+
+-----------------------------------------------------------------------------
+
+== NOT ENOUGH FREE MEMORY ==
+
+*  If you are running under Windows, exit completely and run the game from
+   DOS.
+*  If you are running the game from a menu program (like DOSSHELL), exit
+   it.  Then, run the game from the DOS prompt.
+*  You need to free up more memory:
+	1. If you are using DOS 6.0 or later, reboot your computer.  When
+	   the message "Starting MS-DOS..." appears, press the [F5] key.
+	   DOS will bypass all your TSR's, memory managers, and other
+	   programs which normally occupy conventional memory.  Now try
+	   playing the game.
+	2. Versions earlier than DOS 6.0: you need a boot disk.  Below
+	   are instructions to create one:
+	     (A) Put a blank disk in your A: drive (not your B: drive!).
+	     (B) Format the disk with the command:  FORMAT A: /S
+	     (C) Label this disk and save it -- you'll need it everytime
+		 you want to play this game.
+	   Reboot your computer with your boot disk in drive A:.
+	   After a while, you'll see an "A>" prompt.  Follow the first
+	   few instructions above which describe how to start the game.
+	NOTE: If you are using "Stacker" or another hard disk compression
+	program, this game must be installed on a different non-compressed
+	drive in order for the boot disk to work.
+*  If you don't want to go through the trouble of creating a boot disk, you
+   can change the sound/music card options to one which requires less memory.
+	MOST: Sound Blaster sound and music
+	LESS: Sound Blaster sound and no music
+	LESS: No Sound Blaster sound and music        
+	LEAST: No Sound Blaster sound and no music.
+   NOTE: All other sound device configurations take the same memory.
+
+-----------------------------------------------------------------------------
+
+== GRAPHICS ARE JITTERY, GAME IS SLOW ==
+
+*  If you are running from Windows, exit completely.  This game runs faster
+   when played from the DOS prompt.
+*  If you own a Sound Blaster or compatible and have selected overlapping,
+   digitized sound effects first try single channel sound effects instead.
+   If that doesn't work, try FM synthesis or PC speaker sound effects.
+*  Turn off the music.
+*  Turn off both the music and the sound.
+
+== AT THE TOP OF THE SCREEN, ANIMATION FLICKERS OR IS SHEARED ==
+
+*  Your computer can't update the screen fast enough between the VGA's
+   vertical refresh periods.
+*  Exit completely from Windows, then run the game from the DOS prompt.
+*  Try turning off the sound and/or music.
+*  Still flickers?!? Sorry, you'll need to find a faster computer to play
+   the game on (a 386/33 works great).
+
+-----------------------------------------------------------------------------
+
+== SOUND CARD OWNERS ==
+
+The sound was written for the basic Sound Blaster sound card.  It has been
+tested thoroughly at IRQ 7, ADDRESS 220, DMA 1.  If your sound card is
+Sound Blaster compatible the sound should work fine.  Be sure to load all
+software drivers necessary for Sound Blaster emulation (refer to your sound
+card's manual) before playing the game.
+
+-----------------------------------------------------------------------------
+
+== HOW TO CONTACT ACUMEN SOFTWARE ==
+
+U.S. Mail:
+  Acumen Software
+  404 Stone Church Road
+  Tiverton, RI 02878-2813
+
+Internet E-mail:
+  adrian@mit.edu
+
+World-Wide-Web:
+  http://www.mit.edu:8001/afs/athena.mit.edu/user/a/d/adrian/www/acumen.html
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

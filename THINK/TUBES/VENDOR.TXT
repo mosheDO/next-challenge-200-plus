@@ -1,0 +1,48 @@
+SHORT DESCRIPTION:
+
+Addictive action packed puzzle game.  Match similar coloured atoms
+to make them disappear.  Requires: VGA,286+  Supports: Adlib, SB, GM
+
+
+MEDIUM DESCRIPTION:
+
+Addictive action packed puzzle game.  Match at least 3 similar
+coloured atoms to make them disappear in a display of fantastic
+animation.  Impressive digital sound on the PC Speaker & Sound
+Blaster with an original score for the Adlib & General Midi.
+Requires: VGA,286+
+
+
+LONG DESCRIPTION:
+
+Addictive action packed puzzle game.  You're Professor Lanny B.
+Brilliant's assistant and your goal is to create new molecule
+chains by matching at least 3 similiar coloured atoms.  Watch
+as the molecule chains disappear in a fantastic display of
+animation.  Impressive digital sound on the PC Speaker & Sound
+Blaster with an original score for the Adlib & General Midi.
+Requires: VGA,286+
+
+
+REQUIREMENTS:
+
+- At least a 286 processor.  A 386, 486, or Pentium is fine.
+- 420K of free conventional memory is the minimum.  Sound will require an
+  additional 65K and Music will require 25K.  Total memory requirements
+  are 510K.
+- A VGA card with at least 256K.  Super VGA cards are fine.
+
+
+OPTIONAL:
+
+Sound
+-Sound Blaster
+
+Music
+- Adlib
+- General Midi
+
+Input Device
+- Joystick
+- Mouse
+

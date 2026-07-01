@@ -1,0 +1,8 @@
+For installing the codes type "Wolf3d GOOBERS"
+And when you are playing press : Left Shift+Tab+Left Alt+Back Space
+And do the next things:
+1. For unkill press Tab+G
+2. For all weapens press I+L+M
+3. For ending level press Tab+E
+4. To select level press Tab+w
+5. To made the weapens free press Tab+I

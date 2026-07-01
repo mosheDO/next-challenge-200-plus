@@ -1,0 +1,183 @@
+
+
+             ++------------------------------------------------++
+             ||                                                ||
+             ||             SAND STORM - version 1.0           ||
+             ||                                                ||
+             ||         A Pod Bay Enterprises Product          ||
+             ||                                                ||
+             ||   Registration Fee: $10 (Registration Only)    ||
+             ||                     $15  (Reg. & Champion Ver) ||
+             ||                                                ||
+             ||      Register with: David A. Johndrow          ||
+             ||                     3115 Deerchase Wynd        ||
+             ||                     Durham, NC  27712          ||
+             ||                                                ||
+             ||          IMPORTANT: Make checks payable to     ||
+             ||                     DAVID A. JOHNDROW          ||
+             ||                                                ||
+             ++------------------------------------------------++
+
+Since SAND STORM is being offered at a registration fee that is below the
+average cost for shareware games, please support the shareware concept by
+registering this products.  Feel free to ask any questions during
+registration, or contact me via the following networks:
+
+    PRODIGY ID: BJTK26A
+    AMERICA ON-LINE ID: POD BAY
+
+In addition to your fee, filling out the form found in Register.Doc will
+be greatly appreciated.
+
+NOTE: For shipping of SAND STORM outside of the United States, you must also
+      enclose an extra $4 to cover expenses.
+
+                +--------------------------------------------+
+                |          SAND STORM - version 1.0          |         2
+                +--------------------------------------------+
+
++-----------------------------------+
+|  SAND STORM SYSTEM REQUIREMENTS:  |
++-----------------------------------+
+
+Required:
+     EGA graphics adapter and monitor
+     Microsoft compatible mouse
+     384k RAM free
+
+Recommended:
+     10Mhz Clock speed
+     Low blood-pressure
+
++---------------------------------+
+|  ALL YOU NEED TO KNOW TO PLAY:  |
++---------------------------------+
+
+     There are three basic scenarios you will face in the standard version of
+the SAND STORM game:  SCUDS, JETS, and TOMAHAWKS.  Before each mission you will
+be  briefed on what to expect.  Reading the briefs will help you adopt a
+strategy before each mission - making you more inclined towards success.  After
+the briefing, you will see a introduction sequence reminding you of what type
+of scenario is to come, then the mission begins.  After completion of a
+scenario, you will be given information regarding your performance.
+
+TO EXIT: 
+     When game is over, press right button on the mouse to exit to DOS.
+
+SCUDS:
+     Move the cursor around the screen with the mouse.  When you wish to launch
+a Patriot to the current location, push the left button.  It couldn't be more
+simple!  Watch out for Conventional (White), Al Hussein (Blue), and Chemical
+(Green) Scuds.  In addition, an occassional jet may fly over.  Try to hit the
+jet for extra points, but only worry about the bomb that it may release.  The
+scenario ends when the last scud detonates or is destroyed.  The game ends if
+you let the damage bring down the status of the installations to below 50%.
+
+JETS:
+     Same in scope as the scuds routines but with more jets than usual and
+fewer scuds than usual.
+
+TOMAHAWKS:
+     During this scenario you will use the mouse to move a tomahawk missile up
+and down to avoid contact with AA fire.  When your target appears (Usually
+after several screens), push the left button to initiate the strike sequence.
+At that time, the tomahawk will nosedive to the ground and, hopefully, destroy
+its target.  The scenario ends after the last tomahawk detonates or is
+destroyed.  The game ends if you fail to destroy 50% or more of the targets.
+
+                +--------------------------------------------+
+                |          SAND STORM - version 1.0          |         3
+                +--------------------------------------------+
+
++----------+
+|  HINTS:  |
++----------+
+
+     Recognizing "greater dangers" during play will greatly enhance survival
+during the scuds and jets scenarios.  You must protect the following types
+of targets: Cities, towns, hospitals, barracks, water towers, radar, airfields,
+oil refineries, oil wells, oil storage tanks, and ships at sea.  Use the
+following table to familiarize yourself to what can do the most damage to
+any given facility:
+
+Missile:           Direct:  Nearby Hit:
+-----------------  -------  -----------
+Scuds (White)      50%      30%
+Al Hussein (Blue)  40%      24%
+Chemical (Green)   50%      30% (Cities, towns, hospitals, barracks or water)
+                   30%      18% (Everything else)
+Bombs              30%      10%
+
+
+     Keep in mind, that while you are not evaluated on your ability to protect
+the Patriot missile launcher, hits to the launcher result in its loss of
+ability to fire as rapidly.  You can actually lose all use of the launcher,
+leaving you with nothing to do but watch, helplessly, as the scuds rain down
+on their targets.
+
+     During Tomahawk sequences, two approaches may prove helpful.  First, avoid
+a panic-stricken wild-driving technique.  This usually results in head-on AA
+contact.  Just cruise along, moving when necessary.  Secondly, when your target
+is within sight, move your tomahawk into a low flying position before
+initiating the strike sequence.  As you will no doubt learn at some point, the
+tomahawk is still very much damageable during this time, actually  more-so
+since you can no longer swerve away from danger.  Moving into a low position
+before striking will minimize the amount of time spent in this critical phase.
+
+DISCLAIMER:
+     In closing, please keep in mind that this game is intended solely for
+enjoyment of gaming.  I wish to make no political statements with it.
+It is not intended to stir up emotions regarding the gulf war but rather
+allow computer users to kill some time trying to rack up high scores on
+something that is a game...nothing more.  If after reading this you still
+feel that this game is improper...please get a real cause!
+
+                +--------------------------------------------+
+                |          SAND STORM - version 1.0          |         4
+                +--------------------------------------------+
+
++--------------------+
+|  ABOUT SAND STORM  |
++--------------------+
+
+     Development of the SAND STORM game began in, as you probably surmised,
+January of 1991.  Since there is a lot of stuff out there already, it has
+changed names three times from Scuds to Patriot and eventually to SAND STORM.
+While getting to a quick start, development slowed while emphasis on another
+POD BAY product (256 PAINT) took priority.  After realizing that even though
+all of the air war hysteria has passed, there might still be some interest in
+a quality game in the air-war genre.  Hence, the game now draws to completion
+in April of 1992.  SAND STORM was created using object-oriented features of
+Borland's Turbo Pascal version 6.0, a remarkable product.  EGA graphics sprites
+were all done by the author using the TEGAS (v3.0) graphics package, another
+David Johndrow and mostly Bob Roberds (BSX International) product.  VGA
+graphics sprites were done using the 256 PAINT graphics editor, Pod Bay.
+The following people were instrumental in debugging and assisting the growth
+of SAND STORM in the following ways: Nancy Johndrow, my wife, provided, ideas,
+the title, and tolerated countless hours of "Just look at this last thing, then
+you can go!"  Kevin Stokes of Pie in the Sky Software freed me from a dangerous
+mousetrap.  Bob Roberds created TEGAS and gave me the means to get the job done.
+In addition, the January 18th, 1991 edition of U.S. News and World Report & the
+February, 1991 edition of National Geographic were both invaluable resources.
+
++-------------------------------------------------------------+
+|  WHAT TO EXPECT WHEN YOU REGISTER THE CHAMPIONSHIP VERSION  |
++-------------------------------------------------------------+
+
+Here's what you can expect if you register for the championship
+version: (May 1992)
+
+     1. An all new scenario, guaranteed to be more fun than
+        stepping on a land mine.
+
+     2. Some digitized pictures imitating the current commercial software
+        trend of "Just scan some photographs, they'll think it's a game."
+
+     3. A separate executable file enabling you to practice most of the
+        rounds.
+
+     4. Just about all of the demos of other Pod Bay products that I can fit
+        onto one disk!  Hope you've got an unzipper!
+
+     5. The knowledge that somewhere in America, you made a trip to the
+        mailbox worthwhile!

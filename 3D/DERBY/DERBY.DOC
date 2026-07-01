@@ -1,0 +1,427 @@
+                             HOME RUN DERBY
+                       An MVP Software Production
+                              By Dan Hilton
+                        copyright 1995 Dan Hilton
+
+
+HOME RUN DERBY is an exciting simulation of an all-time home run
+hitting contest.  It takes a good eye and a lot of practice to be
+able to hit the long ball consistently.  Good Luck.
+
+Home Run Derby is shareware.  The few dollars you paid for this
+shareware version goes does not go to the author.  It is simply the
+modest fee you pay to try the software.  You are free to evaluate
+this software.  If you like it or find it useful, you must register
+with MVP Software by purchasing the Home Run Derby Trilogy.  When
+you purchase the trilogy you will receive the latest version,
+including all three stadiums, 30 players from all time periods in
+baseball history, a printed manual, and a free offer on all other
+MVP shareware games.
+
+Thanks for playing Home Run Derby and for supporting shareware.
+Your honesty pays.
+
+To order the Home Run Derby trilogy, call 800-968-9684 toll-free 24
+hours a day.  Please have your Master Card or Visa ready when you
+call.  Or fill out the order form at the end of this manual and fax
+it to: 616-245-3204.  Make sure your credit card number and
+expiration date are legible.  Or if you prefer mail the order form
+and your check to: MVP Software, 1035 Dallas SE, Grand Rapids, MI
+49507-1407.
+
+For overseas orders or technical support call 616-245-8376.
+
+
+       Download All the Latest MVP Shareware Games FREE
+
+If your favorite BBS doesn't have an MVP file section, then you may
+be missing some great shareware.  To get all the latest and greatest
+MVP shareware releases, call one of the leading boards listed below,
+and check out the FREE MVP file area.
+
+In Grand Rapids, Michigan -- Ryan's Bar (616) 456-1845
+In Milwaukee, Wisconsin -- Exec-PC (414) 789-4360
+In New York, New York -- The Invention Factory (212) 274-8110
+In Boston, Massachusetts -- Channel 1 (617) 354-3230
+In Kansas City, Missouri -- Sound Advice (816) 436-8029
+In Palo Alto, California -- Space BBS (415) 323-4193
+In Reston, Virginia -- World Data Network (703) 620-8900
+
+Even better, tell your favorite sysop about the MVP Distribution
+Network and how he can be assured of getting all of the latest MVP
+shareware hits as soon as they are released.  See the SYSOP.DOC file
+for details.
+
+                 MVP is Now on CompuServe!
+
+You can get all of the latest MVP shareware releases, and discuss
+MVP titles directly with the authors on MVP's new section on the
+world's largest online information network, CompuServe.  Just type
+GO MVPSOFT to get to our section!  If you are not a CompuServe
+member you are eligible to receive a FREE trial membership,
+including software and online time worth almost $55!  That's right,
+you get the CompuServe Information Manager software for DOS or
+Windows, which normally costs $29.95.  Plus you get a free first
+month of online access, worth $9.95.  And to top it off, you get a
+usage credit of $15 of additional online time.
+
+To take advantage of this free trial membership to the largest
+online service in the world, call 800-848-8199.  Ask for rep 671.
+And then GO MVPSOFT and talk to the MVP team on CompuServe.
+
+INSTALLATION
+------------
+If you downloaded this file from a BBS, you don't need to run
+Install.  If you purchased an evaluation disk from a shareware
+vendor or the story, follow these directions.
+
+To install Home Run Derby, place the diskette into the A drive and
+type A:, or into the B drive and type B:.  When the A> or B> prompt
+appears on the screen, type INSTALL.  Follow the directions to
+install the software.
+
+To begin the game type Derby.
+
+NOTE TO WINDOWS USERS
+---------------------
+Home Run Derby might run as a DOS application, spawned under
+Windows, but you may encounter sound card conflicts.  The best
+solution if you run into conflicts is to completely exit from
+Windows before starting Home Run Derby.  Clicking on the DOS prompt
+is NOT exiting Windows.  You must actually close your Windows
+session.
+
+We strongly recommend that you terminate Windows completely before
+running Home Run Derby and run the game directly from DOS.
+
+MAKING A CLEAN BOOT DISK
+------------------------
+If you encounter problems running Home Run Derby there may be a
+conflict between it and a program resident in memory.  Here's a way
+to avoid the conflict.
+
+Place a blank, unformatted diskette into drive A of your computer.
+Then type
+
+            FORMAT A:/S/U
+
+and press enter.  When the computer is finished formatting the disk
+and copying the system files to it, press the RESET button on your
+computer or the ALT-CTRL-DEL keys at the same time.  After your
+computer has rebooted, go to the Home Run Derby directory and play
+
+the game.  If it runs, there is a conflict between a resident
+program loaded by your AUTOEXEC.BAT or CONFIG.SYS file.  Whenever
+you want to play Home Run Derby, simply reboot your computer with
+the boot disk you have created.
+
+               Ordering Information
+
+The Home Run Derby Trilogy is available from the following
+authorized distributors:
+
+In the United States:
+--------------------
+MVP Software
+1035 Dallas SE
+Grand Rapids, MI 49507-1407
+phone: 800-968-9684 24-hour order line only
+       (616) 245-8376 information, technical support, or orders.
+fax: (616) 245-3204
+
+order price: $19.95 plus $4.00 shipping in the US, $5.00 shipping to
+Canada, $6.00 shipping everywhere else.  Michigan residents please add
+appropriate sales tax.
+
+In Australia:
+------------
+Budgetware
+9 Albermarle St
+Newtown NSW 2042
+phone: (02) 519-4233           fax: (02) 516-4236
+
+order price: $A30.00 (includes shipping)
+
+In the United Kingdom:
+---------------------
+Oakley Data Services
+3, Oakley Close
+Sandbach
+Cheshire CW11 9RQ
+
+phone: (0) 1270 759739         fax: (0) 1270 765272
+email 74774,1347@compuserve.com
+internet via WWW http://www.oakley.com
+
+order price: L20 (includes shipping and taxes)
+
+In Denmark and all of Scandanavia:
+---------------------------------
+Pro-Soft
+Benloese Skel 4 G
+DK 4100 Ringsted
+
+phone: 53 61 90 42             fax: 53 61 93 91
+
+order price: 140,00 kr. + VAT 25% + s/h 25,00
+
+In Japan:
+--------
+P. & A. Company Ltd
+302 Bellwins, 1367-23
+Nakagami, Akishima, Tokyo 196
+
+phone: 425-46-9141             fax: 425-46-9142
+BBS: 425-46-9143
+
+3000 yen includes shipping and taxes
+
+In Germany, Austria, and Switzerland:
+------------------------------------
+JDS -- Software Vertrieb
+Jens Driese
+Postfach 1269
+D-26302
+
+phone: 04451-85743             fax: 04451-860500
+CIS: 100273,2252               BTX: DRIESE#
+
+price: 32 DM (includes taxes) plus 6 DM shipping
+
+In The Netherlands:
+------------------
+HaSa Software Applications
+PO Box 414
+9500 AK Stadskanaal
+
+phone: 5990 50161                    fax: 5990 50124
+BBS: 5990 50212 or 50314 or 50232    CIS: 100115,542
+
+price: Call for current price
+
+In Italy:
+--------
+Systems Comunicazioni srl
+via Olanda
+6 - 20083 Gaggiano
+
+phone: (02) 9084 1814          fax: (02) 9084 1682
+BBS: (02) 9084 1811
+
+price: Lire 42.000 IVA inclusa
+
+In Spain:
+--------
+Friendware S.L.
+Rafael Calvo, 40
+28010 Madrid
+
+phone: (91) 308 34 46          fax: (91) 308 52 97
+CIS: 100413,1667
+
+price: 3.000 Pts
+
+                  HOME RUN DERBY TRILOGY ORDER FORM
+
+Name ________________________________________________________________
+
+Address _____________________________________________________________
+
+City _______________________________ State ______ ZIP _______________
+
+Country (if outside USA) ____________________________________________
+
+All orders are shipped on 3.5" disks.
+
+Price of Home Run Derby Trilogy                                 $19.95
+Shipping and Handling (US)                                        4.00
+Shipping and Handling (Canada)                                    5.00
+Shipping and Handling (all other countries)                       6.00
+Michigan residents add sales tax                                  1.44
+                                                                ------
+Make check payable to "MVP Software"           Total enclosed:  $
+Master Card/Visa information (credit card orders only)
+
+Card number __________________________________________
+
+Expiration number ____________________________________
+---------------------------------------------------------------------------
+VOLUNTARY QUESTIONS:  Please help us determine what features you would like
+====================  in future products.
+
+Circle what type of equipment you have:     286    386    486   Pentium
+Circle the speed of your computer(Mhz): 12  16  20  25  33  40  50  66  ___ 
+Circle any that apply: Joystick  Mouse  Modem_______  SVGA card____________
+                                             (speed)              (type)
+
+Sound Capability:  Adlib   Sound Blaster   SB Pro  SB 16   SB AWE32
+    PC speaker only   Other ____________________________________
+
+Where did you get Home Run Derby?
+    Friend   CompuServe   AOL   Prodigy   Ryan's Bar   Exec-PC   Sound Advice
+    Invention Factory   Channel 1   Space BBS   World Data Network
+    Other BBS (name): _______________________
+    Shareware Distributor (name): _________________________________________
+
+Please answer the following questions about what you like and don't like in
+computer games.
+
+Approx # of commercial games owned: ____  #Registered shareware games: ____
+
+Circle preference:    Beautiful graphics        Game complexity 
+Circle preference:    Solo against computer     2-Player
+Circle preference:    Strategy   Action   Simulation   Sports   Other_________
+Game playability:     Few levels with hard difficulty    Lotsa levels
+---------------------------------------------------------------------------
+Send this order form and your check to:
+
+MVP Software, 1035 Dallas S.E., Grand Rapids, MI  49507-1407
+
+US or Canada 24-hour order line: 800-968-9684.  Fax: 616-245-3204.
+Tech support, information, or overseas order line: 616-245-8376.
+
+MAIN MENU
+---------
+The main menu has four options.
+
+      HOME RUN DERBY - begins the home run hitting tournament.
+      PRACTICE - gives you the chance to test your skills in a
+                 practice round.
+      HALL OF FAME - displays the all time greats.
+      SETUP - allows you set the time number of outs for each round,
+              set up the system speed, and specify the sound options.
+      EXIT - exit the game.
+
+SETUP
+-----
+The SETUP option allows you to change game settings.  Move the
+flashing box to the desired menu item with the arrow keys.  Press
+<ENTER>.  The arrow keys will now cycle through available options.
+Press <ENTER> to accept the displayed option.  OUTS PER ROUND is the
+number of outs you get per round.  SPEED determines the running
+speed for the game.  The number represents percentage maximum
+running speed.  On faster computers, you will need to set the SPEED
+percent to 80 percent or so.  This will slow down the game to where
+it is playable.  If your computer is not particularly fast, you may
+want to set SPEED at 100 percent.  Experiment until you find the
+speed that is right for your computer.  The sound option allows you
+to turn the sound and music on or off.  With the sound off there
+will be no sound at all.  When the game is setup the way you like
+it, move to the DONE box and press <ENTER>.  You will be returned to
+the MAIN MENU.
+
+PRACTICE
+--------
+It is said that hitting the pitching of a major leaguer is the
+toughest thing to do in all sports.  So it can take some practice to
+be competitive in HOME RUN DERBY.  Choosing the practice option
+allows you to take a few cuts in the batters box.  The pitcher will
+throw all the pitches he's got, so you will have to be on your toes.
+Every pitch could potentially be hit out of the park.  All you need
+to do is swing the bat to the right portion of the strike zone, at
+the right time.  This can be more difficult than it sounds.  The
+pitcher throws the ball to one of 9 positions in the strike zone
+(for a right handed hitter):
+
+                               HIGH 
+                               /|\
+                                |
+                        _____ _____ _____
+                       |  7  |  8  |  9  |
+                       |_____|_____|_____|
+          inside <--   |  4  |  5  |  6  |  --> outside
+                       |_____|_____|_____|
+                       |  1  |  2  |  3  |
+                       |_____|_____|_____|
+                                
+                                |
+                               \|/
+                               LOW
+
+Press the key on the number keypad which corresponds to the pitch
+position, and at the right time, and the ball will be long gone.
+
+HOME RUN DERBY
+--------------
+Well, this is it.  Your chance at fame and immortality.  I know it
+can make you nervous to know that you'll have to go up against the
+likes of JUNIOR GRIFFIN JR., BARTY BUNDS, and HURT THOMAS.  Just try
+to get a hold of yourself.  And even if you can beat them, you'll
+still have to face the all time greatest hitters.
+
+After you have taken the HOME RUN DERBY option from the main menu,
+you will go to the player setup screen.  Use the arrow keys to move
+the flashing box to highlight the option you wish to change.  Press
+<ENTER>.  The arrow keys will now cycle through available options.
+Press <ENTER> when the option is the way you like it.  The nickname
+option lets you set your players nickname.  The PA announcer will
+refer to your player by this name.  The skill level option allows
+you to set the difficulty level.  If you select rookie, the pitcher
+will not throw nearly as many different types of pitches as on the big
+league level.
+
+NOTE: Each player can specify his own skill level, so that beginning
+players can compete with experienced players.  You can set whether
+your player bats right or left handed, and adjust the uniform colors
+as well.  Go to DONE when you are ready to continue.  You will be
+asked whether you want to have another player in the tournament.  If
+you select yes, you will go through the process for another player.
+If you select no, you will move on to the HOME RUN DERBY.
+
+Once all the player information has been entered, we go to the TV
+studio where Skip Smiley and Bob Yukon are waiting to start their
+broadcast.  Press <ENTER> or <SPACE> after you have read each of their
+comments.  The <ESC> key will allow you to move quickly through
+all of the comments.  They will look at the bracket so that you can
+see who you will have to face in the first round.  Bob Yukon will
+make predictions about the first round matchups; then it is time for
+the first round action.
+
+You will see a graphic for each matchup.  To start each game, press
+<ENTER> or <SPACE>.  If the matchup is two computer-controlled
+players, you will see a final score.  Watching the scores is a good
+way to see which players are going to be toughest to beat.  If the
+matchup is between a computer player and a human player, you will
+get to watch live action.  The human player is represented by a
+blank face.  The PA announcer will notify you when you are up to
+bat.  Do your best!  You'll have to concentrate to win.  Remember,
+there are no time limits in baseball.  "It ain't over, till it's
+over!"
+
+After all of the first round matchups are complete, you'll return to
+the studio for a brief exchange between Skip and Bob, and a look at
+the second round matchups.  If you keep on winning all the way
+through the final, you can get into the HALL OF FAME!
+
+HALL OF FAME
+------------
+Choosing the HALL OF FAME option allows you to view the ten all-time
+greatest home run hitters.  To make the Hall of Fame, you
+have to win the home run derby, and have a home run hitting
+percentage that is high enough to get you into the top ten.  Hall of
+famers are ranked not only by percentage, but also by skill level.
+A big league hitter will always merit a higher spot than a AAA
+hitter.
+
+QUITTING THE GAME
+-----------------
+You can press <CTRL Q> at almost any time during the game to get a
+chance to return to the main menu.  From the main menu you can
+select EXIT TO DOS which will exit the game.
+
+SYSTEM REQUIREMENTS
+-------------------
+HOME RUN DERBY requires an IBM compatible computer with 560k base
+memory free.  A SoundBlaster card is optional, but is required to
+hear the background music, and to have optimum clarity in hearing
+the digitized comments.  SoundBlaster support requires 512k free
+extended memory.
+
+CREDITS
+-------
+      CREATOR/DESIGN      -  Dan Hilton
+      PROGRAMMING         -  Dan Hilton
+      ARTWORK             -  Dan Hilton, Bruce Hilton
+      SOUND               -  Dan Hilton, Kevin Thompson
+      PRODUCER            -  Dave Snyder
+

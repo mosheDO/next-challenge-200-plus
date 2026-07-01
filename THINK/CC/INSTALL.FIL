@@ -1,0 +1,206 @@
+' CHINESE CHECKERS Installation Script
+' Copyright 1992, Midlands Publishing Company.
+' August 17,1992
+
+BACKGROUND 63
+TELESCOPE OFF
+
+WINOPEN 0 2 79
+
+"            Fat Cat Software      "
+"No other Software Company does it better!"
+""
+""
+"        Auto Installation Program"
+""
+
+WINUPDATE +14 +1 78
+"FAT CAT SOFTWARE"
+WINUPDATE +14 +4 78
+"CHINESE CHECKERS"
+
+TELESCOPE ON
+SHADOW ON
+SPACE 275                            
+
+WINOPEN 0 35 95
+"Fat Cat's Auto Installation program is brought to you by" 
+"ImagiSOFT, Inc., P.O. Box 13208, Albuquerque, NM  87192"
+
+:PROMPT
+DRIVE C 0 12 31 15 32 14 79
+PATH \CHECKERS 0 12 31 15 32 14 79
+
+VIDEO EGA
+JUMP.NO NO_EGA
+
+EXIST ~1~2\*.*                       
+JUMP.NO UNPACK
+
+EXIST ~1~2\1.FIL                     
+JUMP.YES UNPACK
+
+WINOPEN 0 11 79
+"The directory ~1~2 already exists and contains files!"
+""
+"   Installing CHINESE CHECKERS in this directory will"
+"                DELETE ALL THE FILES"
+"       in this directory prior to installing."
+""
+""
+WINUPDATE +2 +7 78
+"Are you SURE you want to install it here   Y or N?"
+ASK +52 +7
+WINCLOSE
+JUMP.NO PROMPT
+
+:UNPACK
+PROMPT OFF                            
+DELETE ~1~2\*.* 1 24 51               
+PROMPT ON                             
+
+
+TELESCOPE OFF
+COPY ~0\CHINESE.EXE ~1~2\ 0 12 31
+JUMP.FAIL INSTALL_FAILURE
+COPY ~0\CHINESE.ICO ~1~2\ 0 12 31
+COPY ~0\CHINESE.TXT ~1~2\ 0 12 31
+COPY ~0\CC_ORDER.TXT ~1~2\ 0 12 31
+COPY ~0\CHINESE.WL ~1~2\ 0 12 31
+COPY ~0\READ.ME ~1~2\ 0 12 31
+COPY ~0\CC_I_1.WL ~1~2\ 0 12 31
+COPY ~0\CC_I_2.WL ~1~2\ 0 12 31
+COPY ~0\CC_I_3.WL ~1~2\ 0 12 31
+COPY ~0\CC_I_4.WL ~1~2\ 0 12 31
+COPY ~0\CC_I_5.WL ~1~2\ 0 12 31
+COPY ~0\CC_I_6.WL ~1~2\ 0 12 31
+TELESCOPE ON
+
+EXIST ~1\CHINESE.BAT
+JUMP.NO DOS_PROMPT
+PROMPT OFF
+DELETE ~1\CHINESE.BAT 1 24 51
+PROMPT ON
+
+:DOS_PROMPT
+
+:FILES_TEST
+SET.FILES 25                         
+
+DOS 3.0                              
+JUMP.NO OLD_DOS                      
+
+FILE ~1\CHINESE.BAT                   
+"@~1"
+"@cd ~2"
+"@CHINESE"
+"@cd \"
+JUMP DONE
+
+:OLD_DOS
+FILE ~1\CHINESE.BAT
+"~1"
+"cd ~2"
+"CHINESE"
+"cd \"
+
+:DONE
+
+SHADOW ON
+WINOPEN 0 11 31
+"CHINESE CHECKERS has been successfully installed."
+""
+"     To run it, enter the command"
+"     from the root directory of drive ~1\"
+""
+""
+""
+""
+"Press the [Enter] key to continue."
+WINUPDATE +36 +3 30
+"CHINESE"
+WINUPDATE +7 +6 27
+"THANK YOU FOR CHOOSING FAT CAT SOFTWARE!"
+WAIT +36 +9
+WINCLOSE
+
+:PRINT
+WINOPEN 0 11 30
+"Would you like to PRINT the Documentation   Y or N?"
+ASK +53 +1
+WINCLOSE
+JUMP.NO RUN
+
+WINOPEN 0 12 79
+""
+"   Printing . . .  "
+""
+PRINT ~1~2\CHINESE.TXT
+PRINT ~1~2\READ.ME
+JUMP.FAIL PRINTER_ERROR
+WINCLOSE
+JUMP RUN
+
+:PRINTER_ERROR
+WINOPEN 0 12 79
+"Your Printer is not responding.  Possible problems:"
+""
+"  -- Printer is not turned on"
+"  -- Printer is out of paper"
+"  -- Printer is not attached to LPT1 (parallel port 1)"
+""
+""
+WINUPDATE +2 +7 78
+"Do you want to try to print again  Y or N?"
+ASK +44 +7
+WINCLOSE
+JUMP.YES PRINT
+
+:RUN
+WINOPEN 0 11 30
+"Would you like to run CHINESE CHECKERS right now   Y or N?"
+ASK +57 +1
+JUMP.NO EXIT
+RUN ~1\CHINESE.BAT
+
+:EXIT
+
+END
+
+:INSTALL_FAILURE
+
+WINOPEN 0 12 79
+
+"CHINESE CHECKERS INSTALLATION FAILED BEFORE IT FINISHED!!"
+""
+"Possible reasons:"
+"   -- The floppy disk was damaged during shipping."
+"   -- Your disk drive is out of alignment."
+"   -- The floppy disk was removed prior to completion."
+""
+"Press [Enter] to remove incomplete program files."
+
+WAIT +51 +8
+
+PROMPT OFF
+DELETE ~1~2\*.* 0 0 31
+RD ~1~2
+DELETE ~1\$.BAT 0 0 31
+PROMPT ON
+
+WINCLOSE
+
+WINOPEN 0 11 31
+
+"Partially Installed Files are Now Deleted."
+""
+WAIT +30 +8
+
+:NO_EGA
+WINCLOSE
+WINOPEN 0 11 79
+"CHINESE CHECKERS requires an EGA or better monitor to run"
+"Sorry, but it won't run on this computer" 
+"          press ENTER to quit"
+
+WAIT +30 +4

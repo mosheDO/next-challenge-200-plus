@@ -1,0 +1,251 @@
+
+        ÖÄÄÄÄÒ Ò      ÒÄÄÄÄÒ ÒÄÄÄÄÒ Ò    Ò ÒÄÄÄÄÒ ÒÄÄÄÄÒ      Ò   Ò
+        º      º      º    º º      º    º º      º    º      º   º
+        ÇÄÄÄ   º      ÇÄÄÄÄ¶ ÐÄÄÄÄÒ ÇÄÄÄÄ¶ ÇÄÄ    ÇÄÄÄÒÐ      º   º
+        º      º      º    º      º º    º º      º   º       º   º
+        Ð      ÐÄÄÄÄÐ Ð    Ð ÐÄÄÄÄÐ Ð    Ð ÐÄÄÄÄÐ Ð   Ð       Ð   Ð
+
+                 Copyright (C) 1995  Caledonian Enterprises
+
+
+                         *** Notice to vendors ***
+
+           This shareware version of Flasher II may be freely 
+           distributed via BBS's, disk copying, etc.  Shareware
+           vendors may sell this shareware version of Flasher II, 
+           provided that a fee of no more than $3 is charged in 
+           doing so.  You are also required to recieve permission
+           from Caledonian Enterprises prior to doing so.  This is
+           mainly to inform Caledonian Enterprises of your intent
+           and to give us an idea of how our software is being
+           distributed.  Mail your request to:
+
+                         Caledonian Enterprises
+                         PO Box 7224
+                         Colorado Springs, CO 80933-7224
+                         Attn: Distribution
+
+
+                          ****  Legalities ****
+
+           USE OF THIS SOFTWARE IS STRICTLY AT YOUR OWN RISK!  
+           CALEDONIAN ENTERPRISES IS IN NO WAY RESPONSIBLE FOR
+           DAMAGES RELATED TO USING THIS SOFTWARE.
+
+                         *** Included Files ***
+
+                       ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                       ³ FLASHER2.EXE .. 107,282 ³
+                       ³ FLASHER.DAT ... 240,302 ³
+                       ³ ORDER.FRM ....... 1,979 ³  
+                       ³ FILE_ID.DIZ ....... 219 ³
+                       ³ FLASHER.DOC .... 11,412 ³
+                       ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+                       ³ 5 files         361,194 ³
+                       ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ    
+           
+           (After playing a game of Flasher, 3 files will be created:            
+               
+              1] FLASH2_1.CFG   -- This is a configure file. --
+                                This saves the settings that you had
+                                when you last played, this way you do
+                                not have to keep setting the options
+                                each time you play.
+              
+              2] FLASHER.NHS    -- The normal highscores file. -- 
+                                This is the file where the 
+                                highscores are saved for a normal
+                                game.
+
+              3] FLASHER.PHS    -- The phase highscores file. --
+                                This is the file where the 
+                                highscores are saved for a phase
+                                game.
+
+                       
+                           *** How To Play ***
+
+           Flasher II is an addictive and challenging game designed
+           to test your memory.  Simply repeat an ever-increasing
+           sequence of colors in order to score points.  
+
+           At the Flasher directory, type FLASHER2 to begin the game.
+           The program will check for a VGA card, mouse, and soundcard
+           card.  If your system does not have a VGA card or mouse, the
+           program will exit you back to DOS.  If your system does not
+           have a soundcard, your sound options will be limited to the 
+           PC speaker.  Flasher II uses the FM chip which is located in
+           the same memory location on most (if not all) soundcards, so 
+           if you have one, it should find it. (Hey, it works on MY 
+           SoundBlaster...).
+
+           Once all this is done, you will be prompted to click the mouse
+           button to being the game. IT IS HIGHLY SUGGESTED THAT YOU RUN
+           THIS GAME FROM YOUR HARD DRIVE.  RUNNING IT OFF OF A FLOPPY DISK 
+           WILL TAKE A BIT LONGER WHILE THE PROGRAM READS THE DATA FILE.  
+           However, all data is read into memory prior to the start of the
+           game, so once it is done, game speed is not affected not matter
+           where you run it from.
+
+           The mouse is used to make your selections as well as flipping
+           through the intro screens.  After the Caledonian Enterprises
+           logo fades out, the title screen will appear and a few colors
+           will be flashed.  Click the left mouse button to go through
+           the other screens until you reach the main menu.
+
+                              *** Main Menu ***
+
+           The main menu screen consists of 5 options:
+
+           PLAY GAME - Clicking this button will take you to the game
+                       options menu (See Option Menu).
+
+           INSTRUCTIONS - Clicking this button will take you to the 
+                       instruction screens.  There are 15 pages of 
+                       instructions explaining how to play the game, as
+                       well as explaining the option settings.
+
+           REGISTRATION - Clicking this button will take you to the 
+                       registration screen.  Simple enough.
+
+           HIGH SCORES - Clicking this button takes you to two screens.
+                       The first screen shows the highscores for the 
+                       normal game.  Click the left mouse button to see
+                       the highscores for the phase game.
+
+           QUIT -      This is easy enough to figure out, click this button
+                       to exit the game.
+
+
+                                 *** Option Menu ***
+
+           The Option Menu consists of 7 options:
+
+           LEVEL - This option sets the level of difficulty for the game.
+                   There are three levels:
+
+                   HARD - This causes the game to increase the sequence
+                          of colors flashed by 3 colors at a time.  You
+                          receive 300 points for each correct response.
+                          (Registered users only!)
+
+                   MEDIUM - This causes the game to increase the sequence
+                          of colors flashed by 2 colors at a time.  You
+                          receive 200 points for each correct response.
+                          (Registered users only!)
+
+                   EASY - This causes the game to increase the sequence of
+                          colors flashed by 1 color at a time.  You receive
+                          100 points for each correct response.
+
+           PLAYERS - This option sets the number of players in the game.
+
+           VARIANT - This option consists of 2 choices.
+
+                   NORMAL - This option sets the game to 'normal' mode.
+                          Normal mode basically sets the game to flashing
+                          an ever-increasing sequence of colors.
+
+                   PHASE - This option turns the game into more of a 
+                          challenge.  You are forced to clear levels of
+                          of increasing difficulty and longer sequences.
+                          (Registered Users only!) 
+
+           SOUND - There are 5 sound options here:
+
+                   PC -   This option plays sound out of the PC Speaker.
+
+                   SH -   Shhhh....  This turns off the sound in the game.
+
+                   I -    (Soundcard users only) Sets the sound to  
+                          Stereo Sound I.
+
+                   II -   (Soundcard users only) Sets the sound to
+                          Stereo Sound II.  (Registered Users only!)
+
+                   III -  (Soundcard users only) Sets the sound to 
+                          Stereo Sound III.  (Registered Users only!)
+
+           SPEED - There are 3 speed settings for the game.  Select 1
+                   for fast, 2 for normal, 3 for slow.
+
+           START - Click this to begin playing Flasher II.  (See The 
+                   Game Screen)
+
+           MAIN MENU - Click this to go back to the Main Menu.
+
+
+                             *** The Game Screen ***
+
+           Selecting START from the Option Menu will take you to the
+           game screen.  Each game lasts for 3 rounds.  The Round
+           indicator will increment on each round.  There will be a 
+           window on your screen which will read "PLAYER ONE  (Click to
+           Start)".  Click your left mouse button to begin the game.
+
+           The Status indicator will read "PAUSE" as it gets a new color or
+           colors, depending on which level of difficulty you selected.
+           Once done, it will display "WAIT" while it flashes the colors.
+           When it reads "READY", you may begin to type in your response.
+
+           The active keys are 1,2,3,4, and ESC.  The keys are in the same
+           order as the colors on the screen:
+
+                 BLUE = 1    RED = 2    YELLOW = 3    GREEN = 4
+
+           Pressing ESC will cause a window to pop up asking you if you
+           wish to exit the game.
+
+           EXAMPLE:
+
+               You are playing an EASY game (One color at a time).
+               
+               Red flashes on the screen.
+
+               You press '2'. (Remember: RED = 2)
+
+               You are correct and recieve 100 points.
+
+               Then, red flashes again along with green.
+
+               You press '2', then '4'. (RED = 2   GREEN = 4)
+
+               Once again you are correct and recieve 200 more points (100
+               points for each right response) for a total of 300 points.
+
+               This will continue until you give a wrong response.
+
+                           *** ABOUT FLASHER II ***
+
+               Flasher II is a major improvement over the original 
+               Flasher. The original FLasher was written in QBasic, 
+               used text graphics and PC SPEAKER sound.  Flasher II 
+               was written in BorlandC and Turbo Assembler, features 
+               256-color VGA graphics, mouse support, and SoundBlaster 
+               stereo sounds, as well as a host of user options.
+
+               (QBasic is owned by Microsoft Corporation) 
+
+               (BorlandC and Turbo Assembler are owned by Borland 
+                International)
+               
+               (SoundBlaster is owned by Creative Labs)
+
+               
+                         *** About Caledonian Enterprises ***
+
+               Caledonian Enterprises was officially created in September
+               1994.  Caledonian Enterprises is dedicated to providing
+               low cost entertainment software.  Lets face it, we all enjoy
+               playing games, but we all can't afford $30+ to play them!
+               We look forward to providing a host of games in the near
+               future at low prices.
+
+               If you have any questions or comments, we'd love to hear from
+               you!  Please write:
+
+                                 Caledonian Enterprises
+                                 PO Box 7224
+                                 Colorado Springs, CO 80933-7224
+                                 Attn: Eric McConnell
+

@@ -1,0 +1,24 @@
+
+			Prince of Persia 2
+			by Sierra On-Line
+
+This demo starts with keyboard control pre-selected.  After gameplay
+begins, you may select joystick control by pressing ALT-J.
+
+To grab onto or hang from ledges, press and hold the SHIFT or CTRL key
+(or 0 on the numeric keypad), or press and hold a joystick button.  To
+let go of the ledge, release the key or joystick button.
+
+ALT-J	Select joystick control.  Also recalibrates the program to
+	match you joystick.  Make sure that when you press this key
+	the joystick is in the center (released) position.
+ALT-K	Select keyboard control.
+ALT-S	Turn all sound off/on.
+ALT-M	Turn ambient music off/on.
+ALT-R	Ends the game and returns you to the opening title sequence.
+ALT-A	Restarts play from the beginning of Level 1.
+ALT-Q	Quit game and return to DOS.
+CTRL-Q	Quit game and return to DOS.
+ESC	Pause the game.  Press any other key to resume play.
+
+	

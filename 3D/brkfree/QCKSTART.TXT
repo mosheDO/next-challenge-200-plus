@@ -1,0 +1,65 @@
+
+                                 BREAKFREE
+                              by Software Storm
+
+                         QuickStart instruction page
+             (More detailed instructions are available in HELP.TXT)
+
+    The object of the game is to break free from each level by destroying
+    all the breakable walls with your fireballs.  When you lose your last
+    fireball, the game is over.
+
+    You can keep your fireballs in play by bouncing them off an invisible
+    paddle directly in front of you.  You must constantly predict where
+    each fireball will return, and move yourself to intercept it. You can
+    move forward, backward, and from side to side, with either the arrow
+    keys or the mouse.
+
+    KEYS:
+        Arrow keys = move up/back/left/right
+        +/- keys   = resize the main viewscreen
+        Space      = launch more fireballs
+        S          = toggle Sound on/off
+        W          = Warp to another level
+        Ctrl       = fire gun (only if you have a gun)
+        Esc        = show the Main Menu
+        F1         = show these Help screens
+
+    SCREEN:
+
+    The top of the screen has the main viewscreen, where the game action
+    takes place.  At the bottom of the screen are several fields
+    which indicate your current play status:
+
+        +--------+  +-------------------+ +-----+ +-----+ +--------+
+        |  ammo  |  | level name        | |lev.#| |timer| |        |
+        |  count |  +-------------------+ +-----+ +-----+ |        |
+        |        |  +----------+ +--------------+         |        |
+        | weapon |  | SCORE    | | score        |  S S I  | radar  |
+        |        |  +----------+ +--------------+         |        |
+        |        |  +-----------------------------------+ |        |
+        |        |  | fireballs remaining and in play   | |        |
+        +--------+  +-----------------------------------+ +--------+
+
+        - ammo count/weapon.  Shows gun (if any) and ammo remaining.
+        - level name. This is used for warping.
+        - level number.
+        - timer.  This shows the time remaining to complete the level.
+        - score.
+        - fireballs remaining.  Empty circles are balls currently in play.
+        - radar.  This displays an overhead view of the current level.
+          Colors in the radar indicate different items:
+
+              dark red  = unbreakable walls
+              light red = breakable walls
+              dark grey = power drain walls
+              yellow    = fireballs in play
+              green     = you
+
+    SYSTEM REQUIREMENTS:
+
+    BreakFree requires 520K of free conventional memory and 256-color VGA
+    graphics to play.  SoundBlaster compatible sound cards are supported.
+    We recommend a 20 MHZ 386 computer as the minimal speed/processor,
+    but you can try it on a slower machine if you like.
+

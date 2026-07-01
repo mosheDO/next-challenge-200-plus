@@ -1,0 +1,185 @@
+Su-27 Flanker keyboard quick reference
+
+Program control
+
+Alt+A	accelerate program by 2 times (to restore true time scale, press S)
+Alt+C	center joystick
+Alt+D	toggle objects details
+Alt+F	toggle ground details
+Alt+H	toggle sky & ground colour mask 
+Alt+J	toggle joystick and rudder indication
+Alt+Q   exit program
+Alt+S	sound on/off
+ALT+T	cancel trimming
+M	reset master warning
+S	pause/resume program
+Esc	stop playback
+
+
+Flight control keys
+
+		Joystick enabled	Joystick disabled
+
+DownArrow       Trim up 		Nose up
+
+UpArrow 	Trim down 		Nose Down
+
+LeftArrow 	Trim left 		Bank left
+
+RightArrow 	Trim right 		Bank right
+
+Z	Rudder left (in flight), left turn (taxi mode)
+X	Rudder right (in flight), right turn (taxi mode)
+
+
+Throttle keys
+
+PageUp			Increase thrust by latches on Throttle Lever 
+PageDown		Decrease thrust by latches on Throttle Lever
+Keypad (grey) +		Increase thrust smoothly
+Keypay (grey) -		Decrease thrust smoothly
+
+Mechanics
+
+B	airbrake on/off
+CTRL+A 	eject
+A	toggle active jamming
+F	flaps & slats on/off
+G	landing gear up/down
+P	release drogue chute
+L	dump fuel 
+W	engage wheel brakes (hold down the key)
+
+Navigation keys
+
+CapsLock	select specific navigation submode
+Tilde (~)	select next waypoint or airfield
+A		toggle autopilot
+H		toggle altitude stabilisation
+
+Flight/combat mode selection
+
+1	Navigation mode (NAV)
+2	Beyond Visual Range Mode (DVB)
+3	Close Air Combat (BVB)
+4	Air-to-Ground mode (ZEMLYA)
+5	Longitudinal missile aiming (FI0)
+6	Helmet mode (SHLEM)
+
+Weapon selection/firing keys
+
+CapsLock	weapons selection
+C		enable/disable cannon
+Q		dispense chaff & flares
+SpaceBar	fire current weapon
+Tilde (~)	target selection (in Beyond Visual Range mode)
+
+Radar & Electro-Optical Station (EOS)
+
+I		radar on/off
+O		EOS on/off
+TAB		target lock on/off
+;		move radar/EOS scan zone up
+Comma (')	move radar/EOS scan zone left
+Period (.)	move radar/EOS scan zone down
+/		move radar/EOS scan zone right
+Plus (+)	MFD zoom in
+Minus (-)	MFD zoom out
+
+View selection
+
+F1		Cockpit View
+F2		Outside View (press repeatedly to cycle through available aircrafts)
+F3		Tower View
+F4		Ground View (cycle through available SAMs)
+F5		Outside+ View; similar to Outside View. If a missile or bomb is released, 
+		the view switches to it. 
+F6		Chase View
+F7		Chase+ View; similar to Chase View. If a missile or bomb is released, 
+		the view switches to it.
+F8		Ship View (cycle through available ship)
+NumLock		Show MY aircraft
+Ctrl+F{n},	Show last activated object in F{n} view. n=2, ..., 8
+
+Cockpit View keys
+
+KP_1	head up and left
+KP_2	head up
+KP_3	head up and right
+KP_4	head left
+KP_5	Front View
+KP_6	head right
+KP_7	head down and left
+KP_8	head down
+KP_9	head down and right
+KP_*	track the nearest visible aircraft (in any combat mode) or airfield 
+	(in Landing or Return mode)
+
+Outside views keys
+
+KP_2	move viewpoint down
+KP_4	move viewpoint down
+KP_5	move viewpoint back (Chase View only)
+KP_6	move viewpoint right
+KP_8	move viewpoint up
+KP_*	zoom in
+KP_/	zoom out
+KP_7	move viewpoint towards ship's head (Ship View)
+KP_1	move viewpoint towards ship's stern (Ship View)
+KP_9	move viewpoint up (Ship View)
+KP_3	move viewpoint down (Ship View)
+
+Wingman commands
+
+Home	spread formation
+Ins	tight formation
+End	return to base
+Del	attack my target
+
+Miscellaneous
+
+K	execute Pugachev's Cobra
+T	toggle wingtip smokes
+ALT+Q   quit simulation
+
+
+THRUSTMASTER MARK II CONTROLS
+
+Buttons that function the same way regardless of the Rocker Switch position:
+
+Btn 2	MFD zoom in
+Btn 3	MFD zoom out
+Btn 6	altitude stabilization on/off
+LB	airbrake on/off
+Trigger	fire current weapon
+
+a) Rocker Switch in the middle position - Navigation Mode
+
+Btn 1	release drogue chute
+Btn 4	flaps & slats on/off
+Btn 5	landing gear up/down
+UB	navigation submode selection
+MB	waypoint selection
+Hat	head movements
+
+b) Rocker Switch in the upper position - Air-to-Air Mode
+
+Btn 1	dispence chaff & flare
+Btn 4	target selection
+Btn 5	lock on/off target
+UB	weapon selection
+MB	cannon on/off
+Hat	head movements
+
+Note. By default, Close Air Combat is be selected.To select 
+specific Air-to-Air mode (BVR, CAC, Helmet, LMA) press the 
+corresponding key (2, 3, 6 or 5, respectively).
+
+c) Rocker Switch in the lower position - Air-to-Ground Mode
+
+Btn 1	dispence chaff & flares
+Btn 4	target selection
+Btn 5	lock on/off target
+UB	weapons selection
+MB	cannon on/off
+Hat	control the aerial position or the warhead seeker

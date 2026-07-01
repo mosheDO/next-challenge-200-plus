@@ -1,0 +1,48 @@
+BM SETUP UTILITY DOCUMENTATION - Fran‡ais
+
+
+PRINCIPES DE BASE
+
+  Pour Choisir une Option, d‚placez la zone en vid‚o inverse (les couleurs
+du texte et du fond sont invers‚es) avec les flˆches de direction HAUT
+et BAS et validez avec ENTREE.
+  Tout changement de configuration sera affich‚ en bas de l'‚cran.
+
+
+COMMANDES
+
+  I- S‚lectionner une carte Son pour les sons digitaux (SOUND SETUP)
+
+    Choisissez NONE si vous n'avez pas de carte sonore compatible
+  SOUND BLASTER, sinon choisissez SOUND BLASTER.
+
+    Il faut ensuite indiquer l'adresse de base de la carte son :
+  (de 210h … 280h). En g‚n‚ral, c'est 220h mais r‚f‚rez-vous … la
+  documentation de votre carte sonore.
+
+    Choisissez ensuite le canal DMA utilis‚ (canal BAS) parmi 1,2,3 et 4
+  (1 par d‚faut).
+
+    Enfin, il vous reste … choisir le num‚ro de l'interruption de la
+  carte SON (2,3,5 ou 7). Les options les plus courantes sont 5 et 7.
+
+
+  II- S‚lectionner une carte son pour les musiques (MUSIC SETUP)
+
+    Choisissez NONE si vous n'avez pas de carte Sonore compatible
+  ADLIB (ou SOUND BLASTER), sinon, choisissez ADLIB.
+
+  III- Choisir la Vitesse de la souris (MOUSE SPEED)
+
+    vitesse Lente   : LOW
+    vitesse Moyenne : MEDIUM (par d‚faut)
+    vitesse Rapide  : HIGH
+
+  IV- Sauver les changements et quitter le programme
+
+      S‚lectionnez la rubrique SAVE & EXIT.
+
+  V- Quitter sans sauver les changements
+
+      S‚lectionnez la rubrique EXIT
+

@@ -1,0 +1,105 @@
+Break Machine Version 1.00 List Files
+
+
+
+      Main Directory:
+      ---------------
+
+
+      BM.EXE           Main Program
+
+      SETUP.EXE        Setup Utility
+
+      INSTALL.EXE      Install Utility
+
+      READ.EXE         Text File Reader
+
+      SHAREWAR.GME     Game Datas
+
+      BM.CFG           Setup Data File
+
+      BM.DOC           Game Documentation in English
+
+      BMFR.DOC         Game Documentation in French
+
+      SETUP.DOC        Setup Utility Documentation - English
+
+      SETUPFR.DOC      Setup Utility Documentation - French
+
+      READ.ME          Read Me First - English
+
+      LISEZ.MOI        Read Me First - French
+
+      FILE_ID.DIZ      BBS Info File
+
+      FILES.DOC        This File
+
+      ORDER.FRM        If you want to register
+
+
+      Total : 15 Files
+
+
+      Data Directory: (the game won't run if any file is missing)
+      ---------------
+
+      MENUIO.SPR
+      BMPAL.PAL
+      STAR.PAL
+      HISCORES.LST
+      FOND1.PL2
+      FOND1.BCK
+      FOND2.PL2
+      FOND2.BCK
+      FOND7.PL2
+      FOND7.BCK
+      FOND8.BCK
+      FOND8.PL2
+      FOND12.PL2
+      FOND12.BCK
+      INTRO.FFM
+      THUS.FFM
+      SPACE.FFM
+      ZING.FFM
+      ZOINK.FFM
+      ODE.FFM
+      DELIGHT.FFM
+      THATS2.FFM
+      BMINTRO.FFM
+      MAIN.IDX
+      MAIN.RES
+      MONSTERS.IDX
+      MONSTERS.RES
+      WZMIMG1.SPR
+      WZMIMG.PL2
+      WZMIMG2.SPR
+      MFIRE.PL2
+      MFIRE.ASP
+      S1.DTA
+      S2.DTA
+      S8.DTA
+      S3.DTA
+      S4.DTA
+      S5.DTA
+      S6.DTA
+      S7.DTA
+      S9.DTA
+      S10.DTA
+      S11.DTA
+      S12.DTA
+      PRESENTS.IOX
+      BMENU.IOX
+      BREAKM.IOX
+      INFOBACK.IOX
+      HISCORE.IOX
+      BMOPT.IOX
+
+
+      Total : 50 Files
+
+
+
+
+
+      (C) 1995, IO DESIGN
+

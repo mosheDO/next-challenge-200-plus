@@ -1,0 +1,174 @@
+Syntax:  CYBER [resolution | SETUP] [@<level filename>] [/Q]
+		resolution = 320,360,640,800,1024,1280,MAXX
+		/Q = Quick load (skip opening animations and memos)
+
+Game Play
+=========
+	Mouse control
+	------------------
+	Left-Button     Accelerate/Set-Cruise
+	Right-Button    Brake/Cancel-Cruise
+	Both-Buttons    Look around (bike keeps moving) (or press Ctrl key)
+
+	Keystrokes
+	--------------------
+	Space               Fire current weapon
+	W/1/2/3/4           Switch weapons
+	PgUp/PgDn           Change window size
+	Alt                 Extend view to maximum as long as held down
+	Shift,R             Rear view
+	Ctrl                Look around (or both mouse buttons)
+	Tab                 View map/zoom map
+	Z,T                 Thrusters
+	F1,O                Overlook mode
+	F2,L                Headlights On/Off
+	F3,H                Heads Up Display (H.U.D.) Color
+	F4,C                Center Mark On/Off
+	Ctrl-Alt-F5         Attempt Self Destruct
+	B                   Look straight down (useful only when flying)
+	Arrow Keys          Crude control of bike (regardless of view)
+	F11                 CyberMaxx headset tracking toggle
+	F12                 CyberMaxx 2d/3d toggle
+	Enter               Enter message to other players (multi-player mode)
+			Enter           Send message
+			Shift-Enter     Send message to team members only
+			Up-Arrow        Message history recall
+
+
+All Editing Modes
+==================
+	Mouse control
+	------------------
+	Left-Button         Look around
+	Right-Button        Move up/down and left/right
+	Both-Buttons        Move forward in direction facing
+	Alt-Both-Buttons    Move quickly forward in direction facing
+
+	Miscellaneous/Characteristics
+	-----------------------------
+	Plus/Minus          Switch characteristics -- possible characteristics
+							Headlight intensity
+							Ambient percent
+							Gravity
+							Fly in time
+							Music
+							Background bitmap
+							Track number
+							Security time
+
+	Ctrl-Plus/Minus     Change value of current characteristic
+	Enter/Escape        Save stuff/Save stuff and exit
+	F2                  Toggle editing mode (block/vehicle)
+	Tab                 View map (see overview of entire world)
+	Ctrl-Tilde          Start/Stop recording keystroke macro
+	Alt-Tilde           Play keystroke macro
+
+
+	F10 = Enter recording mode for current track
+	--------------------------------------------
+		Delete      Erase previous track
+		Enter       Start/Stop recording (starting erases previous track)
+		Escape      Exit recording mode
+
+	Fly-In
+	------
+	F3              Set next fly point
+	Ctrl-F3         Clear all fly points
+	F4              Execute fly-in
+
+	Coloring
+	--------
+	F5/F6       Change current floor color
+	F7/F8       Change current wall color
+				Note: Some Alt-O objects use current floor/wall color
+					  when placed.  Some vehicles do as well.
+
+
+Block Editing Mode (F2 = Change to vehicle editing mode)
+=======================================================
+	Block/Polygon coloring (note: see F5-F8 above)
+	----------------------------------------------
+	Alt-(1-8)   Save current floor/wall color to buffer
+	(1-8)       Set current floor/wall color from buffer
+	Alt-C       Change current floor/wall color to that of selected block
+	C           Set selected block(s) to current floor/wall color
+
+	Block placement (all keys delete block if one already exists)
+	-------------------------------------------------------------
+	Space       Drop current block type in current color
+	Alt-L       Drop light source (intensity same as headlight)
+	Alt-P       Drop current prize
+	Alt-O       Drop current polygon object in current color (if applicable)
+	Shift-O     Same as Alt-O (only it will not delete an existing object)
+	Ctrl-O      Drop 20 of current polygon object randomly within
+				selected area.
+	Ctrl-R      Drop 1000 randomly placed blocks of last used color
+	Ctrl-F      Drop 1000 randomly placed floor blocks of last used color
+	Ctrl-W      Place world-edge markers
+	Ctrl-Alt-R  Remove all randomly placed blocks
+	Ctrl-Alt-F  Remove all randomly placed floor blocks
+	Ctrl-Alt-W  Remove all world-edge markers
+	Ctrl-Alt-D  Randomly delete 20 objects from selected area (thinning trees)
+	P           Start/Stop platform (Shift-P == abort platform)
+	R           Start/Stop ramp (Shift-R == abort ramp)
+
+	Block Movement + Types
+	----------------------
+	Lf/Rt/Up/Dn     Move current position in X/Z (relative to orientation)
+	PgUp/PgDn       Move current position in Y
+	Home            Move current position to object in current point of view
+	Alt-Home        Move current point of view to current position
+	Alt-V           Find next object of same type as current position object
+	Ctrl-Lf/Rt      Change current block type
+	Ctrl-Home/End   Change side-height of slant block to be placed
+	Ctrl-PgUp/PgDn  Change other-side-height of slant block to be placed
+	Ctrl-I          Invert sides of slant block to be placed
+
+	Block Selection
+	---------------
+	S               Start/Stop selection (in yellow -- resizing)
+	Shift-Delete    Cut selected items (do a copy and a delete)
+	Ctrl-Insert     Copy selected items (hit S to abort copy)
+	Shift-Insert    Paste copied stuff to current selector postion
+	Ctrl-Alt-Lf/Rt  Rotate currently buffered stuff
+
+	Lights
+	------
+	Alt-L           Drop light source (intensity same as headlight)
+	Alt-Plus/Minus  Change intensity of selected light source
+
+	Polygon Objects
+	------------------------------
+	Alt-O           Drop current polygon object in current color
+	Alt-Lf/Rt       Rotate currently selected polygon object (45 degrees)
+	Alt-Up/Dn       Change currently selected polygon object
+	Alt-PgUp/PgDn   Change currently selected polygon object (by category)
+	Shift-O         Same as Alt-O (only it will not delete an existing object)
+	Shift-Letter    Quick just to next category with that letter
+
+	Prizes
+	----------------------
+	Alt-P           Drop current prize
+	Alt-Lf/Rt       Rotate currently selected prize (45 degrees)
+	Alt-Up/Dn       Change currently selected prize
+
+	Turrets
+	----------------------
+	Alt-E           Drop current turret
+	Alt-Lf/Rt       Rotate currently selected turret (45 degrees)
+	Alt-Up/Dn       Change currently selected turret
+
+Vehicle Editing Mode (F2 = Change to block editing mode)
+=======================================================
+	Insert          Insert a new vehicle on current track
+	Delete          Delete currently selected vehicle
+	Lf/Rt           Switch currently selected vehicle
+	Up/Dn           Move currently selected vehicle along track
+	Shift-Up/Dn     Move currently selected vehicle along track quickly
+	Ctrl-R          Move currently selected vehicle randomly along track
+					(automatically makes sure it is not too close to others)
+	Alt-Up/Dn       Change currently selected vehicle type
+	Home            Move view to currently selected vehicle
+
+
+(c)1995 Artificial Software, L.L.C.

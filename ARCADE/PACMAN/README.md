@@ -7,8 +7,4 @@ https://archive.org/details/msdos_Greedy_1996
 
 ## DOSBox Setup
 
-- `machine=svga_s3` (in dosbox.conf)
-- `memsize=63`
-- Run `IAFIX.BAT` or `GREEDY.EXE` directly
-
-The included `dosbox.conf` from Archive.org has the exact settings.
+Use the included `dosbox.conf` and run `IAFIX.BAT`.

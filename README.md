@@ -13,7 +13,7 @@ The CD features **~8,400 files** across **13 game categories**, totaling ~628 MB
 | Category | Directory | Notable Games |
 |----------|-----------|--------------|
 | **3D** | `/3D` | Doom, Doom II, Duke Nukem 3D, Wolfenstein 3D, Spear of Destiny, Heretic, Hexen, Descent, Tomb Raider, Rise of the Triad, Strife, Dark Forces, TekWar |
-| **Arcade** | `/ARCADE` | Worms, Abuse, Alien Breed, Pac-Man, Jazz Jackrabbit, Beavis & Butt-head, various platformers |
+| **Arcade** | `/ARCADE` | Worms, Abuse, Alien Breed, Greedy (Pac-Man clone), Jazz Jackrabbit, Beavis & Butt-head, various platformers |
 | **Cards** | `/CARDS` | Card games |
 | **Driving** | `/DRIVING` | The Need for Speed (demo), BC Racers, Hi-Octane, Speed Haste |
 | **Fighting** | `/FIGHT` | FX Fighter |

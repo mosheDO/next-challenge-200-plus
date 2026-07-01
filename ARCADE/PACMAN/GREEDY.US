@@ -1,0 +1,109 @@
+
+ Greedy Version 1.10                            Copyright (c) Eclipse 1996-97
+ ____________________________________________________________________________
+
+
+ Minimal hardware configuration required_____________________________________
+
+     - Personnal Computer with at least a 486 processor.
+     - A SVGA card VESA compatible.
+     - A sound card like Gravis UltraSound or SoundBlaster.
+     - MS-DOS or Windows 95.
+
+
+ Memory requirements_________________________________________________________
+
+    This game can run under this configurations :
+
+     - Mode RAW without Himem.
+     - Mode XMS with Himem.
+     - Mode VCPI with EMS (Emm386 highscan).
+     - Mode VCPI without EMS (Emm386 noems).
+     - Mode DPMI with Windows 95.
+
+
+ Information about the music_________________________________________________
+
+    You should declare correctly the following variables.
+
+     - For the SoundBlaster :
+
+             SET BLASTER = A220 I7 D1 T1
+                             I   I  I ----> 1 = Sound Blaster
+                             I   I  I       2 = Sound Blaster Pro
+                             I   I  I       3 = Sound Blaster 2.0
+                             I   I  I       4 = Sound Blaster 16
+                             I   I  ------> DMA
+                             I   ---------> Irq
+                             -------------> Port
+
+     - For the Gravis UltraSound :
+
+             SET ULTRASND = 220,1,1,7,7
+                             I  I   ------> Irq
+                             I  ----------> DMA
+                             -------------> Port
+
+
+ The Keyboard________________________________________________________________
+
+ Menu
+
+     - Space or Return          : Validate a choice.
+     - Arrow keys               : Select.
+     - + et -                   : Sound control.
+     - S                        : Toggle speed : normal or crazy.
+     - K                        : Toggle keyboard : old or normal.
+     - ESC                      : Back to MS-Dos.
+
+ Hall of fame
+
+     - Space                    : Toggle scores : normal or custom.
+
+ During game
+
+     - Space                    : Use joker.
+     - Ctrl                     : Use booster.
+     - Arrow keys               : Control the hero.
+     - + et -                   : Sound control.
+     - P                        : Pause.
+     - ESC                      : Exit.
+
+ Level editor
+
+     - F1                       : Build a wall.
+     - F2                       : Erase a wall.
+     - F3                       : Greedy start.
+     - F4                       : Ghosts start.
+     - F5                       : Options location.
+     - F6                       : SuperPacGums location.
+     - F7                       : Telepods location.
+     - F8                       : No PacGum on the floor.
+     - F9                       : Clear Level.
+     - F10                      : Total erasement (no PacGums).
+     - F11                      : Next Level.
+     - F12                      : Previous Level.
+     - S                        : Save Level.
+     - L                        : Load Level.
+     - CTRL + F11               : Next Level.(fast).
+     - CTRL + F12               : Previous Level (fast).
+     - ESC                      : Play the level
+     - Q                        : Exit level editor.
+
+
+ Updates_____________________________________________________________________
+
+     Greedy DOS
+
+     - Apr  1996    Version 0.40     First release.
+     - July 1996    Version 1.05     Final release.
+     - Dec  1996    Version 1.06     Support Joystick.
+     - Marc 1997    Version 1.07     Support E.O.S 3.03.
+     - June 1997    Version 1.08     Diamond player manual setup.
+     - July 1997    Version 1.09     Bug fixed : Windows NT.
+     - Sept 1997    Version 1.10     Bug fixed : Windows 95.
+
+     Greedy XP
+
+     - Jan  2004    Version 0.90     First release.
+     - fev  2007    Version 0.91     No register code.

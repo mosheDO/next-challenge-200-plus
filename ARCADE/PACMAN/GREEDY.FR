@@ -1,0 +1,109 @@
+
+ Greedy Version 1.10                            Copyright (c) Eclipse 1996-97
+ ____________________________________________________________________________
+
+
+ Configuration requise_______________________________________________________
+
+     - Micro-ordinateur à base de processeur 486.
+     - Carte SVGA compatible VESA.
+     - Carte son de type Gravis UltraSound ou SoundBlaster.
+     - MS-DOS ou Windows 95.
+
+
+ Mémoire_____________________________________________________________________
+
+    Ce jeu fonctionne avec les configurations suivantes :
+
+     - Mode RAW sans Himem.
+     - Mode XMS avec Himem.
+     - Mode VCPI avec EMS (Emm386 highscan).
+     - Mode VCPI sans EMS (Emm386 noems).
+     - Mode DPMI sous Windows 95.
+
+
+ Information sur la musique__________________________________________________
+
+    Vous devez déclarer correctement les variables d'environnement MS-DOS.
+
+     - Pour la SoundBlaster :
+
+             SET BLASTER = A220 I7 D1 T1
+                             I   I  I ----> 1 = Sound Blaster
+                             I   I  I       2 = Sound Blaster Pro
+                             I   I  I       3 = Sound Blaster 2.0
+                             I   I  I       4 = Sound Blaster 16
+                             I   I  ------> DMA
+                             I   ---------> Irq
+                             -------------> Port
+
+     - Pour la Gravis UltraSound :
+
+             SET ULTRASND = 220,1,1,7,7
+                             I  I   ------> Irq
+                             I  ----------> DMA
+                             -------------> Port
+
+
+ Le clavier__________________________________________________________________
+
+ Touches du menu
+
+     - Espace ou Entrée         : Validation.
+     - Flèches de direction     : Déplacement.
+     - + et -                   : Contrôle du volume.
+     - S                        : Changement de la vitesse : normal ou crazy.
+     - K                        : Contrôle du clavier : old ou normal.
+     - ESC                      : Retour à MS-Dos.
+
+ Touches du Hall of fame
+
+     - Espace                   : Scores : Normal ou Custom.
+
+ Touches pendant le jeu
+
+     - Espace                   : Utilisation d'un joker.
+     - Ctrl                     : Utilisation du booster.
+     - Flèches de direction     : Déplacement.
+     - + et -                   : Contrôle du volume.
+     - P                        : Pause.
+     - ESC                      : Quitter.
+
+ Touches de l'éditeur de niveaux
+
+     - F1                       : Construction d'un mur.
+     - F2                       : Effacement d'un mur.
+     - F3                       : Départ pour le Greedy.
+     - F4                       : Départ pour les fantomes.
+     - F5                       : Emplacement des options.
+     - F6                       : Emplacement des SuperPacGommes.
+     - F7                       : Emplacement des téléporteurs.
+     - F8                       : Absence de PacGomme sur le sol.
+     - F9                       : Effacement du niveau.
+     - F10                      : Effacement complet (pas de PacGomme).
+     - F11                      : Niveau précédent.
+     - F12                      : Niveau suivant.
+     - S                        : Sauvegarde des niveaux.
+     - L                        : Chargement des niveaux.
+     - CTRL + F11               : Niveau précédent (avance rapide).
+     - CTRL + F12               : Niveau suivant (avance rapide).
+     - ESC                      : Tester le niveau.
+     - Q                        : Quitter l'éditeur de niveaux.
+
+
+ Mises à jour________________________________________________________________
+
+     Greedy DOS
+
+     - Avri 1996    Version 0.40     Première diffusion à la Saturne Party 3.
+     - Juil 1996    Version 1.05     Version finale.
+     - Dece 1996    Version 1.06     Version avec Joystick.
+     - Mars 1997    Version 1.07     Version avec E.O.S 3.03.
+     - Juin 1997    Version 1.08     Sélection auto ou manu de la carte son.
+     - Juil 1997    Version 1.09     Sauvegarde du score sous Windows NT.
+     - Sept 1997    Version 1.10     Synchro sous Windows 95.
+
+     Greedy XP
+
+     - Jan  2004    Version 0.90     Première diffusion.
+     - fev  2007    Version 0.91     Suppression de la limitation des niveaux.

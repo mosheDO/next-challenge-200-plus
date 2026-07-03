@@ -52,4 +52,23 @@ These are DOS-era programs. To run them:
 - https://www.classicdosgames.com/
 - https://www.old-games.org/
 - https://archive.org/
-- 
+- https://www.myabandonware.com
+- https://archive.org
+- https://www.dosgamesarchive.com
+- https://www.classicdosgames.com
+- https://www.dosgames.com
+- http://www.oldies.org.il
+- https://www.abandonwaredos.com
+- https://vimm.net
+- http://www.freegameempire.com
+- http://homeoftheunderdogs.net
+- https://www.gamesnostalgia.com
+- https://www.retrogames.cz
+- https://www.playdosgames.com
+- https://classicgames.me
+- https://www.bestoldgames.net
+- https://www.squakenet.com
+- https://www.old-games.ru
+- http://www.abandonia.com
+- https://www.xtcabandonware.com
+- https://www.smokymonkey.org

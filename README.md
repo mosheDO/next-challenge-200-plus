@@ -37,3 +37,19 @@ These are DOS-era programs. To run them:
 - Use [DOSBox](https://www.dosbox.com/) or a VM with MS-DOS / FreeDOS
 - Most games are in subdirectories under the category folders (e.g., `/3D/DOOM`, `/ARCADE/WORMS`)
 - The original menu launcher: `Menu.exe`
+
+
+
+
+
+
+## more website for dos games
+
+- https://www.myabandonware.com/
+- https://www.retro-exo.com/
+- https://dos.zone/
+- https://dos.zone/3dfx/
+- https://www.classicdosgames.com/
+- https://www.old-games.org/
+- https://archive.org/
+- 
